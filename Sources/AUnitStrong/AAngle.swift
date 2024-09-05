@@ -153,6 +153,7 @@ public extension AAngle {
         }
         var result = converted(to: .radians)
         let scale = (result.value / twoPi).rounded(.down)
+        result.value -= scale * twoPi
         if include180 {
             if result.value > pi {
                 result.value -= twoPi

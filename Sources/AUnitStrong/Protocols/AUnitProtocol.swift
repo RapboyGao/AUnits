@@ -32,7 +32,7 @@ public protocol AUnitProtocol: Codable, Sendable, Hashable, CaseIterable {
 
     /// Associated AUnit enumeration value.
     /// 关联的 AUnit 枚举值。
-    var id: AUnit { get }
+    var id: Self { get }
 
     /// The base unit for this unit type.
     /// 此单位类型的基础单位。

@@ -29,31 +29,34 @@ public enum AULength: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .feet: return .feet
-        case .nauticalMiles: return .nauticalMiles
-        case .meters: return .meters
-        case .kilometers: return .kilometers
-        case .miles: return .miles
-        case .megameters: return .megameters
-        case .hectometers: return .hectometers
-        case .decameters: return .decameters
-        case .decimeters: return .decimeters
-        case .centimeters: return .centimeters
-        case .millimeters: return .millimeters
-        case .micrometers: return .micrometers
-        case .nanometers: return .nanometers
-        case .picometers: return .picometers
-        case .inches: return .inches
-        case .yards: return .yards
-        case .scandinavianMiles: return .scandinavianMiles
-        case .lightyears: return .lightyears
-        case .fathoms: return .fathoms
-        case .furlongs: return .furlongs
-        case .astronomicalUnits: return .astronomicalUnits
-        case .parsecs: return .parsecs
-        }
+    public var id: AULength {
+        self
+        /*
+         switch self {
+         case .feet: return .feet
+         case .nauticalMiles: return .nauticalMiles
+         case .meters: return .meters
+         case .kilometers: return .kilometers
+         case .miles: return .miles
+         case .megameters: return .megameters
+         case .hectometers: return .hectometers
+         case .decameters: return .decameters
+         case .decimeters: return .decimeters
+         case .centimeters: return .centimeters
+         case .millimeters: return .millimeters
+         case .micrometers: return .micrometers
+         case .nanometers: return .nanometers
+         case .picometers: return .picometers
+         case .inches: return .inches
+         case .yards: return .yards
+         case .scandinavianMiles: return .scandinavianMiles
+         case .lightyears: return .lightyears
+         case .fathoms: return .fathoms
+         case .furlongs: return .furlongs
+         case .astronomicalUnits: return .astronomicalUnits
+         case .parsecs: return .parsecs
+         }
+         */
     }
 
     public static var baseUnit: AULength = .meters
@@ -76,17 +79,20 @@ public enum AUSpeed: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .knots: return .knots
-        case .metersPerSecond: return .metersPerSecond
-        case .feetPerMinute: return .feetPerMinute
-        case .kilometersPerHour: return .kilometersPerHour
-        case .feetPerSecond: return .feetPerSecond
-        case .milesPerHour: return .milesPerHour
-        case .inchesPerSecond: return .inchesPerSecond
-        case .yardsPerSecond: return .yardsPerSecond
-        }
+    public var id: AUSpeed {
+        self
+        /*
+         switch self {
+         case .knots: return .knots
+         case .metersPerSecond: return .metersPerSecond
+         case .feetPerMinute: return .feetPerMinute
+         case .kilometersPerHour: return .kilometersPerHour
+         case .feetPerSecond: return .feetPerSecond
+         case .milesPerHour: return .milesPerHour
+         case .inchesPerSecond: return .inchesPerSecond
+         case .yardsPerSecond: return .yardsPerSecond
+         }
+         */
     }
 
     public static var baseUnit: AUSpeed = .metersPerSecond
@@ -111,19 +117,22 @@ public enum AUPressure: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .hectopascals: return .hectopascals
-        case .inchesOfMercury: return .inchesOfMercury
-        case .millimetersOfMercury: return .millimetersOfMercury
-        case .newtonsPerMetersSquared: return .newtonsPerMetersSquared
-        case .gigapascals: return .gigapascals
-        case .megapascals: return .megapascals
-        case .kilopascals: return .kilopascals
-        case .bars: return .bars
-        case .millibars: return .millibars
-        case .poundsForcePerSquareInch: return .poundsForcePerSquareInch
-        }
+    public var id: AUPressure {
+        self
+        /*
+         switch self {
+         case .hectopascals: return .hectopascals
+         case .inchesOfMercury: return .inchesOfMercury
+         case .millimetersOfMercury: return .millimetersOfMercury
+         case .newtonsPerMetersSquared: return .newtonsPerMetersSquared
+         case .gigapascals: return .gigapascals
+         case .megapascals: return .megapascals
+         case .kilopascals: return .kilopascals
+         case .bars: return .bars
+         case .millibars: return .millibars
+         case .poundsForcePerSquareInch: return .poundsForcePerSquareInch
+         }
+         */
     }
 
     public static var baseUnit: AUPressure = .newtonsPerMetersSquared
@@ -140,11 +149,14 @@ public enum AUTemperatureDifference: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .celsiusDelta: return .celsiusDelta
-        case .fahrenheitDelta: return .fahrenheitDelta
-        }
+    public var id: AUTemperatureDifference {
+        self
+        /*
+         switch self {
+         case .celsiusDelta: return .celsiusDelta
+         case .fahrenheitDelta: return .fahrenheitDelta
+         }
+         */
     }
 
     public static var baseUnit: AUTemperatureDifference = .celsiusDelta
@@ -153,11 +165,10 @@ public enum AUTemperatureDifference: AProportionalUnitProtocol, Identifiable {
 // MARK: - Mass
 
 public enum AUMass: AProportionalUnitProtocol, Identifiable {
-    case metricTons, shortTons, kilograms, kilopounds, pounds, ounces, grams, decigrams, centigrams, milligrams, micrograms, nanograms, picograms, stones, carats, ouncesTroy, slugs
+    case metricTons, kilograms, kilopounds, pounds, ounces, grams, decigrams, centigrams, milligrams, micrograms, nanograms, picograms, shortTons, stones, carats, ouncesTroy, slugs
     public var coefficient: Double {
         switch self {
         case .metricTons: return 1000000.0
-        case .shortTons: return 907184.74
         case .kilograms: return 1000.0
         case .kilopounds: return 453592.37
         case .pounds: return 453.59237
@@ -169,6 +180,7 @@ public enum AUMass: AProportionalUnitProtocol, Identifiable {
         case .micrograms: return 1e-06
         case .nanograms: return 1e-09
         case .picograms: return 1e-12
+        case .shortTons: return 907184.74
         case .stones: return 6350.29318
         case .carats: return 0.2
         case .ouncesTroy: return 31.1034768
@@ -176,26 +188,29 @@ public enum AUMass: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .metricTons: return .metricTons
-        case .shortTons: return .shortTons
-        case .kilograms: return .kilograms
-        case .kilopounds: return .kilopounds
-        case .pounds: return .pounds
-        case .ounces: return .ounces
-        case .grams: return .grams
-        case .decigrams: return .decigrams
-        case .centigrams: return .centigrams
-        case .milligrams: return .milligrams
-        case .micrograms: return .micrograms
-        case .nanograms: return .nanograms
-        case .picograms: return .picograms
-        case .stones: return .stones
-        case .carats: return .carats
-        case .ouncesTroy: return .ouncesTroy
-        case .slugs: return .slugs
-        }
+    public var id: AUMass {
+        self
+        /*
+         switch self {
+         case .metricTons: return .metricTons
+         case .kilograms: return .kilograms
+         case .kilopounds: return .kilopounds
+         case .pounds: return .pounds
+         case .ounces: return .ounces
+         case .grams: return .grams
+         case .decigrams: return .decigrams
+         case .centigrams: return .centigrams
+         case .milligrams: return .milligrams
+         case .micrograms: return .micrograms
+         case .nanograms: return .nanograms
+         case .picograms: return .picograms
+         case .shortTons: return .shortTons
+         case .stones: return .stones
+         case .carats: return .carats
+         case .ouncesTroy: return .ouncesTroy
+         case .slugs: return .slugs
+         }
+         */
     }
 
     public static var baseUnit: AUMass = .grams
@@ -241,40 +256,43 @@ public enum AUVolume: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .liters: return .liters
-        case .quarts: return .quarts
-        case .cubicMeters: return .cubicMeters
-        case .cubicCentimeters: return .cubicCentimeters
-        case .gallons: return .gallons
-        case .megaliters: return .megaliters
-        case .kiloliters: return .kiloliters
-        case .deciliters: return .deciliters
-        case .centiliters: return .centiliters
-        case .milliliters: return .milliliters
-        case .cubicKilometers: return .cubicKilometers
-        case .cubicDecimeters: return .cubicDecimeters
-        case .cubicMillimeters: return .cubicMillimeters
-        case .cubicInches: return .cubicInches
-        case .cubicFeet: return .cubicFeet
-        case .cubicYards: return .cubicYards
-        case .cubicMiles: return .cubicMiles
-        case .acreFeet: return .acreFeet
-        case .bushels: return .bushels
-        case .teaspoons: return .teaspoons
-        case .tablespoons: return .tablespoons
-        case .fluidOunces: return .fluidOunces
-        case .cups: return .cups
-        case .pints: return .pints
-        case .imperialTeaspoons: return .imperialTeaspoons
-        case .imperialTablespoons: return .imperialTablespoons
-        case .imperialFluidOunces: return .imperialFluidOunces
-        case .imperialPints: return .imperialPints
-        case .imperialQuarts: return .imperialQuarts
-        case .imperialGallons: return .imperialGallons
-        case .metricCups: return .metricCups
-        }
+    public var id: AUVolume {
+        self
+        /*
+         switch self {
+         case .liters: return .liters
+         case .quarts: return .quarts
+         case .cubicMeters: return .cubicMeters
+         case .cubicCentimeters: return .cubicCentimeters
+         case .gallons: return .gallons
+         case .megaliters: return .megaliters
+         case .kiloliters: return .kiloliters
+         case .deciliters: return .deciliters
+         case .centiliters: return .centiliters
+         case .milliliters: return .milliliters
+         case .cubicKilometers: return .cubicKilometers
+         case .cubicDecimeters: return .cubicDecimeters
+         case .cubicMillimeters: return .cubicMillimeters
+         case .cubicInches: return .cubicInches
+         case .cubicFeet: return .cubicFeet
+         case .cubicYards: return .cubicYards
+         case .cubicMiles: return .cubicMiles
+         case .acreFeet: return .acreFeet
+         case .bushels: return .bushels
+         case .teaspoons: return .teaspoons
+         case .tablespoons: return .tablespoons
+         case .fluidOunces: return .fluidOunces
+         case .cups: return .cups
+         case .pints: return .pints
+         case .imperialTeaspoons: return .imperialTeaspoons
+         case .imperialTablespoons: return .imperialTablespoons
+         case .imperialFluidOunces: return .imperialFluidOunces
+         case .imperialPints: return .imperialPints
+         case .imperialQuarts: return .imperialQuarts
+         case .imperialGallons: return .imperialGallons
+         case .metricCups: return .metricCups
+         }
+         */
     }
 
     public static var baseUnit: AUVolume = .liters
@@ -291,11 +309,14 @@ public enum AUAcceleration: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .metersPerSecondSquared: return .metersPerSecondSquared
-        case .gravity: return .gravity
-        }
+    public var id: AUAcceleration {
+        self
+        /*
+         switch self {
+         case .metersPerSecondSquared: return .metersPerSecondSquared
+         case .gravity: return .gravity
+         }
+         */
     }
 
     public static var baseUnit: AUAcceleration = .metersPerSecondSquared
@@ -321,20 +342,23 @@ public enum AUPower: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .terawatts: return .terawatts
-        case .gigawatts: return .gigawatts
-        case .megawatts: return .megawatts
-        case .kilowatts: return .kilowatts
-        case .watts: return .watts
-        case .milliwatts: return .milliwatts
-        case .microwatts: return .microwatts
-        case .nanowatts: return .nanowatts
-        case .picowatts: return .picowatts
-        case .femtowatts: return .femtowatts
-        case .horsepower: return .horsepower
-        }
+    public var id: AUPower {
+        self
+        /*
+         switch self {
+         case .terawatts: return .terawatts
+         case .gigawatts: return .gigawatts
+         case .megawatts: return .megawatts
+         case .kilowatts: return .kilowatts
+         case .watts: return .watts
+         case .milliwatts: return .milliwatts
+         case .microwatts: return .microwatts
+         case .nanowatts: return .nanowatts
+         case .picowatts: return .picowatts
+         case .femtowatts: return .femtowatts
+         case .horsepower: return .horsepower
+         }
+         */
     }
 
     public static var baseUnit: AUPower = .watts
@@ -355,15 +379,18 @@ public enum AUAngle: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .degrees: return .degrees
-        case .arcMinutes: return .arcMinutes
-        case .arcSeconds: return .arcSeconds
-        case .radians: return .radians
-        case .gradians: return .gradians
-        case .revolutions: return .revolutions
-        }
+    public var id: AUAngle {
+        self
+        /*
+         switch self {
+         case .degrees: return .degrees
+         case .arcMinutes: return .arcMinutes
+         case .arcSeconds: return .arcSeconds
+         case .radians: return .radians
+         case .gradians: return .gradians
+         case .revolutions: return .revolutions
+         }
+         */
     }
 
     public static var baseUnit: AUAngle = .degrees
@@ -382,13 +409,16 @@ public enum AUAngularVelocity: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .radiansPerSecond: return .radiansPerSecond
-        case .degreesPerSecond: return .degreesPerSecond
-        case .revolutionsPerMinute: return .revolutionsPerMinute
-        case .revolutionsPerSecond: return .revolutionsPerSecond
-        }
+    public var id: AUAngularVelocity {
+        self
+        /*
+         switch self {
+         case .radiansPerSecond: return .radiansPerSecond
+         case .degreesPerSecond: return .degreesPerSecond
+         case .revolutionsPerMinute: return .revolutionsPerMinute
+         case .revolutionsPerSecond: return .revolutionsPerSecond
+         }
+         */
     }
 
     public static var baseUnit: AUAngularVelocity = .degreesPerSecond
@@ -417,23 +447,26 @@ public enum AUArea: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .squareMegameters: return .squareMegameters
-        case .squareKilometers: return .squareKilometers
-        case .squareMeters: return .squareMeters
-        case .squareCentimeters: return .squareCentimeters
-        case .squareMillimeters: return .squareMillimeters
-        case .squareMicrometers: return .squareMicrometers
-        case .squareNanometers: return .squareNanometers
-        case .squareInches: return .squareInches
-        case .squareFeet: return .squareFeet
-        case .squareYards: return .squareYards
-        case .squareMiles: return .squareMiles
-        case .acres: return .acres
-        case .ares: return .ares
-        case .hectares: return .hectares
-        }
+    public var id: AUArea {
+        self
+        /*
+         switch self {
+         case .squareMegameters: return .squareMegameters
+         case .squareKilometers: return .squareKilometers
+         case .squareMeters: return .squareMeters
+         case .squareCentimeters: return .squareCentimeters
+         case .squareMillimeters: return .squareMillimeters
+         case .squareMicrometers: return .squareMicrometers
+         case .squareNanometers: return .squareNanometers
+         case .squareInches: return .squareInches
+         case .squareFeet: return .squareFeet
+         case .squareYards: return .squareYards
+         case .squareMiles: return .squareMiles
+         case .acres: return .acres
+         case .ares: return .ares
+         case .hectares: return .hectares
+         }
+         */
     }
 
     public static var baseUnit: AUArea = .squareMeters
@@ -451,12 +484,15 @@ public enum AUConcentration: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .gramsPerLiter: return .gramsPerLiter
-        case .milligramsPerDeciliter: return .milligramsPerDeciliter
-        case .partsPerMillion: return .partsPerMillion
-        }
+    public var id: AUConcentration {
+        self
+        /*
+         switch self {
+         case .gramsPerLiter: return .gramsPerLiter
+         case .milligramsPerDeciliter: return .milligramsPerDeciliter
+         case .partsPerMillion: return .partsPerMillion
+         }
+         */
     }
 
     public static var baseUnit: AUConcentration = .gramsPerLiter
@@ -483,21 +519,24 @@ public enum AUTime: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .hours: return .hours
-        case .minutes: return .minutes
-        case .seconds: return .seconds
-        case .milliseconds: return .milliseconds
-        case .microseconds: return .microseconds
-        case .nanoseconds: return .nanoseconds
-        case .picoseconds: return .picoseconds
-        case .days: return .days
-        case .weeks: return .weeks
-        case .years: return .years
-        case .decades: return .decades
-        case .centuries: return .centuries
-        }
+    public var id: AUTime {
+        self
+        /*
+         switch self {
+         case .hours: return .hours
+         case .minutes: return .minutes
+         case .seconds: return .seconds
+         case .milliseconds: return .milliseconds
+         case .microseconds: return .microseconds
+         case .nanoseconds: return .nanoseconds
+         case .picoseconds: return .picoseconds
+         case .days: return .days
+         case .weeks: return .weeks
+         case .years: return .years
+         case .decades: return .decades
+         case .centuries: return .centuries
+         }
+         */
     }
 
     public static var baseUnit: AUTime = .seconds
@@ -518,15 +557,18 @@ public enum AUElectricChargeCapacity: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .megaampereHours: return .megaampereHours
-        case .kiloampereHours: return .kiloampereHours
-        case .ampereHours: return .ampereHours
-        case .milliampereHours: return .milliampereHours
-        case .microampereHours: return .microampereHours
-        case .coulombs: return .coulombs
-        }
+    public var id: AUElectricChargeCapacity {
+        self
+        /*
+         switch self {
+         case .megaampereHours: return .megaampereHours
+         case .kiloampereHours: return .kiloampereHours
+         case .ampereHours: return .ampereHours
+         case .milliampereHours: return .milliampereHours
+         case .microampereHours: return .microampereHours
+         case .coulombs: return .coulombs
+         }
+         */
     }
 
     public static var baseUnit: AUElectricChargeCapacity = .coulombs
@@ -546,14 +588,17 @@ public enum AUElectricCurrent: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .megaamperes: return .megaamperes
-        case .kiloamperes: return .kiloamperes
-        case .amperes: return .amperes
-        case .milliamperes: return .milliamperes
-        case .microamperes: return .microamperes
-        }
+    public var id: AUElectricCurrent {
+        self
+        /*
+         switch self {
+         case .megaamperes: return .megaamperes
+         case .kiloamperes: return .kiloamperes
+         case .amperes: return .amperes
+         case .milliamperes: return .milliamperes
+         case .microamperes: return .microamperes
+         }
+         */
     }
 
     public static var baseUnit: AUElectricCurrent = .amperes
@@ -573,14 +618,17 @@ public enum AUElectricPotential: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .megavolts: return .megavolts
-        case .kilovolts: return .kilovolts
-        case .volts: return .volts
-        case .millivolts: return .millivolts
-        case .microvolts: return .microvolts
-        }
+    public var id: AUElectricPotential {
+        self
+        /*
+         switch self {
+         case .megavolts: return .megavolts
+         case .kilovolts: return .kilovolts
+         case .volts: return .volts
+         case .millivolts: return .millivolts
+         case .microvolts: return .microvolts
+         }
+         */
     }
 
     public static var baseUnit: AUElectricPotential = .volts
@@ -600,14 +648,17 @@ public enum AUElectricResistance: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .megaohms: return .megaohms
-        case .kiloohms: return .kiloohms
-        case .ohms: return .ohms
-        case .milliohms: return .milliohms
-        case .microohms: return .microohms
-        }
+    public var id: AUElectricResistance {
+        self
+        /*
+         switch self {
+         case .megaohms: return .megaohms
+         case .kiloohms: return .kiloohms
+         case .ohms: return .ohms
+         case .milliohms: return .milliohms
+         case .microohms: return .microohms
+         }
+         */
     }
 
     public static var baseUnit: AUElectricResistance = .ohms
@@ -628,15 +679,18 @@ public enum AUEnergy: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .kilojoules: return .kilojoules
-        case .joules: return .joules
-        case .kilocalories: return .kilocalories
-        case .calories: return .calories
-        case .kilowattHours: return .kilowattHours
-        case .wattHours: return .wattHours
-        }
+    public var id: AUEnergy {
+        self
+        /*
+         switch self {
+         case .kilojoules: return .kilojoules
+         case .joules: return .joules
+         case .kilocalories: return .kilocalories
+         case .calories: return .calories
+         case .kilowattHours: return .kilowattHours
+         case .wattHours: return .wattHours
+         }
+         */
     }
 
     public static var baseUnit: AUEnergy = .joules
@@ -660,18 +714,21 @@ public enum AUFrequency: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .terahertz: return .terahertz
-        case .gigahertz: return .gigahertz
-        case .megahertz: return .megahertz
-        case .kilohertz: return .kilohertz
-        case .hertz: return .hertz
-        case .millihertz: return .millihertz
-        case .microhertz: return .microhertz
-        case .nanohertz: return .nanohertz
-        case .framesPerSecond: return .framesPerSecond
-        }
+    public var id: AUFrequency {
+        self
+        /*
+         switch self {
+         case .terahertz: return .terahertz
+         case .gigahertz: return .gigahertz
+         case .megahertz: return .megahertz
+         case .kilohertz: return .kilohertz
+         case .hertz: return .hertz
+         case .millihertz: return .millihertz
+         case .microhertz: return .microhertz
+         case .nanohertz: return .nanohertz
+         case .framesPerSecond: return .framesPerSecond
+         }
+         */
     }
 
     public static var baseUnit: AUFrequency = .hertz
@@ -721,44 +778,47 @@ public enum AUData: AProportionalUnitProtocol, Identifiable {
         }
     }
 
-    public var id: AUnit {
-        switch self {
-        case .bytes: return .bytes
-        case .bits: return .bits
-        case .nibbles: return .nibbles
-        case .yottabytes: return .yottabytes
-        case .zettabytes: return .zettabytes
-        case .exabytes: return .exabytes
-        case .petabytes: return .petabytes
-        case .terabytes: return .terabytes
-        case .gigabytes: return .gigabytes
-        case .megabytes: return .megabytes
-        case .kilobytes: return .kilobytes
-        case .yottabits: return .yottabits
-        case .zettabits: return .zettabits
-        case .exabits: return .exabits
-        case .petabits: return .petabits
-        case .terabits: return .terabits
-        case .gigabits: return .gigabits
-        case .megabits: return .megabits
-        case .kilobits: return .kilobits
-        case .yobibytes: return .yobibytes
-        case .zebibytes: return .zebibytes
-        case .exbibytes: return .exbibytes
-        case .pebibytes: return .pebibytes
-        case .tebibytes: return .tebibytes
-        case .gibibytes: return .gibibytes
-        case .mebibytes: return .mebibytes
-        case .kibibytes: return .kibibytes
-        case .yobibits: return .yobibits
-        case .zebibits: return .zebibits
-        case .exbibits: return .exbibits
-        case .pebibits: return .pebibits
-        case .tebibits: return .tebibits
-        case .gibibits: return .gibibits
-        case .mebibits: return .mebibits
-        case .kibibits: return .kibibits
-        }
+    public var id: AUData {
+        self
+        /*
+         switch self {
+         case .bytes: return .bytes
+         case .bits: return .bits
+         case .nibbles: return .nibbles
+         case .yottabytes: return .yottabytes
+         case .zettabytes: return .zettabytes
+         case .exabytes: return .exabytes
+         case .petabytes: return .petabytes
+         case .terabytes: return .terabytes
+         case .gigabytes: return .gigabytes
+         case .megabytes: return .megabytes
+         case .kilobytes: return .kilobytes
+         case .yottabits: return .yottabits
+         case .zettabits: return .zettabits
+         case .exabits: return .exabits
+         case .petabits: return .petabits
+         case .terabits: return .terabits
+         case .gigabits: return .gigabits
+         case .megabits: return .megabits
+         case .kilobits: return .kilobits
+         case .yobibytes: return .yobibytes
+         case .zebibytes: return .zebibytes
+         case .exbibytes: return .exbibytes
+         case .pebibytes: return .pebibytes
+         case .tebibytes: return .tebibytes
+         case .gibibytes: return .gibibytes
+         case .mebibytes: return .mebibytes
+         case .kibibytes: return .kibibytes
+         case .yobibits: return .yobibits
+         case .zebibits: return .zebibits
+         case .exbibits: return .exbibits
+         case .pebibits: return .pebibits
+         case .tebibits: return .tebibits
+         case .gibibits: return .gibibits
+         case .mebibits: return .mebibits
+         case .kibibits: return .kibibits
+         }
+         */
     }
 
     public static var baseUnit: AUData = .bytes

@@ -2,12 +2,8 @@
 public enum AUFuelEfficiency: AUnitProtocol, Identifiable {
     case litersPer100Kilometers, milesPerImperialGallon, milesPerGallon
 
-    public var id: AUnit {
-        switch self {
-        case .litersPer100Kilometers: return .litersPer100Kilometers
-        case .milesPerImperialGallon: return .milesPerImperialGallon
-        case .milesPerGallon: return .milesPerGallon
-        }
+    public var id: Self {
+        self
     }
 
     public static var baseUnit: AUFuelEfficiency = .litersPer100Kilometers
@@ -62,13 +58,8 @@ public enum AUTemperature: AUnitProtocol, Identifiable {
 
     /// The associated `AUnit` value for this unit.
     /// 此单位关联的 `AUnit` 值。
-    public var id: AUnit {
-        switch self {
-        case .celsius: return .celsius
-        case .fahrenheit: return .fahrenheit
-        case .kelvin: return .kelvin
-        case .rankine: return .rankine
-        }
+    public var id: Self {
+        self
     }
 
     /// The base unit for temperature is Celsius.
