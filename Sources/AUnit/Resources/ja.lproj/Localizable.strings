@@ -1,0 +1,1302 @@
+// Ref
+"None" = "なし";
+
+// Unit Types
+"length.symbol" = "長さ";
+"length.shortName" = "長";
+"length.longName" = "長さ";
+"length.detailedIntroduction" = "長さは物体間の距離を表します。メートル（m）は国際単位系（SI）の基本単位です。";
+
+"speed.symbol" = "速度";
+"speed.shortName" = "速";
+"speed.longName" = "速度";
+"speed.detailedIntroduction" = "速度は単位時間あたりの移動距離を表します。通常、メートル毎秒（m/s）やキロメートル毎時（km/h）で表されます。";
+
+"pressure.symbol" = "圧力";
+"pressure.shortName" = "圧";
+"pressure.longName" = "圧力";
+"pressure.detailedIntroduction" = "圧力は単位面積あたりの力を表します。パスカル（Pa）は国際単位系（SI）の基本単位です。";
+
+"temperature.symbol" = "温度";
+"temperature.shortName" = "温";
+"temperature.longName" = "温度";
+"temperature.detailedIntroduction" = "温度は物体の熱エネルギーの平均運動エネルギーの指標です。ケルビン（K）や摂氏（℃）で表されます。";
+
+"temperatureDifference.symbol" = "温度差";
+"temperatureDifference.shortName" = "温差";
+"temperatureDifference.longName" = "温度差";
+"temperatureDifference.detailedIntroduction" = "温度差は二点間の温度の違いを示します。摂氏度（℃）やファーレンハイト度（℉）で表されます。";
+
+"mass.symbol" = "質量";
+"mass.shortName" = "質";
+"mass.longName" = "質量";
+"mass.detailedIntroduction" = "質量は物体の物質量を表します。キログラム（kg）は国際単位系（SI）の基本単位です。";
+
+"volume.symbol" = "体積";
+"volume.shortName" = "体";
+"volume.longName" = "体積";
+"volume.detailedIntroduction" = "体積は物体が占める空間の量を表します。リットル（L）や立方メートル（m³）で表されます。";
+
+"acceleration.symbol" = "加速度";
+"acceleration.shortName" = "加速";
+"acceleration.longName" = "加速度";
+"acceleration.detailedIntroduction" = "加速度は単位時間あたりの速度の変化を表します。メートル毎秒毎秒（m/s²）で表されます。";
+
+"power.symbol" = "パワー";
+"power.shortName" = "力";
+"power.longName" = "パワー";
+"power.detailedIntroduction" = "パワーは単位時間あたりのエネルギーの変化率を表します。ワット（W）は国際単位系（SI）の基本単位です。";
+
+"angle.symbol" = "角度";
+"angle.shortName" = "角";
+"angle.longName" = "角度";
+"angle.detailedIntroduction" = "角度は二つの直線の交点の開き具合を表します。度（°）やラジアン（rad）で表されます。";
+
+"angularVelocity.symbol" = "角速度";
+"angularVelocity.shortName" = "角速";
+"angularVelocity.longName" = "角速度";
+"angularVelocity.detailedIntroduction" = "角速度は単位時間あたりの回転角を表します。ラジアン毎秒（rad/s）で表されます。";
+
+"area.symbol" = "面積";
+"area.shortName" = "面";
+"area.longName" = "面積";
+"area.detailedIntroduction" = "面積は平面上の領域の大きさを表します。平方メートル（m²）や平方キロメートル（km²）で表されます。";
+
+"concentration.symbol" = "濃度";
+"concentration.shortName" = "濃";
+"concentration.longName" = "濃度";
+"concentration.detailedIntroduction" = "濃度は溶液中の特定成分の割合を表します。グラム毎リットル（g/L）やパーツパーミリオン（ppm）で表されます。";
+
+"time.symbol" = "時間";
+"time.shortName" = "時";
+"time.longName" = "時間";
+"time.detailedIntroduction" = "時間は出来事の継続や順序を表します。秒（s）は国際単位系（SI）の基本単位です。";
+
+"electricChargeCapacity.symbol" = "電荷容量";
+"electricChargeCapacity.shortName" = "電荷";
+"electricChargeCapacity.longName" = "電荷容量";
+"electricChargeCapacity.detailedIntroduction" = "電荷容量は電池やコンデンサが蓄えられる電気の量を表します。アンペア時（Ah）で表されます。";
+
+"electricCurrent.symbol" = "電流";
+"electricCurrent.shortName" = "電";
+"electricCurrent.longName" = "電流";
+"electricCurrent.detailedIntroduction" = "電流は電気が流れる速度を表します。アンペア（A）は国際単位系（SI）の基本単位です。";
+
+"electricPotential.symbol" = "電位";
+"electricPotential.shortName" = "電位";
+"electricPotential.longName" = "電位";
+"electricPotential.detailedIntroduction" = "電位は電荷が持つポテンシャルエネルギーを表します。ボルト（V）は国際単位系（SI）の基本単位です。";
+
+"electricResistance.symbol" = "電気抵抗";
+"electricResistance.shortName" = "抵抗";
+"electricResistance.longName" = "電気抵抗";
+"electricResistance.detailedIntroduction" = "電気抵抗は電流の流れに対する抵抗を表します。オーム（Ω）は国際単位系（SI）の基本単位です。";
+
+"energy.symbol" = "エネルギー";
+"energy.shortName" = "エネ";
+"energy.longName" = "エネルギー";
+"energy.detailedIntroduction" = "エネルギーは物体が持つ仕事をする能力を表します。ジュール（J）は国際単位系（SI）の基本単位です。";
+
+"frequency.symbol" = "周波数";
+"frequency.shortName" = "周";
+"frequency.longName" = "周波数";
+"frequency.detailedIntroduction" = "周波数は単位時間あたりの繰り返し回数を表します。ヘルツ（Hz）は国際単位系（SI）の基本単位です。";
+
+"fuelEfficiency.symbol" = "燃料効率";
+"fuelEfficiency.shortName" = "燃費";
+"fuelEfficiency.longName" = "燃料効率";
+"fuelEfficiency.detailedIntroduction" = "燃料効率は特定の距離を走行するために消費される燃料の量を表します。リットル毎100キロメートル（L/100km）やマイル毎ガロン（mpg）で表されます。";
+
+"data.symbol" = "データ";
+"data.shortName" = "データ";
+"data.longName" = "データ";
+"data.detailedIntroduction" = "データは情報の単位を表します。バイト（B）やビット（b）で表されます。";
+
+// Units
+"feet.symbol" = "ft";
+"feet.shortName" = "フィート";
+"feet.longName" = "フィート";
+"feet.detailedIntroduction" = "フィートは長さの単位で、1フィートは約0.3048メートルです。";
+
+"nauticalMiles.symbol" = "NM";
+"nauticalMiles.shortName" = "海里";
+"nauticalMiles.longName" = "海里";
+"nauticalMiles.detailedIntroduction" = "海里は海上や航空の距離を表す単位で、1海里は約1852メートルです。";
+
+"meters.symbol" = "m";
+"meters.shortName" = "メートル";
+"meters.longName" = "メートル";
+"meters.detailedIntroduction" = "メートルは長さの基本単位で、1メートルは100センチメートルです。";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "キロメートル";
+"kilometers.longName" = "キロメートル";
+"kilometers.detailedIntroduction" = "キロメートルは長さの単位で、1キロメートルは1000メートルです。";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "マイル";
+"miles.longName" = "マイル";
+"miles.detailedIntroduction" = "マイルは長さの単位で、1マイルは約1.609キロメートルです。";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "メガメートル";
+"megameters.longName" = "メガメートル";
+"megameters.detailedIntroduction" = "メガメートルは長さの単位で、1メガメートルは100万メートルです。";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "ヘクトメートル";
+"hectometers.longName" = "ヘクトメートル";
+"hectometers.detailedIntroduction" = "ヘクトメートルは長さの単位で、1ヘクトメートルは100メートルです。";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "デカメートル";
+"decameters.longName" = "デカメートル";
+"decameters.detailedIntroduction" = "デカメートルは長さの単位で、1デカメートルは10メートルです。";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "デシメートル";
+"decimeters.longName" = "デシメートル";
+"decimeters.detailedIntroduction" = "デシメートルは長さの単位で、1デシメートルは0.1メートルです。";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "センチメートル";
+"centimeters.longName" = "センチメートル";
+"centimeters.detailedIntroduction" = "センチメートルは長さの単位で、1センチメートルは0.01メートルです。";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "ミリメートル";
+"millimeters.longName" = "ミリメートル";
+"millimeters.detailedIntroduction" = "ミリメートルは長さの単位で、1ミリメートルは0.001メートルです。";
+
+"micrometers.symbol" = "µm";
+"micrometers.shortName" = "マイクロメートル";
+"micrometers.longName" = "マイクロメートル";
+"micrometers.detailedIntroduction" = "マイクロメートルは長さの単位で、1マイクロメートルは0.000001メートルです。";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "ナノメートル";
+"nanometers.longName" = "ナノメートル";
+"nanometers.detailedIntroduction" = "ナノメートルは長さの単位で、1ナノメートルは0.000000001メートルです。";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "ピコメートル";
+"picometers.longName" = "ピコメートル";
+"picometers.detailedIntroduction" = "ピコメートルは長さの単位で、1ピコメートルは0.000000000001メートルです。";
+
+"inches.symbol" = "in";
+"inches.shortName" = "インチ";
+"inches.longName" = "インチ";
+"inches.detailedIntroduction" = "インチは長さの単位で、1インチは約2.54センチメートルです。";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "ヤード";
+"yards.longName" = "ヤード";
+"yards.detailedIntroduction" = "ヤードは長さの単位で、1ヤードは約0.9144メートルです。";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "スカンジナビアンマイル";
+"scandinavianMiles.longName" = "スカンジナビアンマイル";
+"scandinavianMiles.detailedIntroduction" = "スカンジナビアンマイルは長さの単位で、1スカンジナビアンマイルは10キロメートルです。";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "光年";
+"lightyears.longName" = "光年";
+"lightyears.detailedIntroduction" = "光年は長さの単位で、光が1年で進む距離を表します。約9.461兆キロメートルです。";
+
+"fathoms.symbol" = "ftm";
+"fathoms.shortName" = "ファゾム";
+"fathoms.longName" = "ファゾム";
+"fathoms.detailedIntroduction" = "ファゾムは長さの単位で、主に水深を測るのに使用されます。1ファゾムは約1.8288メートルです。";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "ハロン";
+"furlongs.longName" = "ハロン";
+"furlongs.detailedIntroduction" = "ハロンは長さの単位で、主に競馬の距離を測るのに使用されます。1ハロンは約201.168メートルです。";
+
+"astronomicalUnits.symbol" = "AU";
+"astronomicalUnits.shortName" = "天文単位";
+"astronomicalUnits.longName" = "天文単位";
+"astronomicalUnits.detailedIntroduction" = "天文単位は長さの単位で、主に太陽系内の距離を測るのに使用されます。1天文単位は約149,597,870.7キロメートルです。";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "パーセク";
+"parsecs.longName" = "パーセク";
+"parsecs.detailedIntroduction" = "パーセクは長さの単位で、主に銀河間の距離を測るのに使用されます。1パーセクは約3.086×10^13キロメートルです。";
+
+// Additional units should follow the same pattern for symbol, shortName, longName, and detailedIntroduction
+
+// Speed
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "フィート毎秒";
+"feetPerSecond.longName" = "フィート毎秒";
+"feetPerSecond.detailedIntroduction" = "フィート毎秒は速度の単位で、1フィート毎秒は約0.3048メートル毎秒です。";
+
+"knots.symbol" = "kn";
+"knots.shortName" = "ノット";
+"knots.longName" = "ノット";
+"knots.detailedIntroduction" = "ノットは速度の単位で、主に海上や航空で使用されます。1ノットは約0.5144メートル毎秒です。";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "メートル毎秒";
+"metersPerSecond.longName" = "メートル毎秒";
+"metersPerSecond.detailedIntroduction" = "メートル毎秒は速度の基本単位で、1メートル毎秒は1メートル毎秒です。";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "キロメートル毎時";
+"kilometersPerHour.longName" = "キロメートル毎時";
+"kilometersPerHour.detailedIntroduction" = "キロメートル毎時は速度の単位で、1キロメートル毎時は約0.2778メートル毎秒です。";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "マイル毎時";
+"milesPerHour.longName" = "マイル毎時";
+"milesPerHour.detailedIntroduction" = "マイル毎時は速度の単位で、1マイル毎時は約0.447メートル毎秒です。";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "フィート毎分";
+"feetPerMinute.longName" = "フィート毎分";
+"feetPerMinute.detailedIntroduction" = "フィート毎分は速度の単位で、1フィート毎分は約0.00508メートル毎秒です。";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "インチ毎秒";
+"inchesPerSecond.longName" = "インチ毎秒";
+"inchesPerSecond.detailedIntroduction" = "インチ毎秒は速度の単位で、1インチ毎秒は約0.0254メートル毎秒です。";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "ヤード毎秒";
+"yardsPerSecond.longName" = "ヤード毎秒";
+"yardsPerSecond.detailedIntroduction" = "ヤード毎秒は速度の単位で、1ヤード毎秒は約0.9144メートル毎秒です。";
+
+// Pressure
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "ヘクトパスカル";
+"hectopascals.longName" = "ヘクトパスカル";
+"hectopascals.detailedIntroduction" = "ヘクトパスカルは圧力の単位で、1ヘクトパスカルは100パスカルです。";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "インチ水銀柱";
+"inchesOfMercury.longName" = "インチ水銀柱";
+"inchesOfMercury.detailedIntroduction" = "インチ水銀柱は圧力の単位で、1インチ水銀柱は約3386.39パスカルです。";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "ミリメートル水銀柱";
+"millimetersOfMercury.longName" = "ミリメートル水銀柱";
+"millimetersOfMercury.detailedIntroduction" = "ミリメートル水銀柱は圧力の単位で、1ミリメートル水銀柱は約133.322パスカルです。";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "ニュートン毎平方メートル";
+"newtonsPerMetersSquared.longName" = "ニュートン毎平方メートル";
+"newtonsPerMetersSquared.detailedIntroduction" = "ニュートン毎平方メートルは圧力の基本単位で、1ニュートン毎平方メートルは1パスカルです。";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "ギガパスカル";
+"gigapascals.longName" = "ギガパスカル";
+"gigapascals.detailedIntroduction" = "ギガパスカルは圧力の単位で、1ギガパスカルは10億パスカルです。";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "メガパスカル";
+"megapascals.longName" = "メガパスカル";
+"megapascals.detailedIntroduction" = "メガパスカルは圧力の単位で、1メガパスカルは100万パスカルです。";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "キロパスカル";
+"kilopascals.longName" = "キロパスカル";
+"kilopascals.detailedIntroduction" = "キロパスカルは圧力の単位で、1キロパスカルは1000パスカルです。";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "バール";
+"bars.longName" = "バール";
+"bars.detailedIntroduction" = "バールは圧力の単位で、1バールは100,000パスカルです。";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "ミリバール";
+"millibars.longName" = "ミリバール";
+"millibars.detailedIntroduction" = "ミリバールは圧力の単位で、1ミリバールは100パスカルです。";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "ポンド毎平方インチ";
+"poundsForcePerSquareInch.longName" = "ポンド毎平方インチ";
+"poundsForcePerSquareInch.detailedIntroduction" = "ポンド毎平方インチは圧力の単位で、1ポンド毎平方インチは約6,894.76パスカルです。";
+
+// Temperature
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "ケルビン";
+"kelvin.longName" = "ケルビン";
+"kelvin.detailedIntroduction" = "ケルビンは温度の基本単位で、絶対温度を表します。";
+
+"celsius.symbol" = "℃";
+"celsius.shortName" = "摂氏";
+"celsius.longName" = "摂氏";
+"celsius.detailedIntroduction" = "摂氏は温度の単位で、水の氷点を0度、沸点を100度と定義します。";
+
+"fahrenheit.symbol" = "℉";
+"fahrenheit.shortName" = "華氏";
+"fahrenheit.longName" = "華氏";
+"fahrenheit.detailedIntroduction" = "華氏は温度の単位で、水の氷点を32度、沸点を212度と定義します。";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "ランキン";
+"rankine.longName" = "ランキン";
+"rankine.detailedIntroduction" = "ランキンは温度の単位で、華氏を基準とした絶対温度を表します。";
+
+// Temperature Difference
+"celsiusDelta.symbol" = "℃Δ";
+"celsiusDelta.shortName" = "摂氏差";
+"celsiusDelta.longName" = "摂氏差";
+"celsiusDelta.detailedIntroduction" = "摂氏差は温度差を示す単位で、1摂氏差は1摂氏度です。";
+
+"fahrenheitDelta.symbol" = "℉Δ";
+"fahrenheitDelta.shortName" = "華氏差";
+"fahrenheitDelta.longName" = "華氏差";
+"fahrenheitDelta.detailedIntroduction" = "華氏差は温度差を示す単位で、1華氏差は1華氏度です。";
+
+// Mass
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "メトリックトン";
+"metricTons.longName" = "メトリックトン";
+"metricTons.detailedIntroduction" = "メトリックトンは質量の単位で、1メトリックトンは1000キログラムです。";
+
+"shortTons.symbol" = "ST";
+"shortTons.shortName" = "ショートトン";
+"shortTons.longName" = "ショートトン";
+"shortTons.detailedIntroduction" = "ショートトンは質量の単位で、主にアメリカで使用されます。1ショートトンは約907.185キログラムです。";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "キログラム";
+"kilograms.longName" = "キログラム";
+"kilograms.detailedIntroduction" = "キログラムは質量の基本単位で、1キログラムは1000グラムです。";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "キロポンド";
+"kilopounds.longName" = "キロポンド";
+"kilopounds.detailedIntroduction" = "キロポンドは質量の単位で、1キロポンドは約453.592キログラムです。";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "ポンド";
+"pounds.longName" = "ポンド";
+"pounds.detailedIntroduction" = "ポンドは質量の単位で、1ポンドは約0.453592キログラムです。";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "オンス";
+"ounces.longName" = "オンス";
+"ounces.detailedIntroduction" = "オンスは質量の単位で、1オンスは約28.3495グラムです。";
+
+"grams.symbol" = "g";
+"grams.shortName" = "グラム";
+"grams.longName" = "グラム";
+"grams.detailedIntroduction" = "グラムは質量の単位で、1グラムは0.001キログラムです。";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "デシグラム";
+"decigrams.longName" = "デシグラム";
+"decigrams.detailedIntroduction" = "デシグラムは質量の単位で、1デシグラムは0.1グラムです。";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "センチグラム";
+"centigrams.longName" = "センチグラム";
+"centigrams.detailedIntroduction" = "センチグラムは質量の単位で、1センチグラムは0.01グラムです。";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "ミリグラム";
+"milligrams.longName" = "ミリグラム";
+"milligrams.detailedIntroduction" = "ミリグラムは質量の単位で、1ミリグラムは0.001グラムです。";
+
+"micrograms.symbol" = "µg";
+"micrograms.shortName" = "マイクログラム";
+"micrograms.longName" = "マイクログラム";
+"micrograms.detailedIntroduction" = "マイクログラムは質量の単位で、1マイクログラムは0.000001グラムです。";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "ナノグラム";
+"nanograms.longName" = "ナノグラム";
+"nanograms.detailedIntroduction" = "ナノグラムは質量の単位で、1ナノグラムは0.000000001グラムです。";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "ピコグラム";
+"picograms.longName" = "ピコグラム";
+"picograms.detailedIntroduction" = "ピコグラムは質量の単位で、1ピコグラムは0.000000000001グラムです。";
+
+"stones.symbol" = "st";
+"stones.shortName" = "ストーン";
+"stones.longName" = "ストーン";
+"stones.detailedIntroduction" = "ストーンは質量の単位で、1ストーンは約6.35029キログラムです。";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "カラット";
+"carats.longName" = "カラット";
+"carats.detailedIntroduction" = "カラットは質量の単位で、主に宝石の重さを測るのに使用されます。1カラットは約0.2グラムです。";
+
+"ouncesTroy.symbol" = "oz t";
+"ouncesTroy.shortName" = "トロイオンス";
+"ouncesTroy.longName" = "トロイオンス";
+"ouncesTroy.detailedIntroduction" = "トロイオンスは質量の単位で、主に貴金属の重さを測るのに使用されます。1トロイオンスは約31.1035グラムです。";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "スラッグ";
+"slugs.longName" = "スラッグ";
+"slugs.detailedIntroduction" = "スラッグは質量の単位で、1スラッグは約14.5939キログラムです。";
+
+// Volume
+"liters.symbol" = "L";
+"liters.shortName" = "リットル";
+"liters.longName" = "リットル";
+"liters.detailedIntroduction" = "リットルは体積の単位で、1リットルは1立方デシメートルです。";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "クォート";
+"quarts.longName" = "クォート";
+"quarts.detailedIntroduction" = "クォートは体積の単位で、1クォートは約0.946353リットルです。";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "立方メートル";
+"cubicMeters.longName" = "立方メートル";
+"cubicMeters.detailedIntroduction" = "立方メートルは体積の基本単位で、1立方メートルは1000リットルです。";
+
+"cubicCentimeters.symbol" = "cm³";
+"cubicCentimeters.shortName" = "立方センチメートル";
+"cubicCentimeters.longName" = "立方センチメートル";
+"cubicCentimeters.detailedIntroduction" = "立方センチメートルは体積の単位で、1立方センチメートルは0.001リットルです。";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "ガロン";
+"gallons.longName" = "ガロン";
+"gallons.detailedIntroduction" = "ガロンは体積の単位で、1ガロンは約3.78541リットルです。";
+
+"megaliters.symbol" = "ML";
+"megaliters.shortName" = "メガリットル";
+"megaliters.longName" = "メガリットル";
+"megaliters.detailedIntroduction" = "メガリットルは体積の単位で、1メガリットルは100万リットルです。";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "キロリットル";
+"kiloliters.longName" = "キロリットル";
+"kiloliters.detailedIntroduction" = "キロリットルは体積の単位で、1キロリットルは1000リットルです。";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "デシリットル";
+"deciliters.longName" = "デシリットル";
+"deciliters.detailedIntroduction" = "デシリットルは体積の単位で、1デシリットルは0.1リットルです。";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "センチリットル";
+"centiliters.longName" = "センチリットル";
+"centiliters.detailedIntroduction" = "センチリットルは体積の単位で、1センチリットルは0.01リットルです。";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "ミリリットル";
+"milliliters.longName" = "ミリリットル";
+"milliliters.detailedIntroduction" = "ミリリットルは体積の単位で、1ミリリットルは0.001リットルです。";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "立方キロメートル";
+"cubicKilometers.longName" = "立方キロメートル";
+"cubicKilometers.detailedIntroduction" = "立方キロメートルは体積の単位で、1立方キロメートルは10億立方メートルです。";
+
+"cubicDecimeters.symbol" = "dm³";
+"cubicDecimeters.shortName" = "立方デシメートル";
+"cubicDecimeters.longName" = "立方デシメートル";
+"cubicDecimeters.detailedIntroduction" = "立方デシメートルは体積の単位で、1立方デシメートルは1リットルです。";
+
+"cubicMillimeters.symbol" = "mm³";
+"cubicMillimeters.shortName" = "立方ミリメートル";
+"cubicMillimeters.longName" = "立方ミリメートル";
+"cubicMillimeters.detailedIntroduction" = "立方ミリメートルは体積の単位で、1立方ミリメートルは0.000001リットルです。";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "立方インチ";
+"cubicInches.longName" = "立方インチ";
+"cubicInches.detailedIntroduction" = "立方インチは体積の単位で、1立方インチは約16.3871立方センチメートルです。";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "立方フィート";
+"cubicFeet.longName" = "立方フィート";
+"cubicFeet.detailedIntroduction" = "立方フィートは体積の単位で、1立方フィートは約28.3168リットルです。";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "立方ヤード";
+"cubicYards.longName" = "立方ヤード";
+"cubicYards.detailedIntroduction" = "立方ヤードは体積の単位で、1立方ヤードは約764.555リットルです。";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "立方マイル";
+"cubicMiles.longName" = "立方マイル";
+"cubicMiles.detailedIntroduction" = "立方マイルは体積の単位で、1立方マイルは約4168.181825440×10^12リットルです。";
+
+"acreFeet.symbol" = "ac ft";
+"acreFeet.shortName" = "エーカー・フィート";
+"acreFeet.longName" = "エーカー・フィート";
+"acreFeet.detailedIntroduction" = "エーカー・フィートは体積の単位で、1エーカー・フィートは約1233.48立方メートルです。";
+
+"bushels.symbol" = "bu";
+"bushels.shortName" = "ブッシェル";
+"bushels.longName" = "ブッシェル";
+"bushels.detailedIntroduction" = "ブッシェルは体積の単位で、主に農産物の容量を測るのに使用されます。1ブッシェルは約35.2391リットルです。";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "ティースプーン";
+"teaspoons.longName" = "ティースプーン";
+"teaspoons.detailedIntroduction" = "ティースプーンは体積の単位で、1ティースプーンは約4.92892ミリリットルです。";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "テーブルスプーン";
+"tablespoons.longName" = "テーブルスプーン";
+"tablespoons.detailedIntroduction" = "テーブルスプーンは体積の単位で、1テーブルスプーンは約14.7868ミリリットルです。";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "液量オンス";
+"fluidOunces.longName" = "液量オンス";
+"fluidOunces.detailedIntroduction" = "液量オンスは体積の単位で、1液量オンスは約29.5735ミリリットルです。";
+
+"cups.symbol" = "cup";
+"cups.shortName" = "カップ";
+"cups.longName" = "カップ";
+"cups.detailedIntroduction" = "カップは体積の単位で、1カップは約240ミリリットルです。";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "パイント";
+"pints.longName" = "パイント";
+"pints.detailedIntroduction" = "パイントは体積の単位で、1パイントは約473.176ミリリットルです。";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "英ティースプーン";
+"imperialTeaspoons.longName" = "英ティースプーン";
+"imperialTeaspoons.detailedIntroduction" = "英ティースプーンは体積の単位で、1英ティースプーンは約5.91939ミリリットルです。";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "英テーブルスプーン";
+"imperialTablespoons.longName" = "英テーブルスプーン";
+"imperialTablespoons.detailedIntroduction" = "英テーブルスプーンは体積の単位で、1英テーブルスプーンは約17.7582ミリリットルです。";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "英液量オンス";
+"imperialFluidOunces.longName" = "英液量オンス";
+"imperialFluidOunces.detailedIntroduction" = "英液量オンスは体積の単位で、1英液量オンスは約28.4131ミリリットルです。";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "英パイント";
+"imperialPints.longName" = "英パイント";
+"imperialPints.detailedIntroduction" = "英パイントは体積の単位で、1英パイントは約568.261ミリリットルです。";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "英クォート";
+"imperialQuarts.longName" = "英クォート";
+"imperialQuarts.detailedIntroduction" = "英クォートは体積の単位で、1英クォートは約1.13652リットルです。";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "英ガロン";
+"imperialGallons.longName" = "英ガロン";
+"imperialGallons.detailedIntroduction" = "英ガロンは体積の単位で、1英ガロンは約4.54609リットルです。";
+
+"metricCups.symbol" = "m cup";
+"metricCups.shortName" = "メトリックカップ";
+"metricCups.longName" = "メトリックカップ";
+"metricCups.detailedIntroduction" = "メトリックカップは体積の単位で、1メトリックカップは約250ミリリットルです。";
+
+// Acceleration
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "メートル毎秒毎秒";
+"metersPerSecondSquared.longName" = "メートル毎秒毎秒";
+"metersPerSecondSquared.detailedIntroduction" = "メートル毎秒毎秒は加速度の単位で、1メートル毎秒毎秒は速度が1秒間に1メートル毎秒変化することを表します。";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "重力加速度";
+"gravity.longName" = "重力加速度";
+"gravity.detailedIntroduction" = "重力加速度は物体が地球の重力により引かれる加速度を表し、約9.80665メートル毎秒毎秒です。";
+
+// Power
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "テラワット";
+"terawatts.longName" = "テラワット";
+"terawatts.detailedIntroduction" = "テラワットはパワーの単位で、1テラワットは1兆ワットです。";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "ギガワット";
+"gigawatts.longName" = "ギガワット";
+"gigawatts.detailedIntroduction" = "ギガワットはパワーの単位で、1ギガワットは10億ワットです。";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "メガワット";
+"megawatts.longName" = "メガワット";
+"megawatts.detailedIntroduction" = "メガワットはパワーの単位で、1メガワットは100万ワットです。";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "キロワット";
+"kilowatts.longName" = "キロワット";
+"kilowatts.detailedIntroduction" = "キロワットはパワーの単位で、1キロワットは1000ワットです。";
+
+"watts.symbol" = "W";
+"watts.shortName" = "ワット";
+"watts.longName" = "ワット";
+"watts.detailedIntroduction" = "ワットはパワーの基本単位で、1ワットは1秒間に1ジュールの仕事をするパワーを表します。";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "ミリワット";
+"milliwatts.longName" = "ミリワット";
+"milliwatts.detailedIntroduction" = "ミリワットはパワーの単位で、1ミリワットは0.001ワットです。";
+
+"microwatts.symbol" = "µW";
+"microwatts.shortName" = "マイクロワット";
+"microwatts.longName" = "マイクロワット";
+"microwatts.detailedIntroduction" = "マイクロワットはパワーの単位で、1マイクロワットは0.000001ワットです。";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "ナノワット";
+"nanowatts.longName" = "ナノワット";
+"nanowatts.detailedIntroduction" = "ナノワットはパワーの単位で、1ナノワットは0.000000001ワットです。";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "ピコワット";
+"picowatts.longName" = "ピコワット";
+"picowatts.detailedIntroduction" = "ピコワットはパワーの単位で、1ピコワットは0.000000000001ワットです。";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "フェムトワット";
+"femtowatts.longName" = "フェムトワット";
+"femtowatts.detailedIntroduction" = "フェムトワットはパワーの単位で、1フェムトワットは0.000000000000001ワットです。";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "馬力";
+"horsepower.longName" = "馬力";
+"horsepower.detailedIntroduction" = "馬力はパワーの単位で、1馬力は約745.7ワットです。";
+
+// Angle
+"degrees.symbol" = "°";
+"degrees.shortName" = "度";
+"degrees.longName" = "度";
+"degrees.detailedIntroduction" = "度は角度の単位で、1度は360分の1周です。";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "分";
+"arcMinutes.longName" = "分";
+"arcMinutes.detailedIntroduction" = "分は角度の単位で、1分は1度の60分の1です。";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "秒";
+"arcSeconds.longName" = "秒";
+"arcSeconds.detailedIntroduction" = "秒は角度の単位で、1秒は1度の3600分の1です。";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "ラジアン";
+"radians.longName" = "ラジアン";
+"radians.detailedIntroduction" = "ラジアンは角度の単位で、1ラジアンは約57.2958度です。";
+
+"gradians.symbol" = "grad";
+"gradians.shortName" = "グラジアン";
+"gradians.longName" = "グラジアン";
+"gradians.detailedIntroduction" = "グラジアンは角度の単位で、1グラジアンは0.9度です。";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "回転";
+"revolutions.longName" = "回転";
+"revolutions.detailedIntroduction" = "回転は角度の単位で、1回転は360度です。";
+
+// Angular Velocity
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "ラジアン毎秒";
+"radiansPerSecond.longName" = "ラジアン毎秒";
+"radiansPerSecond.detailedIntroduction" = "ラジアン毎秒は角速度の単位で、1ラジアン毎秒は1秒間に1ラジアンの角度変化を表します。";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "度毎秒";
+"degreesPerSecond.longName" = "度毎秒";
+"degreesPerSecond.detailedIntroduction" = "度毎秒は角速度の単位で、1度毎秒は1秒間に1度の角度変化を表します。";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "回転毎分";
+"revolutionsPerMinute.longName" = "回転毎分";
+"revolutionsPerMinute.detailedIntroduction" = "回転毎分は角速度の単位で、1回転毎分は1分間に1回転の角度変化を表します。";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "回転毎秒";
+"revolutionsPerSecond.longName" = "回転毎秒";
+"revolutionsPerSecond.detailedIntroduction" = "回転毎秒は角速度の単位で、1回転毎秒は1秒間に1回転の角度変化を表します。";
+
+// Area
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "平方メガメートル";
+"squareMegameters.longName" = "平方メガメートル";
+"squareMegameters.detailedIntroduction" = "平方メガメートルは面積の単位で、1平方メガメートルは100万平方キロメートルです。";
+
+"squareKilometers.symbol" = "km²";
+"squareKilometers.shortName" = "平方キロメートル";
+"squareKilometers.longName" = "平方キロメートル";
+"squareKilometers.detailedIntroduction" = "平方キロメートルは面積の単位で、1平方キロメートルは100万平方メートルです。";
+
+"squareMeters.symbol" = "m²";
+"squareMeters.shortName" = "平方メートル";
+"squareMeters.longName" = "平方メートル";
+"squareMeters.detailedIntroduction" = "平方メートルは面積の基本単位で、1平方メートルは1平方メートルです。";
+
+"squareCentimeters.symbol" = "cm²";
+"squareCentimeters.shortName" = "平方センチメートル";
+"squareCentimeters.longName" = "平方センチメートル";
+"squareCentimeters.detailedIntroduction" = "平方センチメートルは面積の単位で、1平方センチメートルは0.0001平方メートルです。";
+
+"squareMillimeters.symbol" = "mm²";
+"squareMillimeters.shortName" = "平方ミリメートル";
+"squareMillimeters.longName" = "平方ミリメートル";
+"squareMillimeters.detailedIntroduction" = "平方ミリメートルは面積の単位で、1平方ミリメートルは0.000001平方メートルです。";
+
+"squareMicrometers.symbol" = "µm²";
+"squareMicrometers.shortName" = "平方マイクロメートル";
+"squareMicrometers.longName" = "平方マイクロメートル";
+"squareMicrometers.detailedIntroduction" = "平方マイクロメートルは面積の単位で、1平方マイクロメートルは0.000000000001平方メートルです。";
+
+"squareNanometers.symbol" = "nm²";
+"squareNanometers.shortName" = "平方ナノメートル";
+"squareNanometers.longName" = "平方ナノメートル";
+"squareNanometers.detailedIntroduction" = "平方ナノメートルは面積の単位で、1平方ナノメートルは0.000000000000001平方メートルです。";
+
+"squareInches.symbol" = "in²";
+"squareInches.shortName" = "平方インチ";
+"squareInches.longName" = "平方インチ";
+"squareInches.detailedIntroduction" = "平方インチは面積の単位で、1平方インチは約0.00064516平方メートルです。";
+
+"squareFeet.symbol" = "ft²";
+"squareFeet.shortName" = "平方フィート";
+"squareFeet.longName" = "平方フィート";
+"squareFeet.detailedIntroduction" = "平方フィートは面積の単位で、1平方フィートは約0.092903平方メートルです。";
+
+"squareYards.symbol" = "yd²";
+"squareYards.shortName" = "平方ヤード";
+"squareYards.longName" = "平方ヤード";
+"squareYards.detailedIntroduction" = "平方ヤードは面積の単位で、1平方ヤードは約0.836127平方メートルです。";
+
+"squareMiles.symbol" = "mi²";
+"squareMiles.shortName" = "平方マイル";
+"squareMiles.longName" = "平方マイル";
+"squareMiles.detailedIntroduction" = "平方マイルは面積の単位で、1平方マイルは約2,589,988.11平方メートルです。";
+
+"acres.symbol" = "ac";
+"acres.shortName" = "エーカー";
+"acres.longName" = "エーカー";
+"acres.detailedIntroduction" = "エーカーは面積の単位で、1エーカーは約4046.856平方メートルです。";
+
+"ares.symbol" = "a";
+"ares.shortName" = "アール";
+"ares.longName" = "アール";
+"ares.detailedIntroduction" = "アールは面積の単位で、1アールは100平方メートルです。";
+
+"hectares.symbol" = "ha";
+"hectares.shortName" = "ヘクタール";
+"hectares.longName" = "ヘクタール";
+"hectares.detailedIntroduction" = "ヘクタールは面積の単位で、1ヘクタールは10,000平方メートルです。";
+
+// Concentration
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "グラム毎リットル";
+"gramsPerLiter.longName" = "グラム毎リットル";
+"gramsPerLiter.detailedIntroduction" = "グラム毎リットルは濃度の単位で、1グラム毎リットルは1リットルあたりのグラム数を表します。";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "ミリグラム毎デシリットル";
+"milligramsPerDeciliter.longName" = "ミリグラム毎デシリットル";
+"milligramsPerDeciliter.detailedIntroduction" = "ミリグラム毎デシリットルは濃度の単位で、1ミリグラム毎デシリットルは1デシリットルあたりのミリグラム数を表します。";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "パーツパーミリオン";
+"partsPerMillion.longName" = "パーツパーミリオン";
+"partsPerMillion.detailedIntroduction" = "パーツパーミリオンは濃度の単位で、100万分の1を表します。";
+
+// Time
+"hours.symbol" = "h";
+"hours.shortName" = "時間";
+"hours.longName" = "時間";
+"hours.detailedIntroduction" = "時間は時間の単位で、1時間は60分です。";
+
+"minutes.symbol" = "min";
+"minutes.shortName" = "分";
+"minutes.longName" = "分";
+"minutes.detailedIntroduction" = "分は時間の単位で、1分は60秒です。";
+
+"seconds.symbol" = "s";
+"seconds.shortName" = "秒";
+"seconds.longName" = "秒";
+"seconds.detailedIntroduction" = "秒は時間の基本単位で、1秒は1秒です。";
+
+"milliseconds.symbol" = "ms";
+"milliseconds.shortName" = "ミリ秒";
+"milliseconds.longName" = "ミリ秒";
+"milliseconds.detailedIntroduction" = "ミリ秒は時間の単位で、1ミリ秒は0.001秒です。";
+
+"microseconds.symbol" = "µs";
+"microseconds.shortName" = "マイクロ秒";
+"microseconds.longName" = "マイクロ秒";
+"microseconds.detailedIntroduction" = "マイクロ秒は時間の単位で、1マイクロ秒は0.000001秒です。";
+
+"nanoseconds.symbol" = "ns";
+"nanoseconds.shortName" = "ナノ秒";
+"nanoseconds.longName" = "ナノ秒";
+"nanoseconds.detailedIntroduction" = "ナノ秒は時間の単位で、1ナノ秒は0.000000001秒です。";
+
+"picoseconds.symbol" = "ps";
+"picoseconds.shortName" = "ピコ秒";
+"picoseconds.longName" = "ピコ秒";
+"picoseconds.detailedIntroduction" = "ピコ秒は時間の単位で、1ピコ秒は0.000000000001秒です。";
+
+"days.symbol" = "d";
+"days.shortName" = "日";
+"days.longName" = "日";
+"days.detailedIntroduction" = "日は時間の単位で、1日は24時間です。";
+
+"weeks.symbol" = "wk";
+"weeks.shortName" = "週";
+"weeks.longName" = "週";
+"weeks.detailedIntroduction" = "週は時間の単位で、1週は7日です。";
+
+"years.symbol" = "yr";
+"years.shortName" = "年";
+"years.longName" = "年";
+"years.detailedIntroduction" = "年は時間の単位で、1年は約365.25日です。";
+
+"decades.symbol" = "dec";
+"decades.shortName" = "十年";
+"decades.longName" = "十年";
+"decades.detailedIntroduction" = "十年は時間の単位で、1十年は10年です。";
+
+"centuries.symbol" = "cent";
+"centuries.shortName" = "百年";
+"centuries.longName" = "百年";
+"centuries.detailedIntroduction" = "百年は時間の単位で、1百年は100年です。";
+
+// Electric Charge Capacity
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "メガアンペア時";
+"megaampereHours.longName" = "メガアンペア時";
+"megaampereHours.detailedIntroduction" = "メガアンペア時は電荷容量の単位で、1メガアンペア時は3600秒あたりのメガアンペア数を表します。";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "キロアンペア時";
+"kiloampereHours.longName" = "キロアンペア時";
+"kiloampereHours.detailedIntroduction" = "キロアンペア時は電荷容量の単位で、1キロアンペア時は3600秒あたりのキロアンペア数を表します。";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "アンペア時";
+"ampereHours.longName" = "アンペア時";
+"ampereHours.detailedIntroduction" = "アンペア時は電荷容量の単位で、1アンペア時は3600秒あたりのアンペア数を表します。";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "ミリアンペア時";
+"milliampereHours.longName" = "ミリアンペア時";
+"milliampereHours.detailedIntroduction" = "ミリアンペア時は電荷容量の単位で、1ミリアンペア時は3.6秒あたりのアンペア数を表します。";
+
+"microampereHours.symbol" = "µAh";
+"microampereHours.shortName" = "マイクロアンペア時";
+"microampereHours.longName" = "マイクロアンペア時";
+"microampereHours.detailedIntroduction" = "マイクロアンペア時は電荷容量の単位で、1マイクロアンペア時は0.0036秒あたりのアンペア数を表します。";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "アンペア秒";
+"ampereSeconds.longName" = "アンペア秒";
+"ampereSeconds.detailedIntroduction" = "アンペア秒は電荷容量の単位で、1アンペア秒は1秒あたりのアンペア数を表します。";
+
+// Electric Current
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "メガアンペア";
+"megaamperes.longName" = "メガアンペア";
+"megaamperes.detailedIntroduction" = "メガアンペアは電流の単位で、1メガアンペアは100万アンペアです。";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "キロアンペア";
+"kiloamperes.longName" = "キロアンペア";
+"kiloamperes.detailedIntroduction" = "キロアンペアは電流の単位で、1キロアンペアは1000アンペアです。";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "アンペア";
+"amperes.longName" = "アンペア";
+"amperes.detailedIntroduction" = "アンペアは電流の基本単位で、1アンペアは1アンペアです。";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "ミリアンペア";
+"milliamperes.longName" = "ミリアンペア";
+"milliamperes.detailedIntroduction" = "ミリアンペアは電流の単位で、1ミリアンペアは0.001アンペアです。";
+
+"microamperes.symbol" = "µA";
+"microamperes.shortName" = "マイクロアンペア";
+"microamperes.longName" = "マイクロアンペア";
+"microamperes.detailedIntroduction" = "マイクロアンペアは電流の単位で、1マイクロアンペアは0.000001アンペアです。";
+
+// Electric Potential
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "メガボルト";
+"megavolts.longName" = "メガボルト";
+"megavolts.detailedIntroduction" = "メガボルトは電位の単位で、1メガボルトは100万ボルトです。";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "キロボルト";
+"kilovolts.longName" = "キロボルト";
+"kilovolts.detailedIntroduction" = "キロボルトは電位の単位で、1キロボルトは1000ボルトです。";
+
+"volts.symbol" = "V";
+"volts.shortName" = "ボルト";
+"volts.longName" = "ボルト";
+"volts.detailedIntroduction" = "ボルトは電位の基本単位で、1ボルトは1ボルトです。";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "ミリボルト";
+"millivolts.longName" = "ミリボルト";
+"millivolts.detailedIntroduction" = "ミリボルトは電位の単位で、1ミリボルトは0.001ボルトです。";
+
+"microvolts.symbol" = "µV";
+"microvolts.shortName" = "マイクロボルト";
+"microvolts.longName" = "マイクロボルト";
+"microvolts.detailedIntroduction" = "マイクロボルトは電位の単位で、1マイクロボルトは0.000001ボルトです。";
+
+// Electric Resistance
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "メガオーム";
+"megaohms.longName" = "メガオーム";
+"megaohms.detailedIntroduction" = "メガオームは電気抵抗の単位で、1メガオームは100万オームです。";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "キロオーム";
+"kiloohms.longName" = "キロオーム";
+"kiloohms.detailedIntroduction" = "キロオームは電気抵抗の単位で、1キロオームは1000オームです。";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "オーム";
+"ohms.longName" = "オーム";
+"ohms.detailedIntroduction" = "オームは電気抵抗の基本単位で、1オームは1オームです。";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "ミリオーム";
+"milliohms.longName" = "ミリオーム";
+"milliohms.detailedIntroduction" = "ミリオームは電気抵抗の単位で、1ミリオームは0.001オームです。";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "マイクロオーム";
+"microohms.longName" = "マイクロオーム";
+"microohms.detailedIntroduction" = "マイクロオームは電気抵抗の単位で、1マイクロオームは0.000001オームです。";
+
+// Energy
+"gigajoules.symbol" = "GJ";
+"gigajoules.shortName" = "ギガジュール";
+"gigajoules.longName" = "ギガジュール";
+"gigajoules.detailedIntroduction" = "ギガジュールはエネルギーの単位で、1ギガジュールは10億ジュールです。";
+
+"megajoules.symbol" = "MJ";
+"megajoules.shortName" = "メガジュール";
+"megajoules.longName" = "メガジュール";
+"megajoules.detailedIntroduction" = "メガジュールはエネルギーの単位で、1メガジュールは100万ジュールです。";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "キロジュール";
+"kilojoules.longName" = "キロジュール";
+"kilojoules.detailedIntroduction" = "キロジュールはエネルギーの単位で、1キロジュールは1000ジュールです。";
+
+"joules.symbol" = "J";
+"joules.shortName" = "ジュール";
+"joules.longName" = "ジュール";
+"joules.detailedIntroduction" = "ジュールはエネルギーの基本単位で、1ジュールは1ニュートンメートルの仕事をするエネルギーを表します。";
+
+"millijoules.symbol" = "mJ";
+"millijoules.shortName" = "ミリジュール";
+"millijoules.longName" = "ミリジュール";
+"millijoules.detailedIntroduction" = "ミリジュールはエネルギーの単位で、1ミリジュールは0.001ジュールです。";
+
+"microjoules.symbol" = "µJ";
+"microjoules.shortName" = "マイクロジュール";
+"microjoules.longName" = "マイクロジュール";
+"microjoules.detailedIntroduction" = "マイクロジュールはエネルギーの単位で、1マイクロジュールは0.000001ジュールです。";
+
+"nanojoules.symbol" = "nJ";
+"nanojoules.shortName" = "ナノジュール";
+"nanojoules.longName" = "ナノジュール";
+"nanojoules.detailedIntroduction" = "ナノジュールはエネルギーの単位で、1ナノジュールは0.000000001ジュールです。";
+
+"picojoules.symbol" = "pJ";
+"picojoules.shortName" = "ピコジュール";
+"picojoules.longName" = "ピコジュール";
+"picojoules.detailedIntroduction" = "ピコジュールはエネルギーの単位で、1ピコジュールは0.000000000001ジュールです。";
+
+"gigawattHours.symbol" = "GWh";
+"gigawattHours.shortName" = "ギガワット時";
+"gigawattHours.longName" = "ギガワット時";
+"gigawattHours.detailedIntroduction" = "ギガワット時はエネルギーの単位で、1ギガワット時は1時間あたりのギガワット数を表します。";
+
+"megawattHours.symbol" = "MWh";
+"megawattHours.shortName" = "メガワット時";
+"megawattHours.longName" = "メガワット時";
+"megawattHours.detailedIntroduction" = "メガワット時はエネルギーの単位で、1メガワット時は1時間あたりのメガワット数を表します。";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "キロワット時";
+"kilowattHours.longName" = "キロワット時";
+"kilowattHours.detailedIntroduction" = "キロワット時はエネルギーの単位で、1キロワット時は1時間あたりのキロワット数を表します。";
+
+"watthours.symbol" = "Wh";
+"watthours.shortName" = "ワット時";
+"watthours.longName" = "ワット時";
+"watthours.detailedIntroduction" = "ワット時はエネルギーの単位で、1ワット時は1時間あたりのワット数を表します。";
+
+"megacalories.symbol" = "Mcal";
+"megacalories.shortName" = "メガカロリー";
+"megacalories.longName" = "メガカロリー";
+"megacalories.detailedIntroduction" = "メガカロリーはエネルギーの単位で、1メガカロリーは100万カロリーです。";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "キロカロリー";
+"kilocalories.longName" = "キロカロリー";
+"kilocalories.detailedIntroduction" = "キロカロリーはエネルギーの単位で、1キロカロリーは1000カロリーです。";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "カロリー";
+"calories.longName" = "カロリー";
+"calories.detailedIntroduction" = "カロリーはエネルギーの単位で、1カロリーは1グラムの水の温度を1度摂氏上げるのに必要なエネルギーを表します。";
+
+"milliwattHours.symbol" = "mWh";
+"milliwattHours.shortName" = "ミリワット時";
+"milliwattHours.longName" = "ミリワット時";
+"milliwattHours.detailedIntroduction" = "ミリワット時はエネルギーの単位で、1ミリワット時は1時間あたりのミリワット数を表します。";
+
+"microjoulesPerSecond.symbol" = "µJ/s";
+"microjoulesPerSecond.shortName" = "マイクロジュール毎秒";
+"microjoulesPerSecond.longName" = "マイクロジュール毎秒";
+"microjoulesPerSecond.detailedIntroduction" = "マイクロジュール毎秒はエネルギーの単位で、1マイクロジュール毎秒は1秒あたりのマイクロジュール数を表します。";
+
+// Frequency
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "ギガヘルツ";
+"gigahertz.longName" = "ギガヘルツ";
+"gigahertz.detailedIntroduction" = "ギガヘルツは周波数の単位で、1ギガヘルツは10億ヘルツです。";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "メガヘルツ";
+"megahertz.longName" = "メガヘルツ";
+"megahertz.detailedIntroduction" = "メガヘルツは周波数の単位で、1メガヘルツは100万ヘルツです。";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "キロヘルツ";
+"kilohertz.longName" = "キロヘルツ";
+"kilohertz.detailedIntroduction" = "キロヘルツは周波数の単位で、1キロヘルツは1000ヘルツです。";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "ヘルツ";
+"hertz.longName" = "ヘルツ";
+"hertz.detailedIntroduction" = "ヘルツは周波数の基本単位で、1ヘルツは1秒あたりの繰り返し回数を表します。";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "ミリヘルツ";
+"millihertz.longName" = "ミリヘルツ";
+"millihertz.detailedIntroduction" = "ミリヘルツは周波数の単位で、1ミリヘルツは0.001ヘルツです。";
+
+"microhertz.symbol" = "µHz";
+"microhertz.shortName" = "マイクロヘルツ";
+"microhertz.longName" = "マイクロヘルツ";
+"microhertz.detailedIntroduction" = "マイクロヘルツは周波数の単位で、1マイクロヘルツは0.000001ヘルツです。";
+
+// Fuel Efficiency
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "マイル毎ガロン";
+"milesPerGallon.longName" = "マイル毎ガロン";
+"milesPerGallon.detailedIntroduction" = "マイル毎ガロンは燃料効率の単位で、1マイル毎ガロンは1ガロンの燃料で走行できるマイル数を表します。";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "リットル毎100キロメートル";
+"litersPer100Kilometers.longName" = "リットル毎100キロメートル";
+"litersPer100Kilometers.detailedIntroduction" = "リットル毎100キロメートルは燃料効率の単位で、1リットル毎100キロメートルは100キロメートル走行するために必要なリットル数を表します。";
+
+// Data
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "メガビット";
+"megabits.longName" = "メガビット";
+"megabits.detailedIntroduction" = "メガビットはデータの単位で、1メガビットは100万ビットです。";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "メガバイト";
+"megabytes.longName" = "メガバイト";
+"megabytes.detailedIntroduction" = "メガバイトはデータの単位で、1メガバイトは100万バイトです。";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "ギガビット";
+"gigabits.longName" = "ギガビット";
+"gigabits.detailedIntroduction" = "ギガビットはデータの単位で、1ギガビットは10億ビットです。";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "ギガバイト";
+"gigabytes.longName" = "ギガバイト";
+"gigabytes.detailedIntroduction" = "ギガバイトはデータの単位で、1ギガバイトは10億バイトです。";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "テラビット";
+"terabits.longName" = "テラビット";
+"terabits.detailedIntroduction" = "テラビットはデータの単位で、1テラビットは1兆ビットです。";
+
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "テラバイト";
+"terabytes.longName" = "テラバイト";
+"terabytes.detailedIntroduction" = "テラバイトはデータの単位で、1テラバイトは1兆バイトです。";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "ペタビット";
+"petabits.longName" = "ペタビット";
+"petabits.detailedIntroduction" = "ペタビットはデータの単位で、1ペタビットは1000兆ビットです。";
+
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "ペタバイト";
+"petabytes.longName" = "ペタバイト";
+"petabytes.detailedIntroduction" = "ペタバイトはデータの単位で、1ペタバイトは1000兆バイトです。";
+
+"bits.symbol" = "b";
+"bits.shortName" = "ビット";
+"bits.longName" = "ビット";
+"bits.detailedIntroduction" = "ビットはデータの基本単位で、1ビットは情報の最小単位を表します。";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "バイト";
+"bytes.longName" = "バイト";
+"bytes.detailedIntroduction" = "バイトはデータの基本単位で、1バイトは8ビットです。";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "キロビット";
+"kilobits.longName" = "キロビット";
+"kilobits.detailedIntroduction" = "キロビットはデータの単位で、1キロビットは1000ビットです。";
+
+"kilobytes.symbol" = "kB";
+"kilobytes.shortName" = "キロバイト";
+"kilobytes.longName" = "キロバイト";
+"kilobytes.detailedIntroduction" = "キロバイトはデータの単位で、1キロバイトは1000バイトです。";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "ワット時";
+"wattHours.longName" = "ワット時";
+"wattHours.detailedIntroduction" = "ワット時はエネルギーの単位で、1ワット時は1時間あたりのワット数を表します。";
+
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "テラヘルツ";
+"terahertz.longName" = "テラヘルツ";
+"terahertz.detailedIntroduction" = "テラヘルツは周波数の単位で、1テラヘルツは1兆ヘルツです。";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "ナノヘルツ";
+"nanohertz.longName" = "ナノヘルツ";
+"nanohertz.detailedIntroduction" = "ナノヘルツは周波数の単位で、1ナノヘルツは0.000000001ヘルツです。";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "フレーム毎秒";
+"framesPerSecond.longName" = "フレーム毎秒";
+"framesPerSecond.detailedIntroduction" = "フレーム毎秒は表示速度の単位で、1秒あたりのフレーム数を表します。";
+
+"milesPerImperialGallon.symbol" = "mpg(imp)";
+"milesPerImperialGallon.shortName" = "マイル毎英ガロン";
+"milesPerImperialGallon.longName" = "マイル毎英ガロン";
+"milesPerImperialGallon.detailedIntroduction" = "マイル毎英ガロンは燃料効率の単位で、1英ガロンの燃料で走行できるマイル数を表します。";
+
+"nibbles.symbol" = "nib";
+"nibbles.shortName" = "ニブル";
+"nibbles.longName" = "ニブル";
+"nibbles.detailedIntroduction" = "ニブルはデータの単位で、1ニブルは4ビットです。";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "ヨタバイト";
+"yottabytes.longName" = "ヨタバイト";
+"yottabytes.detailedIntroduction" = "ヨタバイトはデータの単位で、1ヨタバイトは1.2089258196146292e24バイトです。";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "ゼタバイト";
+"zettabytes.longName" = "ゼタバイト";
+"zettabytes.detailedIntroduction" = "ゼタバイトはデータの単位で、1ゼタバイトは1.1805916207174113e21バイトです。";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "エクサバイト";
+"exabytes.longName" = "エクサバイト";
+"exabytes.detailedIntroduction" = "エクサバイトはデータの単位で、1エクサバイトは1.152921504606847e18バイトです。";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "ヨタビット";
+"yottabits.longName" = "ヨタビット";
+"yottabits.detailedIntroduction" = "ヨタビットはデータの単位で、1ヨタビットは1.5111572745182865e23ビットです。";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "ゼタビット";
+"zettabits.longName" = "ゼタビット";
+"zettabits.detailedIntroduction" = "ゼタビットはデータの単位で、1ゼタビットは1.475739525896764e20ビットです。";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "エクサビット";
+"exabits.longName" = "エクサビット";
+"exabits.detailedIntroduction" = "エクサビットはデータの単位で、1エクサビットは1.4411518807585588e17ビットです。";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "ヨビバイト";
+"yobibytes.longName" = "ヨビバイト";
+"yobibytes.detailedIntroduction" = "ヨビバイトはデータの単位で、1ヨビバイトは1.2089258196146292e24バイトです。";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "ゼビバイト";
+"zebibytes.longName" = "ゼビバイト";
+"zebibytes.detailedIntroduction" = "ゼビバイトはデータの単位で、1ゼビバイトは1.1805916207174113e21バイトです。";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "エクスビバイト";
+"exbibytes.longName" = "エクスビバイト";
+"exbibytes.detailedIntroduction" = "エクスビバイトはデータの単位で、1エクスビバイトは1.152921504606847e18バイトです。";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "ペビバイト";
+"pebibytes.longName" = "ペビバイト";
+"pebibytes.detailedIntroduction" = "ペビバイトはデータの単位で、1ペビバイトは1.125899906842624e15バイトです。";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "テビバイト";
+"tebibytes.longName" = "テビバイト";
+"tebibytes.detailedIntroduction" = "テビバイトはデータの単位で、1テビバイトは1.099511627776e12バイトです。";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "ギビバイト";
+"gibibytes.longName" = "ギビバイト";
+"gibibytes.detailedIntroduction" = "ギビバイトはデータの単位で、1ギビバイトは1.073741824e9バイトです。";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "メビバイト";
+"mebibytes.longName" = "メビバイト";
+"mebibytes.detailedIntroduction" = "メビバイトはデータの単位で、1メビバイトは1.048576e6バイトです。";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "キビバイト";
+"kibibytes.longName" = "キビバイト";
+"kibibytes.detailedIntroduction" = "キビバイトはデータの単位で、1キビバイトは1024バイトです。";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "ヨビビット";
+"yobibits.longName" = "ヨビビット";
+"yobibits.detailedIntroduction" = "ヨビビットはデータの単位で、1ヨビビットは1.5111572745182865e23ビットです。";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "ゼビビット";
+"zebibits.longName" = "ゼビビット";
+"zebibits.detailedIntroduction" = "ゼビビットはデータの単位で、1ゼビビットは1.475739525896764e20ビットです。";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "エクスビット";
+"exbibits.longName" = "エクスビット";
+"exbibits.detailedIntroduction" = "エクスビットはデータの単位で、1エクスビットは1.4411518807585588e17ビットです。";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "ペビビット";
+"pebibits.longName" = "ペビビット";
+"pebibits.detailedIntroduction" = "ペビビットはデータの単位で、1ペビビットは1.40737488355328e14ビットです。";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "テビビット";
+"tebibits.longName" = "テビビット";
+"tebibits.detailedIntroduction" = "テビビットはデータの単位で、1テビビットは1.37438953472e11ビットです。";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "ギビビット";
+"gibibits.longName" = "ギビビット";
+"gibibits.detailedIntroduction" = "ギビビットはデータの単位で、1ギビビットは1.34217728e8ビットです。";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "メビビット";
+"mebibits.longName" = "メビビット";
+"mebibits.detailedIntroduction" = "メビビットはデータの単位で、1メビビットは1,048,576ビットです。";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "キビビット";
+"kibibits.longName" = "キビビット";
+"kibibits.detailedIntroduction" = "キビビットはデータの単位で、1キビビットは1024ビットです。";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "クーロン";
+"coulombs.longName" = "クーロン";
+"coulombs.detailedIntroduction" = "クーロンは電気量のSI単位で、シャルル＝オーギュスタン・ド・クーロンにちなんで名付けられました。";

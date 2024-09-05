@@ -1,0 +1,1358 @@
+/* General */
+"None" = "Keine";
+
+/* Unit Types */
+"length.symbol" = "L";
+"length.shortName" = "Länge";
+"length.longName" = "Längeneinheit";
+"length.detailedIntroduction" = "Die Längeneinheit misst die räumliche Ausdehnung eines Objekts. Zu den gängigen Längeneinheiten gehören Meter, Kilometer, Zoll und Fuß.";
+
+"speed.symbol" = "v";
+"speed.shortName" = "Geschwindigkeit";
+"speed.longName" = "Geschwindigkeitseinheit";
+"speed.detailedIntroduction" = "Die Geschwindigkeitseinheit misst, wie schnell sich ein Objekt bewegt. Zu den üblichen Einheiten gehören Meter pro Sekunde (m/s) und Kilometer pro Stunde (km/h).";
+
+"pressure.symbol" = "P";
+"pressure.shortName" = "Druck";
+"pressure.longName" = "Druckeinheit";
+"pressure.detailedIntroduction" = "Die Druckeinheit misst die Kraft pro Flächeneinheit. Gängige Druckeinheiten sind Pascal (Pa), Bar und Pfund pro Quadratzoll (psi).";
+
+"temperature.symbol" = "T";
+"temperature.shortName" = "Temperatur";
+"temperature.longName" = "Temperatureinheit";
+"temperature.detailedIntroduction" = "Die Temperatureinheit misst den Wärmegrad eines Objekts oder eines Raumes. Zu den gängigen Einheiten gehören Celsius (°C), Kelvin (K) und Fahrenheit (°F).";
+
+"temperatureDifference.symbol" = "ΔT";
+"temperatureDifference.shortName" = "Temperaturunterschied";
+"temperatureDifference.longName" = "Temperaturunterschiedseinheit";
+"temperatureDifference.detailedIntroduction" = "Die Temperaturunterschiedseinheit misst die Differenz zwischen zwei Temperaturwerten. Sie wird oft in Klimawissenschaften und Ingenieurwesen verwendet.";
+
+"mass.symbol" = "m";
+"mass.shortName" = "Masse";
+"mass.longName" = "Masseinheit";
+"mass.detailedIntroduction" = "Die Masseinheit misst die Menge an Materie in einem Objekt. Zu den gängigen Masseeinheiten gehören Kilogramm (kg), Gramm (g) und Pfund (lb).";
+
+"volume.symbol" = "V";
+"volume.shortName" = "Volumen";
+"volume.longName" = "Volumeneinheit";
+"volume.detailedIntroduction" = "Die Volumeneinheit misst den Raum, den ein Objekt einnimmt. Gängige Volumeneinheiten sind Liter (L), Milliliter (ml) und Kubikmeter (m³).";
+
+"acceleration.symbol" = "a";
+"acceleration.shortName" = "Beschleunigung";
+"acceleration.longName" = "Beschleunigungseinheit";
+"acceleration.detailedIntroduction" = "Die Beschleunigungseinheit misst die Änderung der Geschwindigkeit pro Zeiteinheit. Sie wird in Meter pro Quadratsekunde (m/s²) angegeben.";
+
+"power.symbol" = "P";
+"power.shortName" = "Leistung";
+"power.longName" = "Leistungseinheit";
+"power.detailedIntroduction" = "Die Leistungseinheit misst die Menge an Energie, die pro Zeiteinheit übertragen wird. Gängige Leistungseinheiten sind Watt (W) und Pferdestärke (PS).";
+
+"angle.symbol" = "θ";
+"angle.shortName" = "Winkel";
+"angle.longName" = "Winkeleinheit";
+"angle.detailedIntroduction" = "Die Winkeleinheit misst die Drehung zwischen zwei Linien, die von einem gemeinsamen Punkt ausgehen. Gängige Winkeleinheiten sind Grad (°) und Radiant (rad).";
+
+"angularVelocity.symbol" = "ω";
+"angularVelocity.shortName" = "Winkelgeschwindigkeit";
+"angularVelocity.longName" = "Winkelgeschwindigkeitseinheit";
+"angularVelocity.detailedIntroduction" = "Die Winkelgeschwindigkeitseinheit misst die Drehgeschwindigkeit. Sie wird in Radiant pro Sekunde (rad/s) angegeben.";
+
+"area.symbol" = "A";
+"area.shortName" = "Fläche";
+"area.longName" = "Flächeneinheit";
+"area.detailedIntroduction" = "Die Flächeneinheit misst die Größe einer zweidimensionalen Oberfläche. Zu den gängigen Flächeneinheiten gehören Quadratmeter (m²) und Hektar.";
+
+"concentration.symbol" = "C";
+"concentration.shortName" = "Konzentration";
+"concentration.longName" = "Konzentrationseinheit";
+"concentration.detailedIntroduction" = "Die Konzentrationseinheit misst die Menge eines Stoffes in einer bestimmten Volumeneinheit. Sie wird oft in Gramm pro Liter (g/L) oder Teile pro Million (ppm) angegeben.";
+
+"time.symbol" = "t";
+"time.shortName" = "Zeit";
+"time.longName" = "Zeiteinheit";
+"time.detailedIntroduction" = "Die Zeiteinheit misst die Dauer von Ereignissen. Gängige Zeiteinheiten sind Sekunden (s), Minuten (min) und Stunden (h).";
+
+"electricChargeCapacity.symbol" = "Q";
+"electricChargeCapacity.shortName" = "Elektrische Ladungskapazität";
+"electricChargeCapacity.longName" = "Einheit der elektrischen Ladungskapazität";
+"electricChargeCapacity.detailedIntroduction" = "Die Einheit der elektrischen Ladungskapazität misst die gespeicherte elektrische Ladung. Sie wird in Amperestunden (Ah) oder Milliamperestunden (mAh) angegeben.";
+
+"electricCurrent.symbol" = "I";
+"electricCurrent.shortName" = "Stromstärke";
+"electricCurrent.longName" = "Stromstärkeeineinheit";
+"electricCurrent.detailedIntroduction" = "Die Stromstärkeeineinheit misst den Fluss elektrischer Ladung. Sie wird in Ampere (A) gemessen.";
+
+"electricPotential.symbol" = "V";
+"electricPotential.shortName" = "Spannung";
+"electricPotential.longName" = "Spannungseinheit";
+"electricPotential.detailedIntroduction" = "Die Spannungseinheit misst den elektrischen Potenzialunterschied zwischen zwei Punkten. Sie wird in Volt (V) gemessen.";
+
+"electricResistance.symbol" = "R";
+"electricResistance.shortName" = "Widerstand";
+"electricResistance.longName" = "Widerstandseinheit";
+"electricResistance.detailedIntroduction" = "Die Widerstandseinheit misst den Widerstand gegen den Fluss elektrischer Ladung. Sie wird in Ohm (Ω) gemessen.";
+
+"energy.symbol" = "E";
+"energy.shortName" = "Energie";
+"energy.longName" = "Energieeinheit";
+"energy.detailedIntroduction" = "Die Energieeinheit misst die Fähigkeit, Arbeit zu verrichten. Gängige Energieeinheiten sind Joule (J) und Kilokalorien (kcal).";
+
+"frequency.symbol" = "f";
+"frequency.shortName" = "Frequenz";
+"frequency.longName" = "Frequenzeinheit";
+"frequency.detailedIntroduction" = "Die Frequenzeinheit misst die Anzahl der Wiederholungen eines Ereignisses pro Zeiteinheit. Sie wird in Hertz (Hz) gemessen.";
+
+"fuelEfficiency.symbol" = "FE";
+"fuelEfficiency.shortName" = "Kraftstoffeffizienz";
+"fuelEfficiency.longName" = "Kraftstoffeffizienzeinheit";
+"fuelEfficiency.detailedIntroduction" = "Die Kraftstoffeffizienzeinheit misst, wie weit ein Fahrzeug mit einer bestimmten Menge Kraftstoff fahren kann. Gängige Einheiten sind Liter pro 100 Kilometer (L/100 km) und Meilen pro Gallone (mpg).";
+
+"data.symbol" = "D";
+"data.shortName" = "Daten";
+"data.longName" = "Dateneinheit";
+"data.detailedIntroduction" = "Die Dateneinheit misst die Menge an digitalen Informationen. Zu den gängigen Dateneinheiten gehören Bytes, Kilobytes (KB) und Megabytes (MB).";
+
+/* Units */
+"feet.symbol" = "ft";
+"feet.shortName" = "Fuß";
+"feet.longName" = "Fuß";
+"feet.detailedIntroduction" = "Der Fuß ist eine Längeneinheit, die im angelsächsischen Maßsystem verwendet wird. 1 Fuß entspricht 0,3048 Meter.";
+
+"nauticalMiles.symbol" = "NM";
+"nauticalMiles.shortName" = "Seemeile";
+"nauticalMiles.longName" = "Seemeile";
+"nauticalMiles.detailedIntroduction" = "Die Seemeile ist eine Längeneinheit, die in der Schifffahrt und Luftfahrt verwendet wird. Eine Seemeile entspricht etwa 1,852 Kilometer.";
+
+"meters.symbol" = "m";
+"meters.shortName" = "Meter";
+"meters.longName" = "Meter";
+"meters.detailedIntroduction" = "Der Meter ist die Basiseinheit der Länge im internationalen Einheitensystem (SI). 1 Meter ist definiert als die Strecke, die Licht im Vakuum in 1/299.792.458 Sekunden zurücklegt.";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "Kilometer";
+"kilometers.longName" = "Kilometer";
+"kilometers.detailedIntroduction" = "Der Kilometer ist eine Längeneinheit, die 1.000 Metern entspricht. Es wird häufig verwendet, um Entfernungen auf der Erde zu messen.";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "Meile";
+"miles.longName" = "Meile";
+"miles.detailedIntroduction" = "Die Meile ist eine Längeneinheit, die hauptsächlich in den USA verwendet wird. 1 Meile entspricht 1.609,344 Metern.";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "Megameter";
+"megameters.longName" = "Megameter";
+"megameters.detailedIntroduction" = "Der Megameter ist eine Längeneinheit, die einer Million Metern entspricht. Es wird selten verwendet und findet hauptsächlich in wissenschaftlichen Kontexten Anwendung.";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "Hektometer";
+"hectometers.longName" = "Hektometer";
+"hectometers.detailedIntroduction" = "Der Hektometer ist eine Längeneinheit, die 100 Metern entspricht. Es wird hauptsächlich in der Geographie und Landwirtschaft verwendet.";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "Dekameter";
+"decameters.longName" = "Dekameter";
+"decameters.detailedIntroduction" = "Der Dekameter ist eine Längeneinheit, die 10 Metern entspricht. Es wird selten verwendet und findet hauptsächlich in speziellen wissenschaftlichen Kontexten Anwendung.";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "Dezimeter";
+"decimeters.longName" = "Dezimeter";
+"decimeters.detailedIntroduction" = "Der Dezimeter ist eine Längeneinheit, die 0,1 Metern entspricht. Es wird selten verwendet und findet hauptsächlich in der Bildung und Wissenschaft Anwendung.";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "Zentimeter";
+"centimeters.longName" = "Zentimeter";
+"centimeters.detailedIntroduction" = "Der Zentimeter ist eine Längeneinheit, die 0,01 Metern entspricht. Es wird häufig in Alltagssituationen und in der Wissenschaft verwendet.";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "Millimeter";
+"millimeters.longName" = "Millimeter";
+"millimeters.detailedIntroduction" = "Der Millimeter ist eine Längeneinheit, die 0,001 Metern entspricht. Es wird häufig in der Technik, Bauwesen und Wissenschaft verwendet.";
+
+"micrometers.symbol" = "µm";
+"micrometers.shortName" = "Mikrometer";
+"micrometers.longName" = "Mikrometer";
+"micrometers.detailedIntroduction" = "Der Mikrometer ist eine Längeneinheit, die einem Millionstel Meter entspricht. Es wird häufig in der Mikroskopie und Materialwissenschaft verwendet.";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "Nanometer";
+"nanometers.longName" = "Nanometer";
+"nanometers.detailedIntroduction" = "Der Nanometer ist eine Längeneinheit, die einem Milliardstel Meter entspricht. Es wird häufig in der Nanotechnologie und Physik verwendet.";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "Pikometer";
+"picometers.longName" = "Pikometer";
+"picometers.detailedIntroduction" = "Der Pikometer ist eine Längeneinheit, die einem Billionstel Meter entspricht. Es wird hauptsächlich in der Quantenphysik und Chemie verwendet.";
+
+"inches.symbol" = "in";
+"inches.shortName" = "Zoll";
+"inches.longName" = "Zoll";
+"inches.detailedIntroduction" = "Der Zoll ist eine Längeneinheit, die im angelsächsischen Maßsystem verwendet wird. 1 Zoll entspricht 2,54 Zentimetern.";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "Yard";
+"yards.longName" = "Yard";
+"yards.detailedIntroduction" = "Der Yard ist eine Längeneinheit, die im angelsächsischen Maßsystem verwendet wird. 1 Yard entspricht 0,9144 Metern.";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "Skandinavische Meile";
+"scandinavianMiles.longName" = "Skandinavische Meile";
+"scandinavianMiles.detailedIntroduction" = "Die skandinavische Meile ist eine Längeneinheit, die in Skandinavien verwendet wird. Eine skandinavische Meile entspricht 10 Kilometern.";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "Lichtjahr";
+"lightyears.longName" = "Lichtjahr";
+"lightyears.detailedIntroduction" = "Das Lichtjahr ist eine Längeneinheit, die die Entfernung misst, die Licht in einem Jahr im Vakuum zurücklegt. Ein Lichtjahr entspricht etwa 9,461 Billionen Kilometern.";
+
+"fathoms.symbol" = "fth";
+"fathoms.shortName" = "Faden";
+"fathoms.longName" = "Faden";
+"fathoms.detailedIntroduction" = "Der Faden ist eine Längeneinheit, die in der Schifffahrt verwendet wird, um die Wassertiefe zu messen. Ein Faden entspricht 1,8288 Metern.";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "Furlong";
+"furlongs.longName" = "Furlong";
+"furlongs.detailedIntroduction" = "Das Furlong ist eine Längeneinheit, die hauptsächlich in der Pferderennsport verwendet wird. Ein Furlong entspricht 201,168 Metern.";
+
+"astronomicalUnits.symbol" = "AU";
+"astronomicalUnits.shortName" = "Astronomische Einheit";
+"astronomicalUnits.longName" = "Astronomische Einheit";
+"astronomicalUnits.detailedIntroduction" = "Die astronomische Einheit ist eine Längeneinheit, die verwendet wird, um Entfernungen innerhalb des Sonnensystems zu messen. Eine astronomische Einheit entspricht etwa 149,597,870.7 Kilometern.";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "Parsec";
+"parsecs.longName" = "Parsec";
+"parsecs.detailedIntroduction" = "Das Parsec ist eine Längeneinheit, die in der Astronomie verwendet wird, um große Entfernungen zu messen. Ein Parsec entspricht etwa 3,26 Lichtjahren.";
+
+/* Speed */
+"knots.symbol" = "kn";
+"knots.shortName" = "Knoten";
+"knots.longName" = "Knoten";
+"knots.detailedIntroduction" = "Der Knoten ist eine Geschwindigkeitseinheit, die in der Schifffahrt und Luftfahrt verwendet wird. Ein Knoten entspricht etwa 1,852 Kilometer pro Stunde.";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "Meter pro Sekunde";
+"metersPerSecond.longName" = "Meter pro Sekunde";
+"metersPerSecond.detailedIntroduction" = "Meter pro Sekunde ist die Basiseinheit der Geschwindigkeit im internationalen Einheitensystem (SI). Es misst die zurückgelegte Strecke in Metern pro Sekunde.";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "Fuß pro Minute";
+"feetPerMinute.longName" = "Fuß pro Minute";
+"feetPerMinute.detailedIntroduction" = "Fuß pro Minute ist eine Geschwindigkeitseinheit, die hauptsächlich in der Luftfahrt verwendet wird. Ein Fuß pro Minute entspricht 0,00508 Meter pro Sekunde.";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "Kilometer pro Stunde";
+"kilometersPerHour.longName" = "Kilometer pro Stunde";
+"kilometersPerHour.detailedIntroduction" = "Kilometer pro Stunde ist eine Geschwindigkeitseinheit, die die zurückgelegte Strecke in Kilometern pro Stunde misst. Es wird häufig im Straßenverkehr verwendet.";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "Fuß pro Sekunde";
+"feetPerSecond.longName" = "Fuß pro Sekunde";
+"feetPerSecond.detailedIntroduction" = "Fuß pro Sekunde ist eine Geschwindigkeitseinheit, die hauptsächlich in den USA verwendet wird. Ein Fuß pro Sekunde entspricht 0,3048 Meter pro Sekunde.";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "Meilen pro Stunde";
+"milesPerHour.longName" = "Meilen pro Stunde";
+"milesPerHour.detailedIntroduction" = "Meilen pro Stunde ist eine Geschwindigkeitseinheit, die hauptsächlich in den USA verwendet wird. Eine Meile pro Stunde entspricht etwa 1,60934 Kilometer pro Stunde.";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "Zoll pro Sekunde";
+"inchesPerSecond.longName" = "Zoll pro Sekunde";
+"inchesPerSecond.detailedIntroduction" = "Zoll pro Sekunde ist eine Geschwindigkeitseinheit, die hauptsächlich in den USA verwendet wird. Ein Zoll pro Sekunde entspricht 0,0254 Meter pro Sekunde.";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "Yard pro Sekunde";
+"yardsPerSecond.longName" = "Yard pro Sekunde";
+"yardsPerSecond.detailedIntroduction" = "Yard pro Sekunde ist eine Geschwindigkeitseinheit, die hauptsächlich in den USA verwendet wird. Ein Yard pro Sekunde entspricht 0,9144 Meter pro Sekunde.";
+
+/* Pressure */
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "Hektopascal";
+"hectopascals.longName" = "Hektopascal";
+"hectopascals.detailedIntroduction" = "Hektopascal ist eine Druckeinheit im internationalen Einheitensystem (SI). Ein Hektopascal entspricht 100 Pascal.";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "Zoll Quecksilber";
+"inchesOfMercury.longName" = "Zoll Quecksilber";
+"inchesOfMercury.detailedIntroduction" = "Zoll Quecksilber ist eine Druckeinheit, die in der Luftfahrt und Meteorologie verwendet wird. Ein Zoll Quecksilber entspricht etwa 3386,39 Pascal.";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "Millimeter Quecksilber";
+"millimetersOfMercury.longName" = "Millimeter Quecksilber";
+"millimetersOfMercury.detailedIntroduction" = "Millimeter Quecksilber ist eine Druckeinheit, die in der Medizin und Meteorologie verwendet wird. Ein Millimeter Quecksilber entspricht etwa 133,322 Pascal.";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "Newton pro Quadratmeter";
+"newtonsPerMetersSquared.longName" = "Newton pro Quadratmeter";
+"newtonsPerMetersSquared.detailedIntroduction" = "Newton pro Quadratmeter ist eine Druckeinheit im internationalen Einheitensystem (SI). Ein Newton pro Quadratmeter entspricht einem Pascal.";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "Gigapascal";
+"gigapascals.longName" = "Gigapascal";
+"gigapascals.detailedIntroduction" = "Gigapascal ist eine Druckeinheit im internationalen Einheitensystem (SI). Ein Gigapascal entspricht 1.000.000.000 Pascal.";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "Megapascal";
+"megapascals.longName" = "Megapascal";
+"megapascals.detailedIntroduction" = "Megapascal ist eine Druckeinheit im internationalen Einheitensystem (SI). Ein Megapascal entspricht 1.000.000 Pascal.";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "Kilopascal";
+"kilopascals.longName" = "Kilopascal";
+"kilopascals.detailedIntroduction" = "Kilopascal ist eine Druckeinheit im internationalen Einheitensystem (SI). Ein Kilopascal entspricht 1.000 Pascal.";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "Bar";
+"bars.longName" = "Bar";
+"bars.detailedIntroduction" = "Bar ist eine Druckeinheit, die in Europa häufig verwendet wird. Ein Bar entspricht 100.000 Pascal.";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "Millibar";
+"millibars.longName" = "Millibar";
+"millibars.detailedIntroduction" = "Millibar ist eine Druckeinheit, die häufig in der Meteorologie verwendet wird. Ein Millibar entspricht 100 Pascal.";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "Pfund pro Quadratzoll";
+"poundsForcePerSquareInch.longName" = "Pfund pro Quadratzoll";
+"poundsForcePerSquareInch.detailedIntroduction" = "Pfund pro Quadratzoll ist eine Druckeinheit, die in den USA verwendet wird. Ein Pfund pro Quadratzoll entspricht etwa 6.894,76 Pascal.";
+
+/* Temperature */
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "Kelvin";
+"kelvin.longName" = "Kelvin";
+"kelvin.detailedIntroduction" = "Kelvin ist die Basiseinheit der Temperatur im internationalen Einheitensystem (SI). Es misst die thermodynamische Temperatur und beginnt bei absolutem Nullpunkt.";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "Celsius";
+"celsius.longName" = "Celsius";
+"celsius.detailedIntroduction" = "Celsius ist eine Temperatureinheit, die hauptsächlich in Europa verwendet wird. Der Nullpunkt entspricht dem Gefrierpunkt von Wasser und 100 °C entspricht dem Siedepunkt.";
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "Fahrenheit";
+"fahrenheit.longName" = "Fahrenheit";
+"fahrenheit.detailedIntroduction" = "Fahrenheit ist eine Temperatureinheit, die hauptsächlich in den USA verwendet wird. Der Nullpunkt entspricht der Temperatur von einer Mischung aus Eis und Salz.";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "Rankine";
+"rankine.longName" = "Rankine";
+"rankine.detailedIntroduction" = "Rankine ist eine Temperatureinheit, die hauptsächlich in der Thermodynamik verwendet wird. Sie basiert auf dem Fahrenheit-Skala, wobei der absolute Nullpunkt 0 °R ist.";
+
+/* TemperatureDifference */
+"celsiusDelta.symbol" = "Δ°C";
+"celsiusDelta.shortName" = "Celsiusdifferenz";
+"celsiusDelta.longName" = "Celsiusdifferenz";
+"celsiusDelta.detailedIntroduction" = "Celsiusdifferenz misst die Differenz zwischen zwei Temperaturen in Grad Celsius. Sie wird häufig in der Wissenschaft und Technik verwendet.";
+
+"fahrenheitDelta.symbol" = "Δ°F";
+"fahrenheitDelta.shortName" = "Fahrenheitdifferenz";
+"fahrenheitDelta.longName" = "Fahrenheitdifferenz";
+"fahrenheitDelta.detailedIntroduction" = "Fahrenheitdifferenz misst die Differenz zwischen zwei Temperaturen in Grad Fahrenheit. Sie wird häufig in der Wissenschaft und Technik verwendet.";
+
+/* Mass */
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "Tonne";
+"metricTons.longName" = "Tonne";
+"metricTons.detailedIntroduction" = "Die Tonne ist eine Masseinheit, die 1.000 Kilogramm entspricht. Sie wird häufig in der Industrie und im Handel verwendet.";
+
+"shortTons.symbol" = "st";
+"shortTons.shortName" = "Kurze Tonne";
+"shortTons.longName" = "Kurze Tonne";
+"shortTons.detailedIntroduction" = "Die kurze Tonne ist eine Masseinheit, die hauptsächlich in den USA verwendet wird. Eine kurze Tonne entspricht 2.000 Pfund oder etwa 907,185 Kilogramm.";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "Kilogramm";
+"kilograms.longName" = "Kilogramm";
+"kilograms.detailedIntroduction" = "Das Kilogramm ist die Basiseinheit der Masse im internationalen Einheitensystem (SI). Ein Kilogramm ist definiert als die Masse eines internationalen Prototyps, der in Paris aufbewahrt wird.";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "Kilopfund";
+"kilopounds.longName" = "Kilopfund";
+"kilopounds.detailedIntroduction" = "Das Kilopfund ist eine Masseinheit, die hauptsächlich in der Industrie verwendet wird. Ein Kilopfund entspricht 1.000 Pfund oder etwa 453,592 Kilogramm.";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "Pfund";
+"pounds.longName" = "Pfund";
+"pounds.detailedIntroduction" = "Das Pfund ist eine Masseinheit, die hauptsächlich in den USA verwendet wird. Ein Pfund entspricht etwa 0,453592 Kilogramm.";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "Unze";
+"ounces.longName" = "Unze";
+"ounces.detailedIntroduction" = "Die Unze ist eine Masseinheit, die hauptsächlich in den USA verwendet wird. Eine Unze entspricht etwa 28,3495 Gramm.";
+
+"grams.symbol" = "g";
+"grams.shortName" = "Gramm";
+"grams.longName" = "Gramm";
+"grams.detailedIntroduction" = "Das Gramm ist eine Masseinheit, die 1/1000 Kilogramm entspricht. Es wird häufig in der Wissenschaft und im Handel verwendet.";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "Dezigramm";
+"decigrams.longName" = "Dezigramm";
+"decigrams.detailedIntroduction" = "Das Dezigramm ist eine Masseinheit, die 1/10 Gramm entspricht. Es wird selten verwendet und findet hauptsächlich in der Wissenschaft Anwendung.";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "Zentigramm";
+"centigrams.longName" = "Zentigramm";
+"centigrams.detailedIntroduction" = "Das Zentigramm ist eine Masseinheit, die 1/100 Gramm entspricht. Es wird selten verwendet und findet hauptsächlich in der Wissenschaft Anwendung.";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "Milligramm";
+"milligrams.longName" = "Milligramm";
+"milligrams.detailedIntroduction" = "Das Milligramm ist eine Masseinheit, die 1/1000 Gramm entspricht. Es wird häufig in der Medizin und Wissenschaft verwendet.";
+
+"micrograms.symbol" = "µg";
+"micrograms.shortName" = "Mikrogramm";
+"micrograms.longName" = "Mikrogramm";
+"micrograms.detailedIntroduction" = "Das Mikrogramm ist eine Masseinheit, die 1/1.000.000 Gramm entspricht. Es wird häufig in der Medizin und Wissenschaft verwendet.";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "Nanogramm";
+"nanograms.longName" = "Nanogramm";
+"nanograms.detailedIntroduction" = "Das Nanogramm ist eine Masseinheit, die 1/1.000.000.000 Gramm entspricht. Es wird häufig in der Nanotechnologie und Wissenschaft verwendet.";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "Pikogramm";
+"picograms.longName" = "Pikogramm";
+"picograms.detailedIntroduction" = "Das Pikogramm ist eine Masseinheit, die 1/1.000.000.000.000 Gramm entspricht. Es wird hauptsächlich in der Quantenphysik und Chemie verwendet.";
+
+"stones.symbol" = "st";
+"stones.shortName" = "Stein";
+"stones.longName" = "Stein";
+"stones.detailedIntroduction" = "Der Stein ist eine Masseinheit, die hauptsächlich im Vereinigten Königreich verwendet wird. Ein Stein entspricht 14 Pfund oder etwa 6,35029 Kilogramm.";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "Karat";
+"carats.longName" = "Karat";
+"carats.detailedIntroduction" = "Das Karat ist eine Masseinheit, die zur Messung von Edelsteinen und Perlen verwendet wird. Ein Karat entspricht 0,2 Gramm.";
+
+"ouncesTroy.symbol" = "oz t";
+"ouncesTroy.shortName" = "Troy-Unze";
+"ouncesTroy.longName" = "Troy-Unze";
+"ouncesTroy.detailedIntroduction" = "Die Troy-Unze ist eine Masseinheit, die zur Messung von Edelmetallen verwendet wird. Eine Troy-Unze entspricht etwa 31,1035 Gramm.";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "Slug";
+"slugs.longName" = "Slug";
+"slugs.detailedIntroduction" = "Der Slug ist eine Masseinheit, die hauptsächlich in der Physik verwendet wird. Ein Slug entspricht etwa 14,5939 Kilogramm.";
+
+/* Volume */
+"liters.symbol" = "L";
+"liters.shortName" = "Liter";
+"liters.longName" = "Liter";
+"liters.detailedIntroduction" = "Der Liter ist eine Volumeneinheit, die im metrischen System verwendet wird. Ein Liter entspricht einem Kubikdezimeter.";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "Quart";
+"quarts.longName" = "Quart";
+"quarts.detailedIntroduction" = "Das Quart ist eine Volumeneinheit, die hauptsächlich in den USA verwendet wird. Ein Quart entspricht etwa 0,946353 Litern.";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "Kubikmeter";
+"cubicMeters.longName" = "Kubikmeter";
+"cubicMeters.detailedIntroduction" = "Der Kubikmeter ist eine Volumeneinheit im internationalen Einheitensystem (SI). Ein Kubikmeter entspricht 1.000 Litern.";
+
+"cubicCentimeters.symbol" = "cm³";
+"cubicCentimeters.shortName" = "Kubikzentimeter";
+"cubicCentimeters.longName" = "Kubikzentimeter";
+"cubicCentimeters.detailedIntroduction" = "Der Kubikzentimeter ist eine Volumeneinheit im metrischen System. Ein Kubikzentimeter entspricht 1/1.000.000 Kubikmeter oder einem Milliliter.";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "Gallone";
+"gallons.longName" = "Gallone";
+"gallons.detailedIntroduction" = "Die Gallone ist eine Volumeneinheit, die hauptsächlich in den USA verwendet wird. Eine Gallone entspricht etwa 3,78541 Litern.";
+
+"megaliters.symbol" = "ML";
+"megaliters.shortName" = "Megaliter";
+"megaliters.longName" = "Megaliter";
+"megaliters.detailedIntroduction" = "Der Megaliter ist eine Volumeneinheit im metrischen System. Ein Megaliter entspricht einer Million Litern.";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "Kiloliter";
+"kiloliters.longName" = "Kiloliter";
+"kiloliters.detailedIntroduction" = "Der Kiloliter ist eine Volumeneinheit im metrischen System. Ein Kiloliter entspricht 1.000 Litern.";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "Deziliter";
+"deciliters.longName" = "Deziliter";
+"deciliters.detailedIntroduction" = "Der Deziliter ist eine Volumeneinheit im metrischen System. Ein Deziliter entspricht 0,1 Litern.";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "Zentiliter";
+"centiliters.longName" = "Zentiliter";
+"centiliters.detailedIntroduction" = "Der Zentiliter ist eine Volumeneinheit im metrischen System. Ein Zentiliter entspricht 0,01 Litern.";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "Milliliter";
+"milliliters.longName" = "Milliliter";
+"milliliters.detailedIntroduction" = "Der Milliliter ist eine Volumeneinheit im metrischen System. Ein Milliliter entspricht 1/1.000 Litern.";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "Kubikkilometer";
+"cubicKilometers.longName" = "Kubikkilometer";
+"cubicKilometers.detailedIntroduction" = "Der Kubikkilometer ist eine Volumeneinheit im metrischen System. Ein Kubikkilometer entspricht 1.000.000.000 Kubikmeter.";
+
+"cubicDecimeters.symbol" = "dm³";
+"cubicDecimeters.shortName" = "Kubikdezimeter";
+"cubicDecimeters.longName" = "Kubikdezimeter";
+"cubicDecimeters.detailedIntroduction" = "Der Kubikdezimeter ist eine Volumeneinheit im metrischen System. Ein Kubikdezimeter entspricht einem Liter.";
+
+"cubicMillimeters.symbol" = "mm³";
+"cubicMillimeters.shortName" = "Kubikmillimeter";
+"cubicMillimeters.longName" = "Kubikmillimeter";
+"cubicMillimeters.detailedIntroduction" = "Der Kubikmillimeter ist eine Volumeneinheit im metrischen System. Ein Kubikmillimeter entspricht 1/1.000.000.000 Kubikmeter.";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "Kubikzoll";
+"cubicInches.longName" = "Kubikzoll";
+"cubicInches.detailedIntroduction" = "Der Kubikzoll ist eine Volumeneinheit im angelsächsischen Maßsystem. Ein Kubikzoll entspricht etwa 16,3871 Kubikzentimeter.";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "Kubikfuß";
+"cubicFeet.longName" = "Kubikfuß";
+"cubicFeet.detailedIntroduction" = "Der Kubikfuß ist eine Volumeneinheit im angelsächsischen Maßsystem. Ein Kubikfuß entspricht etwa 28,3168 Litern.";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "Kubikyard";
+"cubicYards.longName" = "Kubikyard";
+"cubicYards.detailedIntroduction" = "Der Kubikyard ist eine Volumeneinheit im angelsächsischen Maßsystem. Ein Kubikyard entspricht etwa 764,555 Liter.";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "Kubikmeile";
+"cubicMiles.longName" = "Kubikmeile";
+"cubicMiles.detailedIntroduction" = "Die Kubikmeile ist eine Volumeneinheit im angelsächsischen Maßsystem. Eine Kubikmeile entspricht etwa 4.168.181.825.440 Liter.";
+
+"acreFeet.symbol" = "af";
+"acreFeet.shortName" = "Acre-Fuß";
+"acreFeet.longName" = "Acre-Fuß";
+"acreFeet.detailedIntroduction" = "Der Acre-Fuß ist eine Volumeneinheit, die in der Landwirtschaft verwendet wird. Ein Acre-Fuß entspricht etwa 1.233,48 Kubikmeter.";
+
+"bushels.symbol" = "bu";
+"bushels.shortName" = "Scheffel";
+"bushels.longName" = "Scheffel";
+"bushels.detailedIntroduction" = "Der Scheffel ist eine Volumeneinheit, die hauptsächlich in der Landwirtschaft verwendet wird. Ein Scheffel entspricht etwa 35,2391 Liter.";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "Teelöffel";
+"teaspoons.longName" = "Teelöffel";
+"teaspoons.detailedIntroduction" = "Der Teelöffel ist eine Volumeneinheit, die hauptsächlich beim Kochen verwendet wird. Ein Teelöffel entspricht etwa 4,92892 Milliliter.";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "Esslöffel";
+"tablespoons.longName" = "Esslöffel";
+"tablespoons.detailedIntroduction" = "Der Esslöffel ist eine Volumeneinheit, die hauptsächlich beim Kochen verwendet wird. Ein Esslöffel entspricht etwa 14,7868 Milliliter.";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "Flüssigunze";
+"fluidOunces.longName" = "Flüssigunze";
+"fluidOunces.detailedIntroduction" = "Die Flüssigunze ist eine Volumeneinheit, die hauptsächlich in den USA verwendet wird. Eine Flüssigunze entspricht etwa 29,5735 Milliliter.";
+
+"cups.symbol" = "c";
+"cups.shortName" = "Tasse";
+"cups.longName" = "Tasse";
+"cups.detailedIntroduction" = "Die Tasse ist eine Volumeneinheit, die hauptsächlich beim Kochen verwendet wird. Eine Tasse entspricht etwa 240 Milliliter.";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "Pint";
+"pints.longName" = "Pint";
+"pints.detailedIntroduction" = "Das Pint ist eine Volumeneinheit, die hauptsächlich in den USA verwendet wird. Ein Pint entspricht etwa 473,176 Milliliter.";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "Imperial Teelöffel";
+"imperialTeaspoons.longName" = "Imperial Teelöffel";
+"imperialTeaspoons.detailedIntroduction" = "Der Imperial Teelöffel ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Ein Imperial Teelöffel entspricht etwa 5,91939 Milliliter.";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "Imperial Esslöffel";
+"imperialTablespoons.longName" = "Imperial Esslöffel";
+"imperialTablespoons.detailedIntroduction" = "Der Imperial Esslöffel ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Ein Imperial Esslöffel entspricht etwa 17,7582 Milliliter.";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "Imperial Flüssigunze";
+"imperialFluidOunces.longName" = "Imperial Flüssigunze";
+"imperialFluidOunces.detailedIntroduction" = "Die Imperial Flüssigunze ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Eine Imperial Flüssigunze entspricht etwa 28,4131 Milliliter.";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "Imperial Pint";
+"imperialPints.longName" = "Imperial Pint";
+"imperialPints.detailedIntroduction" = "Das Imperial Pint ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Ein Imperial Pint entspricht etwa 568,261 Milliliter.";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "Imperial Quart";
+"imperialQuarts.longName" = "Imperial Quart";
+"imperialQuarts.detailedIntroduction" = "Das Imperial Quart ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Ein Imperial Quart entspricht etwa 1,13652 Liter.";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "Imperial Gallone";
+"imperialGallons.longName" = "Imperial Gallone";
+"imperialGallons.detailedIntroduction" = "Die Imperial Gallone ist eine Volumeneinheit, die im Vereinigten Königreich verwendet wird. Eine Imperial Gallone entspricht etwa 4,54609 Liter.";
+
+"metricCups.symbol" = "metric cup";
+"metricCups.shortName" = "Metrische Tasse";
+"metricCups.longName" = "Metrische Tasse";
+"metricCups.detailedIntroduction" = "Die metrische Tasse ist eine Volumeneinheit, die im metrischen System verwendet wird. Eine metrische Tasse entspricht 250 Milliliter.";
+
+/* Acceleration */
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "Meter pro Quadratsekunde";
+"metersPerSecondSquared.longName" = "Meter pro Quadratsekunde";
+"metersPerSecondSquared.detailedIntroduction" = "Meter pro Quadratsekunde ist die Basiseinheit der Beschleunigung im internationalen Einheitensystem (SI). Es misst die Änderung der Geschwindigkeit pro Sekunde.";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "Gravitation";
+"gravity.longName" = "Gravitation";
+"gravity.detailedIntroduction" = "Die Gravitation ist eine Beschleunigungseinheit, die die Schwerkraft der Erde misst. Ein g entspricht etwa 9,80665 Meter pro Quadratsekunde.";
+
+/* Power */
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "Terawatt";
+"terawatts.longName" = "Terawatt";
+"terawatts.detailedIntroduction" = "Der Terawatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Terawatt entspricht 1.000.000.000.000 Watt.";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "Gigawatt";
+"gigawatts.longName" = "Gigawatt";
+"gigawatts.detailedIntroduction" = "Der Gigawatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Gigawatt entspricht 1.000.000.000 Watt.";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "Megawatt";
+"megawatts.longName" = "Megawatt";
+"megawatts.detailedIntroduction" = "Der Megawatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Megawatt entspricht 1.000.000 Watt.";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "Kilowatt";
+"kilowatts.longName" = "Kilowatt";
+"kilowatts.detailedIntroduction" = "Der Kilowatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Kilowatt entspricht 1.000 Watt.";
+
+"watts.symbol" = "W";
+"watts.shortName" = "Watt";
+"watts.longName" = "Watt";
+"watts.detailedIntroduction" = "Der Watt ist die Basiseinheit der Leistung im internationalen Einheitensystem (SI). Ein Watt ist definiert als ein Joule pro Sekunde.";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "Milliwatt";
+"milliwatts.longName" = "Milliwatt";
+"milliwatts.detailedIntroduction" = "Der Milliwatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Milliwatt entspricht 1/1.000 Watt.";
+
+"microwatts.symbol" = "µW";
+"microwatts.shortName" = "Mikrowatt";
+"microwatts.longName" = "Mikrowatt";
+"microwatts.detailedIntroduction" = "Der Mikrowatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Mikrowatt entspricht 1/1.000.000 Watt.";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "Nanowatt";
+"nanowatts.longName" = "Nanowatt";
+"nanowatts.detailedIntroduction" = "Der Nanowatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Nanowatt entspricht 1/1.000.000.000 Watt.";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "Pikowatt";
+"picowatts.longName" = "Pikowatt";
+"picowatts.detailedIntroduction" = "Der Pikowatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Pikowatt entspricht 1/1.000.000.000.000 Watt.";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "Femtowatt";
+"femtowatts.longName" = "Femtowatt";
+"femtowatts.detailedIntroduction" = "Der Femtowatt ist eine Leistungseinheit im internationalen Einheitensystem (SI). Ein Femtowatt entspricht 1/1.000.000.000.000.000 Watt.";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "Pferdestärke";
+"horsepower.longName" = "Pferdestärke";
+"horsepower.detailedIntroduction" = "Die Pferdestärke ist eine Leistungseinheit, die hauptsächlich zur Messung der Leistung von Motoren verwendet wird. Eine Pferdestärke entspricht etwa 745,7 Watt.";
+
+/* Angle */
+"degrees.symbol" = "°";
+"degrees.shortName" = "Grad";
+"degrees.longName" = "Grad";
+"degrees.detailedIntroduction" = "Der Grad ist eine Winkeleinheit, die eine Drehung von 1/360 eines Vollkreises misst. Es wird häufig in der Geometrie und Navigation verwendet.";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "Bogenminute";
+"arcMinutes.longName" = "Bogenminute";
+"arcMinutes.detailedIntroduction" = "Die Bogenminute ist eine Winkeleinheit, die 1/60 eines Grades misst. Es wird häufig in der Astronomie und Navigation verwendet.";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "Bogensekunde";
+"arcSeconds.longName" = "Bogensekunde";
+"arcSeconds.detailedIntroduction" = "Die Bogensekunde ist eine Winkeleinheit, die 1/60 einer Bogenminute misst. Es wird häufig in der Astronomie und Navigation verwendet.";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "Radiant";
+"radians.longName" = "Radiant";
+"radians.detailedIntroduction" = "Der Radiant ist die Basiseinheit des Winkels im internationalen Einheitensystem (SI). Ein Radiant ist der Winkel, der durch einen Bogen erzeugt wird, dessen Länge dem Radius des Kreises entspricht.";
+
+"gradians.symbol" = "gon";
+"gradians.shortName" = "Gon";
+"gradians.longName" = "Gon";
+"gradians.detailedIntroduction" = "Das Gon ist eine Winkeleinheit, die 1/400 eines Vollkreises misst. Es wird hauptsächlich in der Vermessung und Kartographie verwendet.";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "Umdrehung";
+"revolutions.longName" = "Umdrehung";
+"revolutions.detailedIntroduction" = "Die Umdrehung ist eine Winkeleinheit, die eine vollständige Drehung um 360 Grad misst. Es wird häufig in der Mechanik und Physik verwendet.";
+
+/* Angular Velocity */
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "Radiant pro Sekunde";
+"radiansPerSecond.longName" = "Radiant pro Sekunde";
+"radiansPerSecond.detailedIntroduction" = "Radiant pro Sekunde ist die Basiseinheit der Winkelgeschwindigkeit im internationalen Einheitensystem (SI). Es misst die Änderung des Winkels pro Sekunde.";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "Grad pro Sekunde";
+"degreesPerSecond.longName" = "Grad pro Sekunde";
+"degreesPerSecond.detailedIntroduction" = "Grad pro Sekunde ist eine Winkelgeschwindigkeitseinheit, die die Änderung des Winkels in Grad pro Sekunde misst. Es wird häufig in der Mechanik und Physik verwendet.";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "Umdrehungen pro Minute";
+"revolutionsPerMinute.longName" = "Umdrehungen pro Minute";
+"revolutionsPerMinute.detailedIntroduction" = "Umdrehungen pro Minute ist eine Winkelgeschwindigkeitseinheit, die die Anzahl der vollständigen Umdrehungen pro Minute misst. Es wird häufig zur Messung der Drehzahl von Motoren verwendet.";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "Umdrehungen pro Sekunde";
+"revolutionsPerSecond.longName" = "Umdrehungen pro Sekunde";
+"revolutionsPerSecond.detailedIntroduction" = "Umdrehungen pro Sekunde ist eine Winkelgeschwindigkeitseinheit, die die Anzahl der vollständigen Umdrehungen pro Sekunde misst. Es wird häufig in der Mechanik und Physik verwendet.";
+
+/* Area */
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "Quadratmegameter";
+"squareMegameters.longName" = "Quadratmegameter";
+"squareMegameters.detailedIntroduction" = "Der Quadratmegameter ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratmegameter entspricht 1.000.000.000.000 Quadratmeter.";
+
+"squareKilometers.symbol" = "km²";
+"squareKilometers.shortName" = "Quadratkilometer";
+"squareKilometers.longName" = "Quadratkilometer";
+"squareKilometers.detailedIntroduction" = "Der Quadratkilometer ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratkilometer entspricht 1.000.000 Quadratmeter.";
+
+"squareMeters.symbol" = "m²";
+"squareMeters.shortName" = "Quadratmeter";
+"squareMeters.longName" = "Quadratmeter";
+"squareMeters.detailedIntroduction" = "Der Quadratmeter ist die Basiseinheit der Fläche im internationalen Einheitensystem (SI). Ein Quadratmeter ist definiert als die Fläche eines Quadrats mit einer Seitenlänge von einem Meter.";
+
+"squareCentimeters.symbol" = "cm²";
+"squareCentimeters.shortName" = "Quadratzentimeter";
+"squareCentimeters.longName" = "Quadratzentimeter";
+"squareCentimeters.detailedIntroduction" = "Der Quadratzentimeter ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratzentimeter entspricht 1/10.000 Quadratmeter.";
+
+"squareMillimeters.symbol" = "mm²";
+"squareMillimeters.shortName" = "Quadratmillimeter";
+"squareMillimeters.longName" = "Quadratmillimeter";
+"squareMillimeters.detailedIntroduction" = "Der Quadratmillimeter ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratmillimeter entspricht 1/1.000.000 Quadratmeter.";
+
+"squareMicrometers.symbol" = "µm²";
+"squareMicrometers.shortName" = "Quadratmikrometer";
+"squareMicrometers.longName" = "Quadratmikrometer";
+"squareMicrometers.detailedIntroduction" = "Der Quadratmikrometer ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratmikrometer entspricht 1/1.000.000.000.000 Quadratmeter.";
+
+"squareNanometers.symbol" = "nm²";
+"squareNanometers.shortName" = "Quadratnanometer";
+"squareNanometers.longName" = "Quadratnanometer";
+"squareNanometers.detailedIntroduction" = "Der Quadratnanometer ist eine Flächeneinheit im internationalen Einheitensystem (SI). Ein Quadratnanometer entspricht 1/1.000.000.000.000.000 Quadratmeter.";
+
+"squareInches.symbol" = "in²";
+"squareInches.shortName" = "Quadratzoll";
+"squareInches.longName" = "Quadratzoll";
+"squareInches.detailedIntroduction" = "Der Quadratzoll ist eine Flächeneinheit im angelsächsischen Maßsystem. Ein Quadratzoll entspricht etwa 6,4516 Quadratzentimeter.";
+
+"squareFeet.symbol" = "ft²";
+"squareFeet.shortName" = "Quadratfuß";
+"squareFeet.longName" = "Quadratfuß";
+"squareFeet.detailedIntroduction" = "Der Quadratfuß ist eine Flächeneinheit im angelsächsischen Maßsystem. Ein Quadratfuß entspricht etwa 0,092903 Quadratmeter.";
+
+"squareYards.symbol" = "yd²";
+"squareYards.shortName" = "Quadratyard";
+"squareYards.longName" = "Quadratyard";
+"squareYards.detailedIntroduction" = "Der Quadratyard ist eine Flächeneinheit im angelsächsischen Maßsystem. Ein Quadratyard entspricht etwa 0,836127 Quadratmeter.";
+
+"squareMiles.symbol" = "mi²";
+"squareMiles.shortName" = "Quadratmeile";
+"squareMiles.longName" = "Quadratmeile";
+"squareMiles.detailedIntroduction" = "Die Quadratmeile ist eine Flächeneinheit im angelsächsischen Maßsystem. Eine Quadratmeile entspricht etwa 2.589.988,11 Quadratmeter.";
+
+"acres.symbol" = "ac";
+"acres.shortName" = "Acre";
+"acres.longName" = "Acre";
+"acres.detailedIntroduction" = "Der Acre ist eine Flächeneinheit, die hauptsächlich in der Landwirtschaft verwendet wird. Ein Acre entspricht etwa 4.046,856 Quadratmeter.";
+
+"ares.symbol" = "a";
+"ares.shortName" = "Ar";
+"ares.longName" = "Ar";
+"ares.detailedIntroduction" = "Der Ar ist eine Flächeneinheit im metrischen System. Ein Ar entspricht 100 Quadratmeter.";
+
+"hectares.symbol" = "ha";
+"hectares.shortName" = "Hektar";
+"hectares.longName" = "Hektar";
+"hectares.detailedIntroduction" = "Der Hektar ist eine Flächeneinheit im metrischen System. Ein Hektar entspricht 10.000 Quadratmeter.";
+
+/* Concentration */
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "Gramm pro Liter";
+"gramsPerLiter.longName" = "Gramm pro Liter";
+"gramsPerLiter.detailedIntroduction" = "Gramm pro Liter ist eine Konzentrationseinheit, die die Menge eines Stoffes in einem Liter Lösung misst. Es wird häufig in der Chemie und Medizin verwendet.";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "Milligramm pro Deziliter";
+"milligramsPerDeciliter.longName" = "Milligramm pro Deziliter";
+"milligramsPerDeciliter.detailedIntroduction" = "Milligramm pro Deziliter ist eine Konzentrationseinheit, die die Menge eines Stoffes in einem Deziliter Lösung misst. Es wird häufig in der Medizin verwendet.";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "Teile pro Million";
+"partsPerMillion.longName" = "Teile pro Million";
+"partsPerMillion.detailedIntroduction" = "Teile pro Million ist eine Konzentrationseinheit, die die Anzahl von Teilen eines Stoffes pro Million Teile der Lösung misst. Es wird häufig in der Umweltwissenschaft verwendet.";
+
+/* Time */
+"hours.symbol" = "h";
+"hours.shortName" = "Stunde";
+"hours.longName" = "Stunde";
+"hours.detailedIntroduction" = "Die Stunde ist eine Zeiteinheit, die 60 Minuten oder 3.600 Sekunden entspricht. Es wird häufig in Alltagssituationen verwendet.";
+
+"minutes.symbol" = "min";
+"minutes.shortName" = "Minute";
+"minutes.longName" = "Minute";
+"minutes.detailedIntroduction" = "Die Minute ist eine Zeiteinheit, die 60 Sekunden entspricht. Es wird häufig in Alltagssituationen verwendet.";
+
+"seconds.symbol" = "s";
+"seconds.shortName" = "Sekunde";
+"seconds.longName" = "Sekunde";
+"seconds.detailedIntroduction" = "Die Sekunde ist die Basiseinheit der Zeit im internationalen Einheitensystem (SI). Eine Sekunde ist definiert als die Dauer von 9.192.631.770 Schwingungen der Strahlung, die dem Übergang zwischen zwei Hyperfeinstrukturniveaus des Grundzustands des Cäsium-133-Atoms entspricht.";
+
+"milliseconds.symbol" = "ms";
+"milliseconds.shortName" = "Millisekunde";
+"milliseconds.longName" = "Millisekunde";
+"milliseconds.detailedIntroduction" = "Die Millisekunde ist eine Zeiteinheit, die 1/1.000 Sekunden entspricht. Es wird häufig in der Wissenschaft und Technik verwendet.";
+
+"microseconds.symbol" = "µs";
+"microseconds.shortName" = "Mikrosekunde";
+"microseconds.longName" = "Mikrosekunde";
+"microseconds.detailedIntroduction" = "Die Mikrosekunde ist eine Zeiteinheit, die 1/1.000.000 Sekunden entspricht. Es wird häufig in der Wissenschaft und Technik verwendet.";
+
+"nanoseconds.symbol" = "ns";
+"nanoseconds.shortName" = "Nanosekunde";
+"nanoseconds.longName" = "Nanosekunde";
+"nanoseconds.detailedIntroduction" = "Die Nanosekunde ist eine Zeiteinheit, die 1/1.000.000.000 Sekunden entspricht. Es wird häufig in der Wissenschaft und Technik verwendet.";
+
+"picoseconds.symbol" = "ps";
+"picoseconds.shortName" = "Pikosekunde";
+"picoseconds.longName" = "Pikosekunde";
+"picoseconds.detailedIntroduction" = "Die Pikosekunde ist eine Zeiteinheit, die 1/1.000.000.000.000 Sekunden entspricht. Es wird hauptsächlich in der Quantenphysik und Chemie verwendet.";
+
+"days.symbol" = "d";
+"days.shortName" = "Tag";
+"days.longName" = "Tag";
+"days.detailedIntroduction" = "Der Tag ist eine Zeiteinheit, die 24 Stunden entspricht. Es wird häufig in Alltagssituationen verwendet.";
+
+"weeks.symbol" = "wk";
+"weeks.shortName" = "Woche";
+"weeks.longName" = "Woche";
+"weeks.detailedIntroduction" = "Die Woche ist eine Zeiteinheit, die sieben Tage entspricht. Es wird häufig in Alltagssituationen verwendet.";
+
+"years.symbol" = "yr";
+"years.shortName" = "Jahr";
+"years.longName" = "Jahr";
+"years.detailedIntroduction" = "Das Jahr ist eine Zeiteinheit, die 365 Tage oder 366 Tage in einem Schaltjahr entspricht. Es wird häufig in Alltagssituationen verwendet.";
+
+"decades.symbol" = "dec";
+"decades.shortName" = "Dekade";
+"decades.longName" = "Dekade";
+"decades.detailedIntroduction" = "Die Dekade ist eine Zeiteinheit, die zehn Jahre entspricht. Es wird häufig in historischen und wissenschaftlichen Kontexten verwendet.";
+
+"centuries.symbol" = "cent";
+"centuries.shortName" = "Jahrhundert";
+"centuries.longName" = "Jahrhundert";
+"centuries.detailedIntroduction" = "Das Jahrhundert ist eine Zeiteinheit, die 100 Jahre entspricht. Es wird häufig in historischen und wissenschaftlichen Kontexten verwendet.";
+
+/* Electric Charge Capacity */
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "Mega-Ampere-Stunden";
+"megaampereHours.longName" = "Mega-Ampere-Stunden";
+"megaampereHours.detailedIntroduction" = "Mega-Ampere-Stunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Batterieindustrie verwendet wird. Ein Mega-Ampere-Stunde entspricht 1.000.000 Ampere-Stunden.";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "Kilo-Ampere-Stunden";
+"kiloampereHours.longName" = "Kilo-Ampere-Stunden";
+"kiloampereHours.detailedIntroduction" = "Kilo-Ampere-Stunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Batterieindustrie verwendet wird. Ein Kilo-Ampere-Stunde entspricht 1.000 Ampere-Stunden.";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "Ampere-Stunden";
+"ampereHours.longName" = "Ampere-Stunden";
+"ampereHours.detailedIntroduction" = "Ampere-Stunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Batterieindustrie verwendet wird. Eine Ampere-Stunde entspricht 3.600 Coulomb.";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "Milli-Ampere-Stunden";
+"milliampereHours.longName" = "Milli-Ampere-Stunden";
+"milliampereHours.detailedIntroduction" = "Milli-Ampere-Stunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Batterieindustrie verwendet wird. Eine Milli-Ampere-Stunde entspricht 3,6 Coulomb.";
+
+"microampereHours.symbol" = "µAh";
+"microampereHours.shortName" = "Mikro-Ampere-Stunden";
+"microampereHours.longName" = "Mikro-Ampere-Stunden";
+"microampereHours.detailedIntroduction" = "Mikro-Ampere-Stunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Batterieindustrie verwendet wird. Eine Mikro-Ampere-Stunde entspricht 0,0036 Coulomb.";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "Ampere-Sekunden";
+"ampereSeconds.longName" = "Ampere-Sekunden";
+"ampereSeconds.detailedIntroduction" = "Ampere-Sekunden ist eine Einheit der elektrischen Ladungskapazität, die hauptsächlich in der Elektrotechnik verwendet wird. Eine Ampere-Sekunde entspricht einem Coulomb.";
+
+/* Electric Current */
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "Mega-Ampere";
+"megaamperes.longName" = "Mega-Ampere";
+"megaamperes.detailedIntroduction" = "Mega-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Mega-Ampere entspricht 1.000.000 Ampere.";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "Kilo-Ampere";
+"kiloamperes.longName" = "Kilo-Ampere";
+"kiloamperes.detailedIntroduction" = "Kilo-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Kilo-Ampere entspricht 1.000 Ampere.";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "Ampere";
+"amperes.longName" = "Ampere";
+"amperes.detailedIntroduction" = "Das Ampere ist die Basiseinheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Ampere ist definiert als der Strom, der durch zwei parallele Leiter fließt, die einen Meter voneinander entfernt sind und eine Kraft von 2 × 10^(-7) Newton pro Meter erzeugen.";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "Milli-Ampere";
+"milliamperes.longName" = "Milli-Ampere";
+"milliamperes.detailedIntroduction" = "Milli-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Milli-Ampere entspricht 1/1.000 Ampere.";
+
+"microamperes.symbol" = "µA";
+"microamperes.shortName" = "Mikro-Ampere";
+"microamperes.longName" = "Mikro-Ampere";
+"microamperes.detailedIntroduction" = "Mikro-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Mikro-Ampere entspricht 1/1.000.000 Ampere.";
+
+"nanoamperes.symbol" = "nA";
+"nanoamperes.shortName" = "Nano-Ampere";
+"nanoamperes.longName" = "Nano-Ampere";
+"nanoamperes.detailedIntroduction" = "Nano-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Nano-Ampere entspricht 1/1.000.000.000 Ampere.";
+
+"picoamperes.symbol" = "pA";
+"picoamperes.shortName" = "Piko-Ampere";
+"picoamperes.longName" = "Piko-Ampere";
+"picoamperes.detailedIntroduction" = "Piko-Ampere ist eine Einheit der elektrischen Stromstärke im internationalen Einheitensystem (SI). Ein Piko-Ampere entspricht 1/1.000.000.000.000 Ampere.";
+
+/* Electric Potential */
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "Megavolt";
+"megavolts.longName" = "Megavolt";
+"megavolts.detailedIntroduction" = "Der Megavolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Megavolt entspricht 1.000.000 Volt.";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "Kilovolt";
+"kilovolts.longName" = "Kilovolt";
+"kilovolts.detailedIntroduction" = "Der Kilovolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Kilovolt entspricht 1.000 Volt.";
+
+"volts.symbol" = "V";
+"volts.shortName" = "Volt";
+"volts.longName" = "Volt";
+"volts.detailedIntroduction" = "Der Volt ist die Basiseinheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Volt ist definiert als die Potenzialdifferenz zwischen zwei Punkten eines Leiters, in dem ein Strom von einem Ampere bei einer Leistung von einem Watt fließt.";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "Millivolt";
+"millivolts.longName" = "Millivolt";
+"millivolts.detailedIntroduction" = "Der Millivolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Millivolt entspricht 1/1.000 Volt.";
+
+"microvolts.symbol" = "µV";
+"microvolts.shortName" = "Mikrovolt";
+"microvolts.longName" = "Mikrovolt";
+"microvolts.detailedIntroduction" = "Der Mikrovolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Mikrovolt entspricht 1/1.000.000 Volt.";
+
+"nanovolts.symbol" = "nV";
+"nanovolts.shortName" = "Nanovolt";
+"nanovolts.longName" = "Nanovolt";
+"nanovolts.detailedIntroduction" = "Der Nanovolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Nanovolt entspricht 1/1.000.000.000 Volt.";
+
+"picovolts.symbol" = "pV";
+"picovolts.shortName" = "Pikovolt";
+"picovolts.longName" = "Pikovolt";
+"picovolts.detailedIntroduction" = "Der Pikovolt ist eine Einheit des elektrischen Potenzials im internationalen Einheitensystem (SI). Ein Pikovolt entspricht 1/1.000.000.000.000 Volt.";
+
+/* Electric Resistance */
+"megohms.symbol" = "MΩ";
+"megohms.shortName" = "Megohm";
+"megohms.longName" = "Megohm";
+"megohms.detailedIntroduction" = "Der Megohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Megohm entspricht 1.000.000 Ohm.";
+
+"kilohms.symbol" = "kΩ";
+"kilohms.shortName" = "Kilohm";
+"kilohms.longName" = "Kilohm";
+"kilohms.detailedIntroduction" = "Der Kilohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Kilohm entspricht 1.000 Ohm.";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "Ohm";
+"ohms.longName" = "Ohm";
+"ohms.detailedIntroduction" = "Der Ohm ist die Basiseinheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Ohm ist definiert als der Widerstand eines elektrischen Leiters, in dem eine Spannung von einem Volt einen Strom von einem Ampere erzeugt.";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "Milliohm";
+"milliohms.longName" = "Milliohm";
+"milliohms.detailedIntroduction" = "Der Milliohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Milliohm entspricht 1/1.000 Ohm.";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "Mikroohm";
+"microohms.longName" = "Mikroohm";
+"microohms.detailedIntroduction" = "Der Mikroohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Mikroohm entspricht 1/1.000.000 Ohm.";
+
+"nanoohms.symbol" = "nΩ";
+"nanoohms.shortName" = "Nanoohm";
+"nanoohms.longName" = "Nanoohm";
+"nanoohms.detailedIntroduction" = "Der Nanoohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Nanoohm entspricht 1/1.000.000.000 Ohm.";
+
+"picoohms.symbol" = "pΩ";
+"picoohms.shortName" = "Pikoohm";
+"picoohms.longName" = "Pikoohm";
+"picoohms.detailedIntroduction" = "Der Pikoohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Pikoohm entspricht 1/1.000.000.000.000 Ohm.";
+
+/* Energy */
+"gigajoules.symbol" = "GJ";
+"gigajoules.shortName" = "Gigajoule";
+"gigajoules.longName" = "Gigajoule";
+"gigajoules.detailedIntroduction" = "Der Gigajoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Gigajoule entspricht 1.000.000.000 Joule.";
+
+"megajoules.symbol" = "MJ";
+"megajoules.shortName" = "Megajoule";
+"megajoules.longName" = "Megajoule";
+"megajoules.detailedIntroduction" = "Der Megajoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Megajoule entspricht 1.000.000 Joule.";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "Kilojoule";
+"kilojoules.longName" = "Kilojoule";
+"kilojoules.detailedIntroduction" = "Der Kilojoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Kilojoule entspricht 1.000 Joule.";
+
+"joules.symbol" = "J";
+"joules.shortName" = "Joule";
+"joules.longName" = "Joule";
+"joules.detailedIntroduction" = "Das Joule ist die Basiseinheit der Energie im internationalen Einheitensystem (SI). Ein Joule ist definiert als die Arbeit, die erforderlich ist, um einen Körper mit einer Kraft von einem Newton um einen Meter zu bewegen.";
+
+"millijoules.symbol" = "mJ";
+"millijoules.shortName" = "Millijoule";
+"millijoules.longName" = "Millijoule";
+"millijoules.detailedIntroduction" = "Der Millijoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Millijoule entspricht 1/1.000 Joule.";
+
+"microjoules.symbol" = "µJ";
+"microjoules.shortName" = "Mikrojoule";
+"microjoules.longName" = "Mikrojoule";
+"microjoules.detailedIntroduction" = "Der Mikrojoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Mikrojoule entspricht 1/1.000.000 Joule.";
+
+"nanojoules.symbol" = "nJ";
+"nanojoules.shortName" = "Nanojoule";
+"nanojoules.longName" = "Nanojoule";
+"nanojoules.detailedIntroduction" = "Der Nanojoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Nanojoule entspricht 1/1.000.000.000 Joule.";
+
+"picojoules.symbol" = "pJ";
+"picojoules.shortName" = "Pikojoule";
+"picojoules.longName" = "Pikojoule";
+"picojoules.detailedIntroduction" = "Der Pikojoule ist eine Einheit der Energie im internationalen Einheitensystem (SI). Ein Pikojoule entspricht 1/1.000.000.000.000 Joule.";
+
+"teracalories.symbol" = "Tcal";
+"teracalories.shortName" = "Terakalorie";
+"teracalories.longName" = "Terakalorie";
+"teracalories.detailedIntroduction" = "Die Terakalorie ist eine Einheit der Energie, die hauptsächlich in der Lebensmittelindustrie verwendet wird. Eine Terakalorie entspricht 1.000.000.000.000 Kalorien.";
+
+"gigacalories.symbol" = "Gcal";
+"gigacalories.shortName" = "Gigakalorie";
+"gigacalories.longName" = "Gigakalorie";
+"gigacalories.detailedIntroduction" = "Die Gigakalorie ist eine Einheit der Energie, die hauptsächlich in der Lebensmittelindustrie verwendet wird. Eine Gigakalorie entspricht 1.000.000.000 Kalorien.";
+
+"megacalories.symbol" = "Mcal";
+"megacalories.shortName" = "Megakalorie";
+"megacalories.longName" = "Megakalorie";
+"megacalories.detailedIntroduction" = "Die Megakalorie ist eine Einheit der Energie, die hauptsächlich in der Lebensmittelindustrie verwendet wird. Eine Megakalorie entspricht 1.000.000 Kalorien.";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "Kilokalorie";
+"kilocalories.longName" = "Kilokalorie";
+"kilocalories.detailedIntroduction" = "Die Kilokalorie ist eine Einheit der Energie, die hauptsächlich in der Lebensmittelindustrie verwendet wird. Eine Kilokalorie entspricht 1.000 Kalorien.";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "Kalorie";
+"calories.longName" = "Kalorie";
+"calories.detailedIntroduction" = "Die Kalorie ist eine Einheit der Energie, die hauptsächlich in der Lebensmittelindustrie verwendet wird. Eine Kalorie ist definiert als die Menge an Energie, die benötigt wird, um die Temperatur von einem Gramm Wasser um ein Grad Celsius zu erhöhen.";
+
+/* Frequency */
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "Terahertz";
+"terahertz.longName" = "Terahertz";
+"terahertz.detailedIntroduction" = "Der Terahertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Terahertz entspricht 1.000.000.000.000 Hertz.";
+
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "Gigahertz";
+"gigahertz.longName" = "Gigahertz";
+"gigahertz.detailedIntroduction" = "Der Gigahertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Gigahertz entspricht 1.000.000.000 Hertz.";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "Megahertz";
+"megahertz.longName" = "Megahertz";
+"megahertz.detailedIntroduction" = "Der Megahertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Megahertz entspricht 1.000.000 Hertz.";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "Kilohertz";
+"kilohertz.longName" = "Kilohertz";
+"kilohertz.detailedIntroduction" = "Der Kilohertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Kilohertz entspricht 1.000 Hertz.";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "Hertz";
+"hertz.longName" = "Hertz";
+"hertz.detailedIntroduction" = "Der Hertz ist die Basiseinheit der Frequenz im internationalen Einheitensystem (SI). Ein Hertz ist definiert als ein Ereignis pro Sekunde.";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "Millihertz";
+"millihertz.longName" = "Millihertz";
+"millihertz.detailedIntroduction" = "Der Millihertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Millihertz entspricht 1/1.000 Hertz.";
+
+"microhertz.symbol" = "µHz";
+"microhertz.shortName" = "Mikrohertz";
+"microhertz.longName" = "Mikrohertz";
+"microhertz.detailedIntroduction" = "Der Mikrohertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Mikrohertz entspricht 1/1.000.000 Hertz.";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "Nanohertz";
+"nanohertz.longName" = "Nanohertz";
+"nanohertz.detailedIntroduction" = "Der Nanohertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Nanohertz entspricht 1/1.000.000.000 Hertz.";
+
+"picohertz.symbol" = "pHz";
+"picohertz.shortName" = "Pikohertz";
+"picohertz.longName" = "Pikohertz";
+"picohertz.detailedIntroduction" = "Der Pikohertz ist eine Einheit der Frequenz im internationalen Einheitensystem (SI). Ein Pikohertz entspricht 1/1.000.000.000.000 Hertz.";
+
+/* Fuel Efficiency */
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "Meilen pro Gallone";
+"milesPerGallon.longName" = "Meilen pro Gallone";
+"milesPerGallon.detailedIntroduction" = "Meilen pro Gallone ist eine Einheit der Kraftstoffeffizienz, die hauptsächlich in den USA verwendet wird. Es misst die Anzahl der Meilen, die ein Fahrzeug mit einer Gallone Kraftstoff fahren kann.";
+
+"kilometersPerLiter.symbol" = "km/L";
+"kilometersPerLiter.shortName" = "Kilometer pro Liter";
+"kilometersPerLiter.longName" = "Kilometer pro Liter";
+"kilometersPerLiter.detailedIntroduction" = "Kilometer pro Liter ist eine Einheit der Kraftstoffeffizienz, die die Anzahl der Kilometer misst, die ein Fahrzeug mit einem Liter Kraftstoff fahren kann.";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "Liter pro 100 Kilometer";
+"litersPer100Kilometers.longName" = "Liter pro 100 Kilometer";
+"litersPer100Kilometers.detailedIntroduction" = "Liter pro 100 Kilometer ist eine Einheit der Kraftstoffeffizienz, die die Menge an Kraftstoff misst, die ein Fahrzeug benötigt, um 100 Kilometer zu fahren.";
+
+/* Data */
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "Petabyte";
+"petabytes.longName" = "Petabyte";
+"petabytes.detailedIntroduction" = "Das Petabyte ist eine Einheit der Datenmenge, die 1.000 Terabyte entspricht. Es wird häufig zur Messung großer Datenmengen in Rechenzentren verwendet.";
+
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "Terabyte";
+"terabytes.longName" = "Terabyte";
+"terabytes.detailedIntroduction" = "Das Terabyte ist eine Einheit der Datenmenge, die 1.000 Gigabyte entspricht. Es wird häufig zur Messung großer Datenmengen in Rechenzentren verwendet.";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "Gigabyte";
+"gigabytes.longName" = "Gigabyte";
+"gigabytes.detailedIntroduction" = "Das Gigabyte ist eine Einheit der Datenmenge, die 1.000 Megabyte entspricht. Es wird häufig zur Messung großer Datenmengen auf Computern und anderen elektronischen Geräten verwendet.";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "Megabyte";
+"megabytes.longName" = "Megabyte";
+"megabytes.detailedIntroduction" = "Das Megabyte ist eine Einheit der Datenmenge, die 1.000 Kilobyte entspricht. Es wird häufig zur Messung von Dateien auf Computern und anderen elektronischen Geräten verwendet.";
+
+"kilobytes.symbol" = "KB";
+"kilobytes.shortName" = "Kilobyte";
+"kilobytes.longName" = "Kilobyte";
+"kilobytes.detailedIntroduction" = "Das Kilobyte ist eine Einheit der Datenmenge, die 1.000 Bytes entspricht. Es wird häufig zur Messung von kleinen Dateien auf Computern und anderen elektronischen Geräten verwendet.";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "Byte";
+"bytes.longName" = "Byte";
+"bytes.detailedIntroduction" = "Das Byte ist die Basiseinheit der Datenmenge im internationalen Einheitensystem (SI). Ein Byte ist definiert als eine Folge von 8 Bits, die die kleinste adressierbare Einheit der Information in einem Computer darstellen.";
+
+"bits.symbol" = "b";
+"bits.shortName" = "Bit";
+"bits.longName" = "Bit";
+"bits.detailedIntroduction" = "Das Bit ist die Basiseinheit der Information im internationalen Einheitensystem (SI). Ein Bit ist definiert als die kleinste Einheit der Information, die nur einen von zwei möglichen Zuständen darstellen kann.";
+
+/* Distance */
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "Lichtjahr";
+"lightyears.longName" = "Lichtjahr";
+"lightyears.detailedIntroduction" = "Das Lichtjahr ist eine Längeneinheit, die die Entfernung misst, die Licht in einem Jahr im Vakuum zurücklegt. Ein Lichtjahr entspricht etwa 9,461 Billionen Kilometern.";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "Parsec";
+"parsecs.longName" = "Parsec";
+"parsecs.detailedIntroduction" = "Das Parsec ist eine Längeneinheit, die in der Astronomie verwendet wird, um große Entfernungen zu messen. Ein Parsec entspricht etwa 3,26 Lichtjahren.";
+
+/* Volume */
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "Kubikfuß";
+"cubicFeet.longName" = "Kubikfuß";
+"cubicFeet.detailedIntroduction" = "Der Kubikfuß ist eine Volumeneinheit im angelsächsischen Maßsystem. Ein Kubikfuß entspricht etwa 28,3168 Litern.";
+
+/* Speed */
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "Meter pro Sekunde";
+"metersPerSecond.longName" = "Meter pro Sekunde";
+"metersPerSecond.detailedIntroduction" = "Meter pro Sekunde ist die Basiseinheit der Geschwindigkeit im internationalen Einheitensystem (SI). Es misst die zurückgelegte Strecke in Metern pro Sekunde.";
+
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "Megohm";
+"megaohms.longName" = "Megohm";
+"megaohms.detailedIntroduction" = "Der Megohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Megohm entspricht 1.000.000 Ohm.";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "Kilohm";
+"kiloohms.longName" = "Kilohm";
+"kiloohms.detailedIntroduction" = "Der Kilohm ist eine Einheit des elektrischen Widerstands im internationalen Einheitensystem (SI). Ein Kilohm entspricht 1.000 Ohm.";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "Kilowattstunde";
+"kilowattHours.longName" = "Kilowattstunde";
+"kilowattHours.detailedIntroduction" = "Die Kilowattstunde ist eine Einheit der Energie im internationalen Einheitensystem (SI). Eine Kilowattstunde entspricht 3,6 Megajoule.";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "Wattstunde";
+"wattHours.longName" = "Wattstunde";
+"wattHours.detailedIntroduction" = "Die Wattstunde ist eine Einheit der Energie im internationalen Einheitensystem (SI). Eine Wattstunde entspricht 3.600 Joule.";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "Bilder pro Sekunde";
+"framesPerSecond.longName" = "Bilder pro Sekunde";
+"framesPerSecond.detailedIntroduction" = "Bilder pro Sekunde ist eine Einheit der Bildfrequenz, die die Anzahl der Bilder angibt, die in einer Sekunde angezeigt werden.";
+
+"milesPerImperialGallon.symbol" = "mpg (imp)";
+"milesPerImperialGallon.shortName" = "Meilen pro Imperial-Gallone";
+"milesPerImperialGallon.longName" = "Meilen pro Imperial-Gallone";
+"milesPerImperialGallon.detailedIntroduction" = "Meilen pro Imperial-Gallone ist eine Einheit der Kraftstoffeffizienz, die hauptsächlich im Vereinigten Königreich verwendet wird. Es misst die Anzahl der Meilen, die ein Fahrzeug mit einer Imperial-Gallone Kraftstoff fahren kann.";
+
+"nibbles.symbol" = "nibble";
+"nibbles.shortName" = "Nibble";
+"nibbles.longName" = "Nibble";
+"nibbles.detailedIntroduction" = "Ein Nibble ist eine Datenmenge, die vier Bits entspricht. Es wird häufig zur Darstellung von halben Bytes verwendet.";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "Yottabyte";
+"yottabytes.longName" = "Yottabyte";
+"yottabytes.detailedIntroduction" = "Das Yottabyte ist eine Einheit der Datenmenge, die 1.000 Zettabyte entspricht. Es wird zur Messung extrem großer Datenmengen verwendet.";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "Zettabyte";
+"zettabytes.longName" = "Zettabyte";
+"zettabytes.detailedIntroduction" = "Das Zettabyte ist eine Einheit der Datenmenge, die 1.000 Exabyte entspricht. Es wird zur Messung sehr großer Datenmengen verwendet.";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "Exabyte";
+"exabytes.longName" = "Exabyte";
+"exabytes.detailedIntroduction" = "Das Exabyte ist eine Einheit der Datenmenge, die 1.000 Petabyte entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "Yottabit";
+"yottabits.longName" = "Yottabit";
+"yottabits.detailedIntroduction" = "Das Yottabit ist eine Einheit der Datenmenge, die 1.000 Zettabit entspricht. Es wird zur Messung extrem großer Datenmengen verwendet.";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "Zettabit";
+"zettabits.longName" = "Zettabit";
+"zettabits.detailedIntroduction" = "Das Zettabit ist eine Einheit der Datenmenge, die 1.000 Exabit entspricht. Es wird zur Messung sehr großer Datenmengen verwendet.";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "Exabit";
+"exabits.longName" = "Exabit";
+"exabits.detailedIntroduction" = "Das Exabit ist eine Einheit der Datenmenge, die 1.000 Petabit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "Petabit";
+"petabits.longName" = "Petabit";
+"petabits.detailedIntroduction" = "Das Petabit ist eine Einheit der Datenmenge, die 1.000 Terabit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "Terabit";
+"terabits.longName" = "Terabit";
+"terabits.detailedIntroduction" = "Das Terabit ist eine Einheit der Datenmenge, die 1.000 Gigabit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "Gigabit";
+"gigabits.longName" = "Gigabit";
+"gigabits.detailedIntroduction" = "Das Gigabit ist eine Einheit der Datenmenge, die 1.000 Megabit entspricht. Es wird häufig zur Messung von Datenübertragungsraten verwendet.";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "Megabit";
+"megabits.longName" = "Megabit";
+"megabits.detailedIntroduction" = "Das Megabit ist eine Einheit der Datenmenge, die 1.000 Kilobit entspricht. Es wird häufig zur Messung von Datenübertragungsraten verwendet.";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "Kilobit";
+"kilobits.longName" = "Kilobit";
+"kilobits.detailedIntroduction" = "Das Kilobit ist eine Einheit der Datenmenge, die 1.000 Bits entspricht. Es wird häufig zur Messung von Datenübertragungsraten verwendet.";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "Yobibyte";
+"yobibytes.longName" = "Yobibyte";
+"yobibytes.detailedIntroduction" = "Das Yobibyte ist eine Einheit der Datenmenge, die 1.024 Zebibyte entspricht. Es wird zur Messung extrem großer Datenmengen verwendet.";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "Zebibyte";
+"zebibytes.longName" = "Zebibyte";
+"zebibytes.detailedIntroduction" = "Das Zebibyte ist eine Einheit der Datenmenge, die 1.024 Exbibyte entspricht. Es wird zur Messung sehr großer Datenmengen verwendet.";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "Exbibyte";
+"exbibytes.longName" = "Exbibyte";
+"exbibytes.detailedIntroduction" = "Das Exbibyte ist eine Einheit der Datenmenge, die 1.024 Pebibyte entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "Pebibyte";
+"pebibytes.longName" = "Pebibyte";
+"pebibytes.detailedIntroduction" = "Das Pebibyte ist eine Einheit der Datenmenge, die 1.024 Tebibyte entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "Tebibyte";
+"tebibytes.longName" = "Tebibyte";
+"tebibytes.detailedIntroduction" = "Das Tebibyte ist eine Einheit der Datenmenge, die 1.024 Gibibyte entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "Gibibyte";
+"gibibytes.longName" = "Gibibyte";
+"gibibytes.detailedIntroduction" = "Das Gibibyte ist eine Einheit der Datenmenge, die 1.024 Mebibyte entspricht. Es wird häufig zur Messung großer Datenmengen verwendet.";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "Mebibyte";
+"mebibytes.longName" = "Mebibyte";
+"mebibytes.detailedIntroduction" = "Das Mebibyte ist eine Einheit der Datenmenge, die 1.024 Kibibyte entspricht. Es wird häufig zur Messung von Dateien auf Computern und anderen elektronischen Geräten verwendet.";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "Kibibyte";
+"kibibytes.longName" = "Kibibyte";
+"kibibytes.detailedIntroduction" = "Das Kibibyte ist eine Einheit der Datenmenge, die 1.024 Bytes entspricht. Es wird häufig zur Messung von kleinen Dateien auf Computern und anderen elektronischen Geräten verwendet.";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "Yobibit";
+"yobibits.longName" = "Yobibit";
+"yobibits.detailedIntroduction" = "Das Yobibit ist eine Einheit der Datenmenge, die 1.024 Zebibit entspricht. Es wird zur Messung extrem großer Datenmengen verwendet.";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "Zebibit";
+"zebibits.longName" = "Zebibit";
+"zebibits.detailedIntroduction" = "Das Zebibit ist eine Einheit der Datenmenge, die 1.024 Exbibit entspricht. Es wird zur Messung sehr großer Datenmengen verwendet.";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "Exbibit";
+"exbibits.longName" = "Exbibit";
+"exbibits.detailedIntroduction" = "Das Exbibit ist eine Einheit der Datenmenge, die 1.024 Pebibit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "Pebibit";
+"pebibits.longName" = "Pebibit";
+"pebibits.detailedIntroduction" = "Das Pebibit ist eine Einheit der Datenmenge, die 1.024 Tebibit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "Tebibit";
+"tebibits.longName" = "Tebibit";
+"tebibits.detailedIntroduction" = "Das Tebibit ist eine Einheit der Datenmenge, die 1.024 Gibibit entspricht. Es wird zur Messung großer Datenmengen verwendet.";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "Gibibit";
+"gibibits.longName" = "Gibibit";
+"gibibits.detailedIntroduction" = "Das Gibibit ist eine Einheit der Datenmenge, die 1.024 Mebibit entspricht. Es wird häufig zur Messung großer Datenmengen verwendet.";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "Mebibit";
+"mebibits.longName" = "Mebibit";
+"mebibits.detailedIntroduction" = "Das Mebibit ist eine Einheit der Datenmenge, die 1.024 Kibibit entspricht. Es wird häufig zur Messung von Datenübertragungsraten verwendet.";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "Kibibit";
+"kibibits.longName" = "Kibibit";
+"kibibits.detailedIntroduction" = "Das Kibibit ist eine Einheit der Datenmenge, die 1.024 Bits entspricht. Es wird häufig zur Messung von kleinen Datenmengen verwendet.";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "Coulombs";
+"coulombs.longName" = "Coulomb";
+"coulombs.detailedIntroduction" = "Coulomb ist die SI-Einheit der elektrischen Ladung, benannt nach Charles-Augustin de Coulomb.";

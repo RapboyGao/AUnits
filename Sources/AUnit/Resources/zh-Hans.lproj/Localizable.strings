@@ -1,0 +1,1506 @@
+// None
+"None" = "无";
+
+// UnitTypes
+"length.symbol" = "长";
+"length.shortName" = "长度";
+"length.longName" = "长度";
+"length.detailedIntroduction" = "长度是一维空间中两个点之间的度量。";
+
+"speed.symbol" = "速";
+"speed.shortName" = "速度";
+"speed.longName" = "速度";
+"speed.detailedIntroduction" = "速度是物体单位时间内移动的距离。";
+
+"pressure.symbol" = "压";
+"pressure.shortName" = "压力";
+"pressure.longName" = "压力";
+"pressure.detailedIntroduction" = "压力是单位面积上施加的力。";
+
+"temperature.symbol" = "温";
+"temperature.shortName" = "温度";
+"temperature.longName" = "温度";
+"temperature.detailedIntroduction" = "温度是物体的冷热程度。";
+
+"temperatureDifference.symbol" = "温差";
+"temperatureDifference.shortName" = "温差";
+"temperatureDifference.longName" = "温度差";
+"temperatureDifference.detailedIntroduction" = "温度差是两个温度值之间的差异。";
+
+"mass.symbol" = "质";
+"mass.shortName" = "质量";
+"mass.longName" = "质量";
+"mass.detailedIntroduction" = "质量是物体所含物质的量。";
+
+"volume.symbol" = "容";
+"volume.shortName" = "体积";
+"volume.longName" = "体积";
+"volume.detailedIntroduction" = "体积是物体所占空间的大小。";
+
+"acceleration.symbol" = "加";
+"acceleration.shortName" = "加速度";
+"acceleration.longName" = "加速度";
+"acceleration.detailedIntroduction" = "加速度是速度变化的快慢程度。";
+
+"power.symbol" = "功";
+"power.shortName" = "功率";
+"power.longName" = "功率";
+"power.detailedIntroduction" = "功率是单位时间内完成的工作量。";
+
+"angle.symbol" = "角";
+"angle.shortName" = "角度";
+"angle.longName" = "角度";
+"angle.detailedIntroduction" = "角度是两条射线间的旋转度量。";
+
+"angularVelocity.symbol" = "角速";
+"angularVelocity.shortName" = "角速度";
+"angularVelocity.longName" = "角速度";
+"angularVelocity.detailedIntroduction" = "角速度是物体旋转的速度。";
+
+"area.symbol" = "面";
+"area.shortName" = "面积";
+"area.longName" = "面积";
+"area.detailedIntroduction" = "面积是二维空间中某个区域的大小。";
+
+"concentration.symbol" = "浓";
+"concentration.shortName" = "浓度";
+"concentration.longName" = "浓度";
+"concentration.detailedIntroduction" = "浓度是溶液中溶质的量。";
+
+"time.symbol" = "时";
+"time.shortName" = "时间";
+"time.longName" = "时间";
+"time.detailedIntroduction" = "时间是事件发生的顺序和间隔的度量。";
+
+"electricChargeCapacity.symbol" = "电容";
+"electricChargeCapacity.shortName" = "电荷容量";
+"electricChargeCapacity.longName" = "电荷容量";
+"electricChargeCapacity.detailedIntroduction" = "电荷容量是电池所能存储的电荷量。";
+
+"electricCurrent.symbol" = "电流";
+"electricCurrent.shortName" = "电流";
+"electricCurrent.longName" = "电流";
+"electricCurrent.detailedIntroduction" = "电流是电荷在电路中的流动速率。";
+
+"electricPotential.symbol" = "电压";
+"electricPotential.shortName" = "电压";
+"electricPotential.longName" = "电压";
+"electricPotential.detailedIntroduction" = "电压是电势差的度量。";
+
+"electricResistance.symbol" = "电阻";
+"electricResistance.shortName" = "电阻";
+"electricResistance.longName" = "电阻";
+"electricResistance.detailedIntroduction" = "电阻是导体对电流的阻碍程度。";
+
+"energy.symbol" = "能";
+"energy.shortName" = "能量";
+"energy.longName" = "能量";
+"energy.detailedIntroduction" = "能量是做功的能力。";
+
+"frequency.symbol" = "频";
+"frequency.shortName" = "频率";
+"frequency.longName" = "频率";
+"frequency.detailedIntroduction" = "频率是重复事件在单位时间内发生的次数。";
+
+"fuelEfficiency.symbol" = "燃效";
+"fuelEfficiency.shortName" = "燃油效率";
+"fuelEfficiency.longName" = "燃油效率";
+"fuelEfficiency.detailedIntroduction" = "燃油效率是车辆消耗单位燃料所行驶的距离。";
+
+"data.symbol" = "数";
+"data.shortName" = "数据";
+"data.longName" = "数据";
+"data.detailedIntroduction" = "数据是信息的表示和存储形式。";
+
+// Unit
+"feet.symbol" = "ft";
+"feet.shortName" = "英尺";
+"feet.longName" = "英尺";
+"feet.detailedIntroduction" = "英尺是长度单位，等于0.3048米。";
+
+"nauticalMiles.symbol" = "NM";
+"nauticalMiles.shortName" = "海里";
+"nauticalMiles.longName" = "海里";
+"nauticalMiles.detailedIntroduction" = "海里是航海和航空中的长度单位，等于1852米。";
+
+"meters.symbol" = "m";
+"meters.shortName" = "米";
+"meters.longName" = "米";
+"meters.detailedIntroduction" = "米是国际单位制中的基本长度单位。";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "千米";
+"kilometers.longName" = "千米";
+"kilometers.detailedIntroduction" = "千米是长度单位，等于1000米。";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "英里";
+"miles.longName" = "英里";
+"miles.detailedIntroduction" = "英里是长度单位，等于1609.344米。";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "兆米";
+"megameters.longName" = "兆米";
+"megameters.detailedIntroduction" = "兆米是长度单位，等于1,000,000米。";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "百米";
+"hectometers.longName" = "百米";
+"hectometers.detailedIntroduction" = "百米是长度单位，等于100米。";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "十米";
+"decameters.longName" = "十米";
+"decameters.detailedIntroduction" = "十米是长度单位，等于10米。";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "分米";
+"decimeters.longName" = "分米";
+"decimeters.detailedIntroduction" = "分米是长度单位，等于0.1米。";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "厘米";
+"centimeters.longName" = "厘米";
+"centimeters.detailedIntroduction" = "厘米是长度单位，等于0.01米。";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "毫米";
+"millimeters.longName" = "毫米";
+"millimeters.detailedIntroduction" = "毫米是长度单位，等于0.001米。";
+
+"micrometers.symbol" = "μm";
+"micrometers.shortName" = "微米";
+"micrometers.longName" = "微米";
+"micrometers.detailedIntroduction" = "微米是长度单位，等于0.000001米。";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "纳米";
+"nanometers.longName" = "纳米";
+"nanometers.detailedIntroduction" = "纳米是长度单位，等于0.000000001米。";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "皮米";
+"picometers.longName" = "皮米";
+"picometers.detailedIntroduction" = "皮米是长度单位，等于0.000000000001米。";
+
+"inches.symbol" = "in";
+"inches.shortName" = "英寸";
+"inches.longName" = "英寸";
+"inches.detailedIntroduction" = "英寸是长度单位，等于0.0254米。";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "码";
+"yards.longName" = "码";
+"yards.detailedIntroduction" = "码是长度单位，等于0.9144米。";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "斯堪的纳维亚英里";
+"scandinavianMiles.longName"
+
+ = "斯堪的纳维亚英里";
+"scandinavianMiles.detailedIntroduction" = "斯堪的纳维亚英里是长度单位，等于10000米。";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "光年";
+"lightyears.longName" = "光年";
+"lightyears.detailedIntroduction" = "光年是长度单位，等于光在一年中传播的距离，约为9.4607万亿公里。";
+
+"fathoms.symbol" = "ftm";
+"fathoms.shortName" = "英寻";
+"fathoms.longName" = "英寻";
+"fathoms.detailedIntroduction" = "英寻是长度单位，主要用于测量水深，等于1.8288米。";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "弗隆";
+"furlongs.longName" = "弗隆";
+"furlongs.detailedIntroduction" = "弗隆是长度单位，主要用于赛马，等于201.168米。";
+
+"astronomicalUnits.symbol" = "au";
+"astronomicalUnits.shortName" = "天文单位";
+"astronomicalUnits.longName" = "天文单位";
+"astronomicalUnits.detailedIntroduction" = "天文单位是长度单位，等于地球到太阳的平均距离，约为149,597,870.7公里。";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "秒差距";
+"parsecs.longName" = "秒差距";
+"parsecs.detailedIntroduction" = "秒差距是长度单位，主要用于天文学，等于约3.262光年。";
+
+"knots.symbol" = "kn";
+"knots.shortName" = "节";
+"knots.longName" = "节";
+"knots.detailedIntroduction" = "节是速度单位，等于1海里每小时。";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "米每秒";
+"metersPerSecond.longName" = "米每秒";
+"metersPerSecond.detailedIntroduction" = "米每秒是速度单位，表示物体每秒钟移动的米数。";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "英尺每分钟";
+"feetPerMinute.longName" = "英尺每分钟";
+"feetPerMinute.detailedIntroduction" = "英尺每分钟是速度单位，表示物体每分钟移动的英尺数。";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "公里每小时";
+"kilometersPerHour.longName" = "公里每小时";
+"kilometersPerHour.detailedIntroduction" = "公里每小时是速度单位，表示物体每小时移动的公里数。";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "英尺每秒";
+"feetPerSecond.longName" = "英尺每秒";
+"feetPerSecond.detailedIntroduction" = "英尺每秒是速度单位，表示物体每秒钟移动的英尺数。";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "英里每小时";
+"milesPerHour.longName" = "英里每小时";
+"milesPerHour.detailedIntroduction" = "英里每小时是速度单位，表示物体每小时移动的英里数。";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "英寸每秒";
+"inchesPerSecond.longName" = "英寸每秒";
+"inchesPerSecond.detailedIntroduction" = "英寸每秒是速度单位，表示物体每秒钟移动的英寸数。";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "码每秒";
+"yardsPerSecond.longName" = "码每秒";
+"yardsPerSecond.detailedIntroduction" = "码每秒是速度单位，表示物体每秒钟移动的码数。";
+
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "百帕";
+"hectopascals.longName" = "百帕";
+"hectopascals.detailedIntroduction" = "百帕是压力单位，等于100帕斯卡。";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "英寸汞柱";
+"inchesOfMercury.longName" = "英寸汞柱";
+"inchesOfMercury.detailedIntroduction" = "英寸汞柱是压力单位，等于约3386.39帕斯卡。";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "毫米汞柱";
+"millimetersOfMercury.longName" = "毫米汞柱";
+"millimetersOfMercury.detailedIntroduction" = "毫米汞柱是压力单位，等于约133.322帕斯卡。";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "牛顿每平方米";
+"newtonsPerMetersSquared.longName" = "牛顿每平方米";
+"newtonsPerMetersSquared.detailedIntroduction" = "牛顿每平方米是压力单位，等于1帕斯卡。";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "吉帕";
+"gigapascals.longName" = "吉帕";
+"gigapascals.detailedIntroduction" = "吉帕是压力单位，等于10亿帕斯卡。";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "兆帕";
+"megapascals.longName" = "兆帕";
+"megapascals.detailedIntroduction" = "兆帕是压力单位，等于100万帕斯卡。";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "千帕";
+"kilopascals.longName" = "千帕";
+"kilopascals.detailedIntroduction" = "千帕是压力单位，等于1000帕斯卡。";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "巴";
+"bars.longName" = "巴";
+"bars.detailedIntroduction" = "巴是压力单位，等于100,000帕斯卡。";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "毫巴";
+"millibars.longName" = "毫巴";
+"millibars.detailedIntroduction" = "毫巴是压力单位，等于100帕斯卡。";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "磅力每平方英寸";
+"poundsForcePerSquareInch.longName" = "磅力每平方英寸";
+"poundsForcePerSquareInch.detailedIntroduction" = "磅力每平方英寸是压力单位，等于约6894.76帕斯卡。";
+
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "开尔文";
+"kelvin.longName" = "开尔文";
+"kelvin.detailedIntroduction" = "开尔文是温度单位，是国际单位制的基本单位之一。";
+
+"celsius.symbol" = "℃";
+"celsius.shortName" = "摄氏度";
+"celsius.longName" = "摄氏度";
+"celsius.detailedIntroduction" = "摄氏度是温度单位，水的冰点为0摄氏度，沸点为100摄氏度。";
+
+"fahrenheit.symbol" = "℉";
+"fahrenheit.shortName" = "华氏度";
+"fahrenheit.longName" = "华氏度";
+"fahrenheit.detailedIntroduction" = "华氏度是温度单位，水的冰点为32华氏度，沸点为212华氏度。";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "兰氏度";
+"rankine.longName" = "兰氏度";
+"rankine.detailedIntroduction" = "兰氏度是温度单位，主要用于工程热力学，等于华氏度加上459.67。";
+
+"celsiusDelta.symbol" = "Δ℃";
+"celsiusDelta.shortName" = "摄氏度差";
+"celsiusDelta.longName" = "摄氏度差";
+"celsiusDelta.detailedIntroduction" = "摄氏度差是两个摄氏度值之间的差异。";
+
+"fahrenheitDelta.symbol" = "Δ℉";
+"fahrenheitDelta.shortName" = "华氏度差";
+"fahrenheitDelta.longName" = "华氏度差";
+"fahrenheitDelta.detailedIntroduction" = "华氏度差是两个华氏度值之间的差异。";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "千克";
+"kilograms.longName" = "千克";
+"kilograms.detailedIntroduction" = "千克是质量单位，是国际单位制的基本单位之一。";
+
+"grams.symbol" = "g";
+"grams.shortName" = "克";
+"grams.longName" = "克";
+"grams.detailedIntroduction" = "克是质量单位，等于0.001千克。";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "分克";
+"decigrams.longName" = "分克";
+"decigrams.detailedIntroduction" = "分克是质量单位，等于0.0001千克。";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "厘克";
+"centigrams.longName" = "厘克";
+"centigrams.detailedIntroduction" = "厘克是质量单位，等于0.00001千克。";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "毫克";
+"milligrams.longName" = "毫克";
+"milligrams.detailedIntroduction" = "毫克是质量单位，等于0.000001千克。";
+
+"micrograms.symbol" = "μg";
+"micrograms.shortName" = "微克";
+"micrograms.longName" = "微克";
+"micrograms.detailedIntroduction" = "微克是质量单位，等于0.000000001千克。";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "纳克";
+"nanograms.longName" = "纳克";
+"nanograms.detailedIntroduction" = "纳克是质量单位，等于0.000000000001千克。";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "皮克";
+"picograms.longName" = "皮克";
+"picograms.detailedIntroduction" = "皮克是质量单位，等于0.000000000000001千克。";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "盎司";
+"ounces.longName" = "盎司";
+"ounces.detailedIntroduction" = "盎司是质量单位，等于约28.3495克。";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "磅";
+"pounds.longName" = "磅";
+"pounds.detailedIntroduction" = "磅是质量单位，等于约453.592克。";
+
+"stones.symbol" = "st";
+"stones.shortName" = "英石";
+"stones.longName" = "英石";
+"stones.detailedIntroduction" = "英石是质量单位，等于约6.35029千克。";
+
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "公吨";
+"metricTons.longName" = "公吨";
+"metricTons.detailedIntroduction" = "公吨是质量单位，等于1000千克。";
+
+"shortTons.symbol" = "st";
+"shortTons.shortName" = "短吨";
+"shortTons.longName" = "短吨";
+"shortTons.detailedIntroduction" = "短吨是质量单位，等于907.185千克。";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "克拉";
+"carats.longName" = "克拉";
+"carats.detailedIntroduction" = "克拉是质量单位，主要用于宝石，等于0.2克。";
+
+"ouncesTroy.symbol" = "ozt";
+"ouncesTroy.shortName" = "金衡盎司";
+"ouncesTroy.longName" = "金衡盎司";
+"ouncesTroy.detailedIntroduction" = "金衡盎司是质量单位，主要用于贵金属，等于约31.1035克。";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "斯拉格";
+"slugs.longName" = "斯拉格";
+"slugs.detailedIntroduction" = "斯拉格是质量单位，等于约14.5939千克。";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "千磅";
+"kilopounds.longName" = "千磅";
+"kilopounds.detailedIntroduction" = "千磅是质量单位，等于453.592千克。";
+
+"liters.symbol" = "L";
+"liters.shortName" = "升";
+"liters.longName" = "升";
+"liters.detailedIntroduction" = "升是体积单位，等于1000立方厘米。";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "夸脱";
+"quarts.longName" = "夸脱";
+"quarts.detailedIntroduction" = "夸脱是体积单位，等于约0.946353升。";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "立方米";
+"cubicMeters.longName" = "立方米";
+"cubicMeters.detailedIntroduction" = "立方米是体积单位，等于1000升。";
+
+"cubicCentimeters.symbol" = "cm³";
+"cubicCentimeters.shortName" = "立方厘米";
+"cubicCentimeters.longName" = "立方厘米";
+"cubicCentimeters.detailedIntroduction" = "立方厘米是体积单位，等于0.001升。";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "加仑";
+"gallons.longName" = "加仑";
+"gallons.detailedIntroduction" = "加仑是体积单位，等于约3.78541升。";
+
+"megaliters.symbol" = "ML";
+"megaliters.shortName" = "兆升";
+"megaliters.longName" = "兆升";
+"megaliters.detailedIntroduction" = "兆升是体积单位，等于100万升。";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "千升";
+"kiloliters.longName" = "千升";
+"kiloliters.detailedIntroduction" = "千升是体积单位，等于1000升。";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "分升";
+"deciliters.longName" = "分升";
+"deciliters.detailedIntroduction" = "分升是体积单位，等于0.1升。";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "厘升";
+"centiliters.longName" = "厘升";
+"centiliters.detailedIntroduction" = "厘升是体积单位，等于0.01升。";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "毫升";
+"milliliters.longName" = "毫升";
+"milliliters.detailedIntroduction" = "毫升是体积单位，等于0.001升。";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "立方千米";
+"cubicKilometers.longName" = "立方千米";
+"cubicKilometers.detailedIntroduction" = "立方千米是体积单位，等于1,000,000,000,000升。";
+
+"cubicDecimeters.symbol" = "dm³";
+"cubicDecimeters.shortName" = "立方分米";
+"cubicDecimeters.longName" = "立方分米";
+"cubicDecimeters.detailedIntroduction" = "立方分米是体积单位，等于1升。";
+
+"cubicMillimeters.symbol" = "mm³";
+"cubicMillimeters.shortName" = "立方毫米";
+"cubicMillimeters.longName" = "立方毫米";
+"cubicMillimeters.detailedIntroduction" = "立方毫米是体积单位，等于0.000001升。";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "立方英寸";
+"cubicInches.longName" = "立方英寸";
+"cubicInches.detailedIntroduction" = "立方英寸是体积单位，等于约0.0163871升。";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "立方英尺";
+"cubicFeet.longName" = "立方英尺";
+"cubicFeet.detailedIntroduction" = "立方英尺是体积单位，等于约28.3168升。";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "立方码";
+"cubicYards.longName" = "立方码";
+"cubicYards.detailedIntroduction" = "立方码是体积单位，等于约764.555升。";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "立方英里";
+"cubicMiles.longName" = "立方英里";
+"cubicMiles.detailedIntroduction" = "立方英里是体积单位，等于约4
+
+,168,181,825,440升。";
+
+"acreFeet.symbol" = "ac-ft";
+"acreFeet.shortName" = "英亩英尺";
+"acreFeet.longName" = "英亩英尺";
+"acreFeet.detailedIntroduction" = "英亩英尺是体积单位，等于约1,233,480升。";
+
+"bushels.symbol" = "bu";
+"bushels.shortName" = "蒲式耳";
+"bushels.longName" = "蒲式耳";
+"bushels.detailedIntroduction" = "蒲式耳是体积单位，等于约35.2391升。";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "茶匙";
+"teaspoons.longName" = "茶匙";
+"teaspoons.detailedIntroduction" = "茶匙是体积单位，等于约0.00492892升。";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "汤匙";
+"tablespoons.longName" = "汤匙";
+"tablespoons.detailedIntroduction" = "汤匙是体积单位，等于约0.0147868升。";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "液盎司";
+"fluidOunces.longName" = "液盎司";
+"fluidOunces.detailedIntroduction" = "液盎司是体积单位，等于约0.0295735升。";
+
+"cups.symbol" = "cup";
+"cups.shortName" = "杯";
+"cups.longName" = "杯";
+"cups.detailedIntroduction" = "杯是体积单位，等于0.24升。";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "品脱";
+"pints.longName" = "品脱";
+"pints.detailedIntroduction" = "品脱是体积单位，等于约0.473176升。";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "英制茶匙";
+"imperialTeaspoons.longName" = "英制茶匙";
+"imperialTeaspoons.detailedIntroduction" = "英制茶匙是体积单位，等于约0.00591939升。";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "英制汤匙";
+"imperialTablespoons.longName" = "英制汤匙";
+"imperialTablespoons.detailedIntroduction" = "英制汤匙是体积单位，等于约0.0177582升。";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "英制液盎司";
+"imperialFluidOunces.longName" = "英制液盎司";
+"imperialFluidOunces.detailedIntroduction" = "英制液盎司是体积单位，等于约0.0284131升。";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "英制品脱";
+"imperialPints.longName" = "英制品脱";
+"imperialPints.detailedIntroduction" = "英制品脱是体积单位，等于约0.568261升。";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "英制夸脱";
+"imperialQuarts.longName" = "英制夸脱";
+"imperialQuarts.detailedIntroduction" = "英制夸脱是体积单位，等于约1.13652升。";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "英制加仑";
+"imperialGallons.longName" = "英制加仑";
+"imperialGallons.detailedIntroduction" = "英制加仑是体积单位，等于约4.54609升。";
+
+"metricCups.symbol" = "m cup";
+"metricCups.shortName" = "公制杯";
+"metricCups.longName" = "公制杯";
+"metricCups.detailedIntroduction" = "公制杯是体积单位，等于0.25升。";
+
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "米每二次方秒";
+"metersPerSecondSquared.longName" = "米每二次方秒";
+"metersPerSecondSquared.detailedIntroduction" = "米每二次方秒是加速度单位，表示物体每秒速度变化的米数。";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "重力加速度";
+"gravity.longName" = "重力加速度";
+"gravity.detailedIntroduction" = "重力加速度是物体受重力作用产生的加速度，等于约9.80665米每二次方秒。";
+
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "太瓦";
+"terawatts.longName" = "太瓦";
+"terawatts.detailedIntroduction" = "太瓦是功率单位，等于1万亿瓦特。";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "吉瓦";
+"gigawatts.longName" = "吉瓦";
+"gigawatts.detailedIntroduction" = "吉瓦是功率单位，等于10亿瓦特。";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "兆瓦";
+"megawatts.longName" = "兆瓦";
+"megawatts.detailedIntroduction" = "兆瓦是功率单位，等于100万瓦特。";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "千瓦";
+"kilowatts.longName" = "千瓦";
+"kilowatts.detailedIntroduction" = "千瓦是功率单位，等于1000瓦特。";
+
+"watts.symbol" = "W";
+"watts.shortName" = "瓦";
+"watts.longName" = "瓦";
+"watts.detailedIntroduction" = "瓦是功率单位，等于1焦耳每秒。";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "毫瓦";
+"milliwatts.longName" = "毫瓦";
+"milliwatts.detailedIntroduction" = "毫瓦是功率单位，等于0.001瓦特。";
+
+"microwatts.symbol" = "μW";
+"microwatts.shortName" = "微瓦";
+"microwatts.longName" = "微瓦";
+"microwatts.detailedIntroduction" = "微瓦是功率单位，等于0.000001瓦特。";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "纳瓦";
+"nanowatts.longName" = "纳瓦";
+"nanowatts.detailedIntroduction" = "纳瓦是功率单位，等于0.000000001瓦特。";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "皮瓦";
+"picowatts.longName" = "皮瓦";
+"picowatts.detailedIntroduction" = "皮瓦是功率单位，等于0.000000000001瓦特。";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "飞瓦";
+"femtowatts.longName" = "飞瓦";
+"femtowatts.detailedIntroduction" = "飞瓦是功率单位，等于0.000000000000001瓦特。";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "马力";
+"horsepower.longName" = "马力";
+"horsepower.detailedIntroduction" = "马力是功率单位，等于约745.6998715822702瓦特。";
+
+"degrees.symbol" = "°";
+"degrees.shortName" = "度";
+"degrees.longName" = "度";
+"degrees.detailedIntroduction" = "度是角度单位，表示平面角的量度。";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "角分";
+"arcMinutes.longName" = "角分";
+"arcMinutes.detailedIntroduction" = "角分是角度单位，等于1度的1/60。";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "角秒";
+"arcSeconds.longName" = "角秒";
+"arcSeconds.detailedIntroduction" = "角秒是角度单位，等于1角分的1/60。";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "弧度";
+"radians.longName" = "弧度";
+"radians.detailedIntroduction" = "弧度是角度单位，表示圆弧的长度等于半径的角度。";
+
+"gradians.symbol" = "grad";
+"gradians.shortName" = "百分度";
+"gradians.longName" = "百分度";
+"
+
+gradians.detailedIntroduction" = "百分度是角度单位，等于1度的1/100。";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "转";
+"revolutions.longName" = "转";
+"revolutions.detailedIntroduction" = "转是角度单位，表示完整的旋转360度。";
+
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "弧度每秒";
+"radiansPerSecond.longName" = "弧度每秒";
+"radiansPerSecond.detailedIntroduction" = "弧度每秒是角速度单位，表示物体每秒旋转的弧度数。";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "度每秒";
+"degreesPerSecond.longName" = "度每秒";
+"degreesPerSecond.detailedIntroduction" = "度每秒是角速度单位，表示物体每秒旋转的度数。";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "转每分钟";
+"revolutionsPerMinute.longName" = "转每分钟";
+"revolutionsPerMinute.detailedIntroduction" = "转每分钟是角速度单位，表示物体每分钟旋转的转数。";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "转每秒";
+"revolutionsPerSecond.longName" = "转每秒";
+"revolutionsPerSecond.detailedIntroduction" = "转每秒是角速度单位，表示物体每秒旋转的转数。";
+
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "平方兆米";
+"squareMegameters.longName" = "平方兆米";
+"squareMegameters.detailedIntroduction" = "平方兆米是面积单位，等于1,000,000平方千米。";
+
+"squareKilometers.symbol" = "km²";
+"squareKilometers.shortName" = "平方千米";
+"squareKilometers.longName" = "平方千米";
+"squareKilometers.detailedIntroduction" = "平方千米是面积单位，等于1,000,000平方米。";
+
+"squareMeters.symbol" = "m²";
+"squareMeters.shortName" = "平方米";
+"squareMeters.longName" = "平方米";
+"squareMeters.detailedIntroduction" = "平方米是面积单位，是国际单位制的基本单位之一。";
+
+"squareCentimeters.symbol" = "cm²";
+"squareCentimeters.shortName" = "平方厘米";
+"squareCentimeters.longName" = "平方厘米";
+"squareCentimeters.detailedIntroduction" = "平方厘米是面积单位，等于0.0001平方米。";
+
+"squareMillimeters.symbol" = "mm²";
+"squareMillimeters.shortName" = "平方毫米";
+"squareMillimeters.longName" = "平方毫米";
+"squareMillimeters.detailedIntroduction" = "平方毫米是面积单位，等于0.000001平方米。";
+
+"squareMicrometers.symbol" = "μm²";
+"squareMicrometers.shortName" = "平方微米";
+"squareMicrometers.longName" = "平方微米";
+"squareMicrometers.detailedIntroduction" = "平方微米是面积单位，等于0.000000000001平方米。";
+
+"squareNanometers.symbol" = "nm²";
+"squareNanometers.shortName" = "平方纳米";
+"squareNanometers.longName" = "平方纳米";
+"squareNanometers.detailedIntroduction" = "平方纳米是面积单位，等于0.000000000000000001平方米。";
+
+"squareInches.symbol" = "in²";
+"squareInches.shortName" = "平方英寸";
+"squareInches.longName" = "平方英寸";
+"squareInches.detailedIntroduction" = "平方英寸是面积单位，等于0.00064516平方米。";
+
+"squareFeet.symbol" = "ft²";
+"squareFeet.shortName" = "平方英尺";
+"squareFeet.longName" = "平方英尺";
+"squareFeet.detailedIntroduction" = "平方英尺是面积单位，等于0.092903平方米。";
+
+"squareYards.symbol" = "yd²";
+"squareYards.shortName" = "平方码";
+"squareYards.longName" = "平方码";
+"squareYards.detailedIntroduction" = "平方码是面积单位，等于0.836127平方米。";
+
+"squareMiles.symbol" = "mi²";
+"squareMiles.shortName" = "平方英里";
+"squareMiles.longName" = "平方英里";
+"squareMiles.detailedIntroduction" = "平方英里是面积单位，等于2,589,988.11平方米。";
+
+"acres.symbol" = "ac";
+"acres.shortName" = "英亩";
+"acres.longName" = "英亩";
+"acres.detailedIntroduction" = "英亩是面积单位，等于约4046.856平方米。";
+
+"ares.symbol" = "a";
+"ares.shortName" = "公亩";
+"ares.longName" = "公亩";
+"ares.detailedIntroduction" = "公亩是面积单位，等于100平方米。";
+
+"hectares.symbol" = "ha";
+"hectares.shortName" = "公顷";
+"hectares.longName" = "公顷";
+"hectares.detailedIntroduction" = "公顷是面积单位，等于10,000平方米。";
+
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "克每升";
+"gramsPerLiter.longName" = "克每升";
+"gramsPerLiter.detailedIntroduction" = "克每升是浓度单位，表示溶液中每升所含的溶质克数。";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "毫克每分升";
+"milligramsPerDeciliter.longName" = "毫克每分升";
+"milligramsPerDeciliter.detailedIntroduction" = "毫克每分升是浓度单位，表示溶液中每分升所含的溶质毫克数。";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "百万分之一";
+"partsPerMillion.longName" = "百万分之一";
+"partsPerMillion.detailedIntroduction" = "百万分之一是浓度单位，表示每百万个单位中所含的特定成分单位数。";
+
+"hours.symbol" = "h";
+"hours.shortName" = "小时";
+"hours.longName" = "小时";
+"hours.detailedIntroduction" = "小时是时间单位，等于60分钟或3600秒。";
+
+"minutes.symbol" = "min";
+"minutes.shortName" = "分钟";
+"minutes.longName" = "分钟";
+"minutes.detailedIntroduction" = "分钟是时间单位，等于60秒。";
+
+"seconds.symbol" = "s";
+"seconds.shortName" = "秒";
+"seconds.longName" = "秒";
+"seconds.detailedIntroduction" = "秒是时间单位，是国际单位制的基本单位之一。";
+
+"milliseconds.symbol" = "ms";
+"milliseconds.shortName" = "毫秒";
+"milliseconds.longName" = "毫秒";
+"milliseconds.detailedIntroduction" = "毫秒是时间单位，等于0.001秒。";
+
+"microseconds.symbol" = "μs";
+"microseconds.shortName" = "微秒";
+"microseconds.longName" = "微秒";
+"microseconds.detailedIntroduction" = "微秒是时间单位，等于0.000001秒。";
+
+"nanoseconds.symbol" = "ns";
+"nanoseconds.shortName" = "纳秒";
+"nanoseconds.longName" = "纳秒";
+"nanoseconds.detailedIntroduction" = "纳秒是时间单位，等于0.000000001秒。";
+
+"picoseconds.symbol" = "ps";
+"picoseconds.shortName" = "皮秒";
+"picoseconds.longName" = "皮秒";
+"picoseconds.detailedIntroduction" = "皮秒是时间单位，等于0.000000000001秒。";
+
+"days.symbol" = "d";
+"days.shortName" = "天";
+"days.longName" = "天";
+"days.detailedIntroduction" = "天是时间单位，等于24小时或86400秒。";
+
+"weeks.symbol" = "wk";
+"weeks.shortName" = "周";
+"weeks.longName" = "周";
+"weeks.detailedIntroduction" = "周是时间单位，等于7天。";
+
+"years.symbol" = "yr";
+"years.shortName" = "年";
+"years.longName" = "年";
+"years.detailedIntroduction" = "年是时间单位，等于365.25天，考虑了闰年。";
+
+"decades.symbol" = "decade";
+"decades.shortName" = "十年";
+"decades.longName" = "十年";
+"decades.detailedIntroduction" = "十年是时间单位，等于10年。";
+
+"centuries.symbol" = "century";
+"centuries.shortName" = "世纪
+
+";
+"centuries.longName" = "世纪";
+"centuries.detailedIntroduction" = "世纪是时间单位，等于100年。";
+
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "兆安培小时";
+"megaampereHours.longName" = "兆安培小时";
+"megaampereHours.detailedIntroduction" = "兆安培小时是电荷容量单位，等于3,600,000,000库仑。";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "千安培小时";
+"kiloampereHours.longName" = "千安培小时";
+"kiloampereHours.detailedIntroduction" = "千安培小时是电荷容量单位，等于3,600,000库仑。";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "安培小时";
+"ampereHours.longName" = "安培小时";
+"ampereHours.detailedIntroduction" = "安培小时是电荷容量单位，等于3600库仑。";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "毫安培小时";
+"milliampereHours.longName" = "毫安培小时";
+"milliampereHours.detailedIntroduction" = "毫安培小时是电荷容量单位，等于3.6库仑。";
+
+"microampereHours.symbol" = "μAh";
+"microampereHours.shortName" = "微安培小时";
+"microampereHours.longName" = "微安培小时";
+"microampereHours.detailedIntroduction" = "微安培小时是电荷容量单位，等于0.0036库仑。";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "安培秒";
+"ampereSeconds.longName" = "安培秒";
+"ampereSeconds.detailedIntroduction" = "安培秒是电荷容量单位，等于1库仑。";
+
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "兆安培";
+"megaamperes.longName" = "兆安培";
+"megaamperes.detailedIntroduction" = "兆安培是电流单位，等于1,000,000安培。";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "千安培";
+"kiloamperes.longName" = "千安培";
+"kiloamperes.detailedIntroduction" = "千安培是电流单位，等于1000安培。";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "安培";
+"amperes.longName" = "安培";
+"amperes.detailedIntroduction" = "安培是电流单位，是国际单位制的基本单位之一。";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "毫安培";
+"milliamperes.longName" = "毫安培";
+"milliamperes.detailedIntroduction" = "毫安培是电流单位，等于0.001安培。";
+
+"microamperes.symbol" = "μA";
+"microamperes.shortName" = "微安培";
+"microamperes.longName" = "微安培";
+"microamperes.detailedIntroduction" = "微安培是电流单位，等于0.000001安培。";
+
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "兆伏特";
+"megavolts.longName" = "兆伏特";
+"megavolts.detailedIntroduction" = "兆伏特是电压单位，等于1,000,000伏特。";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "千伏特";
+"kilovolts.longName" = "千伏特";
+"kilovolts.detailedIntroduction" = "千伏特是电压单位，等于1000伏特。";
+
+"volts.symbol" = "V";
+"volts.shortName" = "伏特";
+"volts.longName" = "伏特";
+"volts.detailedIntroduction" = "伏特是电压单位，是国际单位制的基本单位之一。";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "毫伏特";
+"millivolts.longName" = "毫伏特";
+"millivolts.detailedIntroduction" = "毫伏特是电压单位，等于0.001伏特。";
+
+"microvolts.symbol" = "μV";
+"microvolts.shortName" = "微伏特";
+"microvolts.longName" = "微伏特";
+"microvolts.detailedIntroduction" = "微伏特是电压单位，等于0.000001伏特。";
+
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "兆欧";
+"megaohms.longName" = "兆欧";
+"megaohms.detailedIntroduction" = "兆欧是电阻单位，等于1,000,000欧姆。";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "千欧";
+"kiloohms.longName" = "千欧";
+"kiloohms.detailedIntroduction" = "千欧是电阻单位，等于1000欧姆。";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "欧姆";
+"ohms.longName" = "欧姆";
+"ohms.detailedIntroduction" = "欧姆是电阻单位，是国际单位制的基本单位之一。";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "毫欧";
+"milliohms.longName" = "毫欧";
+"milliohms.detailedIntroduction" = "毫欧是电阻单位，等于0.001欧姆。";
+
+"microohms.symbol" = "μΩ";
+"microohms.shortName" = "微欧";
+"microohms.longName" = "微欧";
+"microohms.detailedIntroduction" = "微欧是电阻单位，等于0.000001欧姆。";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "千焦";
+"kilojoules.longName" = "千焦";
+"kilojoules.detailedIntroduction" = "千焦是能量单位，等于1000焦耳。";
+
+"joules.symbol" = "J";
+"joules.shortName" = "焦";
+"joules.longName" = "焦耳";
+"joules.detailedIntroduction" = "焦耳是能量单位，是国际单位制的基本单位之一。";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "千卡";
+"kilocalories.longName" = "千卡";
+"kilocalories.detailedIntroduction" = "千卡是能量单位，等于4184焦耳。";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "卡";
+"calories.longName" = "卡";
+"calories.detailedIntroduction" = "卡是能量单位，等于4.184焦耳。";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "千瓦时";
+"kilowattHours.longName" = "千瓦时";
+"kilowattHours.detailedIntroduction" = "千瓦时是能量单位，等于3600000焦耳。";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "瓦时";
+"wattHours.longName" = "瓦时";
+"wattHours.detailedIntroduction" = "瓦时是能量单位，等于3600焦耳。";
+
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "太赫";
+"terahertz.longName" = "太赫";
+"terahertz.detailedIntroduction" = "太赫是频率单位，等于1万亿赫兹。";
+
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "吉赫";
+"gigahertz.longName" = "吉赫";
+"gigahertz.detailedIntroduction" = "吉赫是频率单位，等于10亿赫兹。";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "兆赫";
+"megahertz.longName" = "兆赫";
+"megahertz.detailedIntroduction" = "兆赫是频率单位，等于100万赫兹。";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "千赫";
+"kilohertz.longName" = "千赫";
+"kilohertz.detailedIntroduction" = "千赫是频率单位，等于1000赫兹。";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "赫兹";
+"hertz.longName" = "赫兹
+
+";
+"hertz.detailedIntroduction" = "赫兹是频率单位，是国际单位制的基本单位之一。";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "毫赫";
+"millihertz.longName" = "毫赫";
+"millihertz.detailedIntroduction" = "毫赫是频率单位，等于0.001赫兹。";
+
+"microhertz.symbol" = "μHz";
+"microhertz.shortName" = "微赫";
+"microhertz.longName" = "微赫";
+"microhertz.detailedIntroduction" = "微赫是频率单位，等于0.000001赫兹。";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "纳赫";
+"nanohertz.longName" = "纳赫";
+"nanohertz.detailedIntroduction" = "纳赫是频率单位，等于0.000000001赫兹。";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "帧每秒";
+"framesPerSecond.longName" = "帧每秒";
+"framesPerSecond.detailedIntroduction" = "帧每秒是频率单位，表示每秒显示的图像帧数。";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "升每百公里";
+"litersPer100Kilometers.longName" = "升每百公里";
+"litersPer100Kilometers.detailedIntroduction" = "升每百公里是燃油效率单位，表示车辆每行驶100公里所消耗的燃料升数。";
+
+"milesPerImperialGallon.symbol" = "mpg";
+"milesPerImperialGallon.shortName" = "英里每英制加仑";
+"milesPerImperialGallon.longName" = "英里每英制加仑";
+"milesPerImperialGallon.detailedIntroduction" = "英里每英制加仑是燃油效率单位，表示车辆每消耗1英制加仑燃料所行驶的英里数。";
+
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "英里每加仑";
+"milesPerGallon.longName" = "英里每加仑";
+"milesPerGallon.detailedIntroduction" = "英里每加仑是燃油效率单位，表示车辆每消耗1加仑燃料所行驶的英里数。";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "字节";
+"bytes.longName" = "字节";
+"bytes.detailedIntroduction" = "字节是数据单位，表示信息存储的基本单位。";
+
+"bits.symbol" = "b";
+"bits.shortName" = "比特";
+"bits.longName" = "比特";
+"bits.detailedIntroduction" = "比特是数据单位，表示信息的最小单位。";
+
+"nibbles.symbol" = "N";
+"nibbles.shortName" = "半字节";
+"nibbles.longName" = "半字节";
+"nibbles.detailedIntroduction" = "半字节是数据单位，等于4比特。";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "尧字节";
+"yottabytes.longName" = "尧字节";
+"yottabytes.detailedIntroduction" = "尧字节是数据单位，等于1,000,000,000,000,000,000,000,000字节。";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "泽字节";
+"zettabytes.longName" = "泽字节";
+"zettabytes.detailedIntroduction" = "泽字节是数据单位，等于1,000,000,000,000,000,000,000字节。";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "艾字节";
+"exabytes.longName" = "艾字节";
+"exabytes.detailedIntroduction" = "艾字节是数据单位，等于1,000,000,000,000,000,000字节。";
+
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "拍字节";
+"petabytes.longName" = "拍字节";
+"petabytes.detailedIntroduction" = "拍字节是数据单位，等于1,000,000,000,000,000字节。";
+
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "太字节";
+"terabytes.longName" = "太字节";
+"terabytes.detailedIntroduction" = "太字节是数据单位，等于1,000,000,000,000字节。";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "吉字节";
+"gigabytes.longName" = "吉字节";
+"gigabytes.detailedIntroduction" = "吉字节是数据单位，等于1,000,000,000字节。";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "兆字节";
+"megabytes.longName" = "兆字节";
+"megabytes.detailedIntroduction" = "兆字节是数据单位，等于1,000,000字节。";
+
+"kilobytes.symbol" = "KB";
+"kilobytes.shortName" = "千字节";
+"kilobytes.longName" = "千字节";
+"kilobytes.detailedIntroduction" = "千字节是数据单位，等于1000字节。";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "尧比特";
+"yottabits.longName" = "尧比特";
+"yottabits.detailedIntroduction" = "尧比特是数据单位，等于1,000,000,000,000,000,000,000,000比特。";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "泽比特";
+"zettabits.longName" = "泽比特";
+"zettabits.detailedIntroduction" = "泽比特是数据单位，等于1,000,000,000,000,000,000,000比特。";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "艾比特";
+"exabits.longName" = "艾比特";
+"exabits.detailedIntroduction" = "艾比特是数据单位，等于1,000,000,000,000,000,000比特。";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "拍比特";
+"petabits.longName" = "拍比特";
+"petabits.detailedIntroduction" = "拍比特是数据单位，等于1,000,000,000,000,000比特。";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "太比特";
+"terabits.longName" = "太比特";
+"terabits.detailedIntroduction" = "太比特是数据单位，等于1,000,000,000,000比特。";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "吉比特";
+"gigabits.longName" = "吉比特";
+"gigabits.detailedIntroduction" = "吉比特是数据单位，等于1,000,000,000比特。";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "兆比特";
+"megabits.longName" = "兆比特";
+"megabits.detailedIntroduction" = "兆比特是数据单位，等于1,000,000比特。";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "千比特";
+"kilobits.longName" = "千比特";
+"kilobits.detailedIntroduction" = "千比特是数据单位，等于1000比特。";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "尧字节";
+"yobibytes.longName" = "尧字节";
+"yobibytes.detailedIntroduction" = "尧字节是数据单位，等于2^80字节。";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "泽字节";
+"zebibytes.longName" = "泽字节";
+"zebibytes.detailedIntroduction" = "泽字节是数据单位，等于2^70字节。";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "艾字节";
+"exbibytes.longName" = "艾字节";
+"exbibytes.detailedIntroduction" = "艾字节是数据单位，等于2^60字节。";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName
+
+" = "拍字节";
+"pebibytes.longName" = "拍字节";
+"pebibytes.detailedIntroduction" = "拍字节是数据单位，等于2^50字节。";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "太字节";
+"tebibytes.longName" = "太字节";
+"tebibytes.detailedIntroduction" = "太字节是数据单位，等于2^40字节。";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "吉字节";
+"gibibytes.longName" = "吉字节";
+"gibibytes.detailedIntroduction" = "吉字节是数据单位，等于2^30字节。";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "兆字节";
+"mebibytes.longName" = "兆字节";
+"mebibytes.detailedIntroduction" = "兆字节是数据单位，等于2^20字节。";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "千字节";
+"kibibytes.longName" = "千字节";
+"kibibytes.detailedIntroduction" = "千字节是数据单位，等于2^10字节。";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "尧比特";
+"yobibits.longName" = "尧比特";
+"yobibits.detailedIntroduction" = "尧比特是数据单位，等于2^80比特。";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "泽比特";
+"zebibits.longName" = "泽比特";
+"zebibits.detailedIntroduction" = "泽比特是数据单位，等于2^70比特。";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "艾比特";
+"exbibits.longName" = "艾比特";
+"exbibits.detailedIntroduction" = "艾比特是数据单位，等于2^60比特。";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "拍比特";
+"pebibits.longName" = "拍比特";
+"pebibits.detailedIntroduction" = "拍比特是数据单位，等于2^50比特。";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "太比特";
+"tebibits.longName" = "太比特";
+"tebibits.detailedIntroduction" = "太比特是数据单位，等于2^40比特。";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "吉比特";
+"gibibits.longName" = "吉比特";
+"gibibits.detailedIntroduction" = "吉比特是数据单位，等于2^30比特。";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "兆比特";
+"mebibits.longName" = "兆比特";
+"mebibits.detailedIntroduction" = "兆比特是数据单位，等于2^20比特。";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "千比特";
+"kibibits.longName" = "千比特";
+"kibibits.detailedIntroduction" = "千比特是数据单位，等于2^10比特。";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "英制茶匙";
+"imperialTeaspoons.longName" = "英制茶匙";
+"imperialTeaspoons.detailedIntroduction" = "英制茶匙是体积单位，等于约0.00591939升。";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "英制汤匙";
+"imperialTablespoons.longName" = "英制汤匙";
+"imperialTablespoons.detailedIntroduction" = "英制汤匙是体积单位，等于约0.0177582升。";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "英制液盎司";
+"imperialFluidOunces.longName" = "英制液盎司";
+"imperialFluidOunces.detailedIntroduction" = "英制液盎司是体积单位，等于约0.0284131升。";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "英制品脱";
+"imperialPints.longName" = "英制品脱";
+"imperialPints.detailedIntroduction" = "英制品脱是体积单位，等于约0.568261升。";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "英制夸脱";
+"imperialQuarts.longName" = "英制夸脱";
+"imperialQuarts.detailedIntroduction" = "英制夸脱是体积单位，等于约1.13652升。";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "英制加仑";
+"imperialGallons.longName" = "英制加仑";
+"imperialGallons.detailedIntroduction" = "英制加仑是体积单位，等于约4.54609升。";
+
+"metricCups.symbol" = "m cup";
+"metricCups.shortName" = "公制杯";
+"metricCups.longName" = "公制杯";
+"metricCups.detailedIntroduction" = "公制杯是体积单位，等于0.25升。";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "兆字节";
+"megabytes.longName" = "兆字节";
+"megabytes.detailedIntroduction" = "兆字节是数据单位，等于1,048,576字节。";
+
+"kilobytes.symbol" = "KB";
+"kilobytes.shortName" = "千字节";
+"kilobytes.longName" = "千字节";
+"kilobytes.detailedIntroduction" = "千字节是数据单位，等于1,024字节。";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "尧比特";
+"yottabits.longName" = "尧比特";
+"yottabits.detailedIntroduction" = "尧比特是数据单位，等于1,208,925,819,614,629,174,706,176比特。";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "泽比特";
+"zettabits.longName" = "泽比特";
+"zettabits.detailedIntroduction" = "泽比特是数据单位，等于1,180,591,620,717,411,303,424比特。";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "艾比特";
+"exabits.longName" = "艾比特";
+"exabits.detailedIntroduction" = "艾比特是数据单位，等于1,152,921,504,606,846,976比特。";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "拍比特";
+"petabits.longName" = "拍比特";
+"petabits.detailedIntroduction" = "拍比特是数据单位，等于1,125,899,906,842,624比特。";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "太比特";
+"terabits.longName" = "太比特";
+"terabits.detailedIntroduction" = "太比特是数据单位，等于1,099,511,627,776比特。";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "吉比特";
+"gigabits.longName" = "吉比特";
+"gigabits.detailedIntroduction" = "吉比特是数据单位，等于1,073,741,824比特。";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "兆比特";
+"megabits.longName" = "兆比特";
+"megabits.detailedIntroduction" = "兆比特是数据单位，等于1,048,576比特。";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "千比特";
+"kilobits.longName" = "千比特";
+"kilobits.detailedIntroduction" = "千比特是数据单位，等于1,024比特。";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "尧字节";
+"yobibytes.longName" = "尧字节";
+"yobibytes.detailedIntroduction" = "尧字节是数据单位，等于2^80字节。";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "泽字节";
+"zebibytes.longName" = "泽字节";
+"zebibytes.detailedIntroduction" = "泽字节是数据单位，等于2^70字节。";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "艾字节";
+"exbibytes.longName" = "艾字节";
+"exbibytes.detailedIntroduction" = "艾字节是数据单位，等于2^60字节。";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "拍字节";
+"pebibytes.longName" = "拍字节";
+"pebibytes.detailedIntroduction" = "拍字节是数据单位，等于2^50字节。";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "太字节";
+"tebibytes.longName" = "太字节";
+"tebibytes.detailedIntroduction" = "太字节是数据单位，等于2^40字节。";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "吉字节";
+"gibibytes.longName" = "吉字节";
+"gibibytes.detailedIntroduction" = "吉字节是数据单位，等于2^30字节。";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "兆字节";
+"mebibytes.longName" = "兆字节";
+"mebibytes.detailedIntroduction" = "兆字节是数据单位，等于2^20字节。";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "千字节";
+"kibibytes.longName" = "千字节";
+"kibibytes.detailedIntroduction" = "千字节是数据单位，等于2^10字节。";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "尧比特";
+"yobibits.longName" = "尧比特";
+"yobibits.detailedIntroduction" = "尧比特是数据单位，等于2^80比特。";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "泽比特";
+"zebibits.longName" = "泽比特";
+"zebibits.detailedIntroduction" = "泽比特是数据单位，等于2^70比特。";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "艾比特";
+"exbibits.longName" = "艾比特";
+"exbibits.detailedIntroduction" = "艾比特是数据单位，等于2^60比特。";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "拍比特";
+"pebibits.longName" = "拍比特";
+"pebibits.detailedIntroduction" = "拍比特是数据单位，等于2^50比特。";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "太比特";
+"tebibits.longName" = "太比特";
+"tebibits.detailedIntroduction" = "太比特是数据单位，等于2^40比特。";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "吉比特";
+"gibibits.longName" = "吉比特";
+"gibibits.detailedIntroduction" = "吉比特是数据单位，等于2^30比特。";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "兆比特";
+"mebibits.longName" = "兆比特";
+"mebibits.detailedIntroduction" = "兆比特是数据单位，等于2^20比特。";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "千比特";
+"kibibits.longName" = "千比特";
+"kibibits.detailedIntroduction" = "千比特是数据单位，等于2^10比特。";
+
+"length.symbol" = "长";
+"length.shortName" = "长度";
+"length.longName" = "长度";
+"length.detailedIntroduction" = "长度是物体在空间中所占的一维距离。";
+
+"speed.symbol" = "速";
+"speed.shortName" = "速度";
+"speed.longName" = "速度";
+"speed.detailedIntroduction" = "速度是物体在单位时间内移动的距离。";
+
+"pressure.symbol" = "压";
+"pressure.shortName" = "压力";
+"pressure.longName" = "压力";
+"pressure.detailedIntroduction" = "压力是作用在单位面积上的力。";
+
+"temperature.symbol" = "温";
+"temperature.shortName" = "温度";
+"temperature.longName" = "温度";
+"temperature.detailedIntroduction" = "温度是表示物体冷热程度的物理量。";
+
+"temperatureDifference.symbol" = "温差";
+"temperatureDifference.shortName" = "温度差";
+"temperatureDifference.longName" = "温度差";
+"temperatureDifference.detailedIntroduction" = "温度差是两个温度值之间的差异。";
+
+"mass.symbol" = "质";
+"mass.shortName" = "质量";
+"mass.longName" = "质量";
+"mass.detailedIntroduction" = "质量是物体所含物质的量，是物理学中的一个基本概念。";
+
+"volume.symbol" = "体";
+"volume.shortName" = "体积";
+"volume.longName" = "体积";
+"volume.detailedIntroduction" = "体积是物体所占空间的大小。";
+
+"acceleration.symbol" = "加";
+"acceleration.shortName" = "加速度";
+"acceleration.longName" = "加速度";
+"acceleration.detailedIntroduction" = "加速度是物体速度变化的快慢程度。";
+
+"power.symbol" = "功";
+"power.shortName" = "功率";
+"power.longName" = "功率";
+"power.detailedIntroduction" = "功率是单位时间内完成的工作量。";
+
+"angle.symbol" = "角";
+"angle.shortName" = "角度";
+"angle.longName" = "角度";
+"angle.detailedIntroduction" = "角度是两条射线的夹角，是表示旋转程度的量。";
+
+"angularVelocity.symbol" = "角速";
+"angularVelocity.shortName" = "角速度";
+"angularVelocity.longName" = "角速度";
+"angularVelocity.detailedIntroduction" = "角速度是物体旋转时单位时间内旋转的角度。";
+
+"area.symbol" = "面";
+"area.shortName" = "面积";
+"area.longName" = "面积";
+"area.detailedIntroduction" = "面积是物体表面或平面图形的大小。";
+
+"concentration.symbol" = "浓";
+"concentration.shortName" = "浓度";
+"concentration.longName" = "浓度";
+"concentration.detailedIntroduction" = "浓度是溶液中溶质的量与溶剂量的比值。";
+
+"time.symbol" = "时";
+"time.shortName" = "时间";
+"time.longName" = "时间";
+"time.detailedIntroduction" = "时间是事件发生的持续性或顺序性。";
+
+"electricChargeCapacity.symbol" = "电量";
+"electricChargeCapacity.shortName" = "电荷容量";
+"electricChargeCapacity.longName" = "电荷容量";
+"electricChargeCapacity.detailedIntroduction" = "电荷容量是表示电池储存电荷量的单位。";
+
+"electricCurrent.symbol" = "电流";
+"electricCurrent.shortName" = "电流";
+"electricCurrent.longName" = "电流";
+"electricCurrent.detailedIntroduction" = "电流是电荷在导体中定向移动形成的流动。";
+
+"electricPotential.symbol" = "电压";
+"electricPotential.shortName" = "电压";
+"electricPotential.longName" = "电压";
+"electricPotential.detailedIntroduction" = "电压是电场中单位电荷的电势能。";
+
+"electricResistance.symbol" = "电阻";
+"electricResistance.shortName" = "电阻";
+"electricResistance.longName" = "电阻";
+"electricResistance.detailedIntroduction" = "电阻是导体对电流的阻碍作用。";
+
+"energy.symbol" = "能";
+"energy.shortName" = "能量";
+"energy.longName" = "能量";
+"energy.detailedIntroduction" = "能量是物体进行工作的能力。";
+
+"frequency.symbol" = "频";
+"frequency.shortName" = "频率";
+"frequency.longName" = "频率";
+"frequency.detailedIntroduction" = "频率是单位时间内重复事件发生的次数。";
+
+"fuelEfficiency.symbol" = "油效";
+"fuelEfficiency.shortName" = "燃油效率";
+"fuelEfficiency.longName" = "燃油效率";
+"fuelEfficiency.detailedIntroduction" = "燃油效率是车辆在单位燃料量下行驶的距离。";
+
+"data.symbol" = "数";
+"data.shortName" = "数据";
+"data.longName" = "数据";
+"data.detailedIntroduction" = "数据是信息的记录，通常用于计算机处理。";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "库仑";
+"coulombs.longName" = "库仑";
+"coulombs.detailedIntroduction" = "库仑是电荷的国际单位，得名于查尔斯-奥古斯丁·库仑。";

@@ -1,0 +1,1221 @@
+/* AUnitType */
+"length.symbol" = "L";
+"length.shortName" = "Longueur";
+"length.longName" = "Longueur";
+"length.detailedIntroduction" = "La longueur est une mesure de la distance. Elle est couramment utilisée pour mesurer des distances en mètres, kilomètres, et miles.";
+
+"speed.symbol" = "S";
+"speed.shortName" = "Vitesse";
+"speed.longName" = "Vitesse";
+"speed.detailedIntroduction" = "La vitesse est une mesure de la rapidité de déplacement. Elle est souvent mesurée en mètres par seconde (m/s) ou en kilomètres par heure (km/h).";
+
+"pressure.symbol" = "P";
+"pressure.shortName" = "Pression";
+"pressure.longName" = "Pression";
+"pressure.detailedIntroduction" = "La pression est une mesure de la force par unité de surface. Elle est souvent mesurée en pascals (Pa) ou en bars.";
+
+"temperature.symbol" = "T";
+"temperature.shortName" = "Température";
+"temperature.longName" = "Température";
+"temperature.detailedIntroduction" = "La température est une mesure du degré de chaleur. Elle est couramment mesurée en degrés Celsius (°C), Fahrenheit (°F), ou Kelvin (K).";
+
+"temperatureDifference.symbol" = "ΔT";
+"temperatureDifference.shortName" = "Différence de Température";
+"temperatureDifference.longName" = "Différence de Température";
+"temperatureDifference.detailedIntroduction" = "La différence de température mesure la variation de chaleur. Elle est souvent utilisée pour comparer des changements de température.";
+
+"mass.symbol" = "M";
+"mass.shortName" = "Masse";
+"mass.longName" = "Masse";
+"mass.detailedIntroduction" = "La masse est une mesure de la quantité de matière. Elle est souvent mesurée en kilogrammes (kg) ou en grammes (g).";
+
+"volume.symbol" = "V";
+"volume.shortName" = "Volume";
+"volume.longName" = "Volume";
+"volume.detailedIntroduction" = "Le volume est une mesure de l'espace occupé. Il est souvent mesuré en litres (L) ou en mètres cubes (m³).";
+
+"acceleration.symbol" = "A";
+"acceleration.shortName" = "Accélération";
+"acceleration.longName" = "Accélération";
+"acceleration.detailedIntroduction" = "L'accélération est une mesure de la variation de la vitesse. Elle est souvent mesurée en mètres par seconde au carré (m/s²).";
+
+"power.symbol" = "P";
+"power.shortName" = "Puissance";
+"power.longName" = "Puissance";
+"power.detailedIntroduction" = "La puissance est une mesure de la vitesse à laquelle l'énergie est transférée. Elle est souvent mesurée en watts (W) ou en chevaux-vapeur (HP).";
+
+"angle.symbol" = "θ";
+"angle.shortName" = "Angle";
+"angle.longName" = "Angle";
+"angle.detailedIntroduction" = "L'angle est une mesure de l'ouverture entre deux lignes. Il est souvent mesuré en degrés (°) ou en radians (rad).";
+
+"angularVelocity.symbol" = "ω";
+"angularVelocity.shortName" = "Vitesse Angulaire";
+"angularVelocity.longName" = "Vitesse Angulaire";
+"angularVelocity.detailedIntroduction" = "La vitesse angulaire mesure la rapidité de rotation. Elle est souvent mesurée en radians par seconde (rad/s).";
+
+"area.symbol" = "A";
+"area.shortName" = "Surface";
+"area.longName" = "Surface";
+"area.detailedIntroduction" = "La surface est une mesure de l'étendue d'une surface. Elle est souvent mesurée en mètres carrés (m²) ou en hectares (ha).";
+
+"concentration.symbol" = "C";
+"concentration.shortName" = "Concentration";
+"concentration.longName" = "Concentration";
+"concentration.detailedIntroduction" = "La concentration mesure la quantité de substance dans un volume donné. Elle est souvent mesurée en grammes par litre (g/L).";
+
+"time.symbol" = "t";
+"time.shortName" = "Temps";
+"time.longName" = "Temps";
+"time.detailedIntroduction" = "Le temps est une mesure de la durée des événements. Il est souvent mesuré en secondes (s), minutes (min), ou heures (h).";
+
+"electricChargeCapacity.symbol" = "Q";
+"electricChargeCapacity.shortName" = "Capacité de Charge Électrique";
+"electricChargeCapacity.longName" = "Capacité de Charge Électrique";
+"electricChargeCapacity.detailedIntroduction" = "La capacité de charge électrique mesure la quantité d'électricité stockée. Elle est souvent mesurée en ampères-heures (Ah).";
+
+"electricCurrent.symbol" = "I";
+"electricCurrent.shortName" = "Courant Électrique";
+"electricCurrent.longName" = "Courant Électrique";
+"electricCurrent.detailedIntroduction" = "Le courant électrique mesure le flux de charge électrique. Il est souvent mesuré en ampères (A).";
+
+"electricPotential.symbol" = "V";
+"electricPotential.shortName" = "Potentiel Électrique";
+"electricPotential.longName" = "Potentiel Électrique";
+"electricPotential.detailedIntroduction" = "Le potentiel électrique mesure la différence de potentiel entre deux points. Il est souvent mesuré en volts (V).";
+
+"electricResistance.symbol" = "R";
+"electricResistance.shortName" = "Résistance Électrique";
+"electricResistance.longName" = "Résistance Électrique";
+"electricResistance.detailedIntroduction" = "La résistance électrique mesure l'opposition au flux de courant. Elle est souvent mesurée en ohms (Ω).";
+
+"energy.symbol" = "E";
+"energy.shortName" = "Énergie";
+"energy.longName" = "Énergie";
+"energy.detailedIntroduction" = "L'énergie est la capacité de faire du travail. Elle est souvent mesurée en joules (J) ou en kilowattheures (kWh).";
+
+"frequency.symbol" = "f";
+"frequency.shortName" = "Fréquence";
+"frequency.longName" = "Fréquence";
+"frequency.detailedIntroduction" = "La fréquence mesure le nombre de cycles par seconde. Elle est souvent mesurée en hertz (Hz).";
+
+"fuelEfficiency.symbol" = "FE";
+"fuelEfficiency.shortName" = "Efficacité du Carburant";
+"fuelEfficiency.longName" = "Efficacité du Carburant";
+"fuelEfficiency.detailedIntroduction" = "L'efficacité du carburant mesure la distance parcourue par unité de carburant. Elle est souvent mesurée en litres par 100 kilomètres (L/100km) ou en miles par gallon (mpg).";
+
+"data.symbol" = "D";
+"data.shortName" = "Données";
+"data.longName" = "Données";
+"data.detailedIntroduction" = "Les données mesurent la quantité d'information. Elles sont souvent mesurées en octets (B) ou en bits (b).";
+
+/* Ref */
+"None" = "Aucun";
+
+/* AUnit */
+"feet.symbol" = "ft";
+"feet.shortName" = "Pied";
+"feet.longName" = "Pied";
+"feet.detailedIntroduction" = "Le pied est une unité de longueur utilisée principalement dans les pays anglo-saxons. 1 pied = 0.3048 mètres.";
+
+"nauticalMiles.symbol" = "NM";
+"nauticalMiles.shortName" = "Mille Nautique";
+"nauticalMiles.longName" = "Mille Nautique";
+"nauticalMiles.detailedIntroduction" = "Le mille nautique est utilisé dans la navigation maritime et aérienne. 1 NM = 1852 mètres.";
+
+"meters.symbol" = "m";
+"meters.shortName" = "Mètre";
+"meters.longName" = "Mètre";
+"meters.detailedIntroduction" = "Le mètre est l'unité de base de la longueur dans le système international d'unités (SI).";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "Kilomètre";
+"kilometers.longName" = "Kilomètre";
+"kilometers.detailedIntroduction" = "Le kilomètre est une unité de longueur égale à 1000 mètres.";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "Mile";
+"miles.longName" = "Mile";
+"miles.detailedIntroduction" = "Le mile est une unité de longueur utilisée principalement aux États-Unis. 1 mile = 1609.344 mètres.";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "Mégamètre";
+"megameters.longName" = "Mégamètre";
+"megameters.detailedIntroduction" = "Le mégamètre est une unité de longueur égale à un million de mètres.";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "Hectomètre";
+"hectometers.longName" = "Hectomètre";
+"hectometers.detailedIntroduction" = "L'hectomètre est une unité de longueur égale à cent mètres.";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "Décamètre";
+"decameters.longName" = "Décamètre";
+"decameters.detailedIntroduction" = "Le décamètre est une unité de longueur égale à dix mètres.";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "Décimètre";
+"decimeters.longName" = "Décimètre";
+"decimeters.detailedIntroduction" = "Le décimètre est une unité de longueur égale à un dixième de mètre.";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "Centimètre";
+"centimeters.longName" = "Centimètre";
+"centimeters.detailedIntroduction" = "Le centimètre est une unité de longueur égale à un centième de mètre.";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "Millimètre";
+"millimeters.longName" = "Millimètre";
+"millimeters.detailedIntroduction" = "Le millimètre est une unité de longueur égale à un millième de mètre.";
+
+"micrometers.symbol" = "μm";
+"micrometers.shortName" = "Micromètre";
+"micrometers.longName" = "Micromètre";
+"micrometers.detailedIntroduction" = "Le micromètre est une unité de longueur égale à un millionième de mètre.";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "Nanomètre";
+"nanometers.longName" = "Nanomètre";
+"nanometers.detailedIntroduction" = "Le nanomètre est une unité de longueur égale à un milliardième de mètre.";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "Picomètre";
+"picometers.longName" = "Picomètre";
+"picometers.detailedIntroduction" = "Le picomètre est une unité de longueur égale à un billionième de mètre.";
+
+"inches.symbol" = "in";
+"inches.shortName" = "Pouce";
+"inches.longName" = "Pouce";
+"inches.detailedIntroduction" = "Le pouce est une unité de longueur utilisée principalement aux États-Unis. 1 pouce = 2.54 centimètres.";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "Yard";
+"yards.longName" = "Yard";
+"yards.detailedIntroduction" = "Le yard est une unité de longueur utilisée principalement aux États-Unis et au Royaume-Uni. 1 yard = 0.9144 mètres.";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "Mille Scandinave";
+"scandinavianMiles.longName" = "Mille Scandinave";
+"scandinavianMiles.detailedIntroduction" = "Le mille scandinave est une unité de longueur utilisée principalement en Suède et en Norvège. 1 mille scandinave = 10 kilomètres.";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "Année-Lumière";
+"lightyears.longName" = "Année-Lumière";
+"lightyears.detailedIntroduction" = "L'année-lumière est une unité de longueur utilisée pour exprimer les distances astronomiques. 1 année-lumière = 9.4607 × 10^12 kilomètres.";
+
+"fathoms.symbol" = "fath";
+"fathoms.shortName" = "Brasse";
+"fathoms.longName" = "Brasse";
+"fathoms.detailedIntroduction" = "La brasse est une unité de longueur utilisée principalement pour mesurer la profondeur de l'eau. 1 brasse = 1.8288 mètres.";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "Furlong";
+"furlongs.longName" = "Furlong";
+"furlongs.detailedIntroduction" = "Le furlong est une unité de longueur utilisée principalement en course de chevaux. 1 furlong = 201.168 mètres.";
+
+"astronomicalUnits.symbol" = "AU";
+"astronomicalUnits.shortName" = "Unité Astronomique";
+"astronomicalUnits.longName" = "Unité Astronomique";
+"astronomicalUnits.detailedIntroduction" = "L'unité astronomique est une unité de longueur utilisée pour exprimer les distances au sein du système solaire. 1 AU = 149597870.7 kilomètres.";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "Parsec";
+"parsecs.longName" = "Parsec";
+"parsecs.detailedIntroduction" = "Le parsec est une unité de longueur utilisée pour mesurer les distances astronomiques. 1 parsec = 3.0857 × 10^13 kilomètres.";
+
+"knots.symbol" = "kn";
+"knots.shortName" = "Nœud";
+"knots.longName" = "Nœud";
+"knots.detailedIntroduction" = "Le nœud est une unité de vitesse utilisée dans la navigation maritime et aérienne. 1 nœud = 1.852 kilomètres par heure.";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "Mètres par Seconde";
+"metersPerSecond.longName" = "Mètres par Seconde";
+"metersPerSecond.detailedIntroduction" = "Le mètre par seconde est l'unité de base de la vitesse dans le système international d'unités (SI).";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "Pieds par Minute";
+"feetPerMinute.longName" = "Pieds par Minute";
+"feetPerMinute.detailedIntroduction" = "Le pied par minute est une unité de vitesse utilisée principalement dans les pays anglo-saxons. 1 pied par minute = 0.00508 mètres par seconde.";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "Kilomètres par Heure";
+"kilometersPerHour.longName" = "Kilomètres par Heure";
+"kilometersPerHour.detailedIntroduction" = "Le kilomètre par heure est une unité de vitesse couramment utilisée pour mesurer la vitesse des véhicules.";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "Pieds par Seconde";
+"feetPerSecond.longName" = "Pieds par Seconde";
+"feetPerSecond.detailedIntroduction" = "Le pied par seconde est une unité de vitesse utilisée principalement aux États-Unis. 1 pied par seconde = 0.3048 mètres par seconde.";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "Miles par Heure";
+"milesPerHour.longName" = "Miles par Heure";
+"milesPerHour.detailedIntroduction" = "Le mile par heure est une unité de vitesse utilisée principalement aux États-Unis. 1 mile par heure = 1.60934 kilomètres par heure.";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "Pouces par Seconde";
+"inchesPerSecond.longName" = "Pouces par Seconde";
+"inchesPerSecond.detailedIntroduction" = "Le pouce par seconde est une unité de vitesse utilisée principalement aux États-Unis. 1 pouce par seconde = 0.0254 mètres par seconde.";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "Yards par Seconde";
+"yardsPerSecond.longName" = "Yards par Seconde";
+"yardsPerSecond.detailedIntroduction" = "Le yard par seconde est une unité de vitesse utilisée principalement aux États-Unis et au Royaume-Uni. 1 yard par seconde = 0.9144 mètres par seconde.";
+
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "Hectopascal";
+"hectopascals.longName" = "Hectopascal";
+"hectopascals.detailedIntroduction" = "L'hectopascal est une unité de pression équivalente à 100 pascals. Elle est couramment utilisée en météorologie.";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "Pouces de Mercure";
+"inchesOfMercury.longName" = "Pouces de Mercure";
+"inchesOfMercury.detailedIntroduction" = "Le pouce de mercure est une unité de pression couramment utilisée pour mesurer la pression atmosphérique.";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "Millimètres de Mercure";
+"millimetersOfMercury.longName" = "Millimètres de Mercure";
+"millimetersOfMercury.detailedIntroduction" = "Le millimètre de mercure est une unité de pression utilisée principalement en médecine. 1 mmHg = 133.322 pascals.";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "Newton par Mètre Carré";
+"newtonsPerMetersSquared.longName" = "Newton par Mètre Carré";
+"newtonsPerMetersSquared.detailedIntroduction" = "Le newton par mètre carré est une unité de pression équivalente à un pascal (Pa).";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "Gigapascal";
+"gigapascals.longName" = "Gigapascal";
+"gigapascals.detailedIntroduction" = "Le gigapascal est une unité de pression équivalente à un milliard de pascals (1 GPa = 10^9 Pa).";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "Mégapascal";
+"megapascals.longName" = "Mégapascal";
+"megapascals.detailedIntroduction" = "Le mégapascal est une unité de pression équivalente à un million de pascals (1 MPa = 10^6 Pa).";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "Kilopascal";
+"kilopascals.longName" = "Kilopascal";
+"kilopascals.detailedIntroduction" = "Le kilopascal est une unité de pression équivalente à mille pascals (1 kPa = 10^3 Pa).";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "Bar";
+"bars.longName" = "Bar";
+"bars.detailedIntroduction" = "Le bar est une unité de pression couramment utilisée dans l'industrie. 1 bar = 100,000 pascals (Pa).";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "Millibar";
+"millibars.longName" = "Millibar";
+"millibars.detailedIntroduction" = "Le millibar est une unité de pression équivalente à un dixième de pascal (1 mbar = 10^-3 bar).";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "Livres par Pouce Carré";
+"poundsForcePerSquareInch.longName" = "Livres par Pouce Carré";
+"poundsForcePerSquareInch.detailedIntroduction" = "Le livre par pouce carré est une unité de pression utilisée principalement aux États-Unis. 1 psi = 6894.76 pascals (Pa).";
+
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "Kelvin";
+"kelvin.longName" = "Kelvin";
+"kelvin.detailedIntroduction" = "Le kelvin est l'unité de base de la température thermodynamique dans le système international d'unités (SI).";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "Degré Celsius";
+"celsius.longName" = "Degré Celsius";
+"celsius.detailedIntroduction" = "Le degré Celsius est une unité de température utilisée pour mesurer les températures courantes. 0 °C = 273.15 K.";
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "Degré Fahrenheit";
+"fahrenheit.longName" = "Degré Fahrenheit";
+"fahrenheit.detailedIntroduction" = "Le degré Fahrenheit est une unité de température utilisée principalement aux États-Unis. 32 °F = 0 °C.";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "Degré Rankine";
+"rankine.longName" = "Degré Rankine";
+"rankine.detailedIntroduction" = "Le degré Rankine est une unité de température thermodynamique utilisée principalement en ingénierie. 0 °R = 0 K.";
+
+"celsiusDelta.symbol" = "Δ°C";
+"celsiusDelta.shortName" = "Différence de Degré Celsius";
+"celsiusDelta.longName" = "Différence de Degré Celsius";
+"celsiusDelta.detailedIntroduction" = "La différence de degré Celsius mesure la variation de température. 1 Δ°C = 1 K.";
+
+"fahrenheitDelta.symbol" = "Δ°F";
+"fahrenheitDelta.shortName" = "Différence de Degré Fahrenheit";
+"fahrenheitDelta.longName" = "Différence de Degré Fahrenheit";
+"fahrenheitDelta.detailedIntroduction" = "La différence de degré Fahrenheit mesure la variation de température. 1 Δ°F = 0.5556 Δ°C.";
+
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "Tonne Métrique";
+"metricTons.longName" = "Tonne Métrique";
+"metricTons.detailedIntroduction" = "La tonne métrique est une unité de masse égale à 1000 kilogrammes.";
+
+"shortTons.symbol" = "ton";
+"shortTons.shortName" = "Tonne Courte";
+"shortTons.longName" = "Tonne Courte";
+"shortTons.detailedIntroduction" = "La tonne courte est une unité de masse utilisée principalement aux États-Unis. 1 tonne courte = 2000 livres (lb).";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "Kilogramme";
+"kilograms.longName" = "Kilogramme";
+"kilograms.detailedIntroduction" = "Le kilogramme est l'unité de base de la masse dans le système international d'unités (SI).";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "Kilolivre";
+"kilopounds.longName" = "Kilolivre";
+"kilopounds.detailedIntroduction" = "Le kilolivre est une unité de masse égale à 1000 livres.";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "Livre";
+"pounds.longName" = "Livre";
+"pounds.detailedIntroduction" = "La livre est une unité de masse utilisée principalement aux États-Unis. 1 livre = 0.453592 kilogrammes.";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "Once";
+"ounces.longName" = "Once";
+"ounces.detailedIntroduction" = "L'once est une unité de masse utilisée principalement aux États-Unis. 1 once = 28.3495 grammes.";
+
+"grams.symbol" = "g";
+"grams.shortName" = "Gramme";
+"grams.longName" = "Gramme";
+"grams.detailedIntroduction" = "Le gramme est une unité de masse égale à un millième de kilogramme.";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "Décigramme";
+"decigrams.longName" = "Décigramme";
+"decigrams.detailedIntroduction" = "Le décigramme est une unité de masse égale à un dixième de gramme.";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "Centigramme";
+"centigrams.longName" = "Centigramme";
+"centigrams.detailedIntroduction" = "Le centigramme est une unité de masse égale à un centième de gramme.";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "Milligramme";
+"milligrams.longName" = "Milligramme";
+"milligrams.detailedIntroduction" = "Le milligramme est une unité de masse égale à un millième de gramme.";
+
+"micrograms.symbol" = "µg";
+"micrograms.shortName" = "Microgramme";
+"micrograms.longName" = "Microgramme";
+"micrograms.detailedIntroduction" = "Le microgramme est une unité de masse égale à un millionième de gramme.";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "Nanogramme";
+"nanograms.longName" = "Nanogramme";
+"nanograms.detailedIntroduction" = "Le nanogramme est une unité de masse égale à un milliardième de gramme.";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "Picogramme";
+"picograms.longName" = "Picogramme";
+"picograms.detailedIntroduction" = "Le picogramme est une unité de masse égale à un billionième de gramme.";
+
+"stones.symbol" = "st";
+"stones.shortName" = "Stone";
+"stones.longName" = "Stone";
+"stones.detailedIntroduction" = "Le stone est une unité de masse utilisée principalement au Royaume-Uni. 1 stone = 6.35029 kilogrammes.";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "Carat";
+"carats.longName" = "Carat";
+"carats.detailedIntroduction" = "Le carat est une unité de masse utilisée pour les pierres précieuses. 1 carat = 0.2 grammes.";
+
+"ouncesTroy.symbol" = "oz t";
+"ouncesTroy.shortName" = "Once Troy";
+"ouncesTroy.longName" = "Once Troy";
+"ouncesTroy.detailedIntroduction" = "L'once troy est une unité de masse utilisée principalement pour les métaux précieux. 1 once troy = 31.1035 grammes.";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "Slug";
+"slugs.longName" = "Slug";
+"slugs.detailedIntroduction" = "Le slug est une unité de masse utilisée principalement dans l'ingénierie anglo-saxonne. 1 slug = 14.5939 kilogrammes.";
+
+"liters.symbol" = "L";
+"liters.shortName" = "Litre";
+"liters.longName" = "Litre";
+"liters.detailedIntroduction" = "Le litre est une unité de volume égale à un décimètre cube.";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "Quart";
+"quarts.longName" = "Quart";
+"quarts.detailedIntroduction" = "Le quart est une unité de volume utilisée principalement aux États-Unis. 1 quart = 0.946353 litres.";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "Mètre Cube";
+"cubicMeters.longName" = "Mètre Cube";
+"cubicMeters.detailedIntroduction" = "Le mètre cube est l'unité de base du volume dans le système international d'unités (SI).";
+
+"cubicCentimeters.symbol" = "cm³";
+"cubicCentimeters.shortName" = "Centimètre Cube";
+"cubicCentimeters.longName" = "Centimètre Cube";
+"cubicCentimeters.detailedIntroduction" = "Le centimètre cube est une unité de volume égale à un millième de litre.";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "Gallon";
+"gallons.longName" = "Gallon";
+"gallons.detailedIntroduction" = "Le gallon est une unité de volume utilisée principalement aux États-Unis et au Royaume-Uni. 1 gallon américain = 3.78541 litres, 1 gallon impérial = 4.54609 litres.";
+
+"megaliters.symbol" = "ML";
+"megaliters.shortName" = "Mégalitre";
+"megaliters.longName" = "Mégalitre";
+"megaliters.detailedIntroduction" = "Le mégalitre est une unité de volume égale à un million de litres.";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "Kilolitre";
+"kiloliters.longName" = "Kilolitre";
+"kiloliters.detailedIntroduction" = "Le kilolitre est une unité de volume égale à mille litres.";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "Décilitre";
+"deciliters.longName" = "Décilitre";
+"deciliters.detailedIntroduction" = "Le décilitre est une unité de volume égale à un dixième de litre.";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "Centilitre";
+"centiliters.longName" = "Centilitre";
+"centiliters.detailedIntroduction" = "Le centilitre est une unité de volume égale à un centième de litre.";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "Millilitre";
+"milliliters.longName" = "Millilitre";
+"milliliters.detailedIntroduction" = "Le millilitre est une unité de volume égale à un millième de litre.";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "Kilomètre Cube";
+"cubicKilometers.longName" = "Kilomètre Cube";
+"cubicKilometers.detailedIntroduction" = "Le kilomètre cube est une unité de volume égale à un milliard de mètres cubes.";
+
+"cubicDecimeters.symbol" = "dm³";
+"cubicDecimeters.shortName" = "Décimètre Cube";
+"cubicDecimeters.longName" = "Décimètre Cube";
+"cubicDecimeters.detailedIntroduction" = "Le décimètre cube est une unité de volume égale à un litre.";
+
+"cubicMillimeters.symbol" = "mm³";
+"cubicMillimeters.shortName" = "Millimètre Cube";
+"cubicMillimeters.longName" = "Millimètre Cube";
+"cubicMillimeters.detailedIntroduction" = "Le millimètre cube est une unité de volume égale à un milliardième de litre.";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "Pouce Cube";
+"cubicInches.longName" = "Pouce Cube";
+"cubicInches.detailedIntroduction" = "Le pouce cube est une unité de volume utilisée principalement aux États-Unis. 1 pouce cube = 16.3871 millilitres.";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "Pied Cube";
+"cubicFeet.longName" = "Pied Cube";
+"cubicFeet.detailedIntroduction" = "Le pied cube est une unité de volume utilisée principalement aux États-Unis. 1 pied cube = 28.3168 litres.";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "Yard Cube";
+"cubicYards.longName" = "Yard Cube";
+"cubicYards.detailedIntroduction" = "Le yard cube est une unité de volume utilisée principalement aux États-Unis et au Royaume-Uni. 1 yard cube = 764.555 litres.";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "Mile Cube";
+"cubicMiles.longName" = "Mile Cube";
+"cubicMiles.detailedIntroduction" = "Le mile cube est une unité de volume utilisée principalement aux États-Unis. 1 mile cube = 4.16818 × 10^12 mètres cubes.";
+
+"acreFeet.symbol" = "af";
+"acreFeet.shortName" = "Acre-Pied";
+"acreFeet.longName" = "Acre-Pied";
+"acreFeet.detailedIntroduction" = "L'acre-pied est une unité de volume utilisée principalement aux États-Unis pour mesurer les volumes d'eau. 1 acre-pied = 1233.48 mètres cubes.";
+
+"bushels.symbol" = "bu";
+"bushels.shortName" = "Boisseau";
+"bushels.longName" = "Boisseau";
+"bushels.detailedIntroduction" = "Le boisseau est une unité de volume utilisée principalement aux États-Unis pour les produits agricoles. 1 boisseau = 35.2391 litres.";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "Cuillère à Café";
+"teaspoons.longName" = "Cuillère à Café";
+"teaspoons.detailedIntroduction" = "La cuillère à café est une unité de volume utilisée principalement en cuisine. 1 cuillère à café = 4.92892 millilitres.";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "Cuillère à Soupe";
+"tablespoons.longName" = "Cuillère à Soupe";
+"tablespoons.detailedIntroduction" = "La cuillère à soupe est une unité de volume utilisée principalement en cuisine. 1 cuillère à soupe = 14.7868 millilitres.";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "Once Liquide";
+"fluidOunces.longName" = "Once Liquide";
+"fluidOunces.detailedIntroduction" = "L'once liquide est une unité de volume utilisée principalement aux États-Unis. 1 once liquide = 29.5735 millilitres.";
+
+"cups.symbol" = "cup";
+"cups.shortName" = "Tasse";
+"cups.longName" = "Tasse";
+"cups.detailedIntroduction" = "La tasse est une unité de volume utilisée principalement en cuisine. 1 tasse = 240 millilitres.";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "Pinte";
+"pints.longName" = "Pinte";
+"pints.detailedIntroduction" = "La pinte est une unité de volume utilisée principalement aux États-Unis et au Royaume-Uni. 1 pinte américaine = 473.176 millilitres, 1 pinte impériale = 568.261 millilitres.";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "Cuillère à Café Impériale";
+"imperialTeaspoons.longName" = "Cuillère à Café Impériale";
+"imperialTeaspoons.detailedIntroduction" = "La cuillère à café impériale est une unité de volume utilisée principalement au Royaume-Uni. 1 cuillère à café impériale = 5.91939 millilitres.";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "Cuillère à Soupe Impériale";
+"imperialTablespoons.longName" = "Cuillère à Soupe Impériale";
+"imperialTablespoons.detailedIntroduction" = "La cuillère à soupe impériale est une unité de volume utilisée principalement au Royaume-Uni. 1 cuillère à soupe impériale = 17.7582 millilitres.";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "Once Liquide Impériale";
+"imperialFluidOunces.longName" = "Once Liquide Impériale";
+"imperialFluidOunces.detailedIntroduction" = "L'once liquide impériale est une unité de volume utilisée principalement au Royaume-Uni. 1 once liquide impériale = 28.4131 millilitres.";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "Pinte Impériale";
+"imperialPints.longName" = "Pinte Impériale";
+"imperialPints.detailedIntroduction" = "La pinte impériale est une unité de volume utilisée principalement au Royaume-Uni. 1 pinte impériale = 568.261 millilitres.";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "Quart Impérial";
+"imperialQuarts.longName" = "Quart Impérial";
+"imperialQuarts.detailedIntroduction" = "Le quart impérial est une unité de volume utilisée principalement au Royaume-Uni. 1 quart impérial = 1.13652 litres.";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "Gallon Impérial";
+"imperialGallons.longName" = "Gallon Impérial";
+"imperialGallons.detailedIntroduction" = "Le gallon impérial est une unité de volume utilisée principalement au Royaume-Uni. 1 gallon impérial = 4.54609 litres.";
+
+"metricCups.symbol" = "cup";
+"metricCups.shortName" = "Tasse Métrique";
+"metricCups.longName" = "Tasse Métrique";
+"metricCups.detailedIntroduction" = "La tasse métrique est une unité de volume utilisée principalement en Australie, au Canada, et en Nouvelle-Zélande. 1 tasse métrique = 250 millilitres.";
+
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "Mètres par Seconde Carré";
+"metersPerSecondSquared.longName" = "Mètres par Seconde Carré";
+"metersPerSecondSquared.detailedIntroduction" = "Le mètre par seconde carré est l'unité de base de l'accélération dans le système international d'unités (SI).";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "Gravité";
+"gravity.longName" = "Gravité";
+"gravity.detailedIntroduction" = "La gravité est une unité d'accélération égale à l'accélération gravitationnelle à la surface de la Terre. 1 g = 9.80665 m/s².";
+
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "Térawatt";
+"terawatts.longName" = "Térawatt";
+"terawatts.detailedIntroduction" = "Le térawatt est une unité de puissance égale à un billion de watts (1 TW = 10^12 W).";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "Gigawatt";
+"gigawatts.longName" = "Gigawatt";
+"gigawatts.detailedIntroduction" = "Le gigawatt est une unité de puissance égale à un milliard de watts (1 GW = 10^9 W).";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "Mégawatt";
+"megawatts.longName" = "Mégawatt";
+"megawatts.detailedIntroduction" = "Le mégawatt est une unité de puissance égale à un million de watts (1 MW = 10^6 W).";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "Kilowatt";
+"kilowatts.longName" = "Kilowatt";
+"kilowatts.detailedIntroduction" = "Le kilowatt est une unité de puissance égale à mille watts (1 kW = 10^3 W).";
+
+"watts.symbol" = "W";
+"watts.shortName" = "Watt";
+"watts.longName" = "Watt";
+"watts.detailedIntroduction" = "Le watt est l'unité de base de la puissance dans le système international d'unités (SI).";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "Milliwatt";
+"milliwatts.longName" = "Milliwatt";
+"milliwatts.detailedIntroduction" = "Le milliwatt est une unité de puissance égale à un millième de watt (1 mW = 10^-3 W).";
+
+"microwatts.symbol" = "µW";
+"microwatts.shortName" = "Microwatt";
+"microwatts.longName" = "Microwatt";
+"microwatts.detailedIntroduction" = "Le microwatt est une unité de puissance égale à un millionième de watt (1 µW = 10^-6 W).";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "Nanowatt";
+"nanowatts.longName" = "Nanowatt";
+"nanowatts.detailedIntroduction" = "Le nanowatt est une unité de puissance égale à un milliardième de watt (1 nW = 10^-9 W).";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "Picowatt";
+"picowatts.longName" = "Picowatt";
+"picowatts.detailedIntroduction" = "Le picowatt est une unité de puissance égale à un billionième de watt (1 pW = 10^-12 W).";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "Femtowatt";
+"femtowatts.longName" = "Femtowatt";
+"femtowatts.detailedIntroduction" = "Le femtowatt est une unité de puissance égale à un quadrillionième de watt (1 fW = 10^-15 W).";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "Cheval-Vapeur";
+"horsepower.longName" = "Cheval-Vapeur";
+"horsepower.detailedIntroduction" = "Le cheval-vapeur est une unité de puissance utilisée principalement dans l'automobile. 1 cheval-vapeur = 745.69987158227022 watts.";
+
+"degrees.symbol" = "°";
+"degrees.shortName" = "Degré";
+"degrees.longName" = "Degré";
+"degrees.detailedIntroduction" = "Le degré est une unité de mesure des angles égale à 1/360 d'un cercle complet.";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "Minute d'Arc";
+"arcMinutes.longName" = "Minute d'Arc";
+"arcMinutes.detailedIntroduction" = "La minute d'arc est une unité de mesure des angles égale à 1/60 d'un degré.";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "Seconde d'Arc";
+"arcSeconds.longName" = "Seconde d'Arc";
+"arcSeconds.detailedIntroduction" = "La seconde d'arc est une unité de mesure des angles égale à 1/60 d'une minute d'arc.";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "Radian";
+"radians.longName" = "Radian";
+"radians.detailedIntroduction" = "Le radian est l'unité de mesure des angles dans le système international d'unités (SI). 1 radian = 57.2958 degrés.";
+
+"gradians.symbol" = "gon";
+"gradians.shortName" = "Grade";
+"gradians.longName" = "Grade";
+"gradians.detailedIntroduction" = "Le grade est une unité de mesure des angles égale à 1/400 d'un cercle complet.";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "Révolution";
+"revolutions.longName" = "Révolution";
+"revolutions.detailedIntroduction" = "La révolution est une unité de mesure des angles égale à un cercle complet (360 degrés).";
+
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "Radians par Seconde";
+"radiansPerSecond.longName" = "Radians par Seconde";
+"radiansPerSecond.detailedIntroduction" = "Le radian par seconde est une unité de vitesse angulaire dans le système international d'unités (SI).";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "Degrés par Seconde";
+"degreesPerSecond.longName" = "Degrés par Seconde";
+"degreesPerSecond.detailedIntroduction" = "Le degré par seconde est une unité de vitesse angulaire. 1 degré par seconde = 0.0174533 radians par seconde.";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "Révolutions par Minute";
+"revolutionsPerMinute.longName" = "Révolutions par Minute";
+"revolutionsPerMinute.detailedIntroduction" = "La révolution par minute est une unité de vitesse angulaire couramment utilisée pour mesurer la vitesse de rotation des moteurs.";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "Révolutions par Seconde";
+"revolutionsPerSecond.longName" = "Révolutions par Seconde";
+"revolutionsPerSecond.detailedIntroduction" = "La révolution par seconde est une unité de vitesse angulaire utilisée principalement en physique et en ingénierie.";
+
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "Mégamètre Carré";
+"squareMegameters.longName" = "Mégamètre Carré";
+"squareMegameters.detailedIntroduction" = "Le mégamètre carré est une unité de surface égale à un billion de mètres carrés (1 Mm² = 10^12 m²).";
+
+"squareKilometers.symbol" = "km²";
+"squareKilometers.shortName" = "Kilomètre Carré";
+"squareKilometers.longName" = "Kilomètre Carré";
+"squareKilometers.detailedIntroduction" = "Le kilomètre carré est une unité de surface égale à un million de mètres carrés (1 km² = 10^6 m²).";
+
+"squareMeters.symbol" = "m²";
+"squareMeters.shortName" = "Mètre Carré";
+"squareMeters.longName" = "Mètre Carré";
+"squareMeters.detailedIntroduction" = "Le mètre carré est l'unité de base de la surface dans le système international d'unités (SI).";
+
+"squareCentimeters.symbol" = "cm²";
+"squareCentimeters.shortName" = "Centimètre Carré";
+"squareCentimeters.longName" = "Centimètre Carré";
+"squareCentimeters.detailedIntroduction" = "Le centimètre carré est une unité de surface égale à un centième de mètre carré.";
+
+"squareMillimeters.symbol" = "mm²";
+"squareMillimeters.shortName" = "Millimètre Carré";
+"squareMillimeters.longName" = "Millimètre Carré";
+"squareMillimeters.detailedIntroduction" = "Le millimètre carré est une unité de surface égale à un millième de mètre carré.";
+
+"squareMicrometers.symbol" = "µm²";
+"squareMicrometers.shortName" = "Micromètre Carré";
+"squareMicrometers.longName" = "Micromètre Carré";
+"squareMicrometers.detailedIntroduction" = "Le micromètre carré est une unité de surface égale à un millionième de mètre carré.";
+
+"squareNanometers.symbol" = "nm²";
+"squareNanometers.shortName" = "Nanomètre Carré";
+"squareNanometers.longName" = "Nanomètre Carré";
+"squareNanometers.detailedIntroduction" = "Le nanomètre carré est une unité de surface égale à un milliardième de mètre carré.";
+
+"squareInches.symbol" = "in²";
+"squareInches.shortName" = "Pouce Carré";
+"squareInches.longName" = "Pouce Carré";
+"squareInches.detailedIntroduction" = "Le pouce carré est une unité de surface utilisée principalement aux États-Unis. 1 pouce carré = 6.4516 centimètres carrés.";
+
+"squareFeet.symbol" = "ft²";
+"squareFeet.shortName" = "Pied Carré";
+"squareFeet.longName" = "Pied Carré";
+"squareFeet.detailedIntroduction" = "Le pied carré est une unité de surface utilisée principalement aux États-Unis. 1 pied carré = 0.092903 mètres carrés.";
+
+"squareYards.symbol" = "yd²";
+"squareYards.shortName" = "Yard Carré";
+"squareYards.longName" = "Yard Carré";
+"squareYards.detailedIntroduction" = "Le yard carré est une unité de surface utilisée principalement aux États-Unis et au Royaume-Uni. 1 yard carré = 0.836127 mètres carrés.";
+
+"squareMiles.symbol" = "mi²";
+"squareMiles.shortName" = "Mile Carré";
+"squareMiles.longName" = "Mile Carré";
+"squareMiles.detailedIntroduction" = "Le mile carré est une unité de surface utilisée principalement aux États-Unis. 1 mile carré = 2.58999 × 10^6 mètres carrés.";
+
+"acres.symbol" = "ac";
+"acres.shortName" = "Acre";
+"acres.longName" = "Acre";
+"acres.detailedIntroduction" = "L'acre est une unité de surface utilisée principalement aux États-Unis et au Royaume-Uni. 1 acre = 4046.86 mètres carrés.";
+
+"ares.symbol" = "a";
+"ares.shortName" = "Are";
+"ares.longName" = "Are";
+"ares.detailedIntroduction" = "L'are est une unité de surface égale à 100 mètres carrés. Elle est couramment utilisée pour mesurer la superficie des terrains.";
+
+"hectares.symbol" = "ha";
+"hectares.shortName" = "Hectare";
+"hectares.longName" = "Hectare";
+"hectares.detailedIntroduction" = "L'hectare est une unité de surface égale à 10,000 mètres carrés. Elle est couramment utilisée pour mesurer la superficie des terrains agricoles.";
+
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "Grammes par Litre";
+"gramsPerLiter.longName" = "Grammes par Litre";
+"gramsPerLiter.detailedIntroduction" = "Les grammes par litre sont une unité de concentration massique couramment utilisée pour mesurer la concentration de substances dans une solution.";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "Milligrammes par Décilitre";
+"milligramsPerDeciliter.longName" = "Milligrammes par Décilitre";
+"milligramsPerDeciliter.detailedIntroduction" = "Les milligrammes par décilitre sont une unité de concentration massique couramment utilisée en médecine pour mesurer la concentration de substances dans le sang.";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "Parties par Million";
+"partsPerMillion.longName" = "Parties par Million";
+"partsPerMillion.detailedIntroduction" = "Les parties par million sont une unité de concentration utilisée pour décrire la concentration de substances dans une solution ou un gaz.";
+
+"hours.symbol" = "h";
+"hours.shortName" = "Heure";
+"hours.longName" = "Heure";
+"hours.detailedIntroduction" = "L'heure est une unité de temps égale à 60 minutes.";
+
+"minutes.symbol" = "min";
+"minutes.shortName" = "Minute";
+"minutes.longName" = "Minute";
+"minutes.detailedIntroduction" = "La minute est une unité de temps égale à 60 secondes.";
+
+"seconds.symbol" = "s";
+"seconds.shortName" = "Seconde";
+"seconds.longName" = "Seconde";
+"seconds.detailedIntroduction" = "La seconde est l'unité de base du temps dans le système international d'unités (SI).";
+
+"milliseconds.symbol" = "ms";
+"milliseconds.shortName" = "Milliseconde";
+"milliseconds.longName" = "Milliseconde";
+"milliseconds.detailedIntroduction" = "La milliseconde est une unité de temps égale à un millième de seconde.";
+
+"microseconds.symbol" = "µs";
+"microseconds.shortName" = "Microseconde";
+"microseconds.longName" = "Microseconde";
+"microseconds.detailedIntroduction" = "La microseconde est une unité de temps égale à un millionième de seconde.";
+
+"nanoseconds.symbol" = "ns";
+"nanoseconds.shortName" = "Nanoseconde";
+"nanoseconds.longName" = "Nanoseconde";
+"nanoseconds.detailedIntroduction" = "La nanoseconde est une unité de temps égale à un milliardième de seconde.";
+
+"picoseconds.symbol" = "ps";
+"picoseconds.shortName" = "Picoseconde";
+"picoseconds.longName" = "Picoseconde";
+"picoseconds.detailedIntroduction" = "La picoseconde est une unité de temps égale à un billionième de seconde.";
+
+"days.symbol" = "d";
+"days.shortName" = "Jour";
+"days.longName" = "Jour";
+"days.detailedIntroduction" = "Le jour est une unité de temps égale à 24 heures.";
+
+"weeks.symbol" = "wk";
+"weeks.shortName" = "Semaine";
+"weeks.longName" = "Semaine";
+"weeks.detailedIntroduction" = "La semaine est une unité de temps égale à 7 jours.";
+
+"years.symbol" = "yr";
+"years.shortName" = "Année";
+"years.longName" = "Année";
+"years.detailedIntroduction" = "L'année est une unité de temps égale à 365.25 jours, prenant en compte les années bissextiles.";
+
+"decades.symbol" = "dec";
+"decades.shortName" = "Décennie";
+"decades.longName" = "Décennie";
+"decades.detailedIntroduction" = "La décennie est une unité de temps égale à 10 ans.";
+
+"centuries.symbol" = "cent";
+"centuries.shortName" = "Siècle";
+"centuries.longName" = "Siècle";
+"centuries.detailedIntroduction" = "Le siècle est une unité de temps égale à 100 ans.";
+
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "Mégaampère-Heure";
+"megaampereHours.longName" = "Mégaampère-Heure";
+"megaampereHours.detailedIntroduction" = "Le mégaampère-heure est une unité de capacité de charge électrique égale à un million d'ampères-heures.";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "Kiloampère-Heure";
+"kiloampereHours.longName" = "Kiloampère-Heure";
+"kiloampereHours.detailedIntroduction" = "Le kiloampère-heure est une unité de capacité de charge électrique égale à mille ampères-heures.";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "Ampère-Heure";
+"ampereHours.longName" = "Ampère-Heure";
+"ampereHours.detailedIntroduction" = "L'ampère-heure est une unité de capacité de charge électrique égale à un ampère multiplié par une heure.";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "Milliampère-Heure";
+"milliampereHours.longName" = "Milliampère-Heure";
+"milliampereHours.detailedIntroduction" = "Le milliampère-heure est une unité de capacité de charge électrique égale à un millième d'ampère-heure.";
+
+"microampereHours.symbol" = "µAh";
+"microampereHours.shortName" = "Microampère-Heure";
+"microampereHours.longName" = "Microampère-Heure";
+"microampereHours.detailedIntroduction" = "Le microampère-heure est une unité de capacité de charge électrique égale à un millionième d'ampère-heure.";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "Ampère-Seconde";
+"ampereSeconds.longName" = "Ampère-Seconde";
+"ampereSeconds.detailedIntroduction" = "L'ampère-seconde est une unité de capacité de charge électrique égale à un ampère multiplié par une seconde.";
+
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "Mégaampère";
+"megaamperes.longName" = "Mégaampère";
+"megaamperes.detailedIntroduction" = "Le mégaampère est une unité de courant électrique égale à un million d'ampères.";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "Kiloampère";
+"kiloamperes.longName" = "Kiloampère";
+"kiloamperes.detailedIntroduction" = "Le kiloampère est une unité de courant électrique égale à mille ampères.";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "Ampère";
+"amperes.longName" = "Ampère";
+"amperes.detailedIntroduction" = "L'ampère est l'unité de base du courant électrique dans le système international d'unités (SI).";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "Milliampère";
+"milliamperes.longName" = "Milliampère";
+"milliamperes.detailedIntroduction" = "Le milliampère est une unité de courant électrique égale à un millième d'ampère.";
+
+"microamperes.symbol" = "µA";
+"microamperes.shortName" = "Microampère";
+"microamperes.longName" = "Microampère";
+"microamperes.detailedIntroduction" = "Le microampère est une unité de courant électrique égale à un millionième d'ampère.";
+
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "Mégavolt";
+"megavolts.longName" = "Mégavolt";
+"megavolts.detailedIntroduction" = "Le mégavolt est une unité de potentiel électrique égale à un million de volts.";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "Kilovolt";
+"kilovolts.longName" = "Kilovolt";
+"kilovolts.detailedIntroduction" = "Le kilovolt est une unité de potentiel électrique égale à mille volts.";
+
+"volts.symbol" = "V";
+"volts.shortName" = "Volt";
+"volts.longName" = "Volt";
+"volts.detailedIntroduction" = "Le volt est l'unité de base du potentiel électrique dans le système international d'unités (SI).";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "Millivolt";
+"millivolts.longName" = "Millivolt";
+"millivolts.detailedIntroduction" = "Le millivolt est une unité de potentiel électrique égale à un millième de volt.";
+
+"microvolts.symbol" = "µV";
+"microvolts.shortName" = "Microvolt";
+"microvolts.longName" = "Microvolt";
+"microvolts.detailedIntroduction" = "Le microvolt est une unité de potentiel électrique égale à un millionième de volt.";
+
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "Mégaohm";
+"megaohms.longName" = "Mégaohm";
+"megaohms.detailedIntroduction" = "Le mégaohm est une unité de résistance électrique égale à un million d'ohms.";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "Kiloohm";
+"kiloohms.longName" = "Kiloohm";
+"kiloohms.detailedIntroduction" = "Le kiloohm est une unité de résistance électrique égale à mille ohms.";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "Ohm";
+"ohms.longName" = "Ohm";
+"ohms.detailedIntroduction" = "L'ohm est l'unité de base de la résistance électrique dans le système international d'unités (SI).";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "Milliohm";
+"milliohms.longName" = "Milliohm";
+"milliohms.detailedIntroduction" = "Le milliohm est une unité de résistance électrique égale à un millième d'ohm.";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "Microohm";
+"microohms.longName" = "Microohm";
+"microohms.detailedIntroduction" = "Le microohm est une unité de résistance électrique égale à un millionième d'ohm.";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "Kilojoule";
+"kilojoules.longName" = "Kilojoule";
+"kilojoules.detailedIntroduction" = "Le kilojoule est une unité d'énergie égale à mille joules.";
+
+"joules.symbol" = "J";
+"joules.shortName" = "Joule";
+"joules.longName" = "Joule";
+"joules.detailedIntroduction" = "Le joule est l'unité de base de l'énergie dans le système international d'unités (SI).";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "Kilocalorie";
+"kilocalories.longName" = "Kilocalorie";
+"kilocalories.detailedIntroduction" = "La kilocalorie est une unité d'énergie couramment utilisée pour mesurer la valeur énergétique des aliments. 1 kilocalorie = 4184 joules.";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "Calorie";
+"calories.longName" = "Calorie";
+"calories.detailedIntroduction" = "La calorie est une unité d'énergie couramment utilisée pour mesurer la valeur énergétique des aliments. 1 calorie = 4.184 joules.";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "Kilowattheure";
+"kilowattHours.longName" = "Kilowattheure";
+"kilowattHours.detailedIntroduction" = "Le kilowattheure est une unité d'énergie couramment utilisée pour mesurer la consommation d'énergie électrique. 1 kilowattheure = 3600000 joules.";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "Wattheure";
+"wattHours.longName" = "Wattheure";
+"wattHours.detailedIntroduction" = "Le wattheure est une unité d'énergie égale à un watt multiplié par une heure.";
+
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "Térahertz";
+"terahertz.longName" = "Térahertz";
+"terahertz.detailedIntroduction" = "Le térahertz est une unité de fréquence égale à un billion de hertz.";
+
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "Gigahertz";
+"gigahertz.longName" = "Gigahertz";
+"gigahertz.detailedIntroduction" = "Le gigahertz est une unité de fréquence égale à un milliard de hertz.";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "Mégahertz";
+"megahertz.longName" = "Mégahertz";
+"megahertz.detailedIntroduction" = "Le mégahertz est une unité de fréquence égale à un million de hertz.";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "Kilohertz";
+"kilohertz.longName" = "Kilohertz";
+"kilohertz.detailedIntroduction" = "Le kilohertz est une unité de fréquence égale à mille hertz.";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "Hertz";
+"hertz.longName" = "Hertz";
+"hertz.detailedIntroduction" = "Le hertz est l'unité de base de la fréquence dans le système international d'unités (SI).";
+
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "Miles par Gallon";
+"milesPerGallon.longName" = "Miles par Gallon";
+"milesPerGallon.detailedIntroduction" = "Les miles par gallon sont une unité d'efficacité du carburant utilisée principalement aux États-Unis.";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "Litres par 100 Kilomètres";
+"litersPer100Kilometers.longName" = "Litres par 100 Kilomètres";
+"litersPer100Kilometers.detailedIntroduction" = "Les litres par 100 kilomètres sont une unité d'efficacité du carburant couramment utilisée en Europe et au Canada.";
+
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "Pétaoctet";
+"petabytes.longName" = "Pétaoctet";
+"petabytes.detailedIntroduction" = "Le pétaoctet est une unité de stockage de données égale à 10^15 octets.";
+
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "Téraoctet";
+"terabytes.longName" = "Téraoctet";
+"terabytes.detailedIntroduction" = "Le téraoctet est une unité de stockage de données égale à 10^12 octets.";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "Gigaoctet";
+"gigabytes.longName" = "Gigaoctet";
+"gigabytes.detailedIntroduction" = "Le gigaoctet est une unité de stockage de données égale à 10^9 octets.";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "Mégaoctet";
+"megabytes.longName" = "Mégaoctet";
+"megabytes.detailedIntroduction" = "Le mégaoctet est une unité de stockage de données égale à 10^6 octets.";
+
+"kilobytes.symbol" = "kB";
+"kilobytes.shortName" = "Kiloctet";
+"kilobytes.longName" = "Kiloctet";
+"kilobytes.detailedIntroduction" = "Le kiloctet est une unité de stockage de données égale à 10^3 octets.";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "Octet";
+"bytes.longName" = "Octet";
+"bytes.detailedIntroduction" = "L'octet est l'unité de base du stockage de données dans les systèmes informatiques. 1 octet = 8 bits.";
+
+"bits.symbol" = "b";
+"bits.shortName" = "Bit";
+"bits.longName" = "Bit";
+"bits.detailedIntroduction" = "Le bit est la plus petite unité de stockage de données dans les systèmes informatiques. Il peut prendre la valeur 0 ou 1.";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "Millihertz";
+"millihertz.longName" = "Millihertz";
+"millihertz.detailedIntroduction" = "Le millihertz est une unité de fréquence égale à un millième de hertz (1 mHz = 10^-3 Hz).";
+
+"microhertz.symbol" = "µHz";
+"microhertz.shortName" = "Microhertz";
+"microhertz.longName" = "Microhertz";
+"microhertz.detailedIntroduction" = "Le microhertz est une unité de fréquence égale à un millionième de hertz (1 µHz = 10^-6 Hz).";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "Nanohertz";
+"nanohertz.longName" = "Nanohertz";
+"nanohertz.detailedIntroduction" = "Le nanohertz est une unité de fréquence égale à un milliardième de hertz (1 nHz = 10^-9 Hz).";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "Images par Seconde";
+"framesPerSecond.longName" = "Images par Seconde";
+"framesPerSecond.detailedIntroduction" = "Les images par seconde (fps) sont une unité de fréquence utilisée pour mesurer la fréquence d'affichage des images dans les vidéos et les jeux vidéo.";
+
+"milesPerImperialGallon.symbol" = "mpg (imp)";
+"milesPerImperialGallon.shortName" = "Miles par Gallon Impérial";
+"milesPerImperialGallon.longName" = "Miles par Gallon Impérial";
+"milesPerImperialGallon.detailedIntroduction" = "Les miles par gallon impérial sont une unité d'efficacité du carburant utilisée principalement au Royaume-Uni. 1 mpg (imp) = 4.54609 litres par 100 kilomètres.";
+
+"nibbles.symbol" = "nibble";
+"nibbles.shortName" = "Nibble";
+"nibbles.longName" = "Nibble";
+"nibbles.detailedIntroduction" = "Le nibble est une unité de stockage de données égale à 4 bits.";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "Yottaoctet";
+"yottabytes.longName" = "Yottaoctet";
+"yottabytes.detailedIntroduction" = "Le yottaoctet est une unité de stockage de données égale à 10^24 octets.";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "Zettaoctet";
+"zettabytes.longName" = "Zettaoctet";
+"zettabytes.detailedIntroduction" = "Le zettaoctet est une unité de stockage de données égale à 10^21 octets.";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "Exaoctet";
+"exabytes.longName" = "Exaoctet";
+"exabytes.detailedIntroduction" = "L'exaoctet est une unité de stockage de données égale à 10^18 octets.";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "Yottabit";
+"yottabits.longName" = "Yottabit";
+"yottabits.detailedIntroduction" = "Le yottabit est une unité de stockage de données égale à 10^24 bits.";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "Zettabit";
+"zettabits.longName" = "Zettabit";
+"zettabits.detailedIntroduction" = "Le zettabit est une unité de stockage de données égale à 10^21 bits.";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "Exabit";
+"exabits.longName" = "Exabit";
+"exabits.detailedIntroduction" = "L'exabit est une unité de stockage de données égale à 10^18 bits.";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "Petabit";
+"petabits.longName" = "Petabit";
+"petabits.detailedIntroduction" = "Le petabit est une unité de stockage de données égale à 10^15 bits.";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "Térabit";
+"terabits.longName" = "Térabit";
+"terabits.detailedIntroduction" = "Le térabit est une unité de stockage de données égale à 10^12 bits.";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "Gigabit";
+"gigabits.longName" = "Gigabit";
+"gigabits.detailedIntroduction" = "Le gigabit est une unité de stockage de données égale à 10^9 bits.";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "Mégabit";
+"megabits.longName" = "Mégabit";
+"megabits.detailedIntroduction" = "Le mégabit est une unité de stockage de données égale à 10^6 bits.";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "Kilobit";
+"kilobits.longName" = "Kilobit";
+"kilobits.detailedIntroduction" = "Le kilobit est une unité de stockage de données égale à 10^3 bits.";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "Yobioctet";
+"yobibytes.longName" = "Yobioctet";
+"yobibytes.detailedIntroduction" = "Le yobioctet est une unité de stockage de données égale à 2^80 octets.";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "Zébioctet";
+"zebibytes.longName" = "Zébioctet";
+"zebibytes.detailedIntroduction" = "Le zébioctet est une unité de stockage de données égale à 2^70 octets.";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "Exbioctet";
+"exbibytes.longName" = "Exbioctet";
+"exbibytes.detailedIntroduction" = "L'exbioctet est une unité de stockage de données égale à 2^60 octets.";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "Pébioctet";
+"pebibytes.longName" = "Pébioctet";
+"pebibytes.detailedIntroduction" = "Le pébioctet est une unité de stockage de données égale à 2^50 octets.";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "Tébioctet";
+"tebibytes.longName" = "Tébioctet";
+"tebibytes.detailedIntroduction" = "Le tébioctet est une unité de stockage de données égale à 2^40 octets.";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "Gibioctet";
+"gibibytes.longName" = "Gibioctet";
+"gibibytes.detailedIntroduction" = "Le gibioctet est une unité de stockage de données égale à 2^30 octets.";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "Mébioctet";
+"mebibytes.longName" = "Mébioctet";
+"mebibytes.detailedIntroduction" = "Le mébioctet est une unité de stockage de données égale à 2^20 octets.";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "Kibioctet";
+"kibibytes.longName" = "Kibioctet";
+"kibibytes.detailedIntroduction" = "Le kibioctet est une unité de stockage de données égale à 2^10 octets.";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "Yobibit";
+"yobibits.longName" = "Yobibit";
+"yobibits.detailedIntroduction" = "Le yobibit est une unité de stockage de données égale à 2^80 bits.";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "Zébibit";
+"zebibits.longName" = "Zébibit";
+"zebibits.detailedIntroduction" = "Le zébibit est une unité de stockage de données égale à 2^70 bits.";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "Exbibit";
+"exbibits.longName" = "Exbibit";
+"exbibits.detailedIntroduction" = "L'exbibit est une unité de stockage de données égale à 2^60 bits.";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "Pébibit";
+"pebibits.longName" = "Pébibit";
+"pebibits.detailedIntroduction" = "Le pébibit est une unité de stockage de données égale à 2^50 bits.";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "Tébibit";
+"tebibits.longName" = "Tébibit";
+"tebibits.detailedIntroduction" = "Le tébibit est une unité de stockage de données égale à 2^40 bits.";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "Gibibit";
+"gibibits.longName" = "Gibibit";
+"gibibits.detailedIntroduction" = "Le gibibit est une unité de stockage de données égale à 2^30 bits.";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "Mébibit";
+"mebibits.longName" = "Mébibit";
+"mebibits.detailedIntroduction" = "Le mébibit est une unité de stockage de données égale à 2^20 bits.";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "Kibibit";
+"kibibits.longName" = "Kibibit";
+"kibibits.detailedIntroduction" = "Le kibibit est une unité de stockage de données égale à 2^10 bits.";
+
+"None" = "Aucun";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "Coulombs";
+"coulombs.longName" = "Coulomb";
+"coulombs.detailedIntroduction" = "Le Coulomb est l'unité SI de charge électrique, nommée d'après Charles-Augustin de Coulomb.";

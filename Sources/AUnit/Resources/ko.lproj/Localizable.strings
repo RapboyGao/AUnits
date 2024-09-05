@@ -1,0 +1,1258 @@
+/* Ref translations */
+"None" = "없음";
+
+/* Unit Types */
+"length.symbol" = "길이";
+"length.shortName" = "길이";
+"length.longName" = "길이";
+"length.detailedIntroduction" = "길이는 두 지점 간의 물리적 거리입니다. SI 단위는 미터입니다.";
+
+"speed.symbol" = "속도";
+"speed.shortName" = "속도";
+"speed.longName" = "속도";
+"speed.detailedIntroduction" = "속도는 단위 시간당 이동한 거리입니다. SI 단위는 미터/초입니다.";
+
+"pressure.symbol" = "압력";
+"pressure.shortName" = "압력";
+"pressure.longName" = "압력";
+"pressure.detailedIntroduction" = "압력은 단위 면적당 작용하는 힘입니다. SI 단위는 파스칼입니다.";
+
+"temperature.symbol" = "온도";
+"temperature.shortName" = "온도";
+"temperature.longName" = "온도";
+"temperature.detailedIntroduction" = "온도는 물체의 열 에너지 수준을 나타내는 척도입니다. SI 단위는 켈빈입니다.";
+
+"temperatureDifference.symbol" = "온도차";
+"temperatureDifference.shortName" = "온도차";
+"temperatureDifference.longName" = "온도차";
+"temperatureDifference.detailedIntroduction" = "온도차는 두 지점 간의 온도 변화입니다. SI 단위는 켈빈입니다.";
+
+"mass.symbol" = "질량";
+"mass.shortName" = "질량";
+"mass.longName" = "질량";
+"mass.detailedIntroduction" = "질량은 물체가 가지고 있는 물질의 양입니다. SI 단위는 킬로그램입니다.";
+
+"volume.symbol" = "부피";
+"volume.shortName" = "부피";
+"volume.longName" = "부피";
+"volume.detailedIntroduction" = "부피는 물체가 차지하는 공간의 크기입니다. SI 단위는 입방 미터입니다.";
+
+"acceleration.symbol" = "가속도";
+"acceleration.shortName" = "가속도";
+"acceleration.longName" = "가속도";
+"acceleration.detailedIntroduction" = "가속도는 단위 시간당 속도의 변화입니다. SI 단위는 미터/초²입니다.";
+
+"power.symbol" = "전력";
+"power.shortName" = "전력";
+"power.longName" = "전력";
+"power.detailedIntroduction" = "전력은 단위 시간당 에너지 소비입니다. SI 단위는 와트입니다.";
+
+"angle.symbol" = "각도";
+"angle.shortName" = "각도";
+"angle.longName" = "각도";
+"angle.detailedIntroduction" = "각도는 두 직선이 만나는 지점에서 형성되는 회전의 크기입니다. SI 단위는 라디안입니다.";
+
+"angularVelocity.symbol" = "각속도";
+"angularVelocity.shortName" = "각속도";
+"angularVelocity.longName" = "각속도";
+"angularVelocity.detailedIntroduction" = "각속도는 단위 시간당 회전 각도입니다. SI 단위는 라디안/초입니다.";
+
+"area.symbol" = "면적";
+"area.shortName" = "면적";
+"area.longName" = "면적";
+"area.detailedIntroduction" = "면적은 평면상에서의 두 차원적 크기입니다. SI 단위는 제곱 미터입니다.";
+
+"concentration.symbol" = "농도";
+"concentration.shortName" = "농도";
+"concentration.longName" = "농도";
+"concentration.detailedIntroduction" = "농도는 특정 용액에 녹아 있는 물질의 양입니다. SI 단위는 몰/리터입니다.";
+
+"time.symbol" = "시간";
+"time.shortName" = "시간";
+"time.longName" = "시간";
+"time.detailedIntroduction" = "시간은 사건의 순서를 측정하는 척도입니다. SI 단위는 초입니다.";
+
+"electricChargeCapacity.symbol" = "전하용량";
+"electricChargeCapacity.shortName" = "전하용량";
+"electricChargeCapacity.longName" = "전하용량";
+"electricChargeCapacity.detailedIntroduction" = "전하용량은 전기적 용량입니다. SI 단위는 암페어-시입니다.";
+
+"electricCurrent.symbol" = "전류";
+"electricCurrent.shortName" = "전류";
+"electricCurrent.longName" = "전류";
+"electricCurrent.detailedIntroduction" = "전류는 단위 시간당 흐르는 전자의 양입니다. SI 단위는 암페어입니다.";
+
+"electricPotential.symbol" = "전위";
+"electricPotential.shortName" = "전위";
+"electricPotential.longName" = "전위";
+"electricPotential.detailedIntroduction" = "전위는 전기장의 위치 에너지입니다. SI 단위는 볼트입니다.";
+
+"electricResistance.symbol" = "저항";
+"electricResistance.shortName" = "저항";
+"electricResistance.longName" = "저항";
+"electricResistance.detailedIntroduction" = "저항은 전류의 흐름을 방해하는 정도입니다. SI 단위는 옴입니다.";
+
+"energy.symbol" = "에너지";
+"energy.shortName" = "에너지";
+"energy.longName" = "에너지";
+"energy.detailedIntroduction" = "에너지는 일을 할 수 있는 능력입니다. SI 단위는 줄입니다.";
+
+"frequency.symbol" = "주파수";
+"frequency.shortName" = "주파수";
+"frequency.longName" = "주파수";
+"frequency.detailedIntroduction" = "주파수는 단위 시간당 발생하는 주기의 수입니다. SI 단위는 헤르츠입니다.";
+
+"fuelEfficiency.symbol" = "연비";
+"fuelEfficiency.shortName" = "연비";
+"fuelEfficiency.longName" = "연비";
+"fuelEfficiency.detailedIntroduction" = "연비는 연료 소비에 대한 효율입니다. SI 단위는 리터/100킬로미터입니다.";
+
+"data.symbol" = "데이터";
+"data.shortName" = "데이터";
+"data.longName" = "데이터";
+"data.detailedIntroduction" = "데이터는 정보의 양을 나타내는 단위입니다. SI 단위는 바이트입니다.";
+
+/* Unit translations */
+// Length Units
+"feet.symbol" = "ft";
+"feet.shortName" = "피트";
+"feet.longName" = "피트";
+"feet.detailedIntroduction" = "피트는 길이의 단위입니다. 1피트는 0.3048미터입니다.";
+
+"nauticalMiles.symbol" = "NM";
+"nauticalMiles.shortName" = "해리";
+"nauticalMiles.longName" = "해리";
+"nauticalMiles.detailedIntroduction" = "해리는 항해와 항공에서 사용하는 길이의 단위입니다. 1해리는 1852미터입니다.";
+
+"meters.symbol" = "m";
+"meters.shortName" = "미터";
+"meters.longName" = "미터";
+"meters.detailedIntroduction" = "미터는 길이의 기본 단위입니다. 1미터는 100센티미터입니다.";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "킬로미터";
+"kilometers.longName" = "킬로미터";
+"kilometers.detailedIntroduction" = "킬로미터는 1000미터에 해당하는 길이 단위입니다.";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "마일";
+"miles.longName" = "마일";
+"miles.detailedIntroduction" = "마일은 주로 미국과 영국에서 사용하는 길이 단위입니다. 1마일은 약 1.609킬로미터입니다.";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "메가미터";
+"megameters.longName" = "메가미터";
+"megameters.detailedIntroduction" = "메가미터는 100만 미터에 해당하는 길이 단위입니다.";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "헥토미터";
+"hectometers.longName" = "헥토미터";
+"hectometers.detailedIntroduction" = "헥토미터는 100미터에 해당하는 길이 단위입니다.";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "데카미터";
+"decameters.longName" = "데카미터";
+"decameters.detailedIntroduction" = "데카미터는 10미터에 해당하는 길이 단위입니다.";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "데시미터";
+"decimeters.longName" = "데시미터";
+"decimeters.detailedIntroduction" = "데시미터는 0.1미터에 해당하는 길이 단위입니다.";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "센티미터";
+"centimeters.longName" = "센티미터";
+"centimeters.detailedIntroduction" = "센티미터는 0.01미터에 해당하는 길이 단위입니다.";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "밀리미터";
+"millimeters.longName" = "밀리미터";
+"millimeters.detailedIntroduction" = "밀리미터는 0.001미터에 해당하는 길이 단위입니다.";
+
+"micrometers.symbol" = "µm";
+"micrometers.shortName" = "마이크로미터";
+"micrometers.longName" = "마이크로미터";
+"micrometers.detailedIntroduction" = "마이크로미터는 0.000001미터에 해당하는 길이 단위입니다.";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "나노미터";
+"nanometers.longName" = "나노미터";
+"nanometers.detailedIntroduction" = "나노미터는 0.000000001미터에 해당하는 길이 단위입니다.";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "피코미터";
+"picometers.longName" = "피코미터";
+"picometers.detailedIntroduction" = "피코미터는 0.000000000001미터에 해당하는 길이 단위입니다.";
+
+"inches.symbol" = "in";
+"inches.shortName" = "인치";
+"inches.longName" = "인치";
+"inches.detailedIntroduction" = "인치는 길이의 단위입니다. 1인치는 2.54센티미터입니다.";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "야드";
+"yards.longName" = "야드";
+"yards.detailedIntroduction" = "야드는 길이의 단위입니다. 1야드는 0.9144미터입니다.";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "스칸디나비아 마일";
+"scandinavianMiles.longName" = "스칸디나비아 마일";
+"scandinavianMiles.detailedIntroduction" = "스칸디나비아 마일은 스칸디나비아 국가에서 사용하는 길이 단위입니다. 1스칸디나비아 마일은 10킬로미터입니다.";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "광년";
+"lightyears.longName" = "광년";
+"lightyears.detailedIntroduction" = "광년은 빛이 1년 동안 이동하는 거리입니다. 약 9.461조 킬로미터입니다.";
+
+"fathoms.symbol" = "ftm";
+"fathoms.shortName" = "패덤";
+"fathoms.longName" = "패덤";
+"fathoms.detailedIntroduction" = "패덤은 주로 수심을 측정하는 데 사용되는 길이 단위입니다. 1패덤은 1.8288미터입니다.";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "펄롱";
+"furlongs.longName" = "펄롱";
+"furlongs.detailedIntroduction" = "펄롱은 길이의 단위로 주로 경마에서 사용됩니다. 1펄롱은 약 201미터입니다.";
+
+"astronomicalUnits.symbol" = "AU";
+"astronomicalUnits.shortName" = "천문단위";
+"astronomicalUnits.longName" = "천문단위";
+"astronomicalUnits.detailedIntroduction" = "천문단위는 지구와 태양 간의 평균 거리를 나타내는 단위입니다. 약 1억 5천만 킬로미터입니다.";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "파섹";
+"parsecs.longName" = "파섹";
+"parsecs.detailedIntroduction" = "파섹은 천문학에서 사용하는 거리 단위로 약 3.26광년에 해당합니다.";
+
+// Speed Units
+"knots.symbol" = "kn";
+"knots.shortName" = "노트";
+"knots.longName" = "노트";
+"knots.detailedIntroduction" = "노트는 속도의 단위로 주로 항해와 항공에서 사용됩니다. 1노트는 1.852킬로미터/시입니다.";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "미터/초";
+"metersPerSecond.longName" = "미터/초";
+"metersPerSecond.detailedIntroduction" = "미터/초는 속도의 단위입니다. 1미터/초는 3.6킬로미터/시입니다.";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "피트/분";
+"feetPerMinute.longName" = "피트/분";
+"feetPerMinute.detailedIntroduction" = "피트/분은 속도의 단위입니다. 1피트/분은 약 0.00508미터/초입니다.";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "킬로미터/시";
+"kilometersPerHour.longName" = "킬로미터/시";
+"kilometersPerHour.detailedIntroduction" = "킬로미터/시는 속도의 단위입니다. 1킬로미터/시는 약 0.277778미터/초입니다.";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "피트/초";
+"feetPerSecond.longName" = "피트/초";
+"feetPerSecond.detailedIntroduction" = "피트/초는 속도의 단위입니다. 1피트/초는 약 0.3048미터/초입니다.";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "마일/시";
+"milesPerHour.longName" = "마일/시";
+"milesPerHour.detailedIntroduction" = "마일/시는 속도의 단위입니다. 1마일/시는 약 0.44704미터/초입니다.";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "인치/초";
+"inchesPerSecond.longName" = "인치/초";
+"inchesPerSecond.detailedIntroduction" = "인치/초는 속도의 단위입니다. 1인치/초는 약 0.0254미터/초입니다.";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "야드/초";
+"yardsPerSecond.longName" = "야드/초";
+"yardsPerSecond.detailedIntroduction" = "야드/초는 속도의 단위입니다. 1야드/초는 약 0.9144미터/초입니다.";
+
+// Pressure Units
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "헥토파스칼";
+"hectopascals.longName" = "헥토파스칼";
+"hectopascals.detailedIntroduction" = "헥토파스칼은 압력의 단위입니다. 1헥토파스칼은 100파스칼입니다.";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "인치 수은주";
+"inchesOfMercury.longName" = "인치 수은주";
+"inchesOfMercury.detailedIntroduction" = "인치 수은주는 압력의 단위입니다. 1인치 수은주는 약 3386.39파스칼입니다.";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "밀리미터 수은주";
+"millimetersOfMercury.longName" = "밀리미터 수은주";
+"millimetersOfMercury.detailedIntroduction" = "밀리미터 수은주는 압력의 단위입니다. 1밀리미터 수은주는 약 133.322파스칼입니다.";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "뉴턴/제곱미터";
+"newtonsPerMetersSquared.longName" = "뉴턴/제곱미터";
+"newtonsPerMetersSquared.detailedIntroduction" = "뉴턴/제곱미터는 압력의 단위입니다. 1뉴턴/제곱미터는 1파스칼입니다.";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "기가파스칼";
+"gigapascals.longName" = "기가파스칼";
+"gigapascals.detailedIntroduction" = "기가파스칼은 압력의 단위입니다. 1기가파스칼은 10억 파스칼입니다.";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "메가파스칼";
+"megapascals.longName" = "메가파스칼";
+"megapascals.detailedIntroduction" = "메가파스칼은 압력의 단위입니다. 1메가파스칼은 100만 파스칼입니다.";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "킬로파스칼";
+"kilopascals.longName" = "킬로파스칼";
+"kilopascals.detailedIntroduction" = "킬로파스칼은 압력의 단위입니다. 1킬로파스칼은 1000파스칼입니다.";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "바";
+"bars.longName" = "바";
+"bars.detailedIntroduction" = "바는 압력의 단위입니다. 1바는 100000파스칼입니다.";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "밀리바";
+"millibars.longName" = "밀리바";
+"millibars.detailedIntroduction" = "밀리바는 압력의 단위입니다. 1밀리바는 100파스칼입니다.";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "파운드/제곱인치";
+"poundsForcePerSquareInch.longName" = "파운드/제곱인치";
+"poundsForcePerSquareInch.detailedIntroduction" = "파운드/제곱인치는 압력의 단위입니다. 1파운드/제곱인치는 약 6894.76파스칼입니다.";
+
+// Temperature Units
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "켈빈";
+"kelvin.longName" = "켈빈";
+"kelvin.detailedIntroduction" = "켈빈은 온도의 기본 단위입니다. 0켈빈은 절대 영도입니다.";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "섭씨";
+"celsius.longName" = "섭씨";
+"celsius.detailedIntroduction" = "섭씨는 온도의 단위입니다. 0섭씨는 물의 어는점입니다.";
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "화씨";
+"fahrenheit.longName" = "화씨";
+"fahrenheit.detailedIntroduction" = "화씨는 온도의 단위입니다. 32화씨는 물의 어는점입니다.";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "란킨";
+"rankine.longName" = "란킨";
+"rankine.detailedIntroduction" = "란킨은 온도의 단위입니다. 0란킨은 절대 영도입니다.";
+
+// Temperature Difference Units
+"celsiusDelta.symbol" = "Δ°C";
+"celsiusDelta.shortName" = "섭씨 변화";
+"celsiusDelta.longName" = "섭씨 변화";
+"celsiusDelta.detailedIntroduction" = "섭씨 변화는 온도 변화의 단위입니다. 1Δ°C는 1°C 변화입니다.";
+
+"fahrenheitDelta.symbol" = "Δ°F";
+"fahrenheitDelta.shortName" = "화씨 변화";
+"fahrenheitDelta.longName" = "화씨 변화";
+"fahrenheitDelta.detailedIntroduction" = "화씨 변화는 온도 변화의 단위입니다. 1Δ°F는 1°F 변화입니다.";
+
+// Mass Units
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "톤";
+"metricTons.longName" = "톤";
+"metricTons.detailedIntroduction" = "톤은 질량의 단위입니다. 1톤은 1000킬로그램입니다.";
+
+"shortTons.symbol" = "sh tn";
+"shortTons.shortName" = "숏 톤";
+"shortTons.longName" = "숏 톤";
+"shortTons.detailedIntroduction" = "숏 톤은 미국에서 사용하는 질량 단위입니다. 1숏 톤은 약 907.185킬로그램입니다.";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "킬로그램";
+"kilograms.longName" = "킬로그램";
+"kilograms.detailedIntroduction" = "킬로그램은 질량의 기본 단위입니다. 1킬로그램은 1000그램입니다.";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "킬로파운드";
+"kilopounds.longName" = "킬로파운드";
+"kilopounds.detailedIntroduction" = "킬로파운드는 질량의 단위입니다. 1킬로파운드는 약 453.592킬로그램입니다.";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "파운드";
+"pounds.longName" = "파운드";
+"pounds.detailedIntroduction" = "파운드는 질량의 단위입니다. 1파운드는 약 0.453592킬로그램입니다.";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "온스";
+"ounces.longName" = "온스";
+"ounces.detailedIntroduction" = "온스는 질량의 단위입니다. 1온스는 약 28.3495그램입니다.";
+
+"grams.symbol" = "g";
+"grams.shortName" = "그램";
+"grams.longName" = "그램";
+"grams.detailedIntroduction" = "그램은 질량의 기본 단위입니다. 1그램은 1000밀리그램입니다.";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "데시그램";
+"decigrams.longName" = "데시그램";
+"decigrams.detailedIntroduction" = "데시그램은 질량의 단위입니다. 1데시그램은 0.1그램입니다.";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "센티그램";
+"centigrams.longName" = "센티그램";
+"centigrams.detailedIntroduction" = "센티그램은 질량의 단위입니다. 1센티그램은 0.01그램입니다.";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "밀리그램";
+"milligrams.longName" = "밀리그램";
+"milligrams.detailedIntroduction" = "밀리그램은 질량의 단위입니다. 1밀리그램은 0.001그램입니다.";
+
+"micrograms.symbol" = "µg";
+"micrograms.shortName" = "마이크로그램";
+"micrograms.longName" = "마이크로그램";
+"micrograms.detailedIntroduction" = "마이크로그램은 질량의 단위입니다. 1마이크로그램은 0.000001그램입니다.";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "나노그램";
+"nanograms.longName" = "나노그램";
+"nanograms.detailedIntroduction" = "나노그램은 질량의 단위입니다. 1나노그램은 0.000000001그램입니다.";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "피코그램";
+"picograms.longName" = "피코그램";
+"picograms.detailedIntroduction" = "피코그램은 질량의 단위입니다. 1피코그램은 0.000000000001그램입니다.";
+
+"stones.symbol" = "st";
+"stones.shortName" = "스톤";
+"stones.longName" = "스톤";
+"stones.detailedIntroduction" = "스톤은 질량의 단위입니다. 1스톤은 약 6.35029킬로그램입니다.";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "캐럿";
+"carats.longName" = "캐럿";
+"carats.detailedIntroduction" = "캐럿은 보석의 질량을 측정하는 단위입니다. 1캐럿은 0.2그램입니다.";
+
+"ouncesTroy.symbol" = "ozt";
+"ouncesTroy.shortName" = "트로이 온스";
+"ouncesTroy.longName" = "트로이 온스";
+"ouncesTroy.detailedIntroduction" = "트로이 온스는 귀금속의 질량을 측정하는 단위입니다. 1트로이 온스는 약 31.1035그램입니다.";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "슬러그";
+"slugs.longName" = "슬러그";
+"slugs.detailedIntroduction" = "슬러그는 질량의 단위입니다. 1슬러그는 약 14.5939킬로그램입니다.";
+
+// Volume Units
+"liters.symbol" = "L";
+"liters.shortName" = "리터";
+"liters.longName" = "리터";
+"liters.detailedIntroduction" = "리터는 부피의 기본 단위입니다. 1리터는 1000밀리리터입니다.";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "쿼트";
+"quarts.longName" = "쿼트";
+"quarts.detailedIntroduction" = "쿼트는 부피의 단위입니다. 1쿼트는 약 0.946353리터입니다.";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "입방미터";
+"cubicMeters.longName" = "입방미터";
+"cubicMeters.detailedIntroduction" = "입방미터는 부피를 측정하는 단위로, 1m³는 1000리터입니다.";
+
+"cubicCentimeters.symbol" = "cm³";
+"cubicCentimeters.shortName" = "입방센티미터";
+"cubicCentimeters.longName" = "입방센티미터";
+"cubicCentimeters.detailedIntroduction" = "입방센티미터는 부피의 단위입니다. 1cm³는 0.001리터입니다.";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "갤런";
+"gallons.longName" = "갤런";
+"gallons.detailedIntroduction" = "갤런은 부피의 단위입니다. 1갤런은 약 3.78541리터입니다.";
+
+"megaliters.symbol" = "ML";
+"megaliters.shortName" = "메가리터";
+"megaliters.longName" = "메가리터";
+"megaliters.detailedIntroduction" = "메가리터는 부피의 단위입니다. 1메가리터는 100만 리터입니다.";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "킬로리터";
+"kiloliters.longName" = "킬로리터";
+"kiloliters.detailedIntroduction" = "킬로리터는 부피의 단위입니다. 1킬로리터는 1000리터입니다.";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "데시리터";
+"deciliters.longName" = "데시리터";
+"deciliters.detailedIntroduction" = "데시리터는 부피의 단위입니다. 1데시리터는 0.1리터입니다.";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "센티리터";
+"centiliters.longName" = "센티리터";
+"centiliters.detailedIntroduction" = "센티리터는 부피의 단위입니다. 1센티리터는 0.01리터입니다.";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "밀리리터";
+"milliliters.longName" = "밀리리터";
+"milliliters.detailedIntroduction" = "밀리리터는 부피의 단위입니다. 1밀리리터는 0.001리터입니다.";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "입방킬로미터";
+"cubicKilometers.longName" = "입방킬로미터";
+"cubicKilometers.detailedIntroduction" = "입방킬로미터는 부피의 단위입니다. 1km³는 1000만 리터입니다.";
+
+"cubicDecimeters.symbol" = "dm³";
+"cubicDecimeters.shortName" = "입방데시미터";
+"cubicDecimeters.longName" = "입방데시미터";
+"cubicDecimeters.detailedIntroduction" = "입방데시미터는 부피의 단위입니다. 1dm³는 1리터입니다.";
+
+"cubicMillimeters.symbol" = "mm³";
+"cubicMillimeters.shortName" = "입방밀리미터";
+"cubicMillimeters.longName" = "입방밀리미터";
+"cubicMillimeters.detailedIntroduction" = "입방밀리미터는 부피의 단위입니다. 1mm³는 0.000001리터입니다.";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "입방인치";
+"cubicInches.longName" = "입방인치";
+"cubicInches.detailedIntroduction" = "입방인치는 부피의 단위입니다. 1입방인치는 약 0.0163871리터입니다.";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "입방피트";
+"cubicFeet.longName" = "입방피트";
+"cubicFeet.detailedIntroduction" = "입방피트는 부피의 단위입니다. 1입방피트는 약 28.3168리터입니다.";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "입방야드";
+"cubicYards.longName" = "입방야드";
+"cubicYards.detailedIntroduction" = "입방야드는 부피의 단위입니다. 1입방야드는 약 764.555리터입니다.";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "입방마일";
+"cubicMiles.longName" = "입방마일";
+"cubicMiles.detailedIntroduction" = "입방마일은 부피의 단위입니다. 1입방마일은 약 4168181825440리터입니다.";
+
+"acreFeet.symbol" = "ac-ft";
+"acreFeet.shortName" = "에이커 피트";
+"acreFeet.longName" = "에이커 피트";
+"acreFeet.detailedIntroduction" = "에이커 피트는 부피의 단위입니다. 1에이커 피트는 약 1233.48리터입니다.";
+
+"bushels.symbol" = "bu";
+"bushels.shortName" = "부셸";
+"bushels.longName" = "부셸";
+"bushels.detailedIntroduction" = "부셸은 부피의 단위입니다. 1부셸은 약 35.2391리터입니다.";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "티스푼";
+"teaspoons.longName" = "티스푼";
+"teaspoons.detailedIntroduction" = "티스푼은 부피의 단위입니다. 1티스푼은 약 4.92892밀리리터입니다.";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "테이블스푼";
+"tablespoons.longName" = "테이블스푼";
+"tablespoons.detailedIntroduction" = "테이블스푼은 부피의 단위입니다. 1테이블스푼은 약 14.7868밀리리터입니다.";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "액량 온스";
+"fluidOunces.longName" = "액량 온스";
+"fluidOunces.detailedIntroduction" = "액량 온스는 부피의 단위입니다. 1액량 온스는 약 29.5735밀리리터입니다.";
+
+"cups.symbol" = "cup";
+"cups.shortName" = "컵";
+"cups.longName" = "컵";
+"cups.detailedIntroduction" = "컵은 부피의 단위입니다. 1컵은 약 240밀리리터입니다.";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "파인트";
+"pints.longName" = "파인트";
+"pints.detailedIntroduction" = "파인트는 부피의 단위입니다. 1파인트는 약 473.176밀리리터입니다.";
+
+"imperialTeaspoons.symbol" = "imp tsp";
+"imperialTeaspoons.shortName" = "임페리얼 티스푼";
+"imperialTeaspoons.longName" = "임페리얼 티스푼";
+"imperialTeaspoons.detailedIntroduction" = "임페리얼 티스푼은 부피의 단위입니다. 1임페리얼 티스푼은 약 5.91939밀리리터입니다.";
+
+"imperialTablespoons.symbol" = "imp tbsp";
+"imperialTablespoons.shortName" = "임페리얼 테이블스푼";
+"imperialTablespoons.longName" = "임페리얼 테이블스푼";
+"imperialTablespoons.detailedIntroduction" = "임페리얼 테이블스푼은 부피의 단위입니다. 1임페리얼 테이블스푼은 약 17.7582밀리리터입니다.";
+
+"imperialFluidOunces.symbol" = "imp fl oz";
+"imperialFluidOunces.shortName" = "임페리얼 액량 온스";
+"imperialFluidOunces.longName" = "임페리얼 액량 온스";
+"imperialFluidOunces.detailedIntroduction" = "임페리얼 액량 온스는 부피의 단위입니다. 1임페리얼 액량 온스는 약 28.4131밀리리터입니다.";
+
+"imperialPints.symbol" = "imp pt";
+"imperialPints.shortName" = "임페리얼 파인트";
+"imperialPints.longName" = "임페리얼 파인트";
+"imperialPints.detailedIntroduction" = "임페리얼 파인트는 부피의 단위입니다. 1임페리얼 파인트는 약 568.261밀리리터입니다.";
+
+"imperialQuarts.symbol" = "imp qt";
+"imperialQuarts.shortName" = "임페리얼 쿼트";
+"imperialQuarts.longName" = "임페리얼 쿼트";
+"imperialQuarts.detailedIntroduction" = "임페리얼 쿼트는 부피의 단위입니다. 1임페리얼 쿼트는 약 1.13652리터입니다.";
+
+"imperialGallons.symbol" = "imp gal";
+"imperialGallons.shortName" = "임페리얼 갤런";
+"imperialGallons.longName" = "임페리얼 갤런";
+"imperialGallons.detailedIntroduction" = "임페리얼 갤런은 부피의 단위입니다. 1임페리얼 갤런은 약 4.54609리터입니다.";
+
+"metricCups.symbol" = "metric cup";
+"metricCups.shortName" = "미터 컵";
+"metricCups.longName" = "미터 컵";
+"metricCups.detailedIntroduction" = "미터 컵은 부피의 단위입니다. 1미터 컵은 250밀리리터입니다.";
+
+// Acceleration Units
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "미터/초²";
+"metersPerSecondSquared.longName" = "미터/초²";
+"metersPerSecondSquared.detailedIntroduction" = "미터/초²는 가속도의 단위입니다. 1미터/초²는 약 9.80665m/s²입니다.";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "중력";
+"gravity.longName" = "중력";
+"gravity.detailedIntroduction" = "중력은 가속도의 단위입니다. 1중력은 약 9.80665m/s²입니다.";
+
+// Power Units
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "테라와트";
+"terawatts.longName" = "테라와트";
+"terawatts.detailedIntroduction" = "테라와트는 전력의 단위입니다. 1테라와트는 10¹²와트입니다.";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "기가와트";
+"gigawatts.longName" = "기가와트";
+"gigawatts.detailedIntroduction" = "기가와트는 전력의 단위입니다. 1기가와트는 10⁹와트입니다.";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "메가와트";
+"megawatts.longName" = "메가와트";
+"megawatts.detailedIntroduction" = "메가와트는 전력의 단위입니다. 1메가와트는 10⁶와트입니다.";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "킬로와트";
+"kilowatts.longName" = "킬로와트";
+"kilowatts.detailedIntroduction" = "킬로와트는 전력의 단위입니다. 1킬로와트는 10³와트입니다.";
+
+"watts.symbol" = "W";
+"watts.shortName" = "와트";
+"watts.longName" = "와트";
+"watts.detailedIntroduction" = "와트는 전력의 기본 단위입니다. 1와트는 1줄/초입니다.";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "밀리와트";
+"milliwatts.longName" = "밀리와트";
+"milliwatts.detailedIntroduction" = "밀리와트는 전력의 단위입니다. 1밀리와트는 0.001와트입니다.";
+
+"microwatts.symbol" = "µW";
+"microwatts.shortName" = "마이크로와트";
+"microwatts.longName" = "마이크로와트";
+"microwatts.detailedIntroduction" = "마이크로와트는 전력의 단위입니다. 1마이크로와트는 0.000001와트입니다.";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "나노와트";
+"nanowatts.longName" = "나노와트";
+"nanowatts.detailedIntroduction" = "나노와트는 전력의 단위입니다. 1나노와트는 0.000000001와트입니다.";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "피코와트";
+"picowatts.longName" = "피코와트";
+"picowatts.detailedIntroduction" = "피코와트는 전력의 단위입니다. 1피코와트는 0.000000000001와트입니다.";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "펨토와트";
+"femtowatts.longName" = "펨토와트";
+"femtowatts.detailedIntroduction" = "펨토와트는 전력의 단위입니다. 1펨토와트는 0.000000000000001와트입니다.";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "마력";
+"horsepower.longName" = "마력";
+"horsepower.detailedIntroduction" = "마력은 전력의 단위입니다. 1마력은 약 745.7와트입니다.";
+
+// Angle Units
+"degrees.symbol" = "°";
+"degrees.shortName" = "도";
+"degrees.longName" = "도";
+"degrees.detailedIntroduction" = "도는 각도의 단위입니다. 1도는 1/360원의 각도입니다.";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "분";
+"arcMinutes.longName" = "분";
+"arcMinutes.detailedIntroduction" = "분은 각도의 단위입니다. 1분은 1/60도의 각도입니다.";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "초";
+"arcSeconds.longName" = "초";
+"arcSeconds.detailedIntroduction" = "초는 각도의 단위입니다. 1초는 1/60분의 각도입니다.";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "라디안";
+"radians.longName" = "라디안";
+"radians.detailedIntroduction" = "라디안은 각도의 단위입니다. 1라디안은 약 57.2958도입니다.";
+
+"gradians.symbol" = "gon";
+"gradians.shortName" = "그라디안";
+"gradians.longName" = "그라디안";
+"gradians.detailedIntroduction" = "그라디안은 각도의 단위입니다. 1그라디안은 0.9도입니다.";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "회전";
+"revolutions.longName" = "회전";
+"revolutions.detailedIntroduction" = "회전은 각도의 단위입니다. 1회전은 360도입니다.";
+
+// Angular Velocity Units
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "라디안/초";
+"radiansPerSecond.longName" = "라디안/초";
+"radiansPerSecond.detailedIntroduction" = "라디안/초는 각속도의 단위입니다. 1라디안/초는 약 57.2958도/초입니다.";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "도/초";
+"degreesPerSecond.longName" = "도/초";
+"degreesPerSecond.detailedIntroduction" = "도/초는 각속도의 단위입니다. 1도/초는 약 0.0174533라디안/초입니다.";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "회전/분";
+"revolutionsPerMinute.longName" = "회전/분";
+"revolutionsPerMinute.detailedIntroduction" = "회전/분은 각속도의 단위입니다. 1회전/분은 약 0.10472라디안/초입니다.";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "회전/초";
+"revolutionsPerSecond.longName" = "회전/초";
+"revolutionsPerSecond.detailedIntroduction" = "회전/초는 각속도의 단위입니다. 1회전/초는 약 6.28319라디안/초입니다.";
+
+// Area Units
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "제곱메가미터";
+"squareMegameters.longName" = "제곱메가미터";
+"squareMegameters.detailedIntroduction" = "제곱메가미터는 면적의 단위입니다. 1제곱메가미터는 100만 제곱킬로미터입니다.";
+
+"squareKilometers.symbol" = "km²";
+"squareKilometers.shortName" = "제곱킬로미터";
+"squareKilometers.longName" = "제곱킬로미터";
+"squareKilometers.detailedIntroduction" = "제곱킬로미터는 면적의 단위입니다. 1제곱킬로미터는 100만 제곱미터입니다.";
+
+"squareMeters.symbol" = "m²";
+"squareMeters.shortName" = "제곱미터";
+"squareMeters.longName" = "제곱미터";
+"squareMeters.detailedIntroduction" = "제곱미터는 면적의 단위입니다. 1제곱미터는 1 제곱미터입니다.";
+
+"squareCentimeters.symbol" = "cm²";
+"squareCentimeters.shortName" = "제곱센티미터";
+"squareCentimeters.longName" = "제곱센티미터";
+"squareCentimeters.detailedIntroduction" = "제곱센티미터는 면적의 단위입니다. 1제곱센티미터는 0.0001 제곱미터입니다.";
+
+"squareMillimeters.symbol" = "mm²";
+"squareMillimeters.shortName" = "제곱밀리미터";
+"squareMillimeters.longName" = "제곱밀리미터";
+"squareMillimeters.detailedIntroduction" = "제곱밀리미터는 면적의 단위입니다. 1제곱밀리미터는 0.000001 제곱미터입니다.";
+
+"squareMicrometers.symbol" = "µm²";
+"squareMicrometers.shortName" = "제곱마이크로미터";
+"squareMicrometers.longName" = "제곱마이크로미터";
+"squareMicrometers.detailedIntroduction" = "제곱마이크로미터는 면적의 단위입니다. 1제곱마이크로미터는 0.000000000001 제곱미터입니다.";
+
+"squareNanometers.symbol" = "nm²";
+"squareNanometers.shortName" = "제곱나노미터";
+"squareNanometers.longName" = "제곱나노미터";
+"squareNanometers.detailedIntroduction" = "제곱나노미터는 면적의 단위입니다. 1제곱나노미터는 0.000000000000000001 제곱미터입니다.";
+
+"squareInches.symbol" = "in²";
+"squareInches.shortName" = "제곱인치";
+"squareInches.longName" = "제곱인치";
+"squareInches.detailedIntroduction" = "제곱인치는 면적의 단위입니다. 1제곱인치는 약 0.00064516 제곱미터입니다.";
+
+"squareFeet.symbol" = "ft²";
+"squareFeet.shortName" = "제곱피트";
+"squareFeet.longName" = "제곱피트";
+"squareFeet.detailedIntroduction" = "제곱피트는 면적의 단위입니다. 1제곱피트는 약 0.092903 제곱미터입니다.";
+
+"squareYards.symbol" = "yd²";
+"squareYards.shortName" = "제곱야드";
+"squareYards.longName" = "제곱야드";
+"squareYards.detailedIntroduction" = "제곱야드는 면적의 단위입니다. 1제곱야드는 약 0.836127 제곱미터입니다.";
+
+"squareMiles.symbol" = "mi²";
+"squareMiles.shortName" = "제곱마일";
+"squareMiles.longName" = "제곱마일";
+"squareMiles.detailedIntroduction" = "제곱마일은 면적의 단위입니다. 1제곱마일은 약 2589988.11 제곱미터입니다.";
+
+"acres.symbol" = "ac";
+"acres.shortName" = "에이커";
+"acres.longName" = "에이커";
+"acres.detailedIntroduction" = "에이커는 면적의 단위입니다. 1에이커는 약 4046.856 제곱미터입니다.";
+
+"ares.symbol" = "a";
+"ares.shortName" = "아르";
+"ares.longName" = "아르";
+"ares.detailedIntroduction" = "아르는 면적의 단위입니다. 1아르는 100 제곱미터입니다.";
+
+"hectares.symbol" = "ha";
+"hectares.shortName" = "헥타르";
+"hectares.longName" = "헥타르";
+"hectares.detailedIntroduction" = "헥타르는 면적의 단위입니다. 1헥타르는 10000 제곱미터입니다.";
+
+// Concentration Units
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "그램/리터";
+"gramsPerLiter.longName" = "그램/리터";
+"gramsPerLiter.detailedIntroduction" = "그램/리터는 농도의 단위입니다. 1그램/리터는 1그램이 1리터에 녹아 있는 것입니다.";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "밀리그램/데시리터";
+"milligramsPerDeciliter.longName" = "밀리그램/데시리터";
+"milligramsPerDeciliter.detailedIntroduction" = "밀리그램/데시리터는 농도의 단위입니다. 1밀리그램/데시리터는 0.01그램이 1데시리터에 녹아 있는 것입니다.";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "백만분율";
+"partsPerMillion.longName" = "백만분율";
+"partsPerMillion.detailedIntroduction" = "백만분율은 농도의 단위입니다. 1백만분율은 0.000001의 농도입니다.";
+
+// Time Units
+"hours.symbol" = "h";
+"hours.shortName" = "시간";
+"hours.longName" = "시간";
+"hours.detailedIntroduction" = "시간은 시간을 측정하는 단위입니다. 1시간은 3600초입니다.";
+
+"minutes.symbol" = "min";
+"minutes.shortName" = "분";
+"minutes.longName" = "분";
+"minutes.detailedIntroduction" = "분은 시간을 측정하는 단위입니다. 1분은 60초입니다.";
+
+"seconds.symbol" = "s";
+"seconds.shortName" = "초";
+"seconds.longName" = "초";
+"seconds.detailedIntroduction" = "초는 시간을 측정하는 기본 단위입니다. 1초는 1000밀리초입니다.";
+
+"milliseconds.symbol" = "ms";
+"milliseconds.shortName" = "밀리초";
+"milliseconds.longName" = "밀리초";
+"milliseconds.detailedIntroduction" = "밀리초는 시간을 측정하는 단위입니다. 1밀리초는 0.001초입니다.";
+
+"microseconds.symbol" = "µs";
+"microseconds.shortName" = "마이크로초";
+"microseconds.longName" = "마이크로초";
+"microseconds.detailedIntroduction" = "마이크로초는 시간을 측정하는 단위입니다. 1마이크로초는 0.000001초입니다.";
+
+"nanoseconds.symbol" = "ns";
+"nanoseconds.shortName" = "나노초";
+"nanoseconds.longName" = "나노초";
+"nanoseconds.detailedIntroduction" = "나노초는 시간을 측정하는 단위입니다. 1나노초는 0.000000001초입니다.";
+
+"picoseconds.symbol" = "ps";
+"picoseconds.shortName" = "피코초";
+"picoseconds.longName" = "피코초";
+"picoseconds.detailedIntroduction" = "피코초는 시간을 측정하는 단위입니다. 1피코초는 0.000000000001초입니다.";
+
+"days.symbol" = "d";
+"days.shortName" = "일";
+"days.longName" = "일";
+"days.detailedIntroduction" = "일은 시간을 측정하는 단위입니다. 1일은 86400초입니다.";
+
+"weeks.symbol" = "wk";
+"weeks.shortName" = "주";
+"weeks.longName" = "주";
+"weeks.detailedIntroduction" = "주는 시간을 측정하는 단위입니다. 1주는 604800초입니다.";
+
+"years.symbol" = "yr";
+"years.shortName" = "년";
+"years.longName" = "년";
+"years.detailedIntroduction" = "년은 시간을 측정하는 단위입니다. 1년은 약 31557600초입니다.";
+
+"decades.symbol" = "dec";
+"decades.shortName" = "10년";
+"decades.longName" = "10년";
+"decades.detailedIntroduction" = "10년은 시간을 측정하는 단위입니다. 1 10년은 약 315576000초입니다.";
+
+"centuries.symbol" = "cent";
+"centuries.shortName" = "세기";
+"centuries.longName" = "세기";
+"centuries.detailedIntroduction" = "세기는 시간을 측정하는 단위입니다. 1세기는 약 3155760000초입니다.";
+
+// Electric Charge Capacity Units
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "메가암페어시";
+"megaampereHours.longName" = "메가암페어시";
+"megaampereHours.detailedIntroduction" = "메가암페어시는 전하 용량의 단위입니다. 1메가암페어시는 3600킬로암페어시입니다.";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "킬로암페어시";
+"kiloampereHours.longName" = "킬로암페어시";
+"kiloampereHours.detailedIntroduction" = "킬로암페어시는 전하 용량의 단위입니다. 1킬로암페어시는 3600암페어시입니다.";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "암페어시";
+"ampereHours.longName" = "암페어시";
+"ampereHours.detailedIntroduction" = "암페어시는 전하 용량의 단위입니다. 1암페어시는 3600암페어초입니다.";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "밀리암페어시";
+"milliampereHours.longName" = "밀리암페어시";
+"milliampereHours.detailedIntroduction" = "밀리암페어시는 전하 용량의 단위입니다. 1밀리암페어시는 0.001암페어시입니다.";
+
+"microampereHours.symbol" = "µAh";
+"microampereHours.shortName" = "마이크로암페어시";
+"microampereHours.longName" = "마이크로암페어시";
+"microampereHours.detailedIntroduction" = "마이크로암페어시는 전하 용량의 단위입니다. 1마이크로암페어시는 0.000001암페어시입니다.";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "암페어초";
+"ampereSeconds.longName" = "암페어초";
+"ampereSeconds.detailedIntroduction" = "암페어초는 전하 용량의 단위입니다. 1암페어초는 1암페어시입니다.";
+
+// Electric Current Units
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "메가암페어";
+"megaamperes.longName" = "메가암페어";
+"megaamperes.detailedIntroduction" = "메가암페어는 전류의 단위입니다. 1메가암페어는 100만 암페어입니다.";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "킬로암페어";
+"kiloamperes.longName" = "킬로암페어";
+"kiloamperes.detailedIntroduction" = "킬로암페어는 전류의 단위입니다. 1킬로암페어는 1000암페어입니다.";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "암페어";
+"amperes.longName" = "암페어";
+"amperes.detailedIntroduction" = "암페어는 전류의 단위입니다. 1암페어는 1암페어시입니다.";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "밀리암페어";
+"milliamperes.longName" = "밀리암페어";
+"milliamperes.detailedIntroduction" = "밀리암페어는 전류의 단위입니다. 1밀리암페어는 0.001암페어입니다.";
+
+"microamperes.symbol" = "µA";
+"microamperes.shortName" = "마이크로암페어";
+"microamperes.longName" = "마이크로암페어";
+"microamperes.detailedIntroduction" = "마이크로암페어는 전류의 단위입니다. 1마이크로암페어는 0.000001암페어입니다.";
+
+// Electric Potential Units
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "메가볼트";
+"megavolts.longName" = "메가볼트";
+"megavolts.detailedIntroduction" = "메가볼트는 전위의 단위입니다. 1메가볼트는 100만 볼트입니다.";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "킬로볼트";
+"kilovolts.longName" = "킬로볼트";
+"kilovolts.detailedIntroduction" = "킬로볼트는 전위의 단위입니다. 1킬로볼트는 1000볼트입니다.";
+
+"volts.symbol" = "V";
+"volts.shortName" = "볼트";
+"volts.longName" = "볼트";
+"volts.detailedIntroduction" = "볼트는 전위의 단위입니다. 1볼트는 1볼트입니다.";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "밀리볼트";
+"millivolts.longName" = "밀리볼트";
+"millivolts.detailedIntroduction" = "밀리볼트는 전위의 단위입니다. 1밀리볼트는 0.001볼트입니다.";
+
+"microvolts.symbol" = "µV";
+"microvolts.shortName" = "마이크로볼트";
+"microvolts.longName" = "마이크로볼트";
+"microvolts.detailedIntroduction" = "마이크로볼트는 전위의 단위입니다. 1마이크로볼트는 0.000001볼트입니다.";
+
+// Electric Resistance Units
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "메가옴";
+"megaohms.longName" = "메가옴";
+"megaohms.detailedIntroduction" = "메가옴은 저항의 단위입니다. 1메가옴은 100만 옴입니다.";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "킬로옴";
+"kiloohms.longName" = "킬로옴";
+"kiloohms.detailedIntroduction" = "킬로옴은 저항의 단위입니다. 1킬로옴은 1000옴입니다.";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "옴";
+"ohms.longName" = "옴";
+"ohms.detailedIntroduction" = "옴은 저항의 단위입니다. 1옴은 1옴입니다.";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "밀리옴";
+"milliohms.longName" = "밀리옴";
+"milliohms.detailedIntroduction" = "밀리옴은 저항의 단위입니다. 1밀리옴은 0.001옴입니다.";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "마이크로옴";
+"microohms.longName" = "마이크로옴";
+"microohms.detailedIntroduction" = "마이크로옴은 저항의 단위입니다. 1마이크로옴은 0.000001옴입니다.";
+
+// Energy Units
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "킬로줄";
+"kilojoules.longName" = "킬로줄";
+"kilojoules.detailedIntroduction" = "킬로줄은 에너지의 단위입니다. 1킬로줄은 1000줄입니다.";
+
+"joules.symbol" = "J";
+"joules.shortName" = "줄";
+"joules.longName" = "줄";
+"joules.detailedIntroduction" = "줄은 에너지의 단위입니다. 1줄은 1뉴턴 미터입니다.";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "킬로칼로리";
+"kilocalories.longName" = "킬로칼로리";
+"kilocalories.detailedIntroduction" = "킬로칼로리는 에너지의 단위입니다. 1킬로칼로리는 1000칼로리입니다.";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "칼로리";
+"calories.longName" = "칼로리";
+"calories.detailedIntroduction" = "칼로리는 에너지의 단위입니다. 1칼로리는 4.184줄입니다.";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "킬로와트시";
+"kilowattHours.longName" = "킬로와트시";
+"kilowattHours.detailedIntroduction" = "킬로와트시는 에너지의 단위입니다. 1킬로와트시는 3600000줄입니다.";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "와트시";
+"wattHours.longName" = "와트시";
+"wattHours.detailedIntroduction" = "와트시는 에너지의 단위입니다. 1와트시는 3600줄입니다.";
+
+"gigajoules.symbol" = "GJ";
+"gigajoules.shortName" = "기가줄";
+"gigajoules.longName" = "기가줄";
+"gigajoules.detailedIntroduction" = "기가줄은 에너지의 단위입니다. 1기가줄은 1000000000줄입니다.";
+
+"megajoules.symbol" = "MJ";
+"megajoules.shortName" = "메가줄";
+"megajoules.longName" = "메가줄";
+"megajoules.detailedIntroduction" = "메가줄은 에너지의 단위입니다. 1메가줄은 1000000줄입니다.";
+
+"millijoules.symbol" = "mJ";
+"millijoules.shortName" = "밀리줄";
+"millijoules.longName" = "밀리줄";
+"millijoules.detailedIntroduction" = "밀리줄은 에너지의 단위입니다. 1밀리줄은 0.001줄입니다.";
+
+"microjoules.symbol" = "µJ";
+"microjoules.shortName" = "마이크로줄";
+"microjoules.longName" = "마이크로줄";
+"microjoules.detailedIntroduction" = "마이크로줄은 에너지의 단위입니다. 1마이크로줄은 0.000001줄입니다.";
+
+"nanojoules.symbol" = "nJ";
+"nanojoules.shortName" = "나노줄";
+"nanojoules.longName" = "나노줄";
+"nanojoules.detailedIntroduction" = "나노줄은 에너지의 단위입니다. 1나노줄은 0.000000001줄입니다.";
+
+"picajoules.symbol" = "pJ";
+"picajoules.shortName" = "피코줄";
+"picajoules.longName" = "피코줄";
+"picajoules.detailedIntroduction" = "피코줄은 에너지의 단위입니다. 1피코줄은 0.000000000001줄입니다.";
+
+// Frequency Units
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "기가헤르츠";
+"gigahertz.longName" = "기가헤르츠";
+"gigahertz.detailedIntroduction" = "기가헤르츠는 주파수의 단위입니다. 1기가헤르츠는 10⁹헤르츠입니다.";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "메가헤르츠";
+"megahertz.longName" = "메가헤르츠";
+"megahertz.detailedIntroduction" = "메가헤르츠는 주파수의 단위입니다. 1메가헤르츠는 10⁶헤르츠입니다.";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "킬로헤르츠";
+"kilohertz.longName" = "킬로헤르츠";
+"kilohertz.detailedIntroduction" = "킬로헤르츠는 주파수의 단위입니다. 1킬로헤르츠는 10³헤르츠입니다.";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "헤르츠";
+"hertz.longName" = "헤르츠";
+"hertz.detailedIntroduction" = "헤르츠는 주파수의 단위입니다. 1헤르츠는 1초당 주기입니다.";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "밀리헤르츠";
+"millihertz.longName" = "밀리헤르츠";
+"millihertz.detailedIntroduction" = "밀리헤르츠는 주파수의 단위입니다. 1밀리헤르츠는 0.001헤르츠입니다.";
+
+"microhertz.symbol" = "µHz";
+"microhertz.shortName" = "마이크로헤르츠";
+"microhertz.longName" = "마이크로헤르츠";
+"microhertz.detailedIntroduction" = "마이크로헤르츠는 주파수의 단위입니다. 1마이크로헤르츠는 0.000001헤르츠입니다.";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "나노헤르츠";
+"nanohertz.longName" = "나노헤르츠";
+"nanohertz.detailedIntroduction" = "나노헤르츠는 주파수의 단위입니다. 1나노헤르츠는 0.000000001헤르츠입니다.";
+
+// Fuel Efficiency Units
+"kilometersPerLiter.symbol" = "km/L";
+"kilometersPerLiter.shortName" = "킬로미터/리터";
+"kilometersPerLiter.longName" = "킬로미터/리터";
+"kilometersPerLiter.detailedIntroduction" = "킬로미터/리터는 연비의 단위입니다. 1킬로미터/리터는 약 2.352마일/리터입니다.";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "리터/100킬로미터";
+"litersPer100Kilometers.longName" = "리터/100킬로미터";
+"litersPer100Kilometers.detailedIntroduction" = "리터/100킬로미터는 연비의 단위입니다. 1리터/100킬로미터는 약 235.2마일/갤런입니다.";
+
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "마일/갤런";
+"milesPerGallon.longName" = "마일/갤런";
+"milesPerGallon.detailedIntroduction" = "마일/갤런은 연비의 단위입니다. 1마일/갤런은 약 0.425킬로미터/리터입니다.";
+
+"milesPerLiter.symbol" = "mi/L";
+"milesPerLiter.shortName" = "마일/리터";
+"milesPerLiter.longName" = "마일/리터";
+"milesPerLiter.detailedIntroduction" = "마일/리터는 연비의 단위입니다. 1마일/리터는 약 0.621킬로미터/리터입니다.";
+
+"gallonsPer100Miles.symbol" = "gal/100mi";
+"gallonsPer100Miles.shortName" = "갤런/100마일";
+"gallonsPer100Miles.longName" = "갤런/100마일";
+"gallonsPer100Miles.detailedIntroduction" = "갤런/100마일은 연비의 단위입니다. 1갤런/100마일은 약 2.352리터/100킬로미터입니다.";
+
+// Data Units
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "테라바이트";
+"terabytes.longName" = "테라바이트";
+"terabytes.detailedIntroduction" = "테라바이트는 데이터의 단위입니다. 1테라바이트는 1000기가바이트입니다.";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "기가바이트";
+"gigabytes.longName" = "기가바이트";
+"gigabytes.detailedIntroduction" = "기가바이트는 데이터의 단위입니다. 1기가바이트는 1000메가바이트입니다.";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "메가바이트";
+"megabytes.longName" = "메가바이트";
+"megabytes.detailedIntroduction" = "메가바이트는 데이터의 단위입니다. 1메가바이트는 1000킬로바이트입니다.";
+
+"kilobytes.symbol" = "kB";
+"kilobytes.shortName" = "킬로바이트";
+"kilobytes.longName" = "킬로바이트";
+"kilobytes.detailedIntroduction" = "킬로바이트는 데이터의 단위입니다. 1킬로바이트는 1000바이트입니다.";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "바이트";
+"bytes.longName" = "바이트";
+"bytes.detailedIntroduction" = "바이트는 데이터의 단위입니다. 1바이트는 8비트입니다.";
+
+"bits.symbol" = "b";
+"bits.shortName" = "비트";
+"bits.longName" = "비트";
+"bits.detailedIntroduction" = "비트는 데이터의 단위입니다. 1비트는 0 또는 1의 값을 가집니다.";
+
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "테라헤르츠";
+"terahertz.longName" = "테라헤르츠";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "프레임/초";
+"framesPerSecond.longName" = "프레임/초";
+
+"milesPerImperialGallon.symbol" = "mpg(Imp)";
+"milesPerImperialGallon.shortName" = "제국 갤런당 마일";
+"milesPerImperialGallon.longName" = "제국 갤런당 마일";
+
+"nibbles.symbol" = "nibble";
+"nibbles.shortName" = "니블";
+"nibbles.longName" = "니블";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "요타바이트";
+"yottabytes.longName" = "요타바이트";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "제타바이트";
+"zettabytes.longName" = "제타바이트";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "엑사바이트";
+"exabytes.longName" = "엑사바이트";
+
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "페타바이트";
+"petabytes.longName" = "페타바이트";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "요타비트";
+"yottabits.longName" = "요타비트";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "제타비트";
+"zettabits.longName" = "제타비트";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "엑사비트";
+"exabits.longName" = "엑사비트";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "페타비트";
+"petabits.longName" = "페타비트";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "테라비트";
+"terabits.longName" = "테라비트";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "기가비트";
+"gigabits.longName" = "기가비트";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "메가비트";
+"megabits.longName" = "메가비트";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "킬로비트";
+"kilobits.longName" = "킬로비트";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "요비바이트";
+"yobibytes.longName" = "요비바이트";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "제비바이트";
+"zebibytes.longName" = "제비바이트";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "엑시비바이트";
+"exbibytes.longName" = "엑시비바이트";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "페비바이트";
+"pebibytes.longName" = "페비바이트";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "테비바이트";
+"tebibytes.longName" = "테비바이트";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "기비바이트";
+"gibibytes.longName" = "기비바이트";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "메비바이트";
+"mebibytes.longName" = "메비바이트";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "키비바이트";
+"kibibytes.longName" = "키비바이트";
+
+"yobibits.symbol" = "Yib";
+"yobibits.shortName" = "요비비트";
+"yobibits.longName" = "요비비트";
+
+"zebibits.symbol" = "Zib";
+"zebibits.shortName" = "제비비트";
+"zebibits.longName" = "제비비트";
+
+"exbibits.symbol" = "Eib";
+"exbibits.shortName" = "엑시비비트";
+"exbibits.longName" = "엑시비비트";
+
+"pebibits.symbol" = "Pib";
+"pebibits.shortName" = "페비비트";
+"pebibits.longName" = "페비비트";
+
+"tebibits.symbol" = "Tib";
+"tebibits.shortName" = "테비비트";
+"tebibits.longName" = "테비비트";
+
+"gibibits.symbol" = "Gib";
+"gibibits.shortName" = "기비비트";
+"gibibits.longName" = "기비비트";
+
+"mebibits.symbol" = "Mib";
+"mebibits.shortName" = "메비비트";
+"mebibits.longName" = "메비비트";
+
+"kilobits.symbol" = "Kib";
+"kilobits.shortName" = "키비비트";
+"kilobits.longName" = "키비비트";
+
+"kibibits.symbol" = "Kib";
+"kibibits.shortName" = "키비비트";
+"kibibits.longName" = "키비비트";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "쿨롱";
+"coulombs.longName" = "쿨롱";
+"coulombs.detailedIntroduction" = "쿨롱은 전기량의 SI 단위로, 샤를 오귀스탱 드 쿨롱의 이름을 따서 명명되었습니다.";

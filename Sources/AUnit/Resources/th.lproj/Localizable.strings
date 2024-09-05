@@ -1,0 +1,1222 @@
+"None" = "ไม่มี";
+
+// Unit Types
+"length.symbol" = "ความยาว";
+"length.shortName" = "ยาว";
+"length.longName" = "ความยาว";
+"length.detailedIntroduction" = "ความยาวเป็นการวัดระยะทางจากจุดหนึ่งไปยังอีกจุดหนึ่ง หน่วยมาตรฐานของความยาวคือเมตร";
+
+"speed.symbol" = "ความเร็ว";
+"speed.shortName" = "เร็ว";
+"speed.longName" = "ความเร็ว";
+"speed.detailedIntroduction" = "ความเร็วคือการวัดระยะทางที่วัตถุเคลื่อนที่ต่อหน่วยเวลา หน่วยมาตรฐานของความเร็วคือเมตรต่อวินาที";
+
+"pressure.symbol" = "ความดัน";
+"pressure.shortName" = "ดัน";
+"pressure.longName" = "ความดัน";
+"pressure.detailedIntroduction" = "ความดันคือแรงที่กระทำต่อพื้นที่หนึ่งหน่วย หน่วยมาตรฐานของความดันคือปาสกาล";
+
+"temperature.symbol" = "อุณหภูมิ";
+"temperature.shortName" = "อุณ";
+"temperature.longName" = "อุณหภูมิ";
+"temperature.detailedIntroduction" = "อุณหภูมิเป็นการวัดความร้อนหรือความเย็นของวัตถุ หน่วยมาตรฐานของอุณหภูมิคือเคลวิน";
+
+"temperatureDifference.symbol" = "Δอุณ";
+"temperatureDifference.shortName" = "Δอุณหภูมิ";
+"temperatureDifference.longName" = "ความต่างอุณหภูมิ";
+"temperatureDifference.detailedIntroduction" = "ความต่างอุณหภูมิใช้วัดการเปลี่ยนแปลงของอุณหภูมิ หน่วยมาตรฐานคือเคลวินและเซลเซียส";
+
+"mass.symbol" = "มวล";
+"mass.shortName" = "มวล";
+"mass.longName" = "มวล";
+"mass.detailedIntroduction" = "มวลคือการวัดปริมาณสสารในวัตถุ หน่วยมาตรฐานของมวลคือกิโลกรัม";
+
+"volume.symbol" = "ปริมาตร";
+"volume.shortName" = "ปริ";
+"volume.longName" = "ปริมาตร";
+"volume.detailedIntroduction" = "ปริมาตรคือการวัดพื้นที่ที่วัตถุครอบครอง หน่วยมาตรฐานของปริมาตรคือลิตร";
+
+"acceleration.symbol" = "การเร่ง";
+"acceleration.shortName" = "เร่ง";
+"acceleration.longName" = "การเร่ง";
+"acceleration.detailedIntroduction" = "การเร่งคือการวัดการเปลี่ยนแปลงของความเร็วต่อหน่วยเวลา หน่วยมาตรฐานของการเร่งคือเมตรต่อวินาทีกำลังสอง";
+
+"power.symbol" = "พลังงาน";
+"power.shortName" = "พลัง";
+"power.longName" = "พลังงาน";
+"power.detailedIntroduction" = "พลังงานคือการวัดอัตราการใช้พลังงานต่อหน่วยเวลา หน่วยมาตรฐานของพลังงานคือวัตต์";
+
+"angle.symbol" = "มุม";
+"angle.shortName" = "มุม";
+"angle.longName" = "มุม";
+"angle.detailedIntroduction" = "มุมคือการวัดระยะที่สองเส้นมาบรรจบกัน หน่วยมาตรฐานของมุมคือองศา";
+
+"angularVelocity.symbol" = "ความเร็วเชิงมุม";
+"angularVelocity.shortName" = "เชิงมุม";
+"angularVelocity.longName" = "ความเร็วเชิงมุม";
+"angularVelocity.detailedIntroduction" = "ความเร็วเชิงมุมคือการวัดการเปลี่ยนแปลงของมุมต่อหน่วยเวลา หน่วยมาตรฐานคือรัศมีต่อวินาที";
+
+"area.symbol" = "พื้นที่";
+"area.shortName" = "พื้นที่";
+"area.longName" = "พื้นที่";
+"area.detailedIntroduction" = "พื้นที่คือการวัดขนาดของพื้นผิว หน่วยมาตรฐานของพื้นที่คือตารางเมตร";
+
+"concentration.symbol" = "ความเข้มข้น";
+"concentration.shortName" = "เข้มข้น";
+"concentration.longName" = "ความเข้มข้น";
+"concentration.detailedIntroduction" = "ความเข้มข้นคือการวัดปริมาณของสารที่อยู่ในปริมาตร หน่วยมาตรฐานของความเข้มข้นคือกรัมต่อลิตร";
+
+"time.symbol" = "เวลา";
+"time.shortName" = "เวลา";
+"time.longName" = "เวลา";
+"time.detailedIntroduction" = "เวลาคือการวัดช่วงระยะจากเหตุการณ์หนึ่งไปยังอีกเหตุการณ์หนึ่ง หน่วยมาตรฐานของเวลาคือวินาที";
+
+"electricChargeCapacity.symbol" = "ความจุประจุไฟฟ้า";
+"electricChargeCapacity.shortName" = "จุ";
+"electricChargeCapacity.longName" = "ความจุประจุไฟฟ้า";
+"electricChargeCapacity.detailedIntroduction" = "ความจุประจุไฟฟ้าคือการวัดปริมาณไฟฟ้าที่เก็บในอุปกรณ์ หน่วยมาตรฐานคือแอมแปร์ชั่วโมง";
+
+"electricCurrent.symbol" = "กระแสไฟฟ้า";
+"electricCurrent.shortName" = "กระแส";
+"electricCurrent.longName" = "กระแสไฟฟ้า";
+"electricCurrent.detailedIntroduction" = "กระแสไฟฟ้าคือการวัดปริมาณการไหลของประจุไฟฟ้าผ่านตัวนำ หน่วยมาตรฐานคือแอมแปร์";
+
+"electricPotential.symbol" = "แรงดันไฟฟ้า";
+"electricPotential.shortName" = "แรงดัน";
+"electricPotential.longName" = "แรงดันไฟฟ้า";
+"electricPotential.detailedIntroduction" = "แรงดันไฟฟ้าคือการวัดความต่างศักย์ไฟฟ้าระหว่างสองจุด หน่วยมาตรฐานคือโวลต์";
+
+"electricResistance.symbol" = "ความต้านทานไฟฟ้า";
+"electricResistance.shortName" = "ต้านทาน";
+"electricResistance.longName" = "ความต้านทานไฟฟ้า";
+"electricResistance.detailedIntroduction" = "ความต้านทานไฟฟ้าคือการวัดความต้านทานต่อการไหลของกระแสไฟฟ้า หน่วยมาตรฐานคือโอห์ม";
+
+"energy.symbol" = "พลังงาน";
+"energy.shortName" = "พลัง";
+"energy.longName" = "พลังงาน";
+"energy.detailedIntroduction" = "พลังงานคือการวัดความสามารถในการทำงาน หน่วยมาตรฐานคือจูล";
+
+"frequency.symbol" = "ความถี่";
+"frequency.shortName" = "ถี่";
+"frequency.longName" = "ความถี่";
+"frequency.detailedIntroduction" = "ความถี่คือการวัดจำนวนเหตุการณ์ที่เกิดขึ้นในหน่วยเวลา หน่วยมาตรฐานคือเฮิรตซ์";
+
+"fuelEfficiency.symbol" = "ประสิทธิภาพเชื้อเพลิง";
+"fuelEfficiency.shortName" = "ประสิทธิภาพ";
+"fuelEfficiency.longName" = "ประสิทธิภาพเชื้อเพลิง";
+"fuelEfficiency.detailedIntroduction" = "ประสิทธิภาพเชื้อเพลิงคือการวัดระยะทางที่สามารถเดินทางได้ต่อหน่วยเชื้อเพลิง หน่วยมาตรฐานคือลิตรต่อ 100 กิโลเมตร";
+
+"data.symbol" = "ข้อมูล";
+"data.shortName" = "ข้อมูล";
+"data.longName" = "ข้อมูล";
+"data.detailedIntroduction" = "ข้อมูลคือการวัดปริมาณข้อมูลที่ถูกเก็บหรือส่ง หน่วยมาตรฐานคือไบต์";
+
+// Units
+"meters.symbol" = "ม.";
+"meters.shortName" = "เมตร";
+"meters.longName" = "เมตร";
+"meters.detailedIntroduction" = "เมตรเป็นหน่วยมาตรฐานของความยาวในระบบหน่วยนานาชาติ ใช้สำหรับการวัดระยะทางที่หลากหลาย เช่น ความสูงของอาคารหรือระยะทางระหว่างสถานที่สองแห่ง";
+
+"kilometers.symbol" = "กม.";
+"kilometers.shortName" = "กิโลเมตร";
+"kilometers.longName" = "กิโลเมตร";
+"kilometers.detailedIntroduction" = "กิโลเมตรเป็นหน่วยความยาวที่เท่ากับ 1,000 เมตร ใช้สำหรับการวัดระยะทางที่ยาว เช่น ระยะทางระหว่างเมือง";
+
+"centimeters.symbol" = "ซม.";
+"centimeters.shortName" = "เซนติเมตร";
+"centimeters.longName" = "เซนติเมตร";
+"centimeters.detailedIntroduction" = "เซนติเมตรเป็นหน่วยความยาวที่เท่ากับ 1/100 เมตร ใช้สำหรับการวัดระยะทางที่สั้น เช่น ความยาวของวัตถุขนาดเล็ก";
+
+"millimeters.symbol" = "มม.";
+"millimeters.shortName" = "มิลลิเมตร";
+"millimeters.longName" = "มิลลิเมตร";
+"millimeters.detailedIntroduction" = "มิลลิเมตรเป็นหน่วยความยาวที่เท่ากับ 1/1,000 เมตร ใช้สำหรับการวัดระยะทางที่เล็กมาก เช่น ความหนาของกระดาษ";
+
+"feet.symbol" = "ฟุต";
+"feet.shortName" = "ฟุต";
+"feet.longName" = "ฟุต";
+"feet.detailedIntroduction" = "ฟุตเป็นหน่วยความยาวในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดระยะทางที่หลากหลาย เช่น ความสูงของคนหรือขนาดของห้อง";
+
+"nauticalMiles.symbol" = "ไมล์ทะเล";
+"nauticalMiles.shortName" = "ไมล์ทะเล";
+"nauticalMiles.longName" = "ไมล์ทะเล";
+"nauticalMiles.detailedIntroduction" = "ไมล์ทะเลเป็นหน่วยความยาวที่ใช้ในการเดินเรือและการบิน ใช้สำหรับการวัดระยะทางในทะเลหรืออากาศ";
+
+"miles.symbol" = "ไมล์";
+"miles.shortName" = "ไมล์";
+"miles.longName" = "ไมล์";
+"miles.detailedIntroduction" = "ไมล์เป็นหน่วยความยาวในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดระยะทางที่ยาว เช่น ระยะทางระหว่างเมือง";
+
+"megameters.symbol" = "เมกะเมตร";
+"megameters.shortName" = "เมกะเมตร";
+"megameters.longName" = "เมกะเมตร";
+"megameters.detailedIntroduction" = "เมกะเมตรเป็นหน่วยความยาวที่เท่ากับ 1,000,000 เมตร ใช้สำหรับการวัดระยะทางที่ยาวมาก เช่น ระยะทางระหว่างดาวเคราะห์";
+
+"hectometers.symbol" = "เฮกโตเมตร";
+"hectometers.shortName" = "เฮกโตเมตร";
+"hectometers.longName" = "เฮกโตเมตร";
+"hectometers.detailedIntroduction" = "เฮกโตเมตรเป็นหน่วยความยาวที่เท่ากับ 100 เมตร ใช้สำหรับการวัดระยะทางที่ยาว เช่น ความยาวของสนามกีฬา";
+
+"decameters.symbol" = "เดคาเมตร";
+"decameters.shortName" = "เดคาเมตร";
+"decameters.longName" = "เดคาเมตร";
+"decameters.detailedIntroduction" = "เดคาเมตรเป็นหน่วยความยาวที่เท่ากับ 10 เมตร ใช้สำหรับการวัดระยะทางที่ยาว เช่น ความสูงของอาคาร";
+
+"decimeters.symbol" = "เดซิเมตร";
+"decimeters.shortName" = "เดซิเมตร";
+"decimeters.longName" = "เดซิเมตร";
+"decimeters.detailedIntroduction" = "เดซิเมตรเป็นหน่วยความยาวที่เท่ากับ 1/10 เมตร ใช้สำหรับการวัดระยะทางที่สั้น เช่น ความยาวของวัตถุขนาดเล็ก";
+
+"micrometers.symbol" = "ไมโครเมตร";
+"micrometers.shortName" = "ไมโครเมตร";
+"micrometers.longName" = "ไมโครเมตร";
+"micrometers.detailedIntroduction" = "ไมโครเมตรเป็นหน่วยความยาวที่เท่ากับ 1/1,000,000 เมตร ใช้สำหรับการวัดระยะทางที่เล็กมาก เช่น ความหนาของเส้นผม";
+
+"nanometers.symbol" = "นาโนเมตร";
+"nanometers.shortName" = "นาโนเมตร";
+"nanometers.longName" = "นาโนเมตร";
+"nanometers.detailedIntroduction" = "นาโนเมตรเป็นหน่วยความยาวที่เท่ากับ 1/1,000,000,000 เมตร ใช้สำหรับการวัดระยะทางที่เล็กมาก เช่น ขนาดของโมเลกุล";
+
+"picometers.symbol" = "พิโกเมตร";
+"picometers.shortName" = "พิโกเมตร";
+"picometers.longName" = "พิโกเมตร";
+"picometers.detailedIntroduction" = "พิโกเมตรเป็นหน่วยความยาวที่เท่ากับ 1/1,000,000,000,000 เมตร ใช้สำหรับการวัดระยะทางที่เล็กมาก เช่น ขนาดของอะตอม";
+
+"inches.symbol" = "นิ้ว";
+"inches.shortName" = "นิ้ว";
+"inches.longName" = "นิ้ว";
+"inches.detailedIntroduction" = "นิ้วเป็นหน่วยความยาวในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดระยะทางที่สั้น เช่น ขนาดของวัตถุขนาดเล็ก";
+
+"yards.symbol" = "หลา";
+"yards.shortName" = "หลา";
+"yards.longName" = "หลา";
+"yards.detailedIntroduction" = "หลาเป็นหน่วยความยาวในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดระยะทางที่หลากหลาย เช่น ความยาวของสนามกีฬา";
+
+"scandinavianMiles.symbol" = "ไมล์สแกนดิเนเวียน";
+"scandinavianMiles.shortName" = "ไมล์สแกนดิเนเวียน";
+"scandinavianMiles.longName" = "ไมล์สแกนดิเนเวียน";
+"scandinavianMiles.detailedIntroduction" = "ไมล์สแกนดิเนเวียนเป็นหน่วยความยาวที่ใช้ในประเทศสแกนดิเนเวีย ใช้สำหรับการวัดระยะทางที่ยาว เช่น ระยะทางระหว่างเมือง";
+
+"lightyears.symbol" = "ปีแสง";
+"lightyears.shortName" = "ปีแสง";
+"lightyears.longName" = "ปีแสง";
+"lightyears.detailedIntroduction" = "ปีแสงเป็นหน่วยความยาวที่ใช้ในการวัดระยะทางในอวกาศ ใช้สำหรับการวัดระยะทางระหว่างดาวเคราะห์และดวงดาว";
+
+"fathoms.symbol" = "ฟาทอม";
+"fathoms.shortName" = "ฟาทอม";
+"fathoms.longName" = "ฟาทอม";
+"fathoms.detailedIntroduction" = "ฟาทอมเป็นหน่วยความยาวที่ใช้ในการวัดความลึกของน้ำ ใช้สำหรับการวัดระยะทางในทะเล";
+
+"furlongs.symbol" = "ฟอร์ลอง";
+"furlongs.shortName" = "ฟอร์ลอง";
+"furlongs.longName" = "ฟอร์ลอง";
+"furlongs.detailedIntroduction" = "ฟอร์ลองเป็นหน่วยความยาวในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดระยะทางที่ยาว เช่น การแข่งขันม้า";
+
+"astronomicalUnits.symbol" = "หน่วยดาราศาสตร์";
+"astronomicalUnits.shortName" = "หน่วยดาราศาสตร์";
+"astronomicalUnits.longName" = "หน่วยดาราศาสตร์";
+"astronomicalUnits.detailedIntroduction" = "หน่วยดาราศาสตร์เป็นหน่วยความยาวที่ใช้ในการวัดระยะทางในอวกาศ ใช้สำหรับการวัดระยะทางระหว่างดวงอาทิตย์และดาวเคราะห์";
+
+"parsecs.symbol" = "พาร์เซก";
+"parsecs.shortName" = "พาร์เซก";
+"parsecs.longName" = "พาร์เซก";
+"parsecs.detailedIntroduction" = "พาร์เซกเป็นหน่วยความยาวที่ใช้ในการวัดระยะทางในอวกาศ ใช้สำหรับการวัดระยะทางระหว่างดวงดาวและกาแล็กซี";
+
+"knots.symbol" = "นอต";
+"knots.shortName" = "นอต";
+"knots.longName" = "นอต";
+"knots.detailedIntroduction" = "นอตเป็นหน่วยความเร็วที่ใช้ในการเดินเรือและการบิน ใช้สำหรับการวัดความเร็วของยานพาหนะในน้ำหรืออากาศ";
+
+"metersPerSecond.symbol" = "ม./วินาที";
+"metersPerSecond.shortName" = "เมตรต่อวินาที";
+"metersPerSecond.longName" = "เมตรต่อวินาที";
+"metersPerSecond.detailedIntroduction" = "เมตรต่อวินาทีเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของวัตถุ ใช้สำหรับการวัดความเร็วของยานพาหนะหรือวัตถุที่เคลื่อนที่";
+
+"feetPerMinute.symbol" = "ฟุต/นาที";
+"feetPerMinute.shortName" = "ฟุตต่อนาที";
+"feetPerMinute.longName" = "ฟุตต่อนาที";
+"feetPerMinute.detailedIntroduction" = "ฟุตต่อนาทีเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของวัตถุ ใช้สำหรับการวัดความเร็วของยานพาหนะหรือวัตถุที่เคลื่อนที่";
+
+"kilometersPerHour.symbol" = "กม./ชม.";
+"kilometersPerHour.shortName" = "กิโลเมตรต่อชั่วโมง";
+"kilometersPerHour.longName" = "กิโลเมตรต่อชั่วโมง";
+"kilometersPerHour.detailedIntroduction" = "กิโลเมตรต่อชั่วโมงเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของยานพาหนะ ใช้สำหรับการวัดความเร็วของรถยนต์หรือยานพาหนะที่เคลื่อนที่";
+
+"feetPerSecond.symbol" = "ฟุต/วินาที";
+"feetPerSecond.shortName" = "ฟุตต่อวินาที";
+"feetPerSecond.longName" = "ฟุตต่อวินาที";
+"feetPerSecond.detailedIntroduction" = "ฟุตต่อวินาทีเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของวัตถุ ใช้สำหรับการวัดความเร็วของยานพาหนะหรือวัตถุที่เคลื่อนที่";
+
+"milesPerHour.symbol" = "ไมล์/ชม.";
+"milesPerHour.shortName" = "ไมล์ต่อชั่วโมง";
+"milesPerHour.longName" = "ไมล์ต่อชั่วโมง";
+"milesPerHour.detailedIntroduction" = "ไมล์ต่อชั่วโมงเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของยานพาหนะ ใช้สำหรับการวัดความเร็วของรถยนต์หรือยานพาหนะที่เคลื่อนที่";
+
+"inchesPerSecond.symbol" = "นิ้ว/วินาที";
+"inchesPerSecond.shortName" = "นิ้วต่อวินาที";
+"inchesPerSecond.longName" = "นิ้วต่อวินาที";
+"inchesPerSecond.detailedIntroduction" = "นิ้วต่อวินาทีเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของวัตถุ ใช้สำหรับการวัดความเร็วของยานพาหนะหรือวัตถุที่เคลื่อนที่";
+
+"yardsPerSecond.symbol" = "หลา/วินาที";
+"yardsPerSecond.shortName" = "หลาต่อวินาที";
+"yardsPerSecond.longName" = "หลาต่อวินาที";
+"yardsPerSecond.detailedIntroduction" = "หลาต่อวินาทีเป็นหน่วยความเร็วที่ใช้ในการวัดความเร็วของวัตถุ ใช้สำหรับการวัดความเร็วของยานพาหนะหรือวัตถุที่เคลื่อนที่";
+
+"hectopascals.symbol" = "เฮกโตปาสกาล";
+"hectopascals.shortName" = "เฮกโตปาสกาล";
+"hectopascals.longName" = "เฮกโตปาสกาล";
+"hectopascals.detailedIntroduction" = "เฮกโตปาสกาลเป็นหน่วยความดันที่เท่ากับ 100 ปาสกาล ใช้สำหรับการวัดความดันในบรรยากาศหรือในระบบไฮดรอลิก";
+
+"inchesOfMercury.symbol" = "นิ้วปรอท";
+"inchesOfMercury.shortName" = "นิ้วปรอท";
+"inchesOfMercury.longName" = "นิ้วปรอท";
+"inchesOfMercury.detailedIntroduction" = "นิ้วปรอทเป็นหน่วยความดันที่ใช้ในการวัดความดันบรรยากาศ ใช้สำหรับการวัดความดันในบรรยากาศหรือในระบบไฮดรอลิก";
+
+"millimetersOfMercury.symbol" = "มม.ปรอท";
+"millimetersOfMercury.shortName" = "มิลลิเมตรปรอท";
+"millimetersOfMercury.longName" = "มิลลิเมตรปรอท";
+"millimetersOfMercury.detailedIntroduction" = "มิลลิเมตรปรอทเป็นหน่วยความดันที่ใช้ในการวัดความดันบรรยากาศ ใช้สำหรับการวัดความดันในบรรยากาศหรือในระบบไฮดรอลิก";
+
+"gigapascals.symbol" = "กิกะปาสกาล";
+"gigapascals.shortName" = "กิกะปาสกาล";
+"gigapascals.longName" = "กิกะปาสกาล";
+"gigapascals.detailedIntroduction" = "กิกะปาสกาลเป็นหน่วยความดันที่เท่ากับ 1,000,000,000 ปาสกาล ใช้สำหรับการวัดความดันในระบบที่มีความดันสูงมาก";
+
+"megapascals.symbol" = "เมกะปาสกาล";
+"megapascals.shortName" = "เมกะปาสกาล";
+"megapascals.longName" = "เมกะปาสกาล";
+"megapascals.detailedIntroduction" = "เมกะปาสกาลเป็นหน่วยความดันที่เท่ากับ 1,000,000 ปาสกาล ใช้สำหรับการวัดความดันในระบบที่มีความดันสูง";
+
+"kilopascals.symbol" = "กิโลปาสกาล";
+"kilopascals.shortName" = "กิโลปาสกาล";
+"kilopascals.longName" = "กิโลปาสกาล";
+"kilopascals.detailedIntroduction" = "กิโลปาสกาลเป็นหน่วยความดันที่เท่ากับ 1,000 ปาสกาล ใช้สำหรับการวัดความดันในระบบไฮดรอลิกหรือระบบลม";
+
+"bars.symbol" = "บาร์";
+"bars.shortName" = "บาร์";
+"bars.longName" = "บาร์";
+"bars.detailedIntroduction" = "บาร์เป็นหน่วยความดันที่ใช้ในการวัดความดันในระบบไฮดรอลิกหรือระบบลม ใช้สำหรับการวัดความดันในระบบที่มีความดันสูง";
+
+"millibars.symbol" = "มิลลิบาร์";
+"millibars.shortName" = "มิลลิบาร์";
+"millibars.longName" = "มิลลิบาร์";
+"millibars.detailedIntroduction" = "มิลลิบาร์เป็นหน่วยความดันที่ใช้ในการวัดความดันบรรยากาศ ใช้สำหรับการวัดความดันในบรรยากาศหรือในระบบไฮดรอลิก";
+
+"poundsForcePerSquareInch.symbol" = "ปอนด์ต่อตารางนิ้ว";
+"poundsForcePerSquareInch.shortName" = "ปอนด์ต่อตารางนิ้ว";
+"poundsForcePerSquareInch.longName" = "ปอนด์ต่อตารางนิ้ว";
+"poundsForcePerSquareInch.detailedIntroduction" = "ปอนด์ต่อตารางนิ้วเป็นหน่วยความดันที่ใช้ในการวัดความดันในระบบไฮดรอลิกหรือระบบลม ใช้สำหรับการวัดความดันในระบบที่มีความดันสูง";
+
+// Continue with other units in a similar fashion...
+
+// Example for a few more units:
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "ฟาเรนไฮต์";
+"fahrenheit.longName" = "ฟาเรนไฮต์";
+"fahrenheit.detailedIntroduction" = "ฟาเรนไฮต์เป็นหน่วยอุณหภูมิที่ใช้ในบางประเทศ เช่น สหรัฐอเมริกา ใช้สำหรับการวัดอุณหภูมิในชีวิตประจำวัน";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "แรงกิ้น";
+"rankine.longName" = "แรงกิ้น";
+"rankine.detailedIntroduction" = "แรงกิ้นเป็นหน่วยอุณหภูมิที่ใช้ในบางการใช้งานวิศวกรรม ใช้สำหรับการวัดอุณหภูมิในระบบที่ใช้หน่วยฟาเรนไฮต์";
+
+"celsiusDelta.symbol" = "Δ°C";
+"celsiusDelta.shortName" = "Δเซลเซียส";
+"celsiusDelta.longName" = "ความต่างเซลเซียส";
+"celsiusDelta.detailedIntroduction" = "ความต่างเซลเซียสใช้สำหรับการวัดการเปลี่ยนแปลงของอุณหภูมิในหน่วยเซลเซียส";
+
+"fahrenheitDelta.symbol" = "Δ°F";
+"fahrenheitDelta.shortName" = "Δฟาเรนไฮต์";
+"fahrenheitDelta.longName" = "ความต่างฟาเรนไฮต์";
+"fahrenheitDelta.detailedIntroduction" = "ความต่างฟาเรนไฮต์ใช้สำหรับการวัดการเปลี่ยนแปลงของอุณหภูมิในหน่วยฟาเรนไฮต์";
+
+"newtonsPerMetersSquared.symbol" = "นิวตันต่อตารางเมตร";
+"newtonsPerMetersSquared.shortName" = "นิวตันต่อตารางเมตร";
+"newtonsPerMetersSquared.longName" = "นิวตันต่อตารางเมตร";
+"newtonsPerMetersSquared.detailedIntroduction" = "นิวตันต่อตารางเมตรเป็นหน่วยของความดันหรือแรงที่ใช้ในการวัดความดันในระบบต่างๆ เช่น การทดสอบวัสดุหรือในระบบไฮดรอลิก";
+
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "เคลวิน";
+"kelvin.longName" = "เคลวิน";
+"kelvin.detailedIntroduction" = "เคลวินเป็นหน่วยอุณหภูมิที่ใช้ในระบบวิทยาศาสตร์สำหรับการวัดอุณหภูมิที่แน่นอน ใช้ในการวัดอุณหภูมิในวิชาฟิสิกส์และเคมี";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "เซลเซียส";
+"celsius.longName" = "เซลเซียส";
+"celsius.detailedIntroduction" = "เซลเซียสเป็นหน่วยอุณหภูมิที่ใช้ในชีวิตประจำวันและวิทยาศาสตร์ ใช้สำหรับการวัดอุณหภูมิของอากาศ น้ำ และสารต่างๆ";
+
+"metricTons.symbol" = "ตัน";
+"metricTons.shortName" = "ตัน";
+"metricTons.longName" = "เมตริกตัน";
+"metricTons.detailedIntroduction" = "เมตริกตันเป็นหน่วยน้ำหนักที่เท่ากับ 1,000 กิโลกรัม ใช้ในการวัดน้ำหนักของวัตถุขนาดใหญ่ เช่น ยานพาหนะหรือวัตถุดิบในอุตสาหกรรม";
+
+"shortTons.symbol" = "ตันสั้น";
+"shortTons.shortName" = "ตันสั้น";
+"shortTons.longName" = "ตันสั้น";
+"shortTons.detailedIntroduction" = "ตันสั้นเป็นหน่วยน้ำหนักในระบบหน่วยอเมริกา ใช้ในการวัดน้ำหนักของวัตถุขนาดใหญ่ เช่น การก่อสร้างและอุตสาหกรรม";
+
+"kilograms.symbol" = "กก.";
+"kilograms.shortName" = "กิโลกรัม";
+"kilograms.longName" = "กิโลกรัม";
+"kilograms.detailedIntroduction" = "กิโลกรัมเป็นหน่วยน้ำหนักในระบบเมตริก ใช้สำหรับการวัดน้ำหนักของวัตถุในชีวิตประจำวันและวิทยาศาสตร์";
+
+"kilopounds.symbol" = "กิโลปอนด์";
+"kilopounds.shortName" = "กิโลปอนด์";
+"kilopounds.longName" = "กิโลปอนด์";
+"kilopounds.detailedIntroduction" = "กิโลปอนด์เป็นหน่วยน้ำหนักในระบบหน่วยอเมริกา ใช้ในการวัดน้ำหนักของวัตถุขนาดใหญ่ เช่น เครื่องจักรหรือยานพาหนะ";
+
+"pounds.symbol" = "ปอนด์";
+"pounds.shortName" = "ปอนด์";
+"pounds.longName" = "ปอนด์";
+"pounds.detailedIntroduction" = "ปอนด์เป็นหน่วยน้ำหนักในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดน้ำหนักของวัตถุในชีวิตประจำวันและอุตสาหกรรม";
+
+"ounces.symbol" = "ออนซ์";
+"ounces.shortName" = "ออนซ์";
+"ounces.longName" = "ออนซ์";
+"ounces.detailedIntroduction" = "ออนซ์เป็นหน่วยน้ำหนักในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็ก เช่น เครื่องเทศหรือวัตถุดิบในการทำอาหาร";
+
+"grams.symbol" = "กรัม";
+"grams.shortName" = "กรัม";
+"grams.longName" = "กรัม";
+"grams.detailedIntroduction" = "กรัมเป็นหน่วยน้ำหนักในระบบเมตริก ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็ก เช่น เครื่องเทศหรือสารเคมี";
+
+"decigrams.symbol" = "เดซิกรัม";
+"decigrams.shortName" = "เดซิกรัม";
+"decigrams.longName" = "เดซิกรัม";
+"decigrams.detailedIntroduction" = "เดซิกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/10 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น สารเคมีหรือยา";
+
+"centigrams.symbol" = "เซนติกรัม";
+"centigrams.shortName" = "เซนติกรัม";
+"centigrams.longName" = "เซนติกรัม";
+"centigrams.detailedIntroduction" = "เซนติกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/100 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น สารเคมีหรือยา";
+
+"milligrams.symbol" = "มิลลิกรัม";
+"milligrams.shortName" = "มิลลิกรัม";
+"milligrams.longName" = "มิลลิกรัม";
+"milligrams.detailedIntroduction" = "มิลลิกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/1,000 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น ยาหรือสารเคมี";
+
+"micrograms.symbol" = "ไมโครกรัม";
+"micrograms.shortName" = "ไมโครกรัม";
+"micrograms.longName" = "ไมโครกรัม";
+"micrograms.detailedIntroduction" = "ไมโครกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/1,000,000 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น ยาหรือสารเคมี";
+
+"nanograms.symbol" = "นาโนกรัม";
+"nanograms.shortName" = "นาโนกรัม";
+"nanograms.longName" = "นาโนกรัม";
+"nanograms.detailedIntroduction" = "นาโนกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/1,000,000,000 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น ยาหรือสารเคมี";
+
+"picograms.symbol" = "พิโกกรัม";
+"picograms.shortName" = "พิโกกรัม";
+"picograms.longName" = "พิโกกรัม";
+"picograms.detailedIntroduction" = "พิโกกรัมเป็นหน่วยน้ำหนักในระบบเมตริกที่เท่ากับ 1/1,000,000,000,000 กรัม ใช้สำหรับการวัดน้ำหนักของวัตถุขนาดเล็กมาก เช่น ยาหรือสารเคมี";
+
+"stones.symbol" = "สโตน";
+"stones.shortName" = "สโตน";
+"stones.longName" = "สโตน";
+"stones.detailedIntroduction" = "สโตนเป็นหน่วยน้ำหนักในระบบหน่วยอิมพีเรียลที่ใช้ในบางประเทศ ใช้สำหรับการวัดน้ำหนักของคนหรือวัตถุขนาดใหญ่";
+
+"carats.symbol" = "กะรัต";
+"carats.shortName" = "กะรัต";
+"carats.longName" = "กะรัต";
+"carats.detailedIntroduction" = "กะรัตเป็นหน่วยน้ำหนักที่ใช้ในการวัดน้ำหนักของอัญมณี เช่น เพชรหรือพลอย";
+
+"ouncesTroy.symbol" = "ออนซ์ทรอย";
+"ouncesTroy.shortName" = "ออนซ์ทรอย";
+"ouncesTroy.longName" = "ออนซ์ทรอย";
+"ouncesTroy.detailedIntroduction" = "ออนซ์ทรอยเป็นหน่วยน้ำหนักที่ใช้ในการวัดน้ำหนักของโลหะมีค่า เช่น ทองหรือเงิน";
+
+"slugs.symbol" = "สลัก";
+"slugs.shortName" = "สลัก";
+"slugs.longName" = "สลัก";
+"slugs.detailedIntroduction" = "สลักเป็นหน่วยน้ำหนักในระบบหน่วยอิมพีเรียล ใช้ในการวัดน้ำหนักของวัตถุขนาดใหญ่ เช่น ยานพาหนะหรือเครื่องจักร";
+
+"liters.symbol" = "ลิตร";
+"liters.shortName" = "ลิตร";
+"liters.longName" = "ลิตร";
+"liters.detailedIntroduction" = "ลิตรเป็นหน่วยปริมาตรในระบบเมตริก ใช้สำหรับการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"quarts.symbol" = "ควอร์ต";
+"quarts.shortName" = "ควอร์ต";
+"quarts.longName" = "ควอร์ต";
+"quarts.detailedIntroduction" = "ควอร์ตเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"cubicMeters.symbol" = "ลบ.ม.";
+"cubicMeters.shortName" = "ลูกบาศก์เมตร";
+"cubicMeters.longName" = "ลูกบาศก์เมตร";
+"cubicMeters.detailedIntroduction" = "ลูกบาศก์เมตรเป็นหน่วยปริมาตรในระบบเมตริก ใช้สำหรับการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดใหญ่";
+
+"cubicCentimeters.symbol" = "ลบ.ซม.";
+"cubicCentimeters.shortName" = "ลูกบาศก์เซนติเมตร";
+"cubicCentimeters.longName" = "ลูกบาศก์เซนติเมตร";
+"cubicCentimeters.detailedIntroduction" = "ลูกบาศก์เซนติเมตรเป็นหน่วยปริมาตรในระบบเมตริก ใช้สำหรับการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดเล็ก";
+
+"gallons.symbol" = "แกลลอน";
+"gallons.shortName" = "แกลลอน";
+"gallons.longName" = "แกลลอน";
+"gallons.detailedIntroduction" = "แกลลอนเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียล ใช้สำหรับการวัดปริมาตรของของเหลว เช่น น้ำมันหรือน้ำ";
+
+"megaliters.symbol" = "เมกะลิตร";
+"megaliters.shortName" = "เมกะลิตร";
+"megaliters.longName" = "เมกะลิตร";
+"megaliters.detailedIntroduction" = "เมกะลิตรเป็นหน่วยปริมาตรในระบบเมตริกที่เท่ากับ 1,000,000 ลิตร ใช้ในการวัดปริมาตรของของเหลวในปริมาตรขนาดใหญ่";
+
+"kiloliters.symbol" = "กิโลลิตร";
+"kiloliters.shortName" = "กิโลลิตร";
+"kiloliters.longName" = "กิโลลิตร";
+"kiloliters.detailedIntroduction" = "กิโลลิตรเป็นหน่วยปริมาตรในระบบเมตริกที่เท่ากับ 1,000 ลิตร ใช้ในการวัดปริมาตรของของเหลวในปริมาตรขนาดใหญ่";
+
+"deciliters.symbol" = "เดซิลิตร";
+"deciliters.shortName" = "เดซิลิตร";
+"deciliters.longName" = "เดซิลิตร";
+"deciliters.detailedIntroduction" = "เดซิลิตรเป็นหน่วยปริมาตรในระบบเมตริกที่เท่ากับ 1/10 ลิตร ใช้ในการวัดปริมาตรของของเหลวในปริมาตรขนาดเล็ก";
+
+"centiliters.symbol" = "เซนติลิตร";
+"centiliters.shortName" = "เซนติลิตร";
+"centiliters.longName" = "เซนติลิตร";
+"centiliters.detailedIntroduction" = "เซนติลิตรเป็นหน่วยปริมาตรในระบบเมตริกที่เท่ากับ 1/100 ลิตร ใช้ในการวัดปริมาตรของของเหลวในปริมาตรขนาดเล็ก";
+
+"milliliters.symbol" = "มิลลิลิตร";
+"milliliters.shortName" = "มิลลิลิตร";
+"milliliters.longName" = "มิลลิลิตร";
+"milliliters.detailedIntroduction" = "มิลลิลิตรเป็นหน่วยปริมาตรในระบบเมตริกที่เท่ากับ 1/1,000 ลิตร ใช้ในการวัดปริมาตรของของเหลวในปริมาตรขนาดเล็ก";
+
+"cubicKilometers.symbol" = "ลบ.กม.";
+"cubicKilometers.shortName" = "ลูกบาศก์กิโลเมตร";
+"cubicKilometers.longName" = "ลูกบาศก์กิโลเมตร";
+"cubicKilometers.detailedIntroduction" = "ลูกบาศก์กิโลเมตรเป็นหน่วยปริมาตรในระบบเมตริกที่ใช้ในการวัดปริมาตรขนาดใหญ่ เช่น ปริมาตรของมหาสมุทรหรือทะเลสาบ";
+
+"cubicDecimeters.symbol" = "ลบ.ดม.";
+"cubicDecimeters.shortName" = "ลูกบาศก์เดซิเมตร";
+"cubicDecimeters.longName" = "ลูกบาศก์เดซิเมตร";
+"cubicDecimeters.detailedIntroduction" = "ลูกบาศก์เดซิเมตรเป็นหน่วยปริมาตรในระบบเมตริกที่ใช้ในการวัดปริมาตรขนาดเล็ก เช่น ปริมาตรของภาชนะหรือสารเคมี";
+
+"cubicMillimeters.symbol" = "ลบ.มม.";
+"cubicMillimeters.shortName" = "ลูกบาศก์มิลลิเมตร";
+"cubicMillimeters.longName" = "ลูกบาศก์มิลลิเมตร";
+"cubicMillimeters.detailedIntroduction" = "ลูกบาศก์มิลลิเมตรเป็นหน่วยปริมาตรในระบบเมตริกที่ใช้ในการวัดปริมาตรขนาดเล็กมาก เช่น ปริมาตรของยาหรือสารเคมี";
+
+"cubicInches.symbol" = "ลบ.นิ้ว";
+"cubicInches.shortName" = "ลูกบาศก์นิ้ว";
+"cubicInches.longName" = "ลูกบาศก์นิ้ว";
+"cubicInches.detailedIntroduction" = "ลูกบาศก์นิ้วเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดเล็ก";
+
+"cubicFeet.symbol" = "ลบ.ฟุต";
+"cubicFeet.shortName" = "ลูกบาศก์ฟุต";
+"cubicFeet.longName" = "ลูกบาศก์ฟุต";
+"cubicFeet.detailedIntroduction" = "ลูกบาศก์ฟุตเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดใหญ่";
+
+"cubicYards.symbol" = "ลบ.หลา";
+"cubicYards.shortName" = "ลูกบาศก์หลา";
+"cubicYards.longName" = "ลูกบาศก์หลา";
+"cubicYards.detailedIntroduction" = "ลูกบาศก์หลาเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดใหญ่";
+
+"cubicMiles.symbol" = "ลบ.ไมล์";
+"cubicMiles.shortName" = "ลูกบาศก์ไมล์";
+"cubicMiles.longName" = "ลูกบาศก์ไมล์";
+"cubicMiles.detailedIntroduction" = "ลูกบาศก์ไมล์เป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือก๊าซในปริมาตรขนาดใหญ่";
+
+"acreFeet.symbol" = "เอเคอร์ฟุต";
+"acreFeet.shortName" = "เอเคอร์ฟุต";
+"acreFeet.longName" = "เอเคอร์ฟุต";
+"acreFeet.detailedIntroduction" = "เอเคอร์ฟุตเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของน้ำในพื้นที่ขนาดใหญ่ เช่น พื้นที่การเกษตร";
+
+"bushels.symbol" = "บุชเชล";
+"bushels.shortName" = "บุชเชล";
+"bushels.longName" = "บุชเชล";
+"bushels.detailedIntroduction" = "บุชเชลเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของธัญพืชหรือผลิตผลการเกษตร";
+
+"teaspoons.symbol" = "ช้อนชา";
+"teaspoons.shortName" = "ช้อนชา";
+"teaspoons.longName" = "ช้อนชา";
+"teaspoons.detailedIntroduction" = "ช้อนชาเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของของเหลวหรือผงในการทำอาหาร";
+
+"tablespoons.symbol" = "ช้อนโต๊ะ";
+"tablespoons.shortName" = "ช้อนโต๊ะ";
+"tablespoons.longName" = "ช้อนโต๊ะ";
+"tablespoons.detailedIntroduction" = "ช้อนโต๊ะเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของของเหลวหรือผงในการทำอาหาร";
+
+"fluidOunces.symbol" = "ออนซ์ของเหลว";
+"fluidOunces.shortName" = "ออนซ์ของเหลว";
+"fluidOunces.longName" = "ออนซ์ของเหลว";
+"fluidOunces.detailedIntroduction" = "ออนซ์ของเหลวเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"cups.symbol" = "ถ้วย";
+"cups.shortName" = "ถ้วย";
+"cups.longName" = "ถ้วย";
+"cups.detailedIntroduction" = "ถ้วยเป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของของเหลวหรือของแห้งในการทำอาหาร";
+
+"pints.symbol" = "ไพน์";
+"pints.shortName" = "ไพน์";
+"pints.longName" = "ไพน์";
+"pints.detailedIntroduction" = "ไพน์เป็นหน่วยปริมาตรในระบบหน่วยอเมริกาที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"imperialTeaspoons.symbol" = "ช้อนชาอิมพีเรียล";
+"imperialTeaspoons.shortName" = "ช้อนชาอิมพีเรียล";
+"imperialTeaspoons.longName" = "ช้อนชาอิมพีเรียล";
+"imperialTeaspoons.detailedIntroduction" = "ช้อนชาอิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือผงในการทำอาหาร";
+
+"imperialTablespoons.symbol" = "ช้อนโต๊ะอิมพีเรียล";
+"imperialTablespoons.shortName" = "ช้อนโต๊ะอิมพีเรียล";
+"imperialTablespoons.longName" = "ช้อนโต๊ะอิมพีเรียล";
+"imperialTablespoons.detailedIntroduction" = "ช้อนโต๊ะอิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลวหรือผงในการทำอาหาร";
+
+"imperialFluidOunces.symbol" = "ออนซ์ของเหลวอิมพีเรียล";
+"imperialFluidOunces.shortName" = "ออนซ์ของเหลวอิมพีเรียล";
+"imperialFluidOunces.longName" = "ออนซ์ของเหลวอิมพีเรียล";
+"imperialFluidOunces.detailedIntroduction" = "ออนซ์ของเหลวอิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"imperialPints.symbol" = "ไพน์อิมพีเรียล";
+"imperialPints.shortName" = "ไพน์อิมพีเรียล";
+"imperialPints.longName" = "ไพน์อิมพีเรียล";
+"imperialPints.detailedIntroduction" = "ไพน์อิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"imperialQuarts.symbol" = "ควอร์ตอิมพีเรียล";
+"imperialQuarts.shortName" = "ควอร์ตอิมพีเรียล";
+"imperialQuarts.longName" = "ควอร์ตอิมพีเรียล";
+"imperialQuarts.detailedIntroduction" = "ควอร์ตอิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"imperialGallons.symbol" = "แกลลอนอิมพีเรียล";
+"imperialGallons.shortName" = "แกลลอนอิมพีเรียล";
+"imperialGallons.longName" = "แกลลอนอิมพีเรียล";
+"imperialGallons.detailedIntroduction" = "แกลลอนอิมพีเรียลเป็นหน่วยปริมาตรในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดปริมาตรของของเหลว เช่น น้ำหรือนม";
+
+"metricCups.symbol" = "ถ้วยเมตริก";
+"metricCups.shortName" = "ถ้วยเมตริก";
+"metricCups.longName" = "ถ้วยเมตริก";
+"metricCups.detailedIntroduction" = "ถ้วยเมตริกเป็นหน่วยปริมาตรในระบบเมตริกที่ใช้ในการวัดปริมาตรของของเหลวหรือของแห้งในการทำอาหาร";
+
+"metersPerSecondSquared.symbol" = "ม./วินาที²";
+"metersPerSecondSquared.shortName" = "เมตรต่อวินาที²";
+"metersPerSecondSquared.longName" = "เมตรต่อวินาที²";
+"metersPerSecondSquared.detailedIntroduction" = "เมตรต่อวินาที²เป็นหน่วยความเร่งในระบบเมตริกที่ใช้ในการวัดการเปลี่ยนแปลงของความเร็วต่อเวลาที่เพิ่มขึ้น";
+
+"gravity.symbol" = "g";
+"gravity.shortName" = "แรงโน้มถ่วง";
+"gravity.longName" = "แรงโน้มถ่วง";
+"gravity.detailedIntroduction" = "แรงโน้มถ่วงเป็นหน่วยความเร่งที่ใช้ในการวัดแรงดึงดูดของโลกต่อวัตถุที่ตกลงมา";
+
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "เทระวัตต์";
+"terawatts.longName" = "เทระวัตต์";
+"terawatts.detailedIntroduction" = "เทระวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับใหญ่ เช่น การผลิตพลังงานไฟฟ้าของทั้งประเทศ";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "กิกะวัตต์";
+"gigawatts.longName" = "กิกะวัตต์";
+"gigawatts.detailedIntroduction" = "กิกะวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับใหญ่ เช่น การผลิตพลังงานไฟฟ้าของโรงไฟฟ้า";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "เมกะวัตต์";
+"megawatts.longName" = "เมกะวัตต์";
+"megawatts.detailedIntroduction" = "เมกะวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับใหญ่ เช่น การผลิตพลังงานไฟฟ้าของโรงไฟฟ้าขนาดใหญ่";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "กิโลวัตต์";
+"kilowatts.longName" = "กิโลวัตต์";
+"kilowatts.detailedIntroduction" = "กิโลวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็ก เช่น การใช้พลังงานของเครื่องใช้ไฟฟ้าในบ้าน";
+
+"watts.symbol" = "W";
+"watts.shortName" = "วัตต์";
+"watts.longName" = "วัตต์";
+"watts.detailedIntroduction" = "วัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็ก เช่น การใช้พลังงานของเครื่องใช้ไฟฟ้า";
+
+"milliwatts.symbol" = "mW";
+"milliwatts.shortName" = "มิลลิวัตต์";
+"milliwatts.longName" = "มิลลิวัตต์";
+"milliwatts.detailedIntroduction" = "มิลลิวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็กมาก เช่น การใช้พลังงานของอุปกรณ์อิเล็กทรอนิกส์";
+
+"microwatts.symbol" = "µW";
+"microwatts.shortName" = "ไมโครวัตต์";
+"microwatts.longName" = "ไมโครวัตต์";
+"microwatts.detailedIntroduction" = "ไมโครวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็กมาก เช่น การใช้พลังงานของอุปกรณ์อิเล็กทรอนิกส์ขนาดเล็ก";
+
+"nanowatts.symbol" = "nW";
+"nanowatts.shortName" = "นาโนวัตต์";
+"nanowatts.longName" = "นาโนวัตต์";
+"nanowatts.detailedIntroduction" = "นาโนวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็กมาก เช่น การใช้พลังงานของอุปกรณ์อิเล็กทรอนิกส์ขนาดเล็ก";
+
+"picowatts.symbol" = "pW";
+"picowatts.shortName" = "พิโควัตต์";
+"picowatts.longName" = "พิโควัตต์";
+"picowatts.detailedIntroduction" = "พิโควัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็กมาก เช่น การใช้พลังงานของอุปกรณ์อิเล็กทรอนิกส์ขนาดเล็ก";
+
+"femtowatts.symbol" = "fW";
+"femtowatts.shortName" = "เฟมโตวัตต์";
+"femtowatts.longName" = "เฟมโตวัตต์";
+"femtowatts.detailedIntroduction" = "เฟมโตวัตต์เป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานในระดับเล็กมาก เช่น การใช้พลังงานของอุปกรณ์อิเล็กทรอนิกส์ขนาดเล็ก";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "แรงม้า";
+"horsepower.longName" = "แรงม้า";
+"horsepower.detailedIntroduction" = "แรงม้าเป็นหน่วยพลังงานที่ใช้ในการวัดพลังงานของเครื่องยนต์หรืออุปกรณ์ที่มีการทำงานหนัก เช่น รถยนต์หรือเครื่องจักร";
+
+"degrees.symbol" = "°";
+"degrees.shortName" = "องศา";
+"degrees.longName" = "องศา";
+"degrees.detailedIntroduction" = "องศาเป็นหน่วยมุมที่ใช้ในการวัดขนาดของมุมหรือการเปลี่ยนแปลงของทิศทาง เช่น การวัดมุมในเรขาคณิตหรือการวัดมุมของดาวเคราะห์";
+
+"arcMinutes.symbol" = "'";
+"arcMinutes.shortName" = "ลิปดา";
+"arcMinutes.longName" = "ลิปดา";
+"arcMinutes.detailedIntroduction" = "ลิปดาเป็นหน่วยมุมที่ใช้ในการวัดขนาดของมุมในระดับละเอียด เช่น การวัดมุมในดาราศาสตร์หรือการวัดมุมของเครื่องมือวัด";
+
+"arcSeconds.symbol" = "\"";
+"arcSeconds.shortName" = "พิลิปดา";
+"arcSeconds.longName" = "พิลิปดา";
+"arcSeconds.detailedIntroduction" = "พิลิปดาเป็นหน่วยมุมที่ใช้ในการวัดขนาดของมุมในระดับละเอียดมาก เช่น การวัดมุมในดาราศาสตร์หรือการวัดมุมของเครื่องมือวัด";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "เรเดียน";
+"radians.longName" = "เรเดียน";
+"radians.detailedIntroduction" = "เรเดียนเป็นหน่วยมุมในระบบเมตริกที่ใช้ในการวัดขนาดของมุมในเรขาคณิตและฟิสิกส์";
+
+"gradians.symbol" = "grad";
+"gradians.shortName" = "เกรเดียน";
+"gradians.longName" = "เกรเดียน";
+"gradians.detailedIntroduction" = "เกรเดียนเป็นหน่วยมุมในระบบเมตริกที่ใช้ในการวัดขนาดของมุมในเรขาคณิตและฟิสิกส์ โดยที่มุมตรงจะเท่ากับ 100 เกรเดียน";
+
+"revolutions.symbol" = "rev";
+"revolutions.shortName" = "รอบ";
+"revolutions.longName" = "รอบ";
+"revolutions.detailedIntroduction" = "รอบเป็นหน่วยมุมที่ใช้ในการวัดการหมุนของวัตถุ เช่น การหมุนของเครื่องยนต์หรือการหมุนของล้อ";
+
+"radiansPerSecond.symbol" = "rad/s";
+"radiansPerSecond.shortName" = "เรเดียนต่อวินาที";
+"radiansPerSecond.longName" = "เรเดียนต่อวินาที";
+"radiansPerSecond.detailedIntroduction" = "เรเดียนต่อวินาทีเป็นหน่วยความเร็วเชิงมุมที่ใช้ในการวัดการเปลี่ยนแปลงของมุมต่อเวลาที่เพิ่มขึ้น เช่น การหมุนของเครื่องยนต์";
+
+"degreesPerSecond.symbol" = "°/s";
+"degreesPerSecond.shortName" = "องศาต่อวินาที";
+"degreesPerSecond.longName" = "องศาต่อวินาที";
+"degreesPerSecond.detailedIntroduction" = "องศาต่อวินาทีเป็นหน่วยความเร็วเชิงมุมที่ใช้ในการวัดการเปลี่ยนแปลงของมุมต่อเวลาที่เพิ่มขึ้น เช่น การหมุนของเครื่องยนต์";
+
+"revolutionsPerMinute.symbol" = "rpm";
+"revolutionsPerMinute.shortName" = "รอบต่อนาที";
+"revolutionsPerMinute.longName" = "รอบต่อนาที";
+"revolutionsPerMinute.detailedIntroduction" = "รอบต่อนาทีเป็นหน่วยความเร็วเชิงมุมที่ใช้ในการวัดการหมุนของวัตถุในหน่วยรอบต่อนาที เช่น การหมุนของเครื่องยนต์";
+
+"revolutionsPerSecond.symbol" = "rps";
+"revolutionsPerSecond.shortName" = "รอบต่อวินาที";
+"revolutionsPerSecond.longName" = "รอบต่อวินาที";
+"revolutionsPerSecond.detailedIntroduction" = "รอบต่อวินาทีเป็นหน่วยความเร็วเชิงมุมที่ใช้ในการวัดการหมุนของวัตถุในหน่วยรอบต่อวินาที เช่น การหมุนของเครื่องยนต์";
+
+"squareMegameters.symbol" = "Mm²";
+"squareMegameters.shortName" = "ตารางเมกะเมตร";
+"squareMegameters.longName" = "ตารางเมกะเมตร";
+"squareMegameters.detailedIntroduction" = "ตารางเมกะเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดใหญ่ เช่น พื้นที่ของมหาสมุทรหรือทวีป";
+
+"squareKilometers.symbol" = "กม²";
+"squareKilometers.shortName" = "ตารางกิโลเมตร";
+"squareKilometers.longName" = "ตารางกิโลเมตร";
+"squareKilometers.detailedIntroduction" = "ตารางกิโลเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดใหญ่ เช่น พื้นที่ของเมืองหรือประเทศ";
+
+"squareMeters.symbol" = "ตร.ม.";
+"squareMeters.shortName" = "ตารางเมตร";
+"squareMeters.longName" = "ตารางเมตร";
+"squareMeters.detailedIntroduction" = "ตารางเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็ก เช่น พื้นที่ของห้องหรือบ้าน";
+
+"squareCentimeters.symbol" = "ตร.ซม.";
+"squareCentimeters.shortName" = "ตารางเซนติเมตร";
+"squareCentimeters.longName" = "ตารางเซนติเมตร";
+"squareCentimeters.detailedIntroduction" = "ตารางเซนติเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็ก เช่น พื้นที่ของวัตถุขนาดเล็ก";
+
+"squareMillimeters.symbol" = "ตร.มม.";
+"squareMillimeters.shortName" = "ตารางมิลลิเมตร";
+"squareMillimeters.longName" = "ตารางมิลลิเมตร";
+"squareMillimeters.detailedIntroduction" = "ตารางมิลลิเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็กมาก เช่น พื้นที่ของวัตถุขนาดเล็ก";
+
+"squareMicrometers.symbol" = "ตร.ไมโครเมตร";
+"squareMicrometers.shortName" = "ตารางไมโครเมตร";
+"squareMicrometers.longName" = "ตารางไมโครเมตร";
+"squareMicrometers.detailedIntroduction" = "ตารางไมโครเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็กมาก เช่น พื้นที่ของเซลล์หรือวัตถุขนาดเล็ก";
+
+"squareNanometers.symbol" = "ตร.นาโนเมตร";
+"squareNanometers.shortName" = "ตารางนาโนเมตร";
+"squareNanometers.longName" = "ตารางนาโนเมตร";
+"squareNanometers.detailedIntroduction" = "ตารางนาโนเมตรเป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็กมาก เช่น พื้นที่ของโมเลกุลหรือวัตถุขนาดเล็ก";
+
+"squareInches.symbol" = "ตร.นิ้ว";
+"squareInches.shortName" = "ตารางนิ้ว";
+"squareInches.longName" = "ตารางนิ้ว";
+"squareInches.detailedIntroduction" = "ตารางนิ้วเป็นหน่วยพื้นที่ในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดพื้นที่ขนาดเล็ก เช่น พื้นที่ของวัตถุขนาดเล็ก";
+
+"squareFeet.symbol" = "ตร.ฟุต";
+"squareFeet.shortName" = "ตารางฟุต";
+"squareFeet.longName" = "ตารางฟุต";
+"squareFeet.detailedIntroduction" = "ตารางฟุตเป็นหน่วยพื้นที่ในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดพื้นที่ขนาดเล็ก เช่น พื้นที่ของห้องหรือบ้าน";
+
+"squareYards.symbol" = "ตร.หลา";
+"squareYards.shortName" = "ตารางหลา";
+"squareYards.longName" = "ตารางหลา";
+"squareYards.detailedIntroduction" = "ตารางหลาเป็นหน่วยพื้นที่ในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดพื้นที่ขนาดใหญ่ เช่น พื้นที่ของสนามหญ้าหรือสวน";
+
+"squareMiles.symbol" = "ตร.ไมล์";
+"squareMiles.shortName" = "ตารางไมล์";
+"squareMiles.longName" = "ตารางไมล์";
+"squareMiles.detailedIntroduction" = "ตารางไมล์เป็นหน่วยพื้นที่ในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดพื้นที่ขนาดใหญ่ เช่น พื้นที่ของเมืองหรือประเทศ";
+
+"acres.symbol" = "เอเคอร์";
+"acres.shortName" = "เอเคอร์";
+"acres.longName" = "เอเคอร์";
+"acres.detailedIntroduction" = "เอเคอร์เป็นหน่วยพื้นที่ในระบบหน่วยอิมพีเรียลที่ใช้ในการวัดพื้นที่ของที่ดินหรือพื้นที่เกษตร";
+
+"ares.symbol" = "อาร์";
+"ares.shortName" = "อาร์";
+"ares.longName" = "อาร์";
+"ares.detailedIntroduction" = "อาร์เป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดเล็ก เช่น พื้นที่ของสวนหรือที่ดิน";
+
+"hectares.symbol" = "เฮกตาร์";
+"hectares.shortName" = "เฮกตาร์";
+"hectares.longName" = "เฮกตาร์";
+"hectares.detailedIntroduction" = "เฮกตาร์เป็นหน่วยพื้นที่ในระบบเมตริกที่ใช้ในการวัดพื้นที่ขนาดใหญ่ เช่น พื้นที่ของฟาร์มหรือที่ดิน";
+
+"gramsPerLiter.symbol" = "g/L";
+"gramsPerLiter.shortName" = "กรัมต่อลิตร";
+"gramsPerLiter.longName" = "กรัมต่อลิตร";
+"gramsPerLiter.detailedIntroduction" = "กรัมต่อลิตรเป็นหน่วยความเข้มข้นที่ใช้ในการวัดปริมาณสารที่ละลายในของเหลว เช่น ความเข้มข้นของสารเคมีในน้ำ";
+
+"milligramsPerDeciliter.symbol" = "mg/dL";
+"milligramsPerDeciliter.shortName" = "มิลลิกรัมต่อเดซิลิตร";
+"milligramsPerDeciliter.longName" = "มิลลิกรัมต่อเดซิลิตร";
+"milligramsPerDeciliter.detailedIntroduction" = "มิลลิกรัมต่อเดซิลิตรเป็นหน่วยความเข้มข้นที่ใช้ในการวัดปริมาณสารที่ละลายในของเหลว เช่น ความเข้มข้นของสารเคมีในน้ำ";
+
+"partsPerMillion.symbol" = "ppm";
+"partsPerMillion.shortName" = "พีพีเอ็ม";
+"partsPerMillion.longName" = "พีพีเอ็ม";
+"partsPerMillion.detailedIntroduction" = "พีพีเอ็มเป็นหน่วยความเข้มข้นที่ใช้ในการวัดปริมาณสารที่ละลายในของเหลวหรือก๊าซในระดับล้านส่วน เช่น ความเข้มข้นของสารเคมีในน้ำหรืออากาศ";
+
+"hours.symbol" = "ชม.";
+"hours.shortName" = "ชั่วโมง";
+"hours.longName" = "ชั่วโมง";
+"hours.detailedIntroduction" = "ชั่วโมงเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งวัน";
+
+"minutes.symbol" = "นาที";
+"minutes.shortName" = "นาที";
+"minutes.longName" = "นาที";
+"minutes.detailedIntroduction" = "นาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งวัน";
+
+"seconds.symbol" = "วินาที";
+"seconds.shortName" = "วินาที";
+"seconds.longName" = "วินาที";
+"seconds.detailedIntroduction" = "วินาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งวัน";
+
+"milliseconds.symbol" = "มิลลิวินาที";
+"milliseconds.shortName" = "มิลลิวินาที";
+"milliseconds.longName" = "มิลลิวินาที";
+"milliseconds.detailedIntroduction" = "มิลลิวินาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหน่วยเวลาขนาดเล็ก";
+
+"microseconds.symbol" = "ไมโครวินาที";
+"microseconds.shortName" = "ไมโครวินาที";
+"microseconds.longName" = "ไมโครวินาที";
+"microseconds.detailedIntroduction" = "ไมโครวินาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหน่วยเวลาขนาดเล็ก";
+
+"nanoseconds.symbol" = "นาโนวินาที";
+"nanoseconds.shortName" = "นาโนวินาที";
+"nanoseconds.longName" = "นาโนวินาที";
+"nanoseconds.detailedIntroduction" = "นาโนวินาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหน่วยเวลาขนาดเล็ก";
+
+"picoseconds.symbol" = "พิโควินาที";
+"picoseconds.shortName" = "พิโควินาที";
+"picoseconds.longName" = "พิโควินาที";
+"picoseconds.detailedIntroduction" = "พิโควินาทีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหน่วยเวลาขนาดเล็ก";
+
+"days.symbol" = "วัน";
+"days.shortName" = "วัน";
+"days.longName" = "วัน";
+"days.detailedIntroduction" = "วันเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งวัน";
+
+"weeks.symbol" = "สัปดาห์";
+"weeks.shortName" = "สัปดาห์";
+"weeks.longName" = "สัปดาห์";
+"weeks.detailedIntroduction" = "สัปดาห์เป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งสัปดาห์";
+
+"years.symbol" = "ปี";
+"years.shortName" = "ปี";
+"years.longName" = "ปี";
+"years.detailedIntroduction" = "ปีเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งปี";
+
+"decades.symbol" = "ทศวรรษ";
+"decades.shortName" = "ทศวรรษ";
+"decades.longName" = "ทศวรรษ";
+"decades.detailedIntroduction" = "ทศวรรษเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งทศวรรษ";
+
+"centuries.symbol" = "ศตวรรษ";
+"centuries.shortName" = "ศตวรรษ";
+"centuries.longName" = "ศตวรรษ";
+"centuries.detailedIntroduction" = "ศตวรรษเป็นหน่วยเวลาในระบบเมตริกที่ใช้ในการวัดระยะเวลาของเหตุการณ์หรือกิจกรรมในหนึ่งศตวรรษ";
+
+"megaampereHours.symbol" = "MAh";
+"megaampereHours.shortName" = "เมกะแอมแปร์ชั่วโมง";
+"megaampereHours.longName" = "เมกะแอมแปร์ชั่วโมง";
+"megaampereHours.detailedIntroduction" = "เมกะแอมแปร์ชั่วโมงเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่เก็บอยู่ในแบตเตอรี่หรือใช้ในการวัดพลังงานไฟฟ้าที่ใช้ในระบบขนาดใหญ่";
+
+"kiloampereHours.symbol" = "kAh";
+"kiloampereHours.shortName" = "กิโลแอมแปร์ชั่วโมง";
+"kiloampereHours.longName" = "กิโลแอมแปร์ชั่วโมง";
+"kiloampereHours.detailedIntroduction" = "กิโลแอมแปร์ชั่วโมงเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่เก็บอยู่ในแบตเตอรี่หรือใช้ในการวัดพลังงานไฟฟ้าที่ใช้ในระบบขนาดใหญ่";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "แอมแปร์ชั่วโมง";
+"ampereHours.longName" = "แอมแปร์ชั่วโมง";
+"ampereHours.detailedIntroduction" = "แอมแปร์ชั่วโมงเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่เก็บอยู่ในแบตเตอรี่หรือใช้ในการวัดพลังงานไฟฟ้าที่ใช้ในระบบขนาดเล็ก";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "มิลลิแอมแปร์ชั่วโมง";
+"milliampereHours.longName" = "มิลลิแอมแปร์ชั่วโมง";
+"milliampereHours.detailedIntroduction" = "มิลลิแอมแปร์ชั่วโมงเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่เก็บอยู่ในแบตเตอรี่หรือใช้ในการวัดพลังงานไฟฟ้าที่ใช้ในระบบขนาดเล็ก";
+
+"microampereHours.symbol" = "µAh";
+"microampereHours.shortName" = "ไมโครแอมแปร์ชั่วโมง";
+"microampereHours.longName" = "ไมโครแอมแปร์ชั่วโมง";
+"microampereHours.detailedIntroduction" = "ไมโครแอมแปร์ชั่วโมงเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่เก็บอยู่ในแบตเตอรี่หรือใช้ในการวัดพลังงานไฟฟ้าที่ใช้ในระบบขนาดเล็ก";
+
+"ampereSeconds.symbol" = "As";
+"ampereSeconds.shortName" = "แอมแปร์วินาที";
+"ampereSeconds.longName" = "แอมแปร์วินาที";
+"ampereSeconds.detailedIntroduction" = "แอมแปร์วินาทีเป็นหน่วยพลังงานไฟฟ้าที่ใช้ในการวัดปริมาณพลังงานที่ไหลผ่านวงจรไฟฟ้าในเวลาหนึ่งวินาที";
+
+"megaamperes.symbol" = "MA";
+"megaamperes.shortName" = "เมกะแอมแปร์";
+"megaamperes.longName" = "เมกะแอมแปร์";
+"megaamperes.detailedIntroduction" = "เมกะแอมแปร์เป็นหน่วยกระแสไฟฟ้าที่ใช้ในการวัดปริมาณกระแสไฟฟ้าในระบบขนาดใหญ่ เช่น การผลิตพลังงานไฟฟ้า";
+
+"kiloamperes.symbol" = "kA";
+"kiloamperes.shortName" = "กิโลแอมแปร์";
+"kiloamperes.longName" = "กิโลแอมแปร์";
+"kiloamperes.detailedIntroduction" = "กิโลแอมแปร์เป็นหน่วยกระแสไฟฟ้าที่ใช้ในการวัดปริมาณกระแสไฟฟ้าในระบบขนาดใหญ่ เช่น การผลิตพลังงานไฟฟ้า";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "แอมแปร์";
+"amperes.longName" = "แอมแปร์";
+"amperes.detailedIntroduction" = "แอมแปร์เป็นหน่วยกระแสไฟฟ้าที่ใช้ในการวัดปริมาณกระแสไฟฟ้าในวงจรไฟฟ้า";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "มิลลิแอมแปร์";
+"milliamperes.longName" = "มิลลิแอมแปร์";
+"milliamperes.detailedIntroduction" = "มิลลิแอมแปร์เป็นหน่วยกระแสไฟฟ้าที่ใช้ในการวัดปริมาณกระแสไฟฟ้าในวงจรไฟฟ้า";
+
+"microamperes.symbol" = "µA";
+"microamperes.shortName" = "ไมโครแอมแปร์";
+"microamperes.longName" = "ไมโครแอมแปร์";
+"microamperes.detailedIntroduction" = "ไมโครแอมแปร์เป็นหน่วยกระแสไฟฟ้าที่ใช้ในการวัดปริมาณกระแสไฟฟ้าในวงจรไฟฟ้า";
+
+"megavolts.symbol" = "MV";
+"megavolts.shortName" = "เมกะโวลต์";
+"megavolts.longName" = "เมกะโวลต์";
+"megavolts.detailedIntroduction" = "เมกะโวลต์เป็นหน่วยแรงดันไฟฟ้าที่ใช้ในการวัดปริมาณแรงดันไฟฟ้าในระบบขนาดใหญ่ เช่น การผลิตพลังงานไฟฟ้า";
+
+"kilovolts.symbol" = "kV";
+"kilovolts.shortName" = "กิโลโวลต์";
+"kilovolts.longName" = "กิโลโวลต์";
+"kilovolts.detailedIntroduction" = "กิโลโวลต์เป็นหน่วยแรงดันไฟฟ้าที่ใช้ในการวัดปริมาณแรงดันไฟฟ้าในระบบขนาดใหญ่ เช่น การผลิตพลังงานไฟฟ้า";
+
+"volts.symbol" = "V";
+"volts.shortName" = "โวลต์";
+"volts.longName" = "โวลต์";
+"volts.detailedIntroduction" = "โวลต์เป็นหน่วยแรงดันไฟฟ้าที่ใช้ในการวัดปริมาณแรงดันไฟฟ้าในวงจรไฟฟ้า";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "มิลลิโวลต์";
+"millivolts.longName" = "มิลลิโวลต์";
+"millivolts.detailedIntroduction" = "มิลลิโวลต์เป็นหน่วยแรงดันไฟฟ้าที่ใช้ในการวัดปริมาณแรงดันไฟฟ้าในวงจรไฟฟ้า";
+
+"microvolts.symbol" = "µV";
+"microvolts.shortName" = "ไมโครโวลต์";
+"microvolts.longName" = "ไมโครโวลต์";
+"microvolts.detailedIntroduction" = "ไมโครโวลต์เป็นหน่วยแรงดันไฟฟ้าที่ใช้ในการวัดปริมาณแรงดันไฟฟ้าในวงจรไฟฟ้า";
+
+"megaohms.symbol" = "MΩ";
+"megaohms.shortName" = "เมกะโอห์ม";
+"megaohms.longName" = "เมกะโอห์ม";
+"megaohms.detailedIntroduction" = "เมกะโอห์มเป็นหน่วยความต้านทานไฟฟ้าที่ใช้ในการวัดปริมาณความต้านทานไฟฟ้าในระบบขนาดใหญ่ เช่น วงจรไฟฟ้าแรงสูง";
+
+"kiloohms.symbol" = "kΩ";
+"kiloohms.shortName" = "กิโลโอห์ม";
+"kiloohms.longName" = "กิโลโอห์ม";
+"kiloohms.detailedIntroduction" = "กิโลโอห์มเป็นหน่วยความต้านทานไฟฟ้าที่ใช้ในการวัดปริมาณความต้านทานไฟฟ้าในวงจรไฟฟ้า";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "โอห์ม";
+"ohms.longName" = "โอห์ม";
+"ohms.detailedIntroduction" = "โอห์มเป็นหน่วยความต้านทานไฟฟ้าที่ใช้ในการวัดปริมาณความต้านทานไฟฟ้าในวงจรไฟฟ้า";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "มิลลิโอห์ม";
+"milliohms.longName" = "มิลลิโอห์ม";
+"milliohms.detailedIntroduction" = "มิลลิโอห์มเป็นหน่วยความต้านทานไฟฟ้าที่ใช้ในการวัดปริมาณความต้านทานไฟฟ้าในวงจรไฟฟ้า";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "ไมโครโอห์ม";
+"microohms.longName" = "ไมโครโอห์ม";
+"microohms.detailedIntroduction" = "ไมโครโอห์มเป็นหน่วยความต้านทานไฟฟ้าที่ใช้ในการวัดปริมาณความต้านทานไฟฟ้าในวงจรไฟฟ้า";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "กิโลจูล";
+"kilojoules.longName" = "กิโลจูล";
+"kilojoules.detailedIntroduction" = "กิโลจูลเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานในระดับใหญ่ เช่น พลังงานที่ใช้ในการออกกำลังกายหรือการทำงาน";
+
+"joules.symbol" = "J";
+"joules.shortName" = "จูล";
+"joules.longName" = "จูล";
+"joules.detailedIntroduction" = "จูลเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานในระดับเล็ก เช่น พลังงานที่ใช้ในการทำงานหรือการออกกำลังกาย";
+
+"kilocalories.symbol" = "kcal";
+"kilocalories.shortName" = "กิโลแคลอรี";
+"kilocalories.longName" = "กิโลแคลอรี";
+"kilocalories.detailedIntroduction" = "กิโลแคลอรีเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานในอาหารหรือการออกกำลังกาย";
+
+"calories.symbol" = "cal";
+"calories.shortName" = "แคลอรี";
+"calories.longName" = "แคลอรี";
+"calories.detailedIntroduction" = "แคลอรีเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานในอาหารหรือการออกกำลังกาย";
+
+"kilowattHours.symbol" = "kWh";
+"kilowattHours.shortName" = "กิโลวัตต์ชั่วโมง";
+"kilowattHours.longName" = "กิโลวัตต์ชั่วโมง";
+"kilowattHours.detailedIntroduction" = "กิโลวัตต์ชั่วโมงเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานไฟฟ้าที่ใช้ในช่วงเวลาหนึ่ง เช่น การใช้พลังงานไฟฟ้าในบ้าน";
+
+"wattHours.symbol" = "Wh";
+"wattHours.shortName" = "วัตต์ชั่วโมง";
+"wattHours.longName" = "วัตต์ชั่วโมง";
+"wattHours.detailedIntroduction" = "วัตต์ชั่วโมงเป็นหน่วยพลังงานที่ใช้ในการวัดปริมาณพลังงานไฟฟ้าที่ใช้ในช่วงเวลาหนึ่ง เช่น การใช้พลังงานไฟฟ้าในอุปกรณ์อิเล็กทรอนิกส์";
+
+"terahertz.symbol" = "THz";
+"terahertz.shortName" = "เทระเฮิรตซ์";
+"terahertz.longName" = "เทระเฮิรตซ์";
+"terahertz.detailedIntroduction" = "เทระเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าในระดับสูง เช่น การสื่อสารไร้สายหรือการประยุกต์ใช้ทางวิทยาศาสตร์";
+
+"gigahertz.symbol" = "GHz";
+"gigahertz.shortName" = "กิกะเฮิรตซ์";
+"gigahertz.longName" = "กิกะเฮิรตซ์";
+"gigahertz.detailedIntroduction" = "กิกะเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าในระดับสูง เช่น การสื่อสารไร้สายหรือการประยุกต์ใช้ทางวิทยาศาสตร์";
+
+"megahertz.symbol" = "MHz";
+"megahertz.shortName" = "เมกะเฮิรตซ์";
+"megahertz.longName" = "เมกะเฮิรตซ์";
+"megahertz.detailedIntroduction" = "เมกะเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าในระดับสูง เช่น การสื่อสารไร้สายหรือการประยุกต์ใช้ทางวิทยาศาสตร์";
+
+"kilohertz.symbol" = "kHz";
+"kilohertz.shortName" = "กิโลเฮิรตซ์";
+"kilohertz.longName" = "กิโลเฮิรตซ์";
+"kilohertz.detailedIntroduction" = "กิโลเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าในระดับสูง เช่น การสื่อสารไร้สายหรือการประยุกต์ใช้ทางวิทยาศาสตร์";
+
+"hertz.symbol" = "Hz";
+"hertz.shortName" = "เฮิรตซ์";
+"hertz.longName" = "เฮิรตซ์";
+"hertz.detailedIntroduction" = "เฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าหรือคลื่นเสียงในระดับต่ำ";
+
+"millihertz.symbol" = "mHz";
+"millihertz.shortName" = "มิลลิเฮิรตซ์";
+"millihertz.longName" = "มิลลิเฮิรตซ์";
+"millihertz.detailedIntroduction" = "มิลลิเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าหรือคลื่นเสียงในระดับต่ำ";
+
+"microhertz.symbol" = "µHz";
+"microhertz.shortName" = "ไมโครเฮิรตซ์";
+"microhertz.longName" = "ไมโครเฮิรตซ์";
+"microhertz.detailedIntroduction" = "ไมโครเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าหรือคลื่นเสียงในระดับต่ำ";
+
+"nanohertz.symbol" = "nHz";
+"nanohertz.shortName" = "นาโนเฮิรตซ์";
+"nanohertz.longName" = "นาโนเฮิรตซ์";
+"nanohertz.detailedIntroduction" = "นาโนเฮิรตซ์เป็นหน่วยความถี่ที่ใช้ในการวัดความถี่ของคลื่นแม่เหล็กไฟฟ้าหรือคลื่นเสียงในระดับต่ำ";
+
+"framesPerSecond.symbol" = "fps";
+"framesPerSecond.shortName" = "เฟรมต่อวินาที";
+"framesPerSecond.longName" = "เฟรมต่อวินาที";
+"framesPerSecond.detailedIntroduction" = "เฟรมต่อวินาทีเป็นหน่วยความถี่ที่ใช้ในการวัดจำนวนเฟรมที่แสดงในหนึ่งวินาทีในระบบวิดีโอหรือเกม";
+
+"litersPer100Kilometers.symbol" = "L/100km";
+"litersPer100Kilometers.shortName" = "ลิตรต่อ 100 กิโลเมตร";
+"litersPer100Kilometers.longName" = "ลิตรต่อ 100 กิโลเมตร";
+"litersPer100Kilometers.detailedIntroduction" = "ลิตรต่อ 100 กิโลเมตรเป็นหน่วยประหยัดน้ำมันที่ใช้ในการวัดปริมาณน้ำมันที่ใช้ในการขับขี่ในระยะทาง 100 กิโลเมตร";
+
+"milesPerImperialGallon.symbol" = "mpg";
+"milesPerImperialGallon.shortName" = "ไมล์ต่อแกลลอนอิมพีเรียล";
+"milesPerImperialGallon.longName" = "ไมล์ต่อแกลลอนอิมพีเรียล";
+"milesPerImperialGallon.detailedIntroduction" = "ไมล์ต่อแกลลอนอิมพีเรียลเป็นหน่วยประหยัดน้ำมันที่ใช้ในการวัดระยะทางที่รถยนต์สามารถขับขี่ได้โดยใช้น้ำมันหนึ่งแกลลอนอิมพีเรียล";
+
+"milesPerGallon.symbol" = "mpg";
+"milesPerGallon.shortName" = "ไมล์ต่อแกลลอน";
+"milesPerGallon.longName" = "ไมล์ต่อแกลลอน";
+"milesPerGallon.detailedIntroduction" = "ไมล์ต่อแกลลอนเป็นหน่วยประหยัดน้ำมันที่ใช้ในการวัดระยะทางที่รถยนต์สามารถขับขี่ได้โดยใช้น้ำมันหนึ่งแกลลอน";
+
+"bytes.symbol" = "B";
+"bytes.shortName" = "ไบต์";
+"bytes.longName" = "ไบต์";
+"bytes.detailedIntroduction" = "ไบต์เป็นหน่วยข้อมูลในคอมพิวเตอร์ที่ใช้ในการวัดขนาดของข้อมูลหรือพื้นที่จัดเก็บในคอมพิวเตอร์";
+
+"bits.symbol" = "b";
+"bits.shortName" = "บิต";
+"bits.longName" = "บิต";
+"bits.detailedIntroduction" = "บิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในคอมพิวเตอร์หรือการสื่อสารข้อมูล";
+
+"nibbles.symbol" = "นิเบิล";
+"nibbles.shortName" = "นิเบิล";
+"nibbles.longName" = "นิเบิล";
+"nibbles.detailedIntroduction" = "นิเบิลเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในคอมพิวเตอร์ โดยที่นิเบิลหนึ่งเท่ากับสี่บิต";
+
+"yottabytes.symbol" = "YB";
+"yottabytes.shortName" = "ยอตตาไบต์";
+"yottabytes.longName" = "ยอตตาไบต์";
+"yottabytes.detailedIntroduction" = "ยอตตาไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในศูนย์ข้อมูลขนาดใหญ่";
+
+"zettabytes.symbol" = "ZB";
+"zettabytes.shortName" = "เซตตาไบต์";
+"zettabytes.longName" = "เซตตาไบต์";
+"zettabytes.detailedIntroduction" = "เซตตาไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในศูนย์ข้อมูลขนาดใหญ่";
+
+"exabytes.symbol" = "EB";
+"exabytes.shortName" = "เอกซาไบต์";
+"exabytes.longName" = "เอกซาไบต์";
+"exabytes.detailedIntroduction" = "เอกซาไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในศูนย์ข้อมูลขนาดใหญ่";
+
+"petabytes.symbol" = "PB";
+"petabytes.shortName" = "เพตาไบต์";
+"petabytes.longName" = "เพตาไบต์";
+"petabytes.detailedIntroduction" = "เพตาไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในศูนย์ข้อมูลขนาดใหญ่";
+
+"terabytes.symbol" = "TB";
+"terabytes.shortName" = "เทราไบต์";
+"terabytes.longName" = "เทราไบต์";
+"terabytes.detailedIntroduction" = "เทราไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในศูนย์ข้อมูลขนาดใหญ่";
+
+"gigabytes.symbol" = "GB";
+"gigabytes.shortName" = "กิกะไบต์";
+"gigabytes.longName" = "กิกะไบต์";
+"gigabytes.detailedIntroduction" = "กิกะไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในคอมพิวเตอร์หรืออุปกรณ์จัดเก็บข้อมูล";
+
+"megabytes.symbol" = "MB";
+"megabytes.shortName" = "เมกะไบต์";
+"megabytes.longName" = "เมกะไบต์";
+"megabytes.detailedIntroduction" = "เมกะไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในคอมพิวเตอร์หรืออุปกรณ์จัดเก็บข้อมูล";
+
+"kilobytes.symbol" = "kB";
+"kilobytes.shortName" = "กิโลไบต์";
+"kilobytes.longName" = "กิโลไบต์";
+"kilobytes.detailedIntroduction" = "กิโลไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น ข้อมูลที่จัดเก็บในคอมพิวเตอร์หรืออุปกรณ์จัดเก็บข้อมูล";
+
+"yottabits.symbol" = "Yb";
+"yottabits.shortName" = "ยอตตาบิต";
+"yottabits.longName" = "ยอตตาบิต";
+"yottabits.detailedIntroduction" = "ยอตตาบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"zettabits.symbol" = "Zb";
+"zettabits.shortName" = "เซตตาบิต";
+"zettabits.longName" = "เซตตาบิต";
+"zettabits.detailedIntroduction" = "เซตตาบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"exabits.symbol" = "Eb";
+"exabits.shortName" = "เอกซาบิต";
+"exabits.longName" = "เอกซาบิต";
+"exabits.detailedIntroduction" = "เอกซาบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"petabits.symbol" = "Pb";
+"petabits.shortName" = "เพตาบิต";
+"petabits.longName" = "เพตาบิต";
+"petabits.detailedIntroduction" = "เพตาบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"terabits.symbol" = "Tb";
+"terabits.shortName" = "เทราบิต";
+"terabits.longName" = "เทราบิต";
+"terabits.detailedIntroduction" = "เทราบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"gigabits.symbol" = "Gb";
+"gigabits.shortName" = "กิกะบิต";
+"gigabits.longName" = "กิกะบิต";
+"gigabits.detailedIntroduction" = "กิกะบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"megabits.symbol" = "Mb";
+"megabits.shortName" = "เมกะบิต";
+"megabits.longName" = "เมกะบิต";
+"megabits.detailedIntroduction" = "เมกะบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"kilobits.symbol" = "kb";
+"kilobits.shortName" = "กิโลบิต";
+"kilobits.longName" = "กิโลบิต";
+"kilobits.detailedIntroduction" = "กิโลบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"yobibytes.symbol" = "YiB";
+"yobibytes.shortName" = "ยอบิไบต์";
+"yobibytes.longName" = "ยอบิไบต์";
+"yobibytes.detailedIntroduction" = "ยอบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"zebibytes.symbol" = "ZiB";
+"zebibytes.shortName" = "เซบิไบต์";
+"zebibytes.longName" = "เซบิไบต์";
+"zebibytes.detailedIntroduction" = "เซบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"exbibytes.symbol" = "EiB";
+"exbibytes.shortName" = "เอกซิบิไบต์";
+"exbibytes.longName" = "เอกซิบิไบต์";
+"exbibytes.detailedIntroduction" = "เอกซิบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"pebibytes.symbol" = "PiB";
+"pebibytes.shortName" = "เพบิไบต์";
+"pebibytes.longName" = "เพบิไบต์";
+"pebibytes.detailedIntroduction" = "เพบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"tebibytes.symbol" = "TiB";
+"tebibytes.shortName" = "เทบิไบต์";
+"tebibytes.longName" = "เทบิไบต์";
+"tebibytes.detailedIntroduction" = "เทบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"gibibytes.symbol" = "GiB";
+"gibibytes.shortName" = "กิบิไบต์";
+"gibibytes.longName" = "กิบิไบต์";
+"gibibytes.detailedIntroduction" = "กิบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"mebibytes.symbol" = "MiB";
+"mebibytes.shortName" = "เมบิไบต์";
+"mebibytes.longName" = "เมบิไบต์";
+"mebibytes.detailedIntroduction" = "เมบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"kibibytes.symbol" = "KiB";
+"kibibytes.shortName" = "กิบิไบต์";
+"kibibytes.longName" = "กิบิไบต์";
+"kibibytes.detailedIntroduction" = "กิบิไบต์เป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"yobibits.symbol" = "Yibit";
+"yobibits.shortName" = "ยอบิบิต";
+"yobibits.longName" = "ยอบิบิต";
+"yobibits.detailedIntroduction" = "ยอบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"zebibits.symbol" = "Zibit";
+"zebibits.shortName" = "เซบิบิต";
+"zebibits.longName" = "เซบิบิต";
+"zebibits.detailedIntroduction" = "เซบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"exbibits.symbol" = "Eibit";
+"exbibits.shortName" = "เอกซิบิบิต";
+"exbibits.longName" = "เอกซิบิบิต";
+"exbibits.detailedIntroduction" = "เอกซิบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"pebibits.symbol" = "Pibit";
+"pebibits.shortName" = "เพบิบิต";
+"pebibits.longName" = "เพบิบิต";
+"pebibits.detailedIntroduction" = "เพบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"tebibits.symbol" = "Tibit";
+"tebibits.shortName" = "เทบิบิต";
+"tebibits.longName" = "เทบิบิต";
+"tebibits.detailedIntroduction" = "เทบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"gibibits.symbol" = "Gibit";
+"gibibits.shortName" = "กิบิบิต";
+"gibibits.longName" = "กิบิบิต";
+"gibibits.detailedIntroduction" = "กิบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"mebibits.symbol" = "Mibit";
+"mebibits.shortName" = "เมบิบิต";
+"mebibits.longName" = "เมบิบิต";
+"mebibits.detailedIntroduction" = "เมบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"kibibits.symbol" = "Kibit";
+"kibibits.shortName" = "กิบิบิต";
+"kibibits.longName" = "กิบิบิต";
+"kibibits.detailedIntroduction" = "กิบิบิตเป็นหน่วยข้อมูลที่ใช้ในการวัดปริมาณข้อมูลในระดับใหญ่ เช่น การสื่อสารข้อมูลในระบบเครือข่ายขนาดใหญ่";
+
+"coulombs.symbol" = "ค";
+"coulombs.shortName" = "คูลอมบ์";
+"coulombs.longName" = "คูลอมบ์";
+"coulombs.detailedIntroduction" = "คูลอมบ์เป็นหน่วยเอสไอของประจุไฟฟ้า ซึ่งตั้งชื่อตาม Charles-Augustin de Coulomb";

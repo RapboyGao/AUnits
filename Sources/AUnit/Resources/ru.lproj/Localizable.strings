@@ -1,0 +1,1496 @@
+// None
+"None" = "Нет";
+
+// UnitTypes
+"length.symbol" = "Длина";
+"length.shortName" = "Дл.";
+"length.longName" = "Длина";
+"length.detailedIntroduction" = "Длина - это мера расстояния. Основные единицы длины включают метры, километры, мили и т.д.";
+
+"speed.symbol" = "Скорость";
+"speed.shortName" = "Скор.";
+"speed.longName" = "Скорость";
+"speed.detailedIntroduction" = "Скорость измеряет, как быстро объект перемещается. Основные единицы скорости включают метры в секунду, километры в час и т.д.";
+
+"pressure.symbol" = "Давление";
+"pressure.shortName" = "Давл.";
+"pressure.longName" = "Давление";
+"pressure.detailedIntroduction" = "Давление - это сила, действующая на единицу площади. Основные единицы давления включают паскали, бары, атмосферы и т.д.";
+
+"temperature.symbol" = "Температура";
+"temperature.shortName" = "Темп.";
+"temperature.longName" = "Температура";
+"temperature.detailedIntroduction" = "Температура измеряет тепловое состояние объекта. Основные единицы температуры включают Кельвины, Цельсия и Фаренгейты.";
+
+"temperatureDifference.symbol" = "Разность температур";
+"temperatureDifference.shortName" = "Разн. темп.";
+"temperatureDifference.longName" = "Разность температур";
+"temperatureDifference.detailedIntroduction" = "Разность температур измеряет изменение температуры. Основные единицы включают градусы Цельсия и Фаренгейта.";
+
+"mass.symbol" = "Масса";
+"mass.shortName" = "М.";
+"mass.longName" = "Масса";
+"mass.detailedIntroduction" = "Масса измеряет количество вещества в объекте. Основные единицы массы включают килограммы, граммы, тонны и т.д.";
+
+"volume.symbol" = "Объем";
+"volume.shortName" = "Об.";
+"volume.longName" = "Объем";
+"volume.detailedIntroduction" = "Объем измеряет количество пространства, занимаемого объектом. Основные единицы объема включают литры, кубические метры и т.д.";
+
+"acceleration.symbol" = "Ускорение";
+"acceleration.shortName" = "Ускор.";
+"acceleration.longName" = "Ускорение";
+"acceleration.detailedIntroduction" = "Ускорение измеряет изменение скорости объекта со временем. Основные единицы включают метры в секунду в квадрате.";
+
+"power.symbol" = "Мощность";
+"power.shortName" = "Мощ.";
+"power.longName" = "Мощность";
+"power.detailedIntroduction" = "Мощность измеряет скорость выполнения работы или передачи энергии. Основные единицы включают ватты, киловатты и т.д.";
+
+"angle.symbol" = "Угол";
+"angle.shortName" = "У.";
+"angle.longName" = "Угол";
+"angle.detailedIntroduction" = "Угол измеряет вращение или наклон между двумя линиями. Основные единицы включают градусы и радианы.";
+
+"angularVelocity.symbol" = "Угловая скорость";
+"angularVelocity.shortName" = "Углов. скор.";
+"angularVelocity.longName" = "Угловая скорость";
+"angularVelocity.detailedIntroduction" = "Угловая скорость измеряет скорость вращения объекта. Основные единицы включают радианы в секунду.";
+
+"area.symbol" = "Площадь";
+"area.shortName" = "Пл.";
+"area.longName" = "Площадь";
+"area.detailedIntroduction" = "Площадь измеряет поверхность. Основные единицы включают квадратные метры, квадратные километры и т.д.";
+
+"concentration.symbol" = "Концентрация";
+"concentration.shortName" = "Конц.";
+"concentration.longName" = "Концентрация";
+"concentration.detailedIntroduction" = "Концентрация измеряет количество вещества в определенном объеме. Основные единицы включают граммы на литр и миллиграммы на децилитр.";
+
+"time.symbol" = "Время";
+"time.shortName" = "Вр.";
+"time.longName" = "Время";
+"time.detailedIntroduction" = "Время измеряет продолжительность событий. Основные единицы включают секунды, минуты, часы и т.д.";
+
+"electricChargeCapacity.symbol" = "Емкость электрического заряда";
+"electricChargeCapacity.shortName" = "Емкость";
+"electricChargeCapacity.longName" = "Емкость электрического заряда";
+"electricChargeCapacity.detailedIntroduction" = "Емкость электрического заряда измеряет количество электричества, которое может храниться. Основные единицы включают ампер-часы.";
+
+"electricCurrent.symbol" = "Электрический ток";
+"electricCurrent.shortName" = "Ток";
+"electricCurrent.longName" = "Электрический ток";
+"electricCurrent.detailedIntroduction" = "Электрический ток измеряет поток электричества. Основные единицы включают амперы.";
+
+"electricPotential.symbol" = "Электрический потенциал";
+"electricPotential.shortName" = "Потенциал";
+"electricPotential.longName" = "Электрический потенциал";
+"electricPotential.detailedIntroduction" = "Электрический потенциал измеряет напряжение. Основные единицы включают вольты.";
+
+"electricResistance.symbol" = "Электрическое сопротивление";
+"electricResistance.shortName" = "Сопротивление";
+"electricResistance.longName" = "Электрическое сопротивление";
+"electricResistance.detailedIntroduction" = "Электрическое сопротивление измеряет противодействие потоку электричества. Основные единицы включают омы.";
+
+"energy.symbol" = "Энергия";
+"energy.shortName" = "Энерг.";
+"energy.longName" = "Энергия";
+"energy.detailedIntroduction" = "Энергия измеряет способность выполнять работу. Основные единицы включают джоули, киловатт-часы и т.д.";
+
+"frequency.symbol" = "Частота";
+"frequency.shortName" = "Част.";
+"frequency.longName" = "Частота";
+"frequency.detailedIntroduction" = "Частота измеряет количество повторяющихся событий за определенный период времени. Основные единицы включают герцы.";
+
+"fuelEfficiency.symbol" = "Топливная эффективность";
+"fuelEfficiency.shortName" = "Топл. эф.";
+"fuelEfficiency.longName" = "Топливная эффективность";
+"fuelEfficiency.detailedIntroduction" = "Топливная эффективность измеряет, насколько эффективно используется топливо. Основные единицы включают литры на 100 километров и мили на галлон.";
+
+"data.symbol" = "Данные";
+"data.shortName" = "Дан.";
+"data.longName" = "Данные";
+"data.detailedIntroduction" = "Данные измеряют информацию. Основные единицы включают байты, килобайты, мегабайты и т.д.";
+
+// Unit
+"feet.symbol" = "ft";
+"feet.shortName" = "Фут";
+"feet.longName" = "Фут";
+"feet.detailedIntroduction" = "Фут - это единица длины, равная 0.3048 метра. Обычно используется в США и Великобритании.";
+
+"nauticalMiles.symbol" = "nmi";
+"nauticalMiles.shortName" = "Мор. миля";
+"nauticalMiles.longName" = "Морская миля";
+"nauticalMiles.detailedIntroduction" = "Морская миля - это единица длины, равная 1852 метра. Обычно используется в морской и авиационной навигации.";
+
+"meters.symbol" = "m";
+"meters.shortName" = "Метр";
+"meters.longName" = "Метр";
+"meters.detailedIntroduction" = "Метр - это базовая единица длины в Международной системе единиц (СИ). Один метр равен 100 сантиметрам.";
+
+"kilometers.symbol" = "km";
+"kilometers.shortName" = "Километр";
+"kilometers.longName" = "Километр";
+"kilometers.detailedIntroduction" = "Километр - это единица длины, равная 1000 метрам. Обычно используется для измерения расстояний между географическими точками.";
+
+"miles.symbol" = "mi";
+"miles.shortName" = "Миля";
+"miles.longName" = "Миля";
+"miles.detailedIntroduction" = "Миля - это единица длины, равная 1609.344 метра. Обычно используется в США и Великобритании.";
+
+"megameters.symbol" = "Mm";
+"megameters.shortName" = "Мегаметр";
+"megameters.longName" = "Мегаметр";
+"megameters.detailedIntroduction" = "Мегаметр - это единица длины, равная 1 миллиону метров. Используется для измерения очень больших расстояний.";
+
+"hectometers.symbol" = "hm";
+"hectometers.shortName" = "Гектометр";
+"hectometers.longName" = "Гектометр";
+"hectometers.detailedIntroduction" = "Гектометр - это единица длины, равная 100 метрам.";
+
+"decameters.symbol" = "dam";
+"decameters.shortName" = "Декаметр";
+"decameters.longName" = "Декаметр";
+"decameters.detailedIntroduction" = "Декаметр - это единица длины, равная 10 метрам.";
+
+"decimeters.symbol" = "dm";
+"decimeters.shortName" = "Дециметр";
+"decimeters.longName" = "Дециметр";
+"decimeters.detailedIntroduction" = "Дециметр - это единица длины, равная 0.1 метра.";
+
+"centimeters.symbol" = "cm";
+"centimeters.shortName" = "Сантиметр";
+"centimeters.longName" = "Сантиметр";
+"centimeters.detailedIntroduction" = "Сантиметр - это единица длины, равная 0.01 метра.";
+
+"millimeters.symbol" = "mm";
+"millimeters.shortName" = "Миллиметр";
+"millimeters.longName" = "Миллиметр";
+"millimeters.detailedIntroduction" = "Миллиметр - это единица длины, равная 0.001 метра.";
+
+"micrometers.symbol" = "µm";
+"micrometers.shortName" = "Микрометр";
+"micrometers.longName" = "Микрометр";
+"micrometers.detailedIntroduction" = "Микрометр - это единица длины, равная 1 миллионной метра.";
+
+"nanometers.symbol" = "nm";
+"nanometers.shortName" = "Нанометр";
+"nanometers.longName" = "Нанометр";
+"nanometers.detailedIntroduction" = "Нанометр - это единица длины, равная 1 миллиардной метра.";
+
+"picometers.symbol" = "pm";
+"picometers.shortName" = "Пикометр";
+"picometers.longName" = "Пикометр";
+"picometers.detailedIntroduction" = "Пикометр - это единица длины, равная 1 триллионной метра.";
+
+"inches.symbol" = "in";
+"inches.shortName" = "Дюйм";
+"inches.longName" = "Дюйм";
+"inches.detailedIntroduction" = "Дюйм - это единица длины, равная 2.54 сантиметра. Обычно используется в США и Великобритании.";
+
+"yards.symbol" = "yd";
+"yards.shortName" = "Ярд";
+"yards.longName" = "Ярд";
+"yards.detailedIntroduction" = "Ярд - это единица длины, равная 0.9144 метра. Обычно используется в США и Великобритании.";
+
+"scandinavianMiles.symbol" = "smi";
+"scandinavianMiles.shortName" = "Скан. миля";
+"scandinavianMiles.longName" = "Скандинавская миля";
+"scandinavianMiles.detailedIntroduction" = "Скандинавская миля - это единица длины, равная 10 километрам. Используется в Швеции и Норвегии.";
+
+"lightyears.symbol" = "ly";
+"lightyears.shortName" = "Свет. год";
+"lightyears.longName" = "Световой год";
+"lightyears.detailedIntroduction" = "Световой год - это расстояние, которое свет проходит за один год. Одна световая година равна примерно 9.46 триллионов километров.";
+
+"fathoms.symbol" = "ftm";
+"fathoms.shortName" = "Фатом";
+"fathoms.longName" = "Фатом";
+"fathoms.detailedIntroduction" = "Фатом - это единица длины, равная 1.8288 метра. Используется для измерения глубины воды.";
+
+"furlongs.symbol" = "fur";
+"furlongs.shortName" = "Фурлонг";
+"furlongs.longName" = "Фурлонг";
+"furlongs.detailedIntroduction" = "Фурлонг - это единица длины, равная 201.168 метра. Используется в конных скачках.";
+
+"astronomicalUnits.symbol" = "au";
+"astronomicalUnits.shortName" = "Астрон. единица";
+"astronomicalUnits.longName" = "Астрономическая единица";
+"astronomicalUnits.detailedIntroduction" = "Астрономическая единица - это среднее расстояние между Землей и Солнцем, примерно 149.6 миллионов километров.";
+
+"parsecs.symbol" = "pc";
+"parsecs.shortName" = "Парсек";
+"parsecs.longName" = "Парсек";
+"parsecs.detailedIntroduction" = "Парсек - это единица длины, равная примерно 3.26 световых лет, используемая в астрономии.";
+
+"knots.symbol" = "kn";
+"knots.shortName" = "Узел";
+"knots.longName" = "Узел";
+"knots.detailedIntroduction" = "Узел - это единица скорости, равная одной морской миле в час. Используется в морской и авиационной навигации.";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "м/с";
+"metersPerSecond.longName" = "Метры в секунду";
+"metersPerSecond.detailedIntroduction" = "Метры в секунду - это единица скорости в Международной системе единиц (СИ).";
+
+"feetPerMinute.symbol" = "ft/min";
+"feetPerMinute.shortName" = "фут/мин";
+"feetPerMinute.longName" = "Футы в минуту";
+"feetPerMinute.detailedIntroduction" = "Футы в минуту - это единица скорости, используемая в авиации и лифтовых системах.";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "км/ч";
+"kilometersPerHour.longName" = "Километры в час";
+"kilometersPerHour.detailedIntroduction" = "Километры в час - это единица скорости, используемая для измерения скорости движения.";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "фут/с";
+"feetPerSecond.longName" = "Футы в секунду";
+"feetPerSecond.detailedIntroduction" = "Футы в секунду - это единица скорости, используемая в авиации и баллистике.";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "миль/ч";
+"milesPerHour.longName" = "Мили в час";
+"milesPerHour.detailedIntroduction" = "Мили в час - это единица скорости, используемая в США и Великобритании.";
+
+"inchesPerSecond.symbol" = "in/s";
+"inchesPerSecond.shortName" = "дюйм/с";
+"inchesPerSecond.longName" = "Дюймы в секунду";
+"inchesPerSecond.detailedIntroduction" = "Дюймы в секунду - это единица скорости, используемая в инженерии и механике.";
+
+"yardsPerSecond.symbol" = "yd/s";
+"yardsPerSecond.shortName" = "ярд/с";
+"yardsPerSecond.longName" = "Ярды в секунду";
+"yardsPerSecond.detailedIntroduction" = "Ярды в секунду - это единица скорости, используемая в инженерии и механике.";
+
+"hectopascals.symbol" = "hPa";
+"hectopascals.shortName" = "гПа";
+"hectopascals.longName" = "Гектопаскали";
+"hectopascals.detailedIntroduction" = "Гектопаскали - это единица давления, равная 100 паскалям. Широко используется в метеорологии.";
+
+"inchesOfMercury.symbol" = "inHg";
+"inchesOfMercury.shortName" = "дюйм Hg";
+"inchesOfMercury.longName" = "Дюймы ртутного столба";
+"inchesOfMercury.detailedIntroduction" = "Дюймы ртутного столба - это единица давления, часто используемая в авиации и метеорологии.";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "мм Hg";
+"millimetersOfMercury.longName" = "Миллиметры ртутного столба";
+"millimetersOfMercury.detailedIntroduction" = "Миллиметры ртутного столба - это единица давления, часто используемая в медицине для измерения артериального давления.";
+
+"newtonsPerMetersSquared.symbol" = "N/m²";
+"newtonsPerMetersSquared.shortName" = "Н/м²";
+"newtonsPerMetersSquared.longName" = "Ньютоны на квадратный метр";
+"newtonsPerMetersSquared.detailedIntroduction" = "Ньютоны на квадратный метр - это базовая единица давления в Международной системе единиц (СИ).";
+
+"gigapascals.symbol" = "GPa";
+"gigapascals.shortName" = "ГПа";
+"gigapascals.longName" = "Гигапаскали";
+"gigapascals.detailedIntroduction" = "Гигапаскали - это единица давления, равная одному миллиарду паскалей.";
+
+"megapascals.symbol" = "MPa";
+"megapascals.shortName" = "МПа";
+"megapascals.longName" = "Мегапаскали";
+"megapascals.detailedIntroduction" = "Мегапаскали - это единица давления, равная одному миллиону паскалей.";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "кПа";
+"kilopascals.longName" = "Килопаскали";
+"kilopascals.detailedIntroduction" = "Килопаскали - это единица давления, равная одной тысяче паскалей.";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "Бар";
+"bars.longName" = "Бар";
+"bars.detailedIntroduction" = "Бар - это единица давления, примерно равная атмосферному давлению на уровне моря.";
+
+"millibars.symbol" = "mbar";
+"millibars.shortName" = "мбар";
+"millibars.longName" = "Миллибары";
+"millibars.detailedIntroduction" = "Миллибары - это единица давления, равная одной тысячной бара. Широко используется в метеорологии.";
+
+"poundsForcePerSquareInch.symbol" = "psi";
+"poundsForcePerSquareInch.shortName" = "фунт/дюйм²";
+"poundsForcePerSquareInch.longName" = "Фунты силы на квадратный дюйм";
+"poundsForcePerSquareInch.detailedIntroduction" = "Фунты силы на квадратный дюйм - это единица давления, часто используемая в системах измерения давления в США.";
+
+"kelvin.symbol" = "K";
+"kelvin.shortName" = "Кельвин";
+"kelvin.longName" = "Кельвин";
+"kelvin.detailedIntroduction" = "Кельвин - это базовая единица термодинамической температуры в Международной системе единиц (СИ).";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "Цельсий";
+"celsius.longName" = "Градус Цельсия";
+"celsius.detailedIntroduction" = "Градус Цельсия - это единица измерения температуры, широко используемая во всем мире.";
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "Фаренгейт";
+"fahrenheit.longName" = "Градус Фаренгейта";
+"fahrenheit.detailedIntroduction" = "Градус Фаренгейта - это единица измерения температуры, используемая в США.";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "Ранкин";
+"rankine.longName" = "Градус Ранкина";
+"rankine.detailedIntroduction" = "Градус Ранкина - это единица измерения температуры, используемая в некоторых инженерных приложениях.";
+
+"celsiusDelta.symbol" = "Δ°C";
+"celsiusDelta.shortName" = "ΔЦельсий";
+"celsiusDelta.longName" = "Разность градусов Цельсия";
+"celsiusDelta.detailedIntroduction" = "Разность градусов Цельсия - это единица измерения изменения температуры.";
+
+"fahrenheitDelta.symbol" = "Δ°F";
+"fahrenheitDelta.shortName" = "ΔФаренгейт";
+"fahrenheitDelta.longName" = "Разность градусов Фаренгейта";
+"fahrenheitDelta.detailedIntroduction" = "Разность градусов Фаренгейта - это единица измерения изменения температуры.";
+
+"metricTons.symbol" = "t";
+"metricTons.shortName" = "Тонна";
+"metricTons.longName" = "Метрическая тонна";
+"metricTons.detailedIntroduction" = "Метрическая тонна - это единица массы, равная 1000 килограммам.";
+
+"shortTons.symbol" = "st";
+"shortTons.shortName" = "Короткая тонна";
+"shortTons.longName" = "Короткая тонна";
+"shortTons.detailedIntroduction" = "Короткая тонна - это единица массы, используемая в США, равная 2000 фунтов или примерно 907.185 килограмма.";
+
+"kilograms.symbol" = "kg";
+"kilograms.shortName" = "Килограмм";
+"kilograms.longName" = "Килограмм";
+"kilograms.detailedIntroduction" = "Килограмм - это базовая единица массы в Международной системе единиц (СИ).";
+
+"kilopounds.symbol" = "klb";
+"kilopounds.shortName" = "Килопаунд";
+"kilopounds.longName" = "Килопаунд";
+"kilopounds.detailedIntroduction" = "Килопаунд - это единица массы, равная 1000 фунтов.";
+
+"pounds.symbol" = "lb";
+"pounds.shortName" = "Фунт";
+"pounds.longName" = "Фунт";
+"pounds.detailedIntroduction" = "Фунт - это единица массы, используемая в США и Великобритании, равная примерно 0.454 килограмма.";
+
+"ounces.symbol" = "oz";
+"ounces.shortName" = "Унция";
+"ounces.longName" = "Унция";
+"ounces.detailedIntroduction" = "Унция - это единица массы, равная примерно 28.35 грамма. Используется в США и Великобритании.";
+
+"grams.symbol" = "g";
+"grams.shortName" = "Грамм";
+"grams.longName" = "Грамм";
+"grams.detailedIntroduction" = "Грамм - это единица массы в Международной системе единиц (СИ), равная одной тысячной килограмма.";
+
+"decigrams.symbol" = "dg";
+"decigrams.shortName" = "Дециграмм";
+"decigrams.longName" = "Дециграмм";
+"decigrams.detailedIntroduction" = "Дециграмм - это единица массы, равная одной десятой грамма.";
+
+"centigrams.symbol" = "cg";
+"centigrams.shortName" = "Сантиграмм";
+"centigrams.longName" = "Сантиграмм";
+"centigrams.detailedIntroduction" = "Сантиграмм - это единица массы, равная одной сотой грамма.";
+
+"milligrams.symbol" = "mg";
+"milligrams.shortName" = "Миллиграмм";
+"milligrams.longName" = "Миллиграмм";
+"milligrams.detailedIntroduction" = "Миллиграмм - это единица массы, равная одной тысячной грамма.";
+
+"micrograms.symbol" = "µg";
+"micrograms.shortName" = "Микрограмм";
+"micrograms.longName" = "Микрограмм";
+"micrograms.detailedIntroduction" = "Микрограмм - это единица массы, равная одной миллионной грамма.";
+
+"nanograms.symbol" = "ng";
+"nanograms.shortName" = "Нанограмм";
+"nanograms.longName" = "Нанограмм";
+"nanograms.detailedIntroduction" = "Нанограмм - это единица массы, равная одной миллиардной грамма.";
+
+"picograms.symbol" = "pg";
+"picograms.shortName" = "Пикограмм";
+"picograms.longName" = "Пикограмм";
+"picograms.detailedIntroduction" = "Пикограмм - это единица массы, равная одной триллионной грамма.";
+
+"stones.symbol" = "st";
+"stones.shortName" = "Стоун";
+"stones.longName" = "Стоун";
+"stones.detailedIntroduction" = "Стоун - это единица массы, используемая в Великобритании, равная 14 фунтам или примерно 6.35 килограмма.";
+
+"carats.symbol" = "ct";
+"carats.shortName" = "Карат";
+"carats.longName" = "Карат";
+"carats.detailedIntroduction" = "Карат - это единица массы, используемая для измерения драгоценных камней, равная 200 миллиграммам.";
+
+"ouncesTroy.symbol" = "oz t";
+"ouncesTroy.shortName" = "Тройская унция";
+"ouncesTroy.longName" = "Тройская унция";
+"ouncesTroy.detailedIntroduction" = "Тройская унция - это единица массы, используемая для измерения драгоценных металлов, равная примерно 31.1035 грамма.";
+
+"slugs.symbol" = "slug";
+"slugs.shortName" = "Слаг";
+"slugs.longName" = "Слаг";
+"slugs.detailedIntroduction" = "Слаг - это единица массы в английской системе мер, равная примерно 14.5939 килограмма.";
+
+"liters.symbol" = "L";
+"liters.shortName" = "Литр";
+"liters.longName" = "Литр";
+"liters.detailedIntroduction" = "Литр - это единица объема в Международной системе единиц (СИ), равная одному кубическому дециметру.";
+
+"milliliters.symbol" = "mL";
+"milliliters.shortName" = "Миллитр";
+"milliliters.longName" = "Миллитр";
+"milliliters.detailedIntroduction" = "Миллитр - это единица объема в Международной системе единиц (СИ), равная одной тысячной литра.";
+
+"centiliters.symbol" = "cL";
+"centiliters.shortName" = "Сантилитр";
+"centiliters.longName" = "Сантилитр";
+"centiliters.detailedIntroduction" = "Сантилитр - это единица объема в Международной системе единиц (СИ), равная одной сотой литра.";
+
+"deciliters.symbol" = "dL";
+"deciliters.shortName" = "Децилитр";
+"deciliters.longName" = "Децилитр";
+"deciliters.detailedIntroduction" = "Децилитр - это единица объема в Международной системе единиц (СИ), равная одной десятой литра.";
+
+"kiloliters.symbol" = "kL";
+"kiloliters.shortName" = "Килолитр";
+"kiloliters.longName" = "Килолитр";
+"kiloliters.detailedIntroduction" = "Килолитр - это единица объема в Международной системе единиц (СИ), равная одной тысяче литров.";
+
+"cubicMeters.symbol" = "m³";
+"cubicMeters.shortName" = "м³";
+"cubicMeters.longName" = "Кубический метр";
+"cubicMeters.detailedIntroduction" = "Кубический метр - это единица объема в Международной системе единиц (СИ), равная объему куба с длиной ребра 1 метр.";
+
+"cubicKilometers.symbol" = "km³";
+"cubicKilometers.shortName" = "км³";
+"cubicKilometers.longName" = "Кубический километр";
+"cubicKilometers.detailedIntroduction" = "Кубический километр - это единица объема в Международной системе единиц (СИ), равная объему куба с длиной ребра 1 километр.";
+
+"cubicMiles.symbol" = "mi³";
+"cubicMiles.shortName" = "миля³";
+"cubicMiles.longName" = "Кубическая миля";
+"cubicMiles.detailedIntroduction" = "Кубическая миля - это единица объема, равная объему куба с длиной ребра 1 миля.";
+
+"cubicFeet.symbol" = "ft³";
+"cubicFeet.shortName" = "фут³";
+"cubicFeet.longName" = "Кубический фут";
+"cubicFeet.detailedIntroduction" = "Кубический фут - это единица объема, равная объему куба с длиной ребра 1 фут.";
+
+"cubicInches.symbol" = "in³";
+"cubicInches.shortName" = "дюйм³";
+"cubicInches.longName" = "Кубический дюйм";
+"cubicInches.detailedIntroduction" = "Кубический дюйм - это единица объема, равная объему куба с длиной ребра 1 дюйм.";
+
+"cubicYards.symbol" = "yd³";
+"cubicYards.shortName" = "ярд³";
+"cubicYards.longName" = "Кубический ярд";
+"cubicYards.detailedIntroduction" = "Кубический ярд - это единица объема, равная объему куба с длиной ребра 1 ярд.";
+
+"teaspoons.symbol" = "tsp";
+"teaspoons.shortName" = "Чайная ложка";
+"teaspoons.longName" = "Чайная ложка";
+"teaspoons.detailedIntroduction" = "Чайная ложка - это единица объема, используемая для измерения малых объемов, равная примерно 4.93 миллилитра.";
+
+"tablespoons.symbol" = "tbsp";
+"tablespoons.shortName" = "Столовая ложка";
+"tablespoons.longName" = "Столовая ложка";
+"tablespoons.detailedIntroduction" = "Столовая ложка - это единица объема, используемая для измерения малых объемов, равная примерно 14.79 миллилитра.";
+
+"fluidOunces.symbol" = "fl oz";
+"fluidOunces.shortName" = "Жидк. унция";
+"fluidOunces.longName" = "Жидкая унция";
+"fluidOunces.detailedIntroduction" = "Жидкая унция - это единица объема, используемая в США, равная примерно 29.57 миллилитра.";
+
+"cups.symbol" = "cup";
+"cups.shortName" = "Чашка";
+"cups.longName" = "Чашка";
+"cups.detailedIntroduction" = "Чашка - это единица объема, используемая в кулинарии, равная примерно 240 миллилитрам.";
+
+"pints.symbol" = "pt";
+"pints.shortName" = "Пинта";
+"pints.longName" = "Пинта";
+"pints.detailedIntroduction" = "Пинта - это единица объема, используемая в США и Великобритании, равная примерно 473.18 миллилитра в США и 568.26 миллилитра в Великобритании.";
+
+"quarts.symbol" = "qt";
+"quarts.shortName" = "Кварта";
+"quarts.longName" = "Кварта";
+"quarts.detailedIntroduction" = "Кварта - это единица объема, используемая в США и Великобритании, равная двум пинтам или примерно 946.35 миллилитра в США и 1.136 литра в Великобритании.";
+
+"gallons.symbol" = "gal";
+"gallons.shortName" = "Галлон";
+"gallons.longName" = "Галлон";
+"gallons.detailedIntroduction" = "Галлон - это единица объема, используемая в США и Великобритании. Один американский галлон равен примерно 3.785 литра, а британский галлон - примерно 4.546 литра.";
+
+"nanometersPerSecondSquared.symbol" = "nm/s²";
+"nanometersPerSecondSquared.shortName" = "нм/с²";
+"nanometersPerSecondSquared.longName" = "Нанометры в секунду в квадрате";
+"nanometersPerSecondSquared.detailedIntroduction" = "Нанометры в секунду в квадрате - это единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один нанометр в секунду за каждую секунду.";
+
+"micrometersPerSecondSquared.symbol" = "µm/s²";
+"micrometersPerSecondSquared.shortName" = "мкм/с²";
+"micrometersPerSecondSquared.longName" = "Микрометры в секунду в квадрате";
+"micrometersPerSecondSquared.detailedIntroduction" = "Микрометры в секунду в квадрате - это единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один микрометр в секунду за каждую секунду.";
+
+"millimetersPerSecondSquared.symbol" = "mm/s²";
+"millimetersPerSecondSquared.shortName" = "мм/с²";
+"millimetersPerSecondSquared.longName" = "Миллиметры в секунду в квадрате";
+"millimetersPerSecondSquared.detailedIntroduction" = "Миллиметры в секунду в квадрате - это единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один миллиметр в секунду за каждую секунду.";
+
+"centimetersPerSecondSquared.symbol" = "cm/s²";
+"centimetersPerSecondSquared.shortName" = "см/с²";
+"centimetersPerSecondSquared.longName" = "Сантиметры в секунду в квадрате";
+"centimetersPerSecondSquared.detailedIntroduction" = "Сантиметры в секунду в квадрате - это единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один сантиметр в секунду за каждую секунду.";
+
+"metersPerSecondSquared.symbol" = "m/s²";
+"metersPerSecondSquared.shortName" = "м/с²";
+"metersPerSecondSquared.longName" = "Метры в секунду в квадрате";
+"metersPerSecondSquared.detailedIntroduction" = "Метры в секунду в квадрате - это базовая единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один метр в секунду за каждую секунду.";
+
+"kilometersPerSecondSquared.symbol" = "km/s²";
+"kilometersPerSecondSquared.shortName" = "км/с²";
+"kilometersPerSecondSquared.longName" = "Километры в секунду в квадрате";
+"kilometersPerSecondSquared.detailedIntroduction" = "Километры в секунду в квадрате - это единица измерения ускорения в Международной системе единиц (СИ), равная изменению скорости на один километр в секунду за каждую секунду.";
+
+"feetPerSecondSquared.symbol" = "ft/s²";
+"feetPerSecondSquared.shortName" = "фут/с²";
+"feetPerSecondSquared.longName" = "Футы в секунду в квадрате";
+"feetPerSecondSquared.detailedIntroduction" = "Футы в секунду в квадрате - это единица измерения ускорения, используемая в английской системе мер, равная изменению скорости на один фут в секунду за каждую секунду.";
+
+"inchesPerSecondSquared.symbol" = "in/s²";
+"inchesPerSecondSquared.shortName" = "дюйм/с²";
+"inchesPerSecondSquared.longName" = "Дюймы в секунду в квадрате";
+"inchesPerSecondSquared.detailedIntroduction" = "Дюймы в секунду в квадрате - это единица измерения ускорения, используемая в английской системе мер, равная изменению скорости на один дюйм в секунду за каждую секунду.";
+
+"gravitationalAcceleration.symbol" = "g";
+"gravitationalAcceleration.shortName" = "g";
+"gravitationalAcceleration.longName" = "Ускорение свободного падения";
+"gravitationalAcceleration.detailedIntroduction" = "Ускорение свободного падения - это ускорение, которое испытывает объект под действием гравитации на поверхности Земли, равное примерно 9.81 м/с².";
+
+"newtons.symbol" = "N";
+"newtons.shortName" = "Ньютон";
+"newtons.longName" = "Ньютон";
+"newtons.detailedIntroduction" = "Ньютон - это единица силы в Международной системе единиц (СИ), равная силе, которая придает ускорение 1 м/с² телу массой 1 килограмм.";
+
+"kilonewtons.symbol" = "kN";
+"kilonewtons.shortName" = "Килоньютон";
+"kilonewtons.longName" = "Килоньютон";
+"kilonewtons.detailedIntroduction" = "Килоньютон - это единица силы в Международной системе единиц (СИ), равная 1000 ньютонов.";
+
+"poundsForce.symbol" = "lbf";
+"poundsForce.shortName" = "фунт силы";
+"poundsForce.longName" = "Фунт силы";
+"poundsForce.detailedIntroduction" = "Фунт силы - это единица силы в английской системе мер, равная примерно 4.44822 ньютона.";
+
+"kilogramsForce.symbol" = "kgf";
+"kilogramsForce.shortName" = "килограмм силы";
+"kilogramsForce.longName" = "Килограмм силы";
+"kilogramsForce.detailedIntroduction" = "Килограмм силы - это единица силы, равная силе, которую оказывает масса 1 килограмм при ускорении 9.81 м/с².";
+
+"newtonMeters.symbol" = "N·m";
+"newtonMeters.shortName" = "Н·м";
+"newtonMeters.longName" = "Ньютон-метр";
+"newtonMeters.detailedIntroduction" = "Ньютон-метр - это единица измерения момента силы в Международной системе единиц (СИ), равная моменту, который создается силой 1 ньютон на рычаге длиной 1 метр.";
+
+"dyneCentimeters.symbol" = "dyn·cm";
+"dyneCentimeters.shortName" = "дин·см";
+"dyneCentimeters.longName" = "Дин-сантиметр";
+"dyneCentimeters.detailedIntroduction" = "Дин-сантиметр - это единица измерения момента силы в системе СГС (сантиметр-грамм-секунда), равная моменту, который создается силой 1 дина на рычаге длиной 1 сантиметр.";
+
+"kilogramMeters.symbol" = "kg·m";
+"kilogramMeters.shortName" = "кг·м";
+"kilogramMeters.longName" = "Килограмм-метр";
+"kilogramMeters.detailedIntroduction" = "Килограмм-метр - это единица измерения момента силы, равная моменту, который создается массой 1 килограмм на рычаге длиной 1 метр при ускорении 9.81 м/с².";
+
+"poundFeet.symbol" = "lb·ft";
+"poundFeet.shortName" = "фунт·фут";
+"poundFeet.longName" = "Фунт-фут";
+"poundFeet.detailedIntroduction" = "Фунт-фут - это единица измерения момента силы в английской системе мер, равная моменту, который создается силой 1 фунт на рычаге длиной 1 фут.";
+
+"ergs.symbol" = "erg";
+"ergs.shortName" = "Эрг";
+"ergs.longName" = "Эрг";
+"ergs.detailedIntroduction" = "Эрг - это единица измерения энергии в системе СГС (сантиметр-грамм-секунда), равная работе, выполненной силой 1 дина на расстоянии 1 сантиметр.";
+
+"joules.symbol" = "J";
+"joules.shortName" = "Джоуль";
+"joules.longName" = "Джоуль";
+"joules.detailedIntroduction" = "Джоуль - это единица измерения энергии в Международной системе единиц (СИ), равная работе, выполненной силой 1 ньютон на расстоянии 1 метр.";
+
+"kilojoules.symbol" = "kJ";
+"kilojoules.shortName" = "Килоджоуль";
+"kilojoules.longName" = "Килоджоуль";
+"kilojoules.detailedIntroduction" = "Килоджоуль - это единица измерения энергии в Международной системе единиц (СИ), равная 1000 джоулей.";
+
+"megajoules.symbol" = "MJ";
+"megajoules.shortName" = "Мегаджоуль";
+"megajoules.longName" = "Мегаджоуль";
+"megajoules.detailedIntroduction" = "Мегаджоуль - это единица измерения энергии в Международной системе единиц (СИ), равная 1 миллиону джоулей.";
+
+"gigajoules.symbol" = "GJ";
+"gigajoules.shortName" = "Гигаджоуль";
+"gigajoules.longName" = "Гигаджоуль";
+"gigajoules.detailedIntroduction" = "Гигаджоуль - это единица измерения энергии в Международной системе единиц (СИ), равная 1 миллиарду джоулей.";
+
+"terajoules.symbol" = "TJ";
+"terajoules.shortName" = "Тераджоуль";
+"terajoules.longName" = "Тераджоуль";
+"terajoules.detailedIntroduction" = "Тераджоуль - это единица измерения энергии в Международной системе единиц (СИ), равная 1 триллиону джоулей.";
+
+"watts.symbol" = "W";
+"watts.shortName" = "Ватт";
+"watts.longName" = "Ватт";
+"watts.detailedIntroduction" = "Ватт - это единица измерения мощности в Международной системе единиц (СИ), равная скорости передачи энергии в 1 джоуль в секунду.";
+
+"kilowatts.symbol" = "kW";
+"kilowatts.shortName" = "Киловатт";
+"kilowatts.longName" = "Киловатт";
+"kilowatts.detailedIntroduction" = "Киловатт - это единица измерения мощности в Международной системе единиц (СИ), равная 1000 ватт.";
+
+"megawatts.symbol" = "MW";
+"megawatts.shortName" = "Мегаватт";
+"megawatts.longName" = "Мегаватт";
+"megawatts.detailedIntroduction" = "Мегаватт - это единица измерения мощности в Международной системе единиц (СИ), равная 1 миллиону ватт.";
+
+"gigawatts.symbol" = "GW";
+"gigawatts.shortName" = "Гигаватт";
+"gigawatts.longName" = "Гигаватт";
+"gigawatts.detailedIntroduction" = "Гигаватт - это единица измерения мощности в Международной системе единиц (СИ), равная 1 миллиарду ватт.";
+
+"terawatts.symbol" = "TW";
+"terawatts.shortName" = "Тераватт";
+"terawatts.longName" = "Тераватт";
+"terawatts.detailedIntroduction" = "Тераватт - это единица измерения мощности в Международной системе единиц (СИ), равная 1 триллиону ватт.";
+
+"horsepower.symbol" = "hp";
+"horsepower.shortName" = "л.с.";
+"horsepower.longName" = "Лошадиная сила";
+"horsepower.detailedIntroduction" = "Лошадиная сила - это единица измерения мощности, равная примерно 746 ватт. Используется для измерения мощности двигателей.";
+
+"metricHorsepower.symbol" = "hp(m)";
+"metricHorsepower.shortName" = "л.с.(м)";
+"metricHorsepower.longName" = "Метрическая лошадиная сила";
+"metricHorsepower.detailedIntroduction" = "Метрическая лошадиная сила - это единица измерения мощности, равная примерно 735.5 ватт. Используется для измерения мощности двигателей.";
+
+"britishThermalUnitsPerHour.symbol" = "BTU/h";
+"britishThermalUnitsPerHour.shortName" = "БТЕ/ч";
+"britishThermalUnitsPerHour.longName" = "Британские тепловые единицы в час";
+"britishThermalUnitsPerHour.detailedIntroduction" = "Британские тепловые единицы в час - это единица измерения мощности, равная скорости передачи энергии в 1 британскую тепловую единицу в час.";
+
+"caloriesPerHour.symbol" = "cal/h";
+"caloriesPerHour.shortName" = "кал/ч";
+"caloriesPerHour.longName" = "Калории в час";
+"caloriesPerHour.detailedIntroduction" = "Калории в час - это единица измерения мощности, равная скорости передачи энергии в 1 калорию в час.";
+
+"kilocaloriesPerHour.symbol" = "kcal/h";
+"kilocaloriesPerHour.shortName" = "ккал/ч";
+"kilocaloriesPerHour.longName" = "Килокалории в час";
+"kilocaloriesPerHour.detailedIntroduction" = "Килокалории в час - это единица измерения мощности, равная скорости передачи энергии в 1 килокалорию в час.";
+
+"poundsPerSquareInch.symbol" = "psi";
+"poundsPerSquareInch.shortName" = "фунт/дюйм²";
+"poundsPerSquareInch.longName" = "Фунты силы на квадратный дюйм";
+"poundsPerSquareInch.detailedIntroduction" = "Фунты силы на квадратный дюйм - это единица измерения давления, равная силе 1 фунта, действующей на площадь 1 квадратного дюйма.";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "атм";
+"atmospheres.longName" = "Атмосфера";
+"atmospheres.detailedIntroduction" = "Атмосфера - это единица измерения давления, равная среднему атмосферному давлению на уровне моря.";
+
+"bars.symbol" = "bar";
+"bars.shortName" = "Бар";
+"bars.longName" = "Бар";
+"bars.detailedIntroduction" = "Бар - это единица измерения давления, равная 100000 паскалей.";
+
+"kilopascals.symbol" = "kPa";
+"kilopascals.shortName" = "кПа";
+"kilopascals.longName" = "Килопаскали";
+"kilopascals.detailedIntroduction" = "Килопаскали - это единица измерения давления, равная 1000 паскалей.";
+
+"millimetersOfMercury.symbol" = "mmHg";
+"millimetersOfMercury.shortName" = "мм рт.ст.";
+"millimetersOfMercury.longName" = "Миллиметры ртутного столба";
+"millimetersOfMercury.detailedIntroduction" = "Миллиметры ртутного столба - это единица измерения давления, равная давлению, которое оказывает столб ртути высотой 1 миллиметр.";
+
+"centimetersOfWater.symbol" = "cmH₂O";
+"centimetersOfWater.shortName" = "см вод.ст.";
+"centimetersOfWater.longName" = "Сантиметры водяного столба";
+"centimetersOfWater.detailedIntroduction" = "Сантиметры водяного столба - это единица измерения давления, равная давлению, которое оказывает столб воды высотой 1 сантиметр.";
+
+"decibels.symbol" = "dB";
+"decibels.shortName" = "дБ";
+"decibels.longName" = "Децибел";
+"decibels.detailedIntroduction" = "Децибел - это логарифмическая единица измерения отношения двух величин, обычно используется для измерения уровня звука.";
+
+"bel.symbol" = "B";
+"bel.shortName" = "Б";
+"bel.longName" = "Бел";
+"bel.detailedIntroduction" = "Бел - это логарифмическая единица измерения отношения двух величин, обычно используется для измерения уровня звука. Один бел равен 10 децибелам.";
+
+"metersPerSecond.symbol" = "m/s";
+"metersPerSecond.shortName" = "м/с";
+"metersPerSecond.longName" = "Метры в секунду";
+"metersPerSecond.detailedIntroduction" = "Метры в секунду - это единица измерения скорости в Международной системе единиц (СИ), равная скорости, при которой объект проходит 1 метр за 1 секунду.";
+
+"kilometersPerHour.symbol" = "km/h";
+"kilometersPerHour.shortName" = "км/ч";
+"kilometersPerHour.longName" = "Километры в час";
+"kilometersPerHour.detailedIntroduction" = "Километры в час - это единица измерения скорости, равная скорости, при которой объект проходит 1 километр за 1 час.";
+
+"milesPerHour.symbol" = "mph";
+"milesPerHour.shortName" = "мили/ч";
+"milesPerHour.longName" = "Мили в час";
+"milesPerHour.detailedIntroduction" = "Мили в час - это единица измерения скорости, равная скорости, при которой объект проходит 1 милю за 1 час.";
+
+"feetPerSecond.symbol" = "ft/s";
+"feetPerSecond.shortName" = "фут/с";
+"feetPerSecond.longName" = "Футы в секунду";
+"feetPerSecond.detailedIntroduction" = "Футы в секунду - это единица измерения скорости в английской системе мер, равная скорости, при которой объект проходит 1 фут за 1 секунду.";
+
+"knots.symbol" = "kn";
+"knots.shortName" = "узел";
+"knots.longName" = "Узел";
+"knots.detailedIntroduction" = "Узел - это единица измерения скорости, равная 1 морской миле в час или примерно 1.852 километра в час.";
+
+"mach.symbol" = "Мах";
+"mach.shortName" = "Мах";
+"mach.longName" = "Мах";
+"mach.detailedIntroduction" = "Мах - это единица измерения скорости, равная скорости звука в данной среде. Используется для измерения скорости движения в аэродинамике.";
+
+"cubicMetersPerSecond.symbol" = "m³/s";
+"cubicMetersPerSecond.shortName" = "м³/с";
+"cubicMetersPerSecond.longName" = "Кубические метры в секунду";
+"cubicMetersPerSecond.detailedIntroduction" = "Кубические метры в секунду - это единица измерения объемного расхода, равная объему, который проходит через данную площадь за 1 секунду.";
+
+"litersPerSecond.symbol" = "L/s";
+"litersPerSecond.shortName" = "л/с";
+"litersPerSecond.longName" = "Литры в секунду";
+"litersPerSecond.detailedIntroduction" = "Литры в секунду - это единица измерения объемного расхода, равная объему, который проходит через данную площадь за 1 секунду.";
+
+"litersPerMinute.symbol" = "L/min";
+"litersPerMinute.shortName" = "л/мин";
+"litersPerMinute.longName" = "Литры в минуту";
+"litersPerMinute.detailedIntroduction" = "Литры в минуту - это единица измерения объемного расхода, равная объему, который проходит через данную площадь за 1 минуту.";
+
+"gallonsPerMinute.symbol" = "gal/min";
+"gallonsPerMinute.shortName" = "гал/мин";
+"gallonsPerMinute.longName" = "Галлоны в минуту";
+"gallonsPerMinute.detailedIntroduction" = "Галлоны в минуту - это единица измерения объемного расхода, равная объему, который проходит через данную площадь за 1 минуту.";
+
+"cubicFeetPerSecond.symbol" = "ft³/s";
+"cubicFeetPerSecond.shortName" = "фут³/с";
+"cubicFeetPerSecond.longName" = "Кубические футы в секунду";
+"cubicFeetPerSecond.detailedIntroduction" = "Кубические футы в секунду - это единица измерения объемного расхода, равная объему, который проходит через данную площадь за 1 секунду.";
+
+"newtonsPerMeter.symbol" = "N/m";
+"newtonsPerMeter.shortName" = "Н/м";
+"newtonsPerMeter.longName" = "Ньютоны на метр";
+"newtonsPerMeter.detailedIntroduction" = "Ньютоны на метр - это единица измерения напряжения или упругости в Международной системе единиц (СИ), равная силе 1 ньютон, приложенной на длину 1 метр.";
+
+"poundsPerInch.symbol" = "lb/in";
+"poundsPerInch.shortName" = "фунт/дюйм";
+"poundsPerInch.longName" = "Фунты силы на дюйм";
+"poundsPerInch.detailedIntroduction" = "Фунты силы на дюйм - это единица измерения напряжения или упругости, равная силе 1 фунт, приложенной на длину 1 дюйм.";
+
+"radians.symbol" = "rad";
+"radians.shortName" = "рад";
+"radians.longName" = "Радиан";
+"radians.detailedIntroduction" = "Радиан - это единица измерения угла в Международной системе единиц (СИ), равная углу, который высекает дуга, длина которой равна радиусу окружности.";
+
+"degrees.symbol" = "°";
+"degrees.shortName" = "градус";
+"degrees.longName" = "Градус";
+"degrees.detailedIntroduction" = "Градус - это единица измерения угла, равная 1/360 полного оборота или 1/360 окружности.";
+
+"gradians.symbol" = "grad";
+"gradians.shortName" = "град";
+"gradians.longName" = "Градиан";
+"gradians.detailedIntroduction" = "Градиан - это единица измерения угла, равная 1/400 полного оборота или 1/400 окружности.";
+
+"minutesOfArc.symbol" = "′";
+"minutesOfArc.shortName" = "угл. мин";
+"minutesOfArc.longName" = "Минуты дуги";
+"minutesOfArc.detailedIntroduction" = "Минуты дуги - это единица измерения угла, равная 1/60 градуса.";
+
+"secondsOfArc.symbol" = "″";
+"secondsOfArc.shortName" = "угл. с";
+"secondsOfArc.longName" = "Секунды дуги";
+"secondsOfArc.detailedIntroduction" = "Секунды дуги - это единица измерения угла, равная 1/60 минуты дуги или 1/3600 градуса.";
+
+"angularMil.symbol" = "mil";
+"angularMil.shortName" = "угл. мил";
+"angularMil.longName" = "Миллирадиан";
+"angularMil.detailedIntroduction" = "Миллирадиан - это единица измерения угла, равная 1/1000 радиана. Используется в артиллерии и инженерных измерениях.";
+
+"steradians.symbol" = "sr";
+"steradians.shortName" = "ср";
+"steradians.longName" = "Стеридиан";
+"steradians.detailedIntroduction" = "Стеридиан - это единица измерения телесного угла в Международной системе единиц (СИ), равная телесному углу, который высекает поверхность сферы площадью, равной квадрату радиуса этой сферы.";
+
+"lux.symbol" = "lx";
+"lux.shortName" = "люкс";
+"lux.longName" = "Люкс";
+"lux.detailedIntroduction" = "Люкс - это единица измерения освещенности в Международной системе единиц (СИ), равная одному люмену на квадратный метр.";
+
+"lumen.symbol" = "lm";
+"lumen.shortName" = "лм";
+"lumen.longName" = "Люмен";
+"lumen.detailedIntroduction" = "Люмен - это единица измерения светового потока в Международной системе единиц (СИ), равная световому потоку, который испускает точечный источник света с силой света 1 кандела в телесный угол 1 стерадиан.";
+
+"candela.symbol" = "cd";
+"candela.shortName" = "кд";
+"candela.longName" = "Кандела";
+"candela.detailedIntroduction" = "Кандела - это единица измерения силы света в Международной системе единиц (СИ), равная силе света, испускаемой в заданном направлении источником, излучающим монохроматическое излучение частотой 540×10^12 Гц и с энергетической силой излучения 1/683 Вт/ср.";
+
+"siemens.symbol" = "S";
+"siemens.shortName" = "Сименс";
+"siemens.longName" = "Сименс";
+"siemens.detailedIntroduction" = "Сименс - это единица измерения электрической проводимости в Международной системе единиц (СИ), равная обратной величине электрического сопротивления в 1 ом.";
+
+"mho.symbol" = "℧";
+"mho.shortName" = "мо";
+"mho.longName" = "Мо";
+"mho.detailedIntroduction" = "Мо - это устаревшая единица измерения электрической проводимости, равная обратной величине электрического сопротивления в 1 ом. Синоним сименса.";
+
+"siemensPerMeter.symbol" = "S/m";
+"siemensPerMeter.shortName" = "С/м";
+"siemensPerMeter.longName" = "Сименс на метр";
+"siemensPerMeter.detailedIntroduction" = "Сименс на метр - это единица измерения удельной проводимости в Международной системе единиц (СИ), равная проводимости, которую имеет кубический метр материала с проводимостью 1 сименс.";
+
+"farads.symbol" = "F";
+"farads.shortName" = "Фарад";
+"farads.longName" = "Фарад";
+"farads.detailedIntroduction" = "Фарад - это единица измерения электрической емкости в Международной системе единиц (СИ), равная емкости конденсатора, который накапливает заряд 1 кулон при напряжении 1 вольт.";
+
+"henries.symbol" = "H";
+"henries.shortName" = "Генри";
+"henries.longName" = "Генри";
+"henries.detailedIntroduction" = "Генри - это единица измерения индуктивности в Международной системе единиц (СИ), равная индуктивности цепи, в которой изменяющийся ток со скоростью 1 ампер в секунду создает электродвижущую силу 1 вольт.";
+
+"weber.symbol" = "Wb";
+"weber.shortName" = "Вебер";
+"weber.longName" = "Вебер";
+"weber.detailedIntroduction" = "Вебер - это единица измерения магнитного потока в Международной системе единиц (СИ), равная потоку, который создает электродвижущую силу 1 вольт при изменении со скоростью 1 вебер в секунду.";
+
+"maxwell.symbol" = "Mx";
+"maxwell.shortName" = "Максвелл";
+"maxwell.longName" = "Максвелл";
+"maxwell.detailedIntroduction" = "Максвелл - это устаревшая единица измерения магнитного потока в системе СГС (сантиметр-грамм-секунда), равная 1/10000 вебера.";
+
+"tesla.symbol" = "T";
+"tesla.shortName" = "Тесла";
+"tesla.longName" = "Тесла";
+"tesla.detailedIntroduction" = "Тесла - это единица измерения магнитной индукции в Международной системе единиц (СИ), равная индукции, которая создает магнитный поток 1 вебер через площадь 1 квадратный метр.";
+
+"gauss.symbol" = "G";
+"gauss.shortName" = "Гаусс";
+"gauss.longName" = "Гаусс";
+"gauss.detailedIntroduction" = "Гаусс - это устаревшая единица измерения магнитной индукции в системе СГС (сантиметр-грамм-секунда), равная 1/10000 теслы.";
+
+"microtesla.symbol" = "µT";
+"microtesla.shortName" = "мкТ";
+"microtesla.longName" = "Микротесла";
+"microtesla.detailedIntroduction" = "Микротесла - это единица измерения магнитной индукции в Международной системе единиц (СИ), равная 1/1000000 теслы.";
+
+"milliampereHours.symbol" = "mAh";
+"milliampereHours.shortName" = "мА·ч";
+"milliampereHours.longName" = "Миллиампер-час";
+"milliampereHours.detailedIntroduction" = "Миллиампер-час - это единица измерения электрического заряда, равная заряду, который проходит через проводник при токе 1 миллиампер в течение 1 часа.";
+
+"ampereHours.symbol" = "Ah";
+"ampereHours.shortName" = "А·ч";
+"ampereHours.longName" = "Ампер-час";
+"ampereHours.detailedIntroduction" = "Ампер-час - это единица измерения электрического заряда, равная заряду, который проходит через проводник при токе 1 ампер в течение 1 часа.";
+
+"milliampereHoursPerGram.symbol" = "mAh/g";
+"milliampereHoursPerGram.shortName" = "мА·ч/г";
+"milliampereHoursPerGram.longName" = "Миллиампер-час на грамм";
+"milliampereHoursPerGram.detailedIntroduction" = "Миллиампер-час на грамм - это единица измерения удельной емкости аккумулятора, равная емкости 1 миллиампер-час, приходящейся на 1 грамм массы активного материала аккумулятора.";
+
+"ampereHoursPerGram.symbol" = "Ah/g";
+"ampereHoursPerGram.shortName" = "А·ч/г";
+"ampereHoursPerGram.longName" = "Ампер-час на грамм";
+"ampereHoursPerGram.detailedIntroduction" = "Ампер-час на грамм - это единица измерения удельной емкости аккумулятора, равная емкости 1 ампер-час, приходящейся на 1 грамм массы активного материала аккумулятора.";
+
+"coulombs.symbol" = "C";
+"coulombs.shortName" = "Кулон";
+"coulombs.longName" = "Кулон";
+"coulombs.detailedIntroduction" = "Кулон - это единица измерения электрического заряда в Международной системе единиц (СИ), равная заряду, который проходит через проводник при токе 1 ампер в течение 1 секунды.";
+
+"nanocoulombs.symbol" = "nC";
+"nanocoulombs.shortName" = "нК";
+"nanocoulombs.longName" = "Нанокулон";
+"nanocoulombs.detailedIntroduction" = "Нанокулон - это единица измерения электрического заряда в Международной системе единиц (СИ), равная заряду 1 нанокулона или 1/1000000000 кулона.";
+
+"milliamperes.symbol" = "mA";
+"milliamperes.shortName" = "мА";
+"milliamperes.longName" = "Миллиампер";
+"milliamperes.detailedIntroduction" = "Миллиампер - это единица измерения электрического тока в Международной системе единиц (СИ), равная 1/1000 ампера.";
+
+"amperes.symbol" = "A";
+"amperes.shortName" = "А";
+"amperes.longName" = "Ампер";
+"amperes.detailedIntroduction" = "Ампер - это единица измерения электрического тока в Международной системе единиц (СИ), равная току, который проходит через проводник при напряжении 1 вольт и сопротивлении 1 ом.";
+
+"volts.symbol" = "V";
+"volts.shortName" = "Вольт";
+"volts.longName" = "Вольт";
+"volts.detailedIntroduction" = "Вольт - это единица измерения электрического напряжения в Международной системе единиц (СИ), равная напряжению, при котором ток 1 ампер проходит через проводник с сопротивлением 1 ом.";
+
+"millivolts.symbol" = "mV";
+"millivolts.shortName" = "мВ";
+"millivolts.longName" = "Милливольт";
+"millivolts.detailedIntroduction" = "Милливольт - это единица измерения электрического напряжения в Международной системе единиц (СИ), равная 1/1000 вольта.";
+
+"ohms.symbol" = "Ω";
+"ohms.shortName" = "Ом";
+"ohms.longName" = "Ом";
+"ohms.detailedIntroduction" = "Ом - это единица измерения электрического сопротивления в Международной системе единиц (СИ), равная сопротивлению, при котором ток 1 ампер проходит через проводник при напряжении 1 вольт.";
+
+"milliohms.symbol" = "mΩ";
+"milliohms.shortName" = "мОм";
+"milliohms.longName" = "Миллоом";
+"milliohms.detailedIntroduction" = "Миллоом - это единица измерения электрического сопротивления в Международной системе единиц (СИ), равная 1/1000 ома.";
+
+"microohms.symbol" = "µΩ";
+"microohms.shortName" = "мкОм";
+"microohms.longName" = "Микроом";
+"microohms.detailedIntroduction" = "Микроом - это единица измерения электрического сопротивления в Международной системе единиц (СИ), равная 1/1000000 ома.";
+
+"kelvins.symbol" = "K";
+"kelvins.shortName" = "Кельвин";
+"kelvins.longName" = "Кельвин";
+"kelvins.detailedIntroduction" = "Кельвин - это единица измерения термодинамической температуры в Международной системе единиц (СИ), равная 1/273.16 температуры тройной точки воды.";
+
+"celsius.symbol" = "°C";
+"celsius.shortName" = "градус Цельсия";
+"celsius.longName" = "Градус Цельсия";
+"celsius.detailedIntroduction" = "Градус Цельсия - это единица измерения температуры, равная 1/100 разности температур между точкой замерзания и точкой кипения воды при нормальном атмосферном давлении.";
+
+"fahrenheit.symbol" = "°F";
+"fahrenheit.shortName" = "градус Фаренгейта";
+"fahrenheit.longName" = "Градус Фаренгейта";
+"fahrenheit.detailedIntroduction" = "Градус Фаренгейта - это единица измерения температуры, равная 1/180 разности температур между точкой замерзания и точкой кипения воды при нормальном атмосферном давлении.";
+
+"rankine.symbol" = "°R";
+"rankine.shortName" = "градус Ранкина";
+"rankine.longName" = "Градус Ранкина";
+"rankine.detailedIntroduction" = "Градус Ранкина - это единица измерения термодинамической температуры, равная 1 градусу Фаренгейта, но отсчитанная от абсолютного нуля.";
+
+"mass.symbol" = "m";
+"mass.shortName" = "масса";
+"mass.longName" = "Масса";
+"mass.detailedIntroduction" = "Масса - это физическая величина, измеряющая количество вещества в теле. Масса определяется сопротивлением тела ускорению под действием силы и гравитационным притяжением.";
+
+"length.symbol" = "L";
+"length.shortName" = "длина";
+"length.longName" = "Длина";
+"length.detailedIntroduction" = "Длина - это физическая величина, измеряющая расстояние между двумя точками в пространстве.";
+
+"time.symbol" = "t";
+"time.shortName" = "время";
+"time.longName" = "Время";
+"time.detailedIntroduction" = "Время - это физическая величина, измеряющая продолжительность событий и последовательность их смены.";
+
+"current.symbol" = "I";
+"current.shortName" = "ток";
+"current.longName" = "Электрический ток";
+"current.detailedIntroduction" = "Электрический ток - это физическая величина, измеряющая количество электрического заряда, проходящего через проводник за единицу времени.";
+
+"temperature.symbol" = "T";
+"temperature.shortName" = "температура";
+"temperature.longName" = "Температура";
+"temperature.detailedIntroduction" = "Температура - это физическая величина, измеряющая степень нагретости тела или вещества.";
+
+"quantityOfSubstance.symbol" = "n";
+"quantityOfSubstance.shortName" = "количество вещества";
+"quantityOfSubstance.longName" = "Количество вещества";
+"quantityOfSubstance.detailedIntroduction" = "Количество вещества - это физическая величина, измеряющая число атомов, молекул или других элементарных частиц в данном количестве вещества.";
+
+"luminosity.symbol" = "L";
+"luminosity.shortName" = "светимость";
+"luminosity.longName" = "Светимость";
+"luminosity.detailedIntroduction" = "Светимость - это физическая величина, измеряющая количество света, излучаемого объектом в единицу времени.";
+
+"cubicCentimeters.symbol" = "см³";
+"cubicCentimeters.shortName" = "см³";
+"cubicCentimeters.longName" = "Кубический сантиметр";
+
+"megaliters.symbol" = "Мл";
+"megaliters.shortName" = "Мл";
+"megaliters.longName" = "Мегалитр";
+
+"cubicDecimeters.symbol" = "дм³";
+"cubicDecimeters.shortName" = "дм³";
+"cubicDecimeters.longName" = "Кубический дециметр";
+
+"cubicMillimeters.symbol" = "мм³";
+"cubicMillimeters.shortName" = "мм³";
+"cubicMillimeters.longName" = "Кубический миллиметр";
+
+"acreFeet.symbol" = "акр-фут";
+"acreFeet.shortName" = "акр-фут";
+"acreFeet.longName" = "Акро-фут";
+
+"bushels.symbol" = "бу";
+"bushels.shortName" = "бу";
+"bushels.longName" = "Бушель";
+
+"imperialTeaspoons.symbol" = "имп ч.л.";
+"imperialTeaspoons.shortName" = "имп ч.л.";
+"imperialTeaspoons.longName" = "Имперская чайная ложка";
+
+"imperialTablespoons.symbol" = "имп ст.л.";
+"imperialTablespoons.shortName" = "имп ст.л.";
+"imperialTablespoons.longName" = "Имперская столовая ложка";
+
+"imperialFluidOunces.symbol" = "имп ф.унц.";
+"imperialFluidOunces.shortName" = "имп ф.унц.";
+"imperialFluidOunces.longName" = "Имперская жидкостная унция";
+
+"imperialPints.symbol" = "имп пт";
+"imperialPints.shortName" = "имп пт";
+"imperialPints.longName" = "Имперская пинта";
+
+"imperialQuarts.symbol" = "имп к";
+"imperialQuarts.shortName" = "имп к";
+"imperialQuarts.longName" = "Имперская кварта";
+
+"imperialGallons.symbol" = "имп гал";
+"imperialGallons.shortName" = "имп гал";
+"imperialGallons.longName" = "Имперский галлон";
+
+"metricCups.symbol" = "мл";
+"metricCups.shortName" = "мл";
+"metricCups.longName" = "Метрическая чашка";
+
+"gravity.symbol" = "грав";
+"gravity.shortName" = "грав";
+"gravity.longName" = "Гравитация";
+
+"milliwatts.symbol" = "мВт";
+"milliwatts.shortName" = "мВт";
+"milliwatts.longName" = "Милливатт";
+
+"microwatts.symbol" = "мкВт";
+"microwatts.shortName" = "мкВт";
+"microwatts.longName" = "Микроватт";
+
+"nanowatts.symbol" = "нВт";
+"nanowatts.shortName" = "нВт";
+"nanowatts.longName" = "Нановатт";
+
+"picowatts.symbol" = "пВт";
+"picowatts.shortName" = "пВт";
+"picowatts.longName" = "Пиковатт";
+
+"femtowatts.symbol" = "фВт";
+"femtowatts.shortName" = "фВт";
+"femtowatts.longName" = "Фемтоватт";
+
+"arcMinutes.symbol" = "′";
+"arcMinutes.shortName" = "′";
+"arcMinutes.longName" = "Угловая минута";
+
+"arcSeconds.symbol" = "″";
+"arcSeconds.shortName" = "″";
+"arcSeconds.longName" = "Угловая секунда";
+
+"revolutions.symbol" = "об";
+"revolutions.shortName" = "об";
+"revolutions.longName" = "Обороты";
+
+"radiansPerSecond.symbol" = "рад/с";
+"radiansPerSecond.shortName" = "рад/с";
+"radiansPerSecond.longName" = "Радианы в секунду";
+
+"degreesPerSecond.symbol" = "град/с";
+"degreesPerSecond.shortName" = "град/с";
+"degreesPerSecond.longName" = "Градусы в секунду";
+
+"revolutionsPerMinute.symbol" = "об/мин";
+"revolutionsPerMinute.shortName" = "об/мин";
+"revolutionsPerMinute.longName" = "Обороты в минуту";
+
+"revolutionsPerSecond.symbol" = "об/с";
+"revolutionsPerSecond.shortName" = "об/с";
+"revolutionsPerSecond.longName" = "Обороты в секунду";
+
+"squareMegameters.symbol" = "Мм²";
+"squareMegameters.shortName" = "Мм²";
+"squareMegameters.longName" = "Квадратный мегаметр";
+
+"squareKilometers.symbol" = "км²";
+"squareKilometers.shortName" = "км²";
+"squareKilometers.longName" = "Квадратный километр";
+
+"squareMeters.symbol" = "м²";
+"squareMeters.shortName" = "м²";
+"squareMeters.longName" = "Квадратный метр";
+
+"squareCentimeters.symbol" = "см²";
+"squareCentimeters.shortName" = "см²";
+"squareCentimeters.longName" = "Квадратный сантиметр";
+
+"squareMillimeters.symbol" = "мм²";
+"squareMillimeters.shortName" = "мм²";
+"squareMillimeters.longName" = "Квадратный миллиметр";
+
+"squareMicrometers.symbol" = "мкм²";
+"squareMicrometers.shortName" = "мкм²";
+"squareMicrometers.longName" = "Квадратный микрометр";
+
+"squareNanometers.symbol" = "нм²";
+"squareNanometers.shortName" = "нм²";
+"squareNanometers.longName" = "Квадратный нанометр";
+
+"squareInches.symbol" = "дюйм²";
+"squareInches.shortName" = "дюйм²";
+"squareInches.longName" = "Квадратный дюйм";
+
+"squareFeet.symbol" = "фт²";
+"squareFeet.shortName" = "фт²";
+"squareFeet.longName" = "Квадратный фут";
+
+"squareYards.symbol" = "ярд²";
+"squareYards.shortName" = "ярд²";
+"squareYards.longName" = "Квадратный ярд";
+
+"squareMiles.symbol" = "миля²";
+"squareMiles.shortName" = "миля²";
+"squareMiles.longName" = "Квадратная миля";
+
+"acres.symbol" = "акр";
+"acres.shortName" = "акр";
+"acres.longName" = "Акр";
+
+"ares.symbol" = "а";
+"ares.shortName" = "а";
+"ares.longName" = "Ар";
+
+"hectares.symbol" = "га";
+"hectares.shortName" = "га";
+"hectares.longName" = "Гектар";
+
+"gramsPerLiter.symbol" = "г/л";
+"gramsPerLiter.shortName" = "г/л";
+"gramsPerLiter.longName" = "Граммы на литр";
+
+"milligramsPerDeciliter.symbol" = "мг/дл";
+"milligramsPerDeciliter.shortName" = "мг/дл";
+"milligramsPerDeciliter.longName" = "Миллиграммы на децилитр";
+
+"partsPerMillion.symbol" = "ч/млн";
+"partsPerMillion.shortName" = "ч/млн";
+"partsPerMillion.longName" = "Частей на миллион";
+
+"hours.symbol" = "ч";
+"hours.shortName" = "ч";
+"hours.longName" = "Часы";
+
+"minutes.symbol" = "мин";
+"minutes.shortName" = "мин";
+"minutes.longName" = "Минуты";
+
+"seconds.symbol" = "с";
+"seconds.shortName" = "с";
+"seconds.longName" = "Секунды";
+
+"milliseconds.symbol" = "мс";
+"milliseconds.shortName" = "мс";
+"milliseconds.longName" = "Миллисекунды";
+
+"microseconds.symbol" = "мкс";
+"microseconds.shortName" = "мкс";
+"microseconds.longName" = "Микросекунды";
+
+"nanoseconds.symbol" = "нс";
+"nanoseconds.shortName" = "нс";
+"nanoseconds.longName" = "Наносекунды";
+
+"picoseconds.symbol" = "пс";
+"picoseconds.shortName" = "пс";
+"picoseconds.longName" = "Пикосекунды";
+
+"days.symbol" = "дн";
+"days.shortName" = "дн";
+"days.longName" = "Дни";
+
+"weeks.symbol" = "нед";
+"weeks.shortName" = "нед";
+"weeks.longName" = "Недели";
+
+"years.symbol" = "г";
+"years.shortName" = "г";
+"years.longName" = "Годы";
+
+"decades.symbol" = "дек";
+"decades.shortName" = "дек";
+"decades.longName" = "Десятилетия";
+
+"centuries.symbol" = "век";
+"centuries.shortName" = "век";
+"centuries.longName" = "Века";
+
+"megaampereHours.symbol" = "МАч";
+"megaampereHours.shortName" = "МАч";
+"megaampereHours.longName" = "Мегаампер-час";
+
+"kiloampereHours.symbol" = "кАч";
+"kiloampereHours.shortName" = "кАч";
+"kiloampereHours.longName" = "Килоампер-час";
+
+"microampereHours.symbol" = "мкАч";
+"microampereHours.shortName" = "мкАч";
+"microampereHours.longName" = "Микроампер-час";
+
+"ampereSeconds.symbol" = "Ас";
+"ampereSeconds.shortName" = "Ас";
+"ampereSeconds.longName" = "Ампер-секунда";
+
+"megaamperes.symbol" = "МА";
+"megaamperes.shortName" = "МА";
+"megaamperes.longName" = "Мегаампер";
+
+"kiloamperes.symbol" = "кА";
+"kiloamperes.shortName" = "кА";
+"kiloamperes.longName" = "Килоампер";
+
+"microamperes.symbol" = "мкА";
+"microamperes.shortName" = "мкА";
+"microamperes.longName" = "Микроампер";
+
+"megavolts.symbol" = "МВ";
+"megavolts.shortName" = "МВ";
+"megavolts.longName" = "Мегавольт";
+
+"kilovolts.symbol" = "кВ";
+"kilovolts.shortName" = "кВ";
+"kilovolts.longName" = "Киловольт";
+
+"microvolts.symbol" = "мкВ";
+"microvolts.shortName" = "мкВ";
+"microvolts.longName" = "Микровольт";
+
+"megaohms.symbol" = "МОм";
+"megaohms.shortName" = "МОм";
+"megaohms.longName" = "Мегаом";
+
+"kiloohms.symbol" = "кОм";
+"kiloohms.shortName" = "кОм";
+"kiloohms.longName" = "Килоом";
+
+"kilocalories.symbol" = "ккал";
+"kilocalories.shortName" = "ккал";
+"kilocalories.longName" = "Килокалория";
+
+"calories.symbol" = "кал";
+"calories.shortName" = "кал";
+"calories.longName" = "Калория";
+
+"kilowattHours.symbol" = "кВт·ч";
+"kilowattHours.shortName" = "кВт·ч";
+"kilowattHours.longName" = "Киловатт-час";
+
+"wattHours.symbol" = "Вт·ч";
+"wattHours.shortName" = "Вт·ч";
+"wattHours.longName" = "Ватт-час";
+
+"terahertz.symbol" = "ТГц";
+"terahertz.shortName" = "ТГц";
+"terahertz.longName" = "Терахерц";
+
+"gigahertz.symbol" = "ГГц";
+"gigahertz.shortName" = "ГГц";
+"gigahertz.longName" = "Гигагерц";
+
+"megahertz.symbol" = "МГц";
+"megahertz.shortName" = "МГц";
+"megahertz.longName" = "Мегагерц";
+
+"kilohertz.symbol" = "кГц";
+"kilohertz.shortName" = "кГц";
+"kilohertz.longName" = "Килогерц";
+
+"hertz.symbol" = "Гц";
+"hertz.shortName" = "Гц";
+"hertz.longName" = "Герц";
+
+"millihertz.symbol" = "мГц";
+"millihertz.shortName" = "мГц";
+"millihertz.longName" = "Миллигерц";
+
+"microhertz.symbol" = "мкГц";
+"microhertz.shortName" = "мкГц";
+"microhertz.longName" = "Микрогерц";
+
+"nanohertz.symbol" = "нГц";
+"nanohertz.shortName" = "нГц";
+"nanohertz.longName" = "Наногерц";
+
+"framesPerSecond.symbol" = "кадр/с";
+"framesPerSecond.shortName" = "кадр/с";
+"framesPerSecond.longName" = "Кадров в секунду";
+
+"litersPer100Kilometers.symbol" = "л/100км";
+"litersPer100Kilometers.shortName" = "л/100км";
+"litersPer100Kilometers.longName" = "Литров на 100 километров";
+
+"milesPerImperialGallon.symbol" = "миль/имп.гал";
+"milesPerImperialGallon.shortName" = "миль/имп.гал";
+"milesPerImperialGallon.longName" = "Миль на имперский галлон";
+
+"milesPerGallon.symbol" = "миль/гал";
+"milesPerGallon.shortName" = "миль/гал";
+"milesPerGallon.longName" = "Миль на галлон";
+
+"bytes.symbol" = "Б";
+"bytes.shortName" = "Б";
+"bytes.longName" = "Байт";
+
+"bits.symbol" = "б";
+"bits.shortName" = "б";
+"bits.longName" = "Бит";
+
+"nibbles.symbol" = "н";
+"nibbles.shortName" = "н";
+"nibbles.longName" = "Ниббл";
+
+"yottabytes.symbol" = "ЙБ";
+"yottabytes.shortName" = "ЙБ";
+"yottabytes.longName" = "Йоттабайт";
+
+"zettabytes.symbol" = "ЗБ";
+"zettabytes.shortName" = "ЗБ";
+"zettabytes.longName" = "Зеттабайт";
+
+"exabytes.symbol" = "ЭБ";
+"exabytes.shortName" = "ЭБ";
+"exabytes.longName" = "Экзабайт";
+
+"petabytes.symbol" = "ПБ";
+"petabytes.shortName" = "ПБ";
+"petabytes.longName" = "Петабайт";
+
+"terabytes.symbol" = "ТБ";
+"terabytes.shortName" = "ТБ";
+"terabytes.longName" = "Терабайт";
+
+"gigabytes.symbol" = "ГБ";
+"gigabytes.shortName" = "ГБ";
+"gigabytes.longName" = "Гигабайт";
+
+"megabytes.symbol" = "МБ";
+"megabytes.shortName" = "МБ";
+"megabytes.longName" = "Мегабайт";
+
+"kilobytes.symbol" = "КБ";
+"kilobytes.shortName" = "КБ";
+"kilobytes.longName" = "Килобайт";
+
+"yottabits.symbol" = "Йб";
+"yottabits.shortName" = "Йб";
+"yottabits.longName" = "Йоттабит";
+
+"zettabits.symbol" = "Зб";
+"zettabits.shortName" = "Зб";
+"zettabits.longName" = "Зеттабит";
+
+"exabits.symbol" = "Эб";
+"exabits.shortName" = "Эб";
+"exabits.longName" = "Экзабит";
+
+"petabits.symbol" = "Пб";
+"petabits.shortName" = "Пб";
+"petabits.longName" = "Петабит";
+
+"terabits.symbol" = "Тб";
+"terabits.shortName" = "Тб";
+"terabits.longName" = "Терабит";
+
+"gigabits.symbol" = "Гб";
+"gigabits.shortName" = "Гб";
+"gigabits.longName" = "Гигабит";
+
+"megabits.symbol" = "Мб";
+"megabits.shortName" = "Мб";
+"megabits.longName" = "Мегабит";
+
+"kilobits.symbol" = "Кб";
+"kilobits.shortName" = "Кб";
+"kilobits.longName" = "Килобит";
+
+"yobibytes.symbol" = "ЙиБ";
+"yobibytes.shortName" = "ЙиБ";
+"yobibytes.longName" = "Йобибайт";
+
+"zebibytes.symbol" = "ЗиБ";
+"zebibytes.shortName" = "ЗиБ";
+"zebibytes.longName" = "Зебибайт";
+
+"exbibytes.symbol" = "ЭиБ";
+"exbibytes.shortName" = "ЭиБ";
+"exbibytes.longName" = "Эксбибайт";
+
+"pebibytes.symbol" = "ПиБ";
+"pebibytes.shortName" = "ПиБ";
+"pebibytes.longName" = "Пебибайт";
+
+"tebibytes.symbol" = "ТиБ";
+"tebibytes.shortName" = "ТиБ";
+"tebibytes.longName" = "Тебибайт";
+
+"gibibytes.symbol" = "ГиБ";
+"gibibytes.shortName" = "ГиБ";
+"gibibytes.longName" = "Гибибайт";
+
+"mebibytes.symbol" = "МиБ";
+"mebibytes.shortName" = "МиБ";
+"mebibytes.longName" = "Мебибайт";
+
+"kibibytes.symbol" = "КиБ";
+"kibibytes.shortName" = "КиБ";
+"kibibytes.longName" = "Кибибайт";
+
+"yobibits.symbol" = "Йиб";
+"yobibits.shortName" = "Йиб";
+"yobibits.longName" = "Йобибит";
+
+"zebibits.symbol" = "Зиб";
+"zebibits.shortName" = "Зиб";
+"zebibits.longName" = "Зебибит";
+
+"exbibits.symbol" = "Эиб";
+"exbibits.shortName" = "Эиб";
+"exbibits.longName" = "Эксбибит";
+
+"pebibits.symbol" = "Пиб";
+"pebibits.shortName" = "Пиб";
+"pebibits.longName" = "Пебибит";
+
+"tebibits.symbol" = "Тиб";
+"tebibits.shortName" = "Тиб";
+"tebibits.longName" = "Тебибит";
+
+"gibibits.symbol" = "Гиб";
+"gibibits.shortName" = "Гиб";
+"gibibits.longName" = "Гибибит";
+
+"mebibits.symbol" = "Миб";
+"mebibits.shortName" = "Миб";
+"mebibits.longName" = "Мебибит";
+
+"kibibits.symbol" = "Киб";
+"kibibits.shortName" = "Киб";
+"kibibits.longName" = "Кибибит";
+
+"coulombs.symbol" = "Кл";
+"coulombs.shortName" = "Кулоны";
+"coulombs.longName" = "Кулон";
+"coulombs.detailedIntroduction" = "Кулон — это единица измерения электрического заряда в системе СИ, названная в честь Шарля Огюстена де Кулона.";
+
+"coulombs.symbol" = "ค";
+"coulombs.shortName" = "คูลอมบ์";
+"coulombs.longName" = "คูลอมบ์";
+"coulombs.detailedIntroduction" = "คูลอมบ์เป็นหน่วยเอสไอของประจุไฟฟ้า ซึ่งตั้งชื่อตาม Charles-Augustin de Coulomb";
+
+"coulombs.symbol" = "Кл";
+"coulombs.shortName" = "Кулоны";
+"coulombs.longName" = "Кулон";
+"coulombs.detailedIntroduction" = "Кулон — это единица измерения электрического заряда в системе СИ, названная в честь Шарля Огюстена де Кулона.";
