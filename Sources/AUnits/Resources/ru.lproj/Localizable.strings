@@ -1494,3 +1494,8 @@
 "coulombs.shortName" = "Кулоны";
 "coulombs.longName" = "Кулон";
 "coulombs.detailedIntroduction" = "Кулон — это единица измерения электрического заряда в системе СИ, названная в честь Шарля Огюстена де Кулона.";
+
+"atmospheres.symbol" = "атм";
+"atmospheres.shortName" = "Атмосфера";
+"atmospheres.longName" = "Атмосфера";
+"atmospheres.detailedIntroduction" = "Атмосфера — это единица измерения давления, равная 101325 Па.";

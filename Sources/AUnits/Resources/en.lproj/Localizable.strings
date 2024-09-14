@@ -1244,3 +1244,9 @@
 "coulombs.shortName" = "Coulombs";
 "coulombs.longName" = "Coulomb";
 "coulombs.detailedIntroduction" = "Coulomb is the SI unit of electric charge, named after Charles-Augustin de Coulomb.";
+
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "Atmosphere";
+"atmospheres.longName" = "Atmosphere";
+"atmospheres.detailedIntroduction" = "Atmosphere is a unit of pressure defined as 101325 Pa.";

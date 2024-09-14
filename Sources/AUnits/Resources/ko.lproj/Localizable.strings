@@ -1256,3 +1256,8 @@
 "coulombs.shortName" = "쿨롱";
 "coulombs.longName" = "쿨롱";
 "coulombs.detailedIntroduction" = "쿨롱은 전기량의 SI 단위로, 샤를 오귀스탱 드 쿨롱의 이름을 따서 명명되었습니다.";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "기압";
+"atmospheres.longName" = "기압";
+"atmospheres.detailedIntroduction" = "기압은 101325 Pa로 정의된 압력 단위입니다.";

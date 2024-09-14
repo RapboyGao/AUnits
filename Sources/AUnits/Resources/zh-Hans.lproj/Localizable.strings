@@ -1504,3 +1504,8 @@ gradians.detailedIntroduction" = "百分度是角度单位，等于1度的1/100�
 "coulombs.shortName" = "库仑";
 "coulombs.longName" = "库仑";
 "coulombs.detailedIntroduction" = "库仑是电荷的国际单位，得名于查尔斯-奥古斯丁·库仑。";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "大气压";
+"atmospheres.longName" = "大气压";
+"atmospheres.detailedIntroduction" = "大气压是一个定义为101325帕的压力单位。";

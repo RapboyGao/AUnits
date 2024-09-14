@@ -1244,3 +1244,8 @@
 "coulombs.shortName" = "庫侖";
 "coulombs.longName" = "庫侖";
 "coulombs.detailedIntroduction" = "庫侖是電荷的國際單位，得名於查爾斯-奧古斯丁·庫侖。";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "大氣壓";
+"atmospheres.longName" = "大氣壓";
+"atmospheres.detailedIntroduction" = "大氣壓是一個定義為101325帕的壓力單位。";

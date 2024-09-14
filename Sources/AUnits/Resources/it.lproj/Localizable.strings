@@ -2378,3 +2378,8 @@
 "coulombs.shortName" = "Coulombs";
 "coulombs.longName" = "Coulomb";
 "coulombs.detailedIntroduction" = "Il Coulomb è l'unità SI di carica elettrica, intitolata a Charles-Augustin de Coulomb.";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "Atmosfera";
+"atmospheres.longName" = "Atmosfera";
+"atmospheres.detailedIntroduction" = "L'atmosfera è un'unità di pressione definita come 101325 Pa.";

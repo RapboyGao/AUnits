@@ -1300,3 +1300,8 @@
 "coulombs.shortName" = "クーロン";
 "coulombs.longName" = "クーロン";
 "coulombs.detailedIntroduction" = "クーロンは電気量のSI単位で、シャルル＝オーギュスタン・ド・クーロンにちなんで名付けられました。";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "大気圧";
+"atmospheres.longName" = "大気圧";
+"atmospheres.detailedIntroduction" = "大気圧は、101325 Paとして定義される圧力の単位です。";

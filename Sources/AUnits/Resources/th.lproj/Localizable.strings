@@ -1220,3 +1220,8 @@
 "coulombs.shortName" = "คูลอมบ์";
 "coulombs.longName" = "คูลอมบ์";
 "coulombs.detailedIntroduction" = "คูลอมบ์เป็นหน่วยเอสไอของประจุไฟฟ้า ซึ่งตั้งชื่อตาม Charles-Augustin de Coulomb";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "บรรยากาศ";
+"atmospheres.longName" = "บรรยากาศ";
+"atmospheres.detailedIntroduction" = "บรรยากาศเป็นหน่วยของความดันที่กำหนดให้เท่ากับ 101325 Pa.";

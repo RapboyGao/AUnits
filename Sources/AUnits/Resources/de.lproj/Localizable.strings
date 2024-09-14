@@ -1356,3 +1356,8 @@
 "coulombs.shortName" = "Coulombs";
 "coulombs.longName" = "Coulomb";
 "coulombs.detailedIntroduction" = "Coulomb ist die SI-Einheit der elektrischen Ladung, benannt nach Charles-Augustin de Coulomb.";
+
+"atmospheres.symbol" = "atm";
+"atmospheres.shortName" = "Atmosphäre";
+"atmospheres.longName" = "Atmosphäre";
+"atmospheres.detailedIntroduction" = "Die Atmosphäre ist eine Druckeinheit, die als 101325 Pa definiert ist.";
