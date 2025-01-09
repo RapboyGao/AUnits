@@ -58,6 +58,12 @@ public extension AUnitProtocol {
         return NSLocalizedString("\(self).longName", bundle: .module, comment: "")
     }
 
+    /// The name in menu for the unit.
+    /// 单位在menu中显示的名称。
+    var nameInMenu: String {
+        self.longName + " (" + self.symbol + ")"
+    }
+
     /// The detailed introduction for the unit.
     /// 单位的详细介绍。
     var detailedIntroduction: String {
